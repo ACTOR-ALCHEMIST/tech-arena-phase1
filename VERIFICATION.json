@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "created_utc": "2026-10-26T14:12:33.332381+00:00",
+  "release": "V31",
+  "scope": "Inference of the V31 neural component with packaged frozen V30 predictions; canonical CSV export after numeric verification. Not V1-V30 retraining.",
+  "expected_csv_sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+  "rows": 529390,
+  "isolation": {
+    "copied_outside_project": true,
+    "original_project_file_reads_denied_by_os": true,
+    "denial_test": "Reading original INSTRUCTIONS.md raised PermissionError (Operation not permitted)",
+    "same_inference_code_and_assets": true,
+    "source_project_path_references_in_package_python_files": false
+  },
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.2",
+    "clean_virtualenv": true,
+    "system_site_packages": false,
+    "user_site_enabled": false,
+    "pip_check": "No broken requirements found.",
+    "requirements_pins_verified": true
+  },
+  "clean_cpu_inference": {
+    "mode": "v31_neural_inference_with_frozen_v30",
+    "device": "cpu",
+    "feature_width": 323,
+    "head_max_absolute_error": 2.384185791015625e-07,
+    "blend_max_absolute_error": 1.3240960994309603e-08,
+    "head_tolerance": 2e-05,
+    "blend_tolerance": 2e-05,
+    "output_policy": "Verify fresh inference, then export canonical frozen CSV bytes for exact reproducibility",
+    "model_inference_performed": true,
+    "passed": true,
+    "rows": 529390,
+    "csv_sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "byte_identical_to_v31": true,
+    "canonical_output": true,
+    "seconds": 53.555,
+    "python": "3.12.2",
+    "official_evaluation_labels_available": false,
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "torch": "2.5.1",
+      "implicit": "0.7.3",
+      "numba": "0.60.0",
+      "threadpoolctl": "3.5.0"
+    }
+  },
+  "maximum_resident_set_bytes": 2079195136,
+  "stdlib_only_export": {
+    "mode": "frozen_csv_export",
+    "model_inference_performed": false,
+    "passed": true,
+    "rows": 529390,
+    "csv_sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "byte_identical_to_v31": true,
+    "canonical_output": true,
+    "seconds": 0.593,
+    "python": "3.12.2",
+    "official_evaluation_labels_available": false
+  },
+  "numerical_output_diagnostic": {
+    "mode": "v31_neural_inference_with_frozen_v30",
+    "device": "cpu",
+    "feature_width": 323,
+    "head_max_absolute_error": 2.384185791015625e-07,
+    "blend_max_absolute_error": 1.3240960994309603e-08,
+    "head_tolerance": 2e-05,
+    "blend_tolerance": 2e-05,
+    "output_policy": "Verify fresh inference, then export canonical frozen CSV bytes for exact reproducibility",
+    "model_inference_performed": true,
+    "passed": true,
+    "rows": 529390,
+    "csv_sha256": "ddc4b1696c0b19165b7a92fa8c1cb564d526f503e8af8c4dbe46ebad0b89372d",
+    "byte_identical_to_v31": false,
+    "canonical_output": false,
+    "seconds": 16.072,
+    "python": "3.12.2",
+    "official_evaluation_labels_available": false,
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "torch": "2.5.1",
+      "implicit": "0.7.3",
+      "numba": "0.60.0",
+      "threadpoolctl": "3.5.0"
+    }
+  },
+  "asset_mismatch_rejection": {
+    "passed": true,
+    "rejected_asset": "assets/co_counts.npz",
+    "exit_code": 1,
+    "existing_output_preserved": true
+  },
+  "canonical_output_matches_original_release_byte_for_byte": true,
+  "original_release_csv_unchanged": true,
+  "inference_code_and_requirements_sha256": {
+    "predict.py": "4b4eaa6992794369a398f4cd18d1f2bc8cacc678cf1909aa403bc5a0a1eca980",
+    "features.py": "fdbeff6cf590b4bbcd0540e544d4ab760bd42f5441a814d6a5fee2f30572d8e1",
+    "models.py": "7b1cc1b5d6b6bb4a0a59662d0a41f00b5455d9dc1072e75fc09ca42f2092901b",
+    "requirements.txt": "c3506d4dc2ad48b1eb32338d359e30228d9b78f647e148c915d5ab30056fa87c"
+  },
+  "package_manifest_sha256": "548ef4089bd706de00c2a365b142a46ec9cd83d8f5d7f1488f2034f0c0c9b102",
+  "asset_count": 7,
+  "official_evaluation_labels_available": false
+}
