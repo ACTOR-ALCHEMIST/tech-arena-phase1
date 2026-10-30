@@ -1,0 +1,14 @@
+[
+  {
+    "path": "competition/ood/final_inputs_unit_long_fresh/train.npy",
+    "bytes": 2481301048,
+    "sha256": "eb4410b1136d4bb66a5b4036a27807c5cf38f2e1aa86021230e98275c3c7e7fb",
+    "reason": "Regenerable final-fit feature matrix. Frozen independent source replay completed with error0; final model, recipe, source geometry, CSV and raw arrays preserved."
+  },
+  {
+    "path": "competition/ood/final_inputs_unit_long_fresh/evaluation.npy",
+    "bytes": 446805288,
+    "sha256": "cb0af6d1a482df824efd6333fb778685ec706ce7f0e03fda921b2d4d7fd48c87",
+    "reason": "Regenerable final-fit feature matrix. Frozen independent source replay completed with error0; final model, recipe, source geometry, CSV and raw arrays preserved."
+  }
+]

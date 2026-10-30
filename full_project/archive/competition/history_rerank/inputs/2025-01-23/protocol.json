@@ -1,0 +1,10 @@
+{
+  "day": "2025-01-23",
+  "width": 244,
+  "events": 50155,
+  "ranker": "competition/history_rerank/stage1/2025-01-23",
+  "ranker_sha256": "f54103216288547d73c9702b2572da861e8368eab63342fc5e1b619929ac2a84",
+  "max_fit_timestamp": 1737590340,
+  "min_query_timestamp": 1737590400,
+  "policy": "First query per user; all fitting targets and representation data before origin."
+}

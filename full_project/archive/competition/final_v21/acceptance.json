@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 529390,
+  "stage1_raw_replay_max_abs_error": 0.0,
+  "reranker_raw_replay_max_abs_error": 0.0,
+  "full_raw_replay_max_abs_error": 0.0,
+  "composition_max_abs_error": 0.0,
+  "csv_max_abs_error": 4.999969882568678e-11,
+  "protocol": "Separate process using frozen source, frozen representations and original evaluation inputs; every row checked."
+}

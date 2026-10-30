@@ -1,0 +1,66 @@
+{
+  "name": "cat_sgns8long_context_24_180000_d6",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/cat_sgns8long_context_24_180000_d6.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "CatBoost",
+      "url": "https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic",
+      "text": "CatBoost transforms categorical features using target statistics. Greedy target statistics leak the current label. Use time safe feature snapshots; combine co click scores latent ALS interaction match and observed context. Use Logloss training with validation AUC and early stopping.",
+      "similarity": 0.18958830214861935
+    },
+    {
+      "title": "DIN",
+      "url": "https://arxiv.org/abs/1706.06978",
+      "text": "DIN candidate aware attention represents diverse user interests from click history. Time decay and repeated click features complement long term user embeddings. Prefer small model and regularization when sparse IDs overfit quickly.",
+      "similarity": 0.05767285683613236
+    },
+    {
+      "title": "LightGCN",
+      "url": "https://arxiv.org/abs/2002.02126",
+      "text": "LightGCN retains linear neighborhood aggregation and layer combination, omitting unnecessary feature transformations and nonlinear activation. Sparse user item graph propagation and low rank regularization are promising under limited memory.",
+      "similarity": 0.02496372418906666
+    },
+    {
+      "title": "Temporal evaluation",
+      "url": "https://arxiv.org/abs/2010.11060",
+      "text": "Respect global temporal order; leakage can change algorithm rankings. Use multiple global cutoffs and one first event per user. Generate training target features strictly from earlier snapshots; evaluation labels are not available.",
+      "similarity": 0.021738153678160958
+    }
+  ],
+  "config": {
+    "name": "cat_sgns8long_context_24_180000_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 159,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 159,
+        "lr": 0.01,
+        "lr_decay": false,
+        "reuse_experiment": "sgns8_const_e160_s42"
+      }
+    }
+  }
+}

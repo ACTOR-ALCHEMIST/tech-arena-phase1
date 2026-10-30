@@ -1,0 +1,16 @@
+{
+  "name": "sgns12_const_n8_binary_e160_s42",
+  "method": "sgns",
+  "factors": 12,
+  "device": "mps",
+  "epochs": 160,
+  "batch_size": 8192,
+  "lr": 0.01,
+  "negatives": 8,
+  "regularization": 0.001,
+  "lr_decay": false,
+  "patience": 8,
+  "seed": 42,
+  "feedback_mode": "binary",
+  "eval_every": 5
+}

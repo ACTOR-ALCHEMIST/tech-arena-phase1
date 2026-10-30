@@ -1,0 +1,26 @@
+{
+  "trained8_vs_ctr": {
+    "method": "paired percentile bootstrap over first events/users; fixed selected recipe; selection uncertainty excluded",
+    "repeats": 200,
+    "auc_95_ci": [
+      0.5700890820408354,
+      0.5913647155636129
+    ],
+    "auc_gain_95_ci": [
+      0.025858730468454452,
+      0.03664570218372426
+    ]
+  },
+  "dim16_vs_dim8": {
+    "method": "paired percentile bootstrap over first events/users; fixed selected recipe; selection uncertainty excluded",
+    "repeats": 200,
+    "auc_95_ci": [
+      0.5701715405750184,
+      0.5925309568922967
+    ],
+    "auc_gain_95_ci": [
+      -0.0012762739648176729,
+      0.002860957160823288
+    ]
+  }
+}

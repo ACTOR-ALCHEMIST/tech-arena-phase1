@@ -1,0 +1,27 @@
+{
+  "names": [
+    "consensus8_cos",
+    "consensus8_cos_relative",
+    "consensus8_item_agreement",
+    "consensus8_user_agreement",
+    "consensus8_hist_mean",
+    "consensus8_hist_mean_relative",
+    "consensus8_hist_max",
+    "consensus8_recent72",
+    "consensus8_recent24",
+    "consensus8_recent24_relative",
+    "consensus8_last1",
+    "consensus8_last5",
+    "consensus8_hist_std",
+    "consensus8_pooled_cos",
+    "consensus8_pooled_cos_relative",
+    "consensus8_coherence",
+    "consensus8_same_bucket",
+    "consensus8_same_weekend",
+    "consensus8_cos_disagreement",
+    "consensus8_hist_disagreement"
+  ],
+  "events": 43964,
+  "frame": "2025-01-25",
+  "indices_sha256": "7ee54b0f810f7136866b0518d74fcdfeae9c37c5235cd7ee5e5bfd2bec4e07df"
+}

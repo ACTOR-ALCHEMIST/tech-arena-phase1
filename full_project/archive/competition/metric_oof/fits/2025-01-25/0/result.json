@@ -1,0 +1,45 @@
+{
+  "cutoff": "2025-01-25",
+  "config": {
+    "profiles": 1,
+    "ridge": 0.001
+  },
+  "geometry_mode": "aligned_oof",
+  "training_clicked_events": 122461,
+  "max_training_target_timestamp": 1737763140,
+  "before_choice_ce": 1.6749690771102905,
+  "after_choice_ce": 1.6722917556762695,
+  "objective_evaluations": 7,
+  "seconds": 0.12335474998690188,
+  "records": [
+    {
+      "objective": 1.6749690771102905,
+      "choice_ce": 1.6749690771102905
+    },
+    {
+      "objective": 1.6749194860458374,
+      "choice_ce": 1.6749194860458374
+    },
+    {
+      "objective": 1.6747020483016968,
+      "choice_ce": 1.6747013330459595
+    },
+    {
+      "objective": 1.6736942529678345,
+      "choice_ce": 1.6736713647842407
+    },
+    {
+      "objective": 1.672536849975586,
+      "choice_ce": 1.6723026037216187
+    },
+    {
+      "objective": 1.6725350618362427,
+      "choice_ce": 1.6722923517227173
+    },
+    {
+      "objective": 1.6725349426269531,
+      "choice_ce": 1.6722917556762695
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; each geometry frame also strictly precedes its own fitting target. No held-out labels in optimizer."
+}

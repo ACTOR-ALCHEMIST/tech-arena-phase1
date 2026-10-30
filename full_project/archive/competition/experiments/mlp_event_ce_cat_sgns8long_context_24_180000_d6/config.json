@@ -1,0 +1,10 @@
+{
+  "name": "mlp_event_ce_cat_sgns8long_context_24_180000_d6",
+  "method": "tabular",
+  "source_experiment": "cat_sgns8long_context_24_180000_d6",
+  "loss": "event_ce",
+  "epochs": 30,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.01
+}

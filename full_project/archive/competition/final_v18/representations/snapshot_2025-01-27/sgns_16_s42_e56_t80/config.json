@@ -1,0 +1,16 @@
+{
+  "name": "sgns_16_s42_e56_t80",
+  "output_dir": "/Users/jasper/Desktop/TechArena2026/competition/cache/snapshot_2025-01-27/sgns_16_s42_e56_t80",
+  "factors": 16,
+  "seed": 42,
+  "epochs": 56,
+  "cutoff": "2025-01-27",
+  "device": "mps",
+  "negatives": 8,
+  "lr": 0.02,
+  "batch_size": 8192,
+  "regularization": 0.001,
+  "lr_decay": true,
+  "lr_schedule_epochs": 80,
+  "evaluate": false
+}

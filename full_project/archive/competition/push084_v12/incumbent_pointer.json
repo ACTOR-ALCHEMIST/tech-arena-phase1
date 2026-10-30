@@ -1,0 +1,17 @@
+{
+  "csv": "competition/final_v11/submission.csv",
+  "sha256": "7386649ff1ee745a6a0816504471dd766f0ee1bb8c18cc77980ac48ebb913564",
+  "manifest": "competition/final_v11/manifest.json",
+  "acceptance": "competition/final_v11/acceptance.json",
+  "validation_26": {
+    "auc": 0.8314191642772446
+  },
+  "validation_25": {
+    "auc": 0.8214840652755945
+  },
+  "previous_best_csv": "competition/final_v9/submission.csv",
+  "validation_24": {
+    "auc": 0.8079811086853161
+  },
+  "scope": "Best validated local recipe; official evaluation labels unavailable."
+}

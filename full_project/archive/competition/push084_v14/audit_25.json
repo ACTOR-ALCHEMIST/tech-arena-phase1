@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8216783953315849,
+  "new_auc": 0.8216915327869567,
+  "delta": 1.3137455371792228e-05,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      -1.8813808191281423e-05,
+      4.3513292768407324e-05
+    ],
+    "positive_fraction": 0.73,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8240412098587161,
+      "new_auc": 0.8240506603779432,
+      "delta": 9.450519227072185e-06
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7391793217003326,
+      "new_auc": 0.7394178012157645,
+      "delta": 0.0002384795154318775
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.57011342663043,
+      "new_auc": 0.5733375336604606,
+      "delta": 0.0032241070300306207
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7469721476793312,
+      "new_auc": 0.7471709479316224,
+      "delta": 0.00019880025229124243
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8147072412466666,
+      "new_auc": 0.8146717435301164,
+      "delta": -3.5497716550203506e-05
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8435676573041798,
+      "new_auc": 0.8435928361945508,
+      "delta": 2.517889037101373e-05
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8252527197803452,
+      "new_auc": 0.8252600203748636,
+      "delta": 7.300594518366843e-06
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8067085426384384,
+      "new_auc": 0.8067549043369624,
+      "delta": 4.6361698524011175e-05
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8216783953315849,
+      "new_auc": 0.8216915327869567,
+      "delta": 1.3137455371792228e-05
+    }
+  },
+  "selection_sha256": "5defd42ddb6dbd8e29171f2f7f600d43bb6e4dad7d55f3e245dcca1eb1b5e28d"
+}

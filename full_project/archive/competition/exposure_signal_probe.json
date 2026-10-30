@@ -1,0 +1,7 @@
+{
+  "real_mean": 0.08285997807979584,
+  "nonclick_mean": -0.1203809380531311,
+  "random_mean": -0.08937299996614456,
+  "clicked_mean": 3.116455078125,
+  "exposure_vs_uniform_auc": 0.49501547443795946
+}

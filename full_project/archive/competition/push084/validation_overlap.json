@@ -1,0 +1,8 @@
+{
+  "shared_events": {
+    "26_25": 8734,
+    "26_24": 3973,
+    "25_24": 12888
+  },
+  "note": "Rolling origins share some first-query targets; cutoff comparisons are not statistically independent. Jan24 weekday cohort has disjoint target dates."
+}

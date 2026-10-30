@@ -1,0 +1,78 @@
+{
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "arguments": {
+    "command": "train",
+    "cache": "data/cache_v1",
+    "checkpoint": "model/two_tower_val.pt",
+    "cutoff": "2025-01-26",
+    "full": false,
+    "epochs": 8,
+    "dim": 64,
+    "batch_size": 512,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "user_dropout": 0.1,
+    "patience": 2,
+    "seed": 42,
+    "max_train_events": 0,
+    "max_valid_events": 0,
+    "device": "auto",
+    "threads": 4
+  },
+  "config": {
+    "n_users": 54457,
+    "n_items": 50001,
+    "dim": 64,
+    "user_dropout": 0.1
+  },
+  "fit_events": 588873,
+  "validation_events": 35138,
+  "smoke_test": false,
+  "device": "cpu",
+  "fit_ctr": 0.06288503633211236,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_logloss": 0.2224769335664211,
+      "auc": 0.58444848748872,
+      "logloss": 0.23134605193482446,
+      "seconds": 20.61
+    },
+    {
+      "epoch": 2,
+      "train_logloss": 0.184326419653982,
+      "auc": 0.5643818059206315,
+      "logloss": 0.2693213994841425,
+      "seconds": 20.56
+    },
+    {
+      "epoch": 3,
+      "train_logloss": 0.10996815719834792,
+      "auc": 0.5627456874856234,
+      "logloss": 0.33583683393728947,
+      "seconds": 20.79
+    }
+  ],
+  "prior_baseline": {
+    "auc": 0.546476791573193,
+    "logloss": 0.23666192574439748
+  },
+  "best_slices": {
+    "known_user": {
+      "events": 34543,
+      "auc": 0.5846965084519749,
+      "logloss": 0.23131845006331828
+    },
+    "new_user": {
+      "events": 595,
+      "auc": 0.5696669186431069,
+      "logloss": 0.2329484913422877
+    },
+    "empty_history": {
+      "events": 198,
+      "auc": 0.5372957084068195,
+      "logloss": 0.18671104986678433
+    }
+  },
+  "best_epoch": 1
+}

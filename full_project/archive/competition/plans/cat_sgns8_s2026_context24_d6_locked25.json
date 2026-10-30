@@ -1,0 +1,35 @@
+{
+  "name": "cat_sgns8_s2026_context24_d6_locked25",
+  "method": "catboost",
+  "max_events": 180000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 959,
+  "lr": 0.04,
+  "latent_factors": [
+    8,
+    16
+  ],
+  "train_start": "2025-01-23",
+  "context_features": true,
+  "sgns_factors": [
+    8,
+    16
+  ],
+  "sgns_epochs": {
+    "8": 320,
+    "16": 56
+  },
+  "sgns_recipes": {
+    "8": {
+      "epochs": 320,
+      "lr": 0.01,
+      "lr_decay": false,
+      "seed": 2026,
+      "reuse_experiment": "sgns8_const_e320_s2026"
+    }
+  },
+  "cutoff": "2025-01-25",
+  "fixed_trees": true,
+  "audit_protocol": "locked rolling origin"
+}

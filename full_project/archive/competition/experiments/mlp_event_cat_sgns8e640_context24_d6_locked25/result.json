@@ -1,0 +1,148 @@
+{
+  "name": "mlp_event_cat_sgns8e640_context24_d6_locked25",
+  "cutoff": "2025-01-25",
+  "method": "tabular_mlp_mps",
+  "train_loss": 1.6896531553692289,
+  "auc": 0.8162751523298086,
+  "logloss": 0.19328663752164782,
+  "average_precision": 0.26761050820628884,
+  "accuracy_at_0_5": 0.9372008916386134,
+  "rows": 439640,
+  "best_epoch": 8,
+  "config": {
+    "name": "mlp_event_cat_sgns8e640_context24_d6_locked25",
+    "method": "tabular",
+    "source_experiment": "cat_sgns8e640_context24_d6_locked25",
+    "loss": "event_ce",
+    "epochs": 8,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "fixed_epochs": true,
+    "lr_schedule_epochs": 40,
+    "audit_protocol": "locked rolling origin"
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7437185836580065,
+      "auc": 0.8125812043156331,
+      "logloss": 0.19672361335496497,
+      "average_precision": 0.2577124831102371,
+      "accuracy_at_0_5": 0.9367164043308162,
+      "rows": 439640,
+      "seconds": 4.475253582990263
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7015799308776856,
+      "auc": 0.8146918265484632,
+      "logloss": 0.19386493503055813,
+      "average_precision": 0.26429451035319357,
+      "accuracy_at_0_5": 0.9370530433991447,
+      "rows": 439640,
+      "seconds": 4.092214040996623
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6984357335832383,
+      "auc": 0.8153549130797071,
+      "logloss": 0.1936423512270602,
+      "average_precision": 0.2661002350443023,
+      "accuracy_at_0_5": 0.9371076335183331,
+      "rows": 439640,
+      "seconds": 4.066253999990295
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.695647026930915,
+      "auc": 0.815699191097192,
+      "logloss": 0.19354217240085075,
+      "average_precision": 0.2668726361174063,
+      "accuracy_at_0_5": 0.9371167318715312,
+      "rows": 439640,
+      "seconds": 4.05419675000303
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.693510333442688,
+      "auc": 0.8159887695792893,
+      "logloss": 0.19342185870244383,
+      "average_precision": 0.2673303002481667,
+      "accuracy_at_0_5": 0.9371781457556182,
+      "rows": 439640,
+      "seconds": 3.7346202500048093
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.6924153667661879,
+      "auc": 0.8161241109173345,
+      "logloss": 0.19336637782862934,
+      "average_precision": 0.2674254690339154,
+      "accuracy_at_0_5": 0.9372008916386134,
+      "rows": 439640,
+      "seconds": 2.3556823750113836
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.6906643105400934,
+      "auc": 0.8161956826267323,
+      "logloss": 0.19332606609813965,
+      "average_precision": 0.26757276226439874,
+      "accuracy_at_0_5": 0.9372281866982076,
+      "rows": 439640,
+      "seconds": 2.5324084159947233
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6896531553692289,
+      "auc": 0.8162751523298086,
+      "logloss": 0.19328663752164782,
+      "average_precision": 0.26761050820628884,
+      "accuracy_at_0_5": 0.9372008916386134,
+      "rows": 439640,
+      "seconds": 2.551378415999352
+    }
+  ],
+  "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297",
+  "source_experiment": "cat_sgns8e640_context24_d6_locked25",
+  "feature_config": {
+    "name": "cat_sgns8e640_context24_d6_locked25",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 1377,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 450,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 450,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 42,
+        "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+      }
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked rolling origin"
+  },
+  "seconds": 28.94288950000191
+}

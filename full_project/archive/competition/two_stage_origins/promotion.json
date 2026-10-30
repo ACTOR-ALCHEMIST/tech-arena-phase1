@@ -1,0 +1,4 @@
+{
+  "passed": false,
+  "reason": "No configuration improved both chronological AUCs and weighted selection score."
+}

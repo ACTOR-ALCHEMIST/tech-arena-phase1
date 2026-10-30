@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "source_day": "26",
+  "signal": "trifused25_delta",
+  "replay_max_abs_error": 0.0,
+  "events": 35138,
+  "incumbent_preserved": true
+}

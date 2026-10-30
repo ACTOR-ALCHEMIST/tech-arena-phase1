@@ -1,0 +1,13 @@
+{
+  "name": "cat_als16_32_200000_d8",
+  "method": "catboost",
+  "max_events": 200000,
+  "depth": 8,
+  "l2": 20,
+  "iterations": 1200,
+  "lr": 0.05,
+  "latent_factors": [
+    16,
+    32
+  ]
+}

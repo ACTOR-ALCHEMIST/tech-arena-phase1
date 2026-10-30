@@ -1,0 +1,105 @@
+{
+  "name": "feature_reference_parity_smoke25",
+  "method": "tabular",
+  "source_experiment": "cat_sgns8e320_context24_d6_locked25",
+  "loss": "event_ce",
+  "epochs": 1,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "ema": 0.99,
+  "seed": 2026,
+  "constant_policy": "zero",
+  "fixed_epochs": true,
+  "lr_schedule_epochs": 40,
+  "audit_protocol": "locked rolling origin",
+  "feature_reference": {
+    "name": "cat_sgns8e320_context24_d6_locked25",
+    "cutoff": "2025-01-25",
+    "method": "catboost_numeric",
+    "auc": 0.8088004953411673,
+    "logloss": 0.19546997196959937,
+    "average_precision": 0.2548540119879689,
+    "accuracy_at_0_5": 0.9370098262214539,
+    "rows": 439640,
+    "config": {
+      "name": "cat_sgns8e320_context24_d6_locked25",
+      "method": "catboost",
+      "max_events": 180000,
+      "depth": 6,
+      "l2": 20,
+      "iterations": 1295,
+      "lr": 0.04,
+      "latent_factors": [
+        8,
+        16
+      ],
+      "train_start": "2025-01-23",
+      "context_features": true,
+      "sgns_factors": [
+        8,
+        16
+      ],
+      "sgns_epochs": {
+        "8": 320,
+        "16": 56
+      },
+      "sgns_recipes": {
+        "8": {
+          "epochs": 320,
+          "lr": 0.01,
+          "lr_decay": false,
+          "reuse_experiment": "sgns8_const_n8_binary_e320_s42"
+        }
+      },
+      "cutoff": "2025-01-25",
+      "fixed_trees": true,
+      "audit_protocol": "locked rolling origin"
+    },
+    "tree_count": 1295,
+    "seconds": 620.2920397499984,
+    "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe449cbc2b01",
+    "feature_importance_top10": [
+      [
+        "sgns8_s42_cos_relative",
+        13.378503354168828
+      ],
+      [
+        "sgns8_s42_dot_relative",
+        8.160665644159558
+      ],
+      [
+        "sgns8_s42_hist_cos_mean",
+        8.127452044568344
+      ],
+      [
+        "sgns8_s42_hist_same_weekend_cos",
+        4.625048351841182
+      ],
+      [
+        "als16_cos_relative",
+        3.8365220058761356
+      ],
+      [
+        "sgns8_s42_cos",
+        3.3700033998913805
+      ],
+      [
+        "sgns8_s42_hist_cos_recent",
+        3.248333222559947
+      ],
+      [
+        "user_bias",
+        2.8382942675415905
+      ],
+      [
+        "sgns8_s42_usernorm",
+        2.7530278310614076
+      ],
+      [
+        "sgns16_s42_hist_cos_mean",
+        2.5870107818389396
+      ]
+    ]
+  }
+}

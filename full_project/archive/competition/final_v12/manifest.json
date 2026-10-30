@@ -1,0 +1,165 @@
+{
+  "method": "final_v12_past_only_multiview_temporal_ensemble",
+  "selection": {
+    "weights": [
+      0.95,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.0
+    ],
+    "kind": "logit",
+    "auc_26": 0.831508247702299,
+    "weighted_auc_26": 0.8233043522122531,
+    "auc_25": 0.8216783953315849,
+    "weighted_auc_25": 0.8186224506565049,
+    "selection_score": 0.820963401434379
+  },
+  "sources": [
+    "incumbent",
+    "v12_map_loose",
+    "v12_map_balanced",
+    "v12_map_strong",
+    "v12_map_user_only",
+    "v12_map_full_exposure",
+    "refreshed_mf"
+  ],
+  "models": [
+    {
+      "name": "v12_map_full_exposure",
+      "weight": 0.05,
+      "path": "competition/final_v12/models/v12_map_full_exposure",
+      "kind": "bayes_mf",
+      "model_file": "model.pt",
+      "model_sha256": "04a65489ce075609d1ea48d6cc01a203a34cad8f12d426e434e3beb82375c2b3"
+    }
+  ],
+  "baseline_weight": 0.95,
+  "previous_best": {
+    "csv": "competition/final_v11/submission.csv",
+    "sha256": "7386649ff1ee745a6a0816504471dd766f0ee1bb8c18cc77980ac48ebb913564",
+    "manifest": "competition/final_v11/manifest.json",
+    "acceptance": "competition/final_v11/acceptance.json",
+    "validation_26": {
+      "auc": 0.8314191642772446
+    },
+    "validation_25": {
+      "auc": 0.8214840652755945
+    },
+    "previous_best_csv": "competition/final_v9/submission.csv",
+    "validation_24": {
+      "auc": 0.8079811086853161
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "incumbent_digest": {
+    "competition/CURRENT_BEST.json": "a52eb6d76757f2f7bd76ef5af7ea721031e82b1db326db3873de611b0b874e22",
+    "competition/final_v3/submission.csv": "967718b182121ef34f09aa48cf92060f0ff3677ac1cce125c6a0364ac0a771ef",
+    "competition/final_v3/manifest.json": "64a0e11c34a5870ba8535b710106ef97e81cf1bdccf5e9770d920b610fd1ae89",
+    "competition/final_v3/acceptance.json": "bc9821b2dad6136dcb849319fc31b0faee5dd5787262c7cee27791c284431df4",
+    "competition/final/submission.csv": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+    "competition/final/manifest.json": "ac5ee319929aab4ce40ec004b6891ea7a844842ad658d193d62a84fa34eb290e",
+    "competition/final/acceptance.json": "08ae5525c83eacec572f92a1cc020c267238e4d1ed83daccd4093262d8d13cfa",
+    "competition/final_v11/submission.csv": "7386649ff1ee745a6a0816504471dd766f0ee1bb8c18cc77980ac48ebb913564",
+    "competition/final_v11/manifest.json": "80cf722df767e87c414f7d9fd95691efc545508e81b4cc0cf9725503e970fca4",
+    "competition/final_v11/acceptance.json": "2fe9e9436fb1e38cf91525b27e74c2cc3503bae3350eb8c4dd51cd76c5adf24a"
+  },
+  "rows": 529390,
+  "csv": "competition/final_v12/submission.csv",
+  "sha256": "0104e39d3aeb94f19b26e66185539092763bfcc1c732a52fb78e6dc6ec47d137",
+  "validation_26": {
+    "auc": 0.831508247702299
+  },
+  "validation_25": {
+    "auc": 0.8216783953315849
+  },
+  "artifact_sha256": {
+    "predictions.npy": "edef51f5a6e2891f10140e34256c9676556b777c122458c9df52a067e4bd0cd1",
+    "audit_26.json": "91164dc5510384b76c055fecc7d6f0ee95bc4b2a0a1eca48751e8ad5768353a6",
+    "frozen_incumbent.csv": "7386649ff1ee745a6a0816504471dd766f0ee1bb8c18cc77980ac48ebb913564",
+    "validation_26.npz": "4edf76ca802288e8d00885b15733e4dbabd440b086a25cfccc57edb7d0fe85f8",
+    "validation_24.npz": "a84bcd60b2d4fd648dc141c8bc721c2fe185303c22fa5f63225c3e5e8202c1ce",
+    "submission.csv": "0104e39d3aeb94f19b26e66185539092763bfcc1c732a52fb78e6dc6ec47d137",
+    "validation_25.npz": "31dced70ed7a97945b6ef0952c63c45f7685c053d287645767e2859fc1ec88ec",
+    "selection.json": "ee7a73836003b2132ee3a891136173a938619cb20297e1e6ca964b33db6d870a",
+    "tests.log": "e56640e1f96f731e7105c7c261bc01e2473b2148e7ee373b531a09183bae86aa",
+    "static_selection.json": "49a1c7b0e8f71570a0855f088d515fafe3b0de87ea9404c321e5946e205efb3b",
+    "audit_25.json": "cb4c22e9a5a8dd5d046594f5b1659dd4daa76e2abd0fb92e115322a83c60d11d",
+    "audit_24.json": "67f195a17325b4692f20880a7058c02c7ce9c7b9c6a41a7a3687e2d0c74a0416",
+    "source/arena_joint_graph.py": "e0335071a8184544027de8a52e57732733eb4e7b256be141bc0f5a5ce4e6eb51",
+    "source/arena_weekend.py": "8eb34386680363434b495bacdfe06910516dc3fd9319be2660246b279810cdff",
+    "source/arena_models.py": "d3f8358a3e494b3b53582c8737e0f03b3c372f84115352e6122adb1572655e1f",
+    "source/run.py": "7a497ebc80436397a775bdc476efc7f34559626cd23523d5284c5f1420d05043",
+    "source/requirements-graph.txt": "2b6134b364ce9397bc74010d4a1c6cca919db92163edab2d66d330b1fee3c6a3",
+    "source/arena_daily.py": "a295de8d5f294d1a27b628465e9175e890d26f9305805c1a4b7acd3df4b434a9",
+    "source/requirements-v3.txt": "9eee90f9c35a99fa88765d258abaa0491f0ddaa597a0f4e2c9f9a9c43e6e3139",
+    "source/arena_ood_audit.py": "4a4895366c7399358d637c39c7e29e2a8ef92b55b5ecd33a1920c90592f0b698",
+    "source/arena_novel_choice.py": "aecfe70d66c58ed0a6c2d49c564e6a67c32634a7c6cbcff033a475d6de702a5d",
+    "source/arena_graph_lgbm.py": "2e9291dd4ff1dc410ef05dacbb60d87b7c32981e730f361f4b82db88f43b7122",
+    "source/arena_spectral.py": "6f2fe3c14414ae52bec60ca5e85681f69c0f8ac9e1b4bc32a6b76dff850d1f34",
+    "source/arena_robust_mf.py": "3a36a836ecd62ce1893d039d7f60807be687ebb8bc17b19acf73f414e4e7c73c",
+    "source/arena_push084_export.py": "fa6abac0e1b4e4d785d2871b085bc1db45ce79039a7f9b2274eb005d24a8e8ed",
+    "source/arena_core.py": "fde91df2e0b5a4b57fe490779e08e3c7149b9159e59bf65451a76217dc207ade",
+    "source/arena_push084_v12.py": "8250c81a0adc56dc41edfe7e06fd3163e96fc36d9cd928d4dba24f5809cb791e",
+    "source/arena_native_attention.py": "b3da9d8627f90774f70744c958ab426eaea7c2eca46026199b504d5c3093c378",
+    "source/arena_bayes_mf.py": "d0604ef03b2034e9a2be38a887c6daf56ce1d60841f8b8a111661a7c772b10b0",
+    "source/arena_windows.py": "0cf371052938172141a7850f1d7fda9c8d19eaca0f39a7a9a31333ebfddb7544",
+    "source/arena_push084_audit.py": "89d5bf1af3bea2eb2e0a2276306109fa8b113125840f48b8bbed1772ab0c25ea",
+    "source/arena_push084_v7.py": "58e618ad7d330f4fb8ce5354c8a4422e0eeaabadab69087f372425bd0d4a383e",
+    "source/arena_latent.py": "f294cd7fe246def526c455444b1562510628de299f198b16c714c7e0b74238dc",
+    "source/arena_neural_v2.py": "0bd8772c1cc7e21c951febacf19b4f37a07d43a3909e7c17509d19fbddfc7b51",
+    "source/arena_ood_context.py": "d2412707b79a9f68c0529c84fce7658c190531a09d2801f732d803c15b8afbb2",
+    "source/arena_softmax_repr.py": "5c95e09e3a4c90828f026b842d35d539d77d201511d379edb96370888aacfb66",
+    "source/arena_bias_repr.py": "bb96d8b12cffcf0a34f3de9eb509405217b5437d942c20f4d6ec24fff9e73492",
+    "source/test_arena_bayes_mf.py": "52caf6cdb8be371ce2897fa58b6103dc35a56ecdde967b7a9fd3e8123c7562f0",
+    "source/arena_graph_trees.py": "ddb4ebe5c6229be14c09ec3c05757a9f8ddfa143504a1501451083ce4e8a7c12",
+    "source/ctr_data.py": "4e7d603be926954fe4d0e0bb685278aadf43961751ba0fb5b613a0ef46b67518",
+    "source/arena_residual_adapter.py": "9a5aa1d85e42cc25493ac50549296abd13b84a6307448d9f580c1f3d615a023b",
+    "source/arena_features.py": "1e96223417e82b2196fa7f39e7ac9f79b3288a854daf7a92e0c48fa6f557bdad",
+    "source/arena_ood_consensus.py": "468474712928980b07f4aa4a6369341cfb5d0f12d3ddd73aa13c6d6577578dd1",
+    "source/arena_finalize.py": "c7b916b1232496b0ffb13a485cd17cd8fb7ab0c69614cd846fccc453c68b97ef",
+    "source/arena_ood.py": "15bbc58e21072d7145831973336cc52e15bbf0cc864065264af761eda33e16cb",
+    "source/arena_ood_features.py": "a448333cce4742cff9ea8b0ab73db7d022c66906ba58b0951c1abce60cf4ac39",
+    "source/arena_push084_reblend.py": "d77cad3770ab4adf631538741f9b665a6b2370c539912483aa77e28cb4e9baf5",
+    "source/arena_push_model.py": "5a77425d60674f5a8c5b4dcda77e5bb383f0352663608632425d064a2dfdf904",
+    "source/arena_origins.py": "bf4d40d3db77451948e802885614ff4875018c983e3b1de8ab185d2568e0595f",
+    "source/arena_push084_prepare.py": "1c6efc44580f28ea6d7df9db95679d12db276a1c5b54d845b998e1954c963bff",
+    "source/arena_feedback.py": "1ac5b98e791407213ae8bc38fd87f3dbdc77251f5db3557f3083e6ca7217a8cb",
+    "source/arena_push084_stress.py": "5c402bdca77c40d0bb4310943fcab51a5730488f0259ebd91dd17f210539b78b",
+    "source/arena_sgns.py": "ddd91b505d76323ee86a4110415fd88b204e6cb15b1a40b425fcc2e6e54917b4",
+    "source/arena_report.py": "a038482c6c179f507a81fddb8c7e698614dceffb9569f8bcfd8491de18b8fbee",
+    "source/arena_coclick.py": "e7b4df94495c7b8c7d35eeedab483e26fa2e9c8670fbf57e199a56f2f1c35284",
+    "source/arena_push084.py": "c33620fd08659838cd97680661be76eb849afbdc3a1c0fc1191f4463eedfe033",
+    "source/arena_push084_report.py": "fa3dd22f0f5e4054c79c96cbd1da241700a6887e27d8b01e543838ac973d9bdd",
+    "source/arena_tabular.py": "ed8d28f673d0ca057f91dd94ea7ed6339499360265ea42b73ec488778103a700",
+    "source/arena_objectives.py": "8db536bf21e2b8109ab8467a569d2e01ca20660b0dff7d6e4a6de84f06eda922",
+    "source/arena_exposure_repr.py": "10a1f950894a27ada59d9215fb71ac8fc2e370a83ac491212c17058fcd05ea35",
+    "source/arena_ood_export.py": "3afe432b377c3f9d5dd0ac28ccecfc1d759bbf2c5a77de0a026ba80d68455477",
+    "source/arena_sgns_features.py": "575ed742159970b0ae57af0a1c5f6812310021e782b40927dca3ef8bca18f43f",
+    "source/arena_pair_memory.py": "8656bd2e2c51934dc17a15aefe7cc0df555214e2099f5c40ca9db6ee49d5edb7",
+    "source/test_arena_push084.py": "2e496b3fdeedb2ca2de15fcc9399061d19080881282327ee67bea23f9f0d9942",
+    "source/test_arena_coclick.py": "f8a0d2e5366bcb46097245f9fe7b09bfffc6326674d83fb33a86e0047ae64bd9",
+    "models/v12_map_full_exposure/model.pt": "04a65489ce075609d1ea48d6cc01a203a34cad8f12d426e434e3beb82375c2b3",
+    "models/v12_map_full_exposure/training.json": "e965beb8bb8c5c132fa4c9ec3391af34067cd1f671135d770d71cb6e821b7724",
+    "models/v12_map_full_exposure/result.json": "020a2271bd46ef1b5ab6a6fcaabd69c741a642e5fbb873d9fc10a898655815ac",
+    "models/v12_map_full_exposure/recipe.json": "bfded14dd70b535683b8909c364829d1b4736315b4d9c426fb8f36717c9c95fa",
+    "models/v12_map_full_exposure/evaluation_predictions.npy": "2717020a37a2bd963fd444615595ce27ac500debbe9041b46abce2ba489ce3b9"
+  },
+  "raw_input_sha256": {
+    "data/cache_v1/evaluation/history.npy": "3029cb4e779bde2dade2568ca0d435652659818f712f0421fa0d4b592d7614fc",
+    "data/cache_v1/evaluation/users.npy": "7e4b7818157e3d9f7c9fbed2e210b9e7691166165883a47e4703570c255cfd23",
+    "data/cache_v1/evaluation/rowids.npy": "894c90e0b1b75a3880ea25569e1317f5142ca92ba2f59fc890b1bbee6f99b840",
+    "data/cache_v1/evaluation/context.npy": "fb4e8c874a26708c48696158be9a87b33e965df70e2fd2a106440db518f97241",
+    "data/cache_v1/evaluation/timestamps.npy": "78d6395a84f04583f0dad26665a6f0f9c3cdd2bc3611109c83f00ac799ad3895",
+    "data/cache_v1/evaluation/age_hours.npy": "00cd74e1a89783ac5235be840f941f5d3632339fc2829835c7b2e9a970d54e35",
+    "data/cache_v1/evaluation/items.npy": "0f2340013e4d8abdd8721e25a5bfa3f6bc38032780a57346c7eb68400ffb7150"
+  },
+  "official_evaluation_labels_available": false,
+  "target_auc": 0.84,
+  "target_reached_on_primary_validation": false,
+  "validation_24": {
+    "auc": 0.8081453358172597
+  }
+}

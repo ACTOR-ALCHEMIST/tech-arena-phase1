@@ -1,0 +1,38 @@
+{
+  "removed_only_rebuildable_augmented_features": true,
+  "banks": [
+    {
+      "bank": "05713a32b0de18eb",
+      "bytes": 735127177
+    },
+    {
+      "bank": "3b97d85c61a3886a",
+      "bytes": 735127177
+    },
+    {
+      "bank": "58bd83c73ce2da39",
+      "bytes": 403923683
+    },
+    {
+      "bank": "62a9c9cd14d0fc1d",
+      "bytes": 403923708
+    },
+    {
+      "bank": "70f7c5c93040085c",
+      "bytes": 403923683
+    },
+    {
+      "bank": "b5c4ac37a0a57ad3",
+      "bytes": 403923723
+    },
+    {
+      "bank": "ce28994175e10723",
+      "bytes": 403923708
+    },
+    {
+      "bank": "d07e8e2a6238eff6",
+      "bytes": 403923723
+    }
+  ],
+  "bytes_reclaimed": 3893796582
+}

@@ -1,0 +1,137 @@
+{
+  "name": "v8_pair_wide",
+  "cutoff": "2025-01-26",
+  "method": "ood_tabular",
+  "epoch": 7,
+  "train_loss": 1.6437736940171983,
+  "auc": 0.8293071819501926,
+  "logloss": 0.18851184302152857,
+  "average_precision": 0.28861219544274697,
+  "accuracy_at_0_5": 0.9375690136035062,
+  "rows": 351380,
+  "weighted_auc": 0.8209763893690932,
+  "augmented_events": 0,
+  "best_epoch": 7,
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6",
+    "loss": "event_ce",
+    "epochs": 25,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.995,
+    "seed": 73,
+    "constant_policy": "zero",
+    "patience": 5,
+    "hidden": [
+      512,
+      256,
+      128
+    ],
+    "name": "v8_pair_wide",
+    "architecture": "v2_wide",
+    "multi_view": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "context_width": 64,
+    "cross_layers": 3,
+    "lr_schedule_epochs": 40,
+    "fixed_epochs": false
+  },
+  "augmentation_config": {
+    "feature_mode": "pair_memory",
+    "mix": 0,
+    "model": {
+      "architecture": "v2_wide",
+      "seed": 73
+    }
+  },
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "sgns_extra": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ]
+  },
+  "feature_dataset": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd_extra2a9aec27",
+  "source_experiment": "v3_cross512_s2027",
+  "parameters": 378306,
+  "seconds": 71.10054808299174,
+  "cohort_profile": {
+    "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+    "source_counts": [
+      92.0,
+      106.0,
+      369.0,
+      1988.0,
+      121.0,
+      4968.0,
+      13.0,
+      9520.0,
+      0.0,
+      17961.0
+    ],
+    "evaluation_counts": [
+      294.0,
+      371.0,
+      927.0,
+      5535.0,
+      214.0,
+      10422.0,
+      18.0,
+      14402.0,
+      0.0,
+      20756.0
+    ],
+    "weight_min": 0.7670337158674112,
+    "weight_max": 2.3231077277621415,
+    "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+  }
+}

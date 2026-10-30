@@ -1,0 +1,6 @@
+{
+  "stage": "numerical_rejection",
+  "reason": "Projected Gauss-Newton prototype failed strict stationarity gate before any scores or release. Corrected solver uses spherical retraction curvature in a fresh campaign.",
+  "promoted": false,
+  "updated": 1792952613.176796
+}

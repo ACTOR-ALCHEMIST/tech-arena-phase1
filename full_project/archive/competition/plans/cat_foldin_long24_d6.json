@@ -1,0 +1,38 @@
+{
+  "name": "cat_foldin_long24_d6",
+  "method": "catboost",
+  "max_events": 180000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 2000,
+  "lr": 0.04,
+  "latent_factors": [
+    8,
+    16
+  ],
+  "train_start": "2025-01-24",
+  "context_features": true,
+  "sgns_factors": [
+    8,
+    16
+  ],
+  "sgns_epochs": {
+    "8": 159,
+    "16": 56
+  },
+  "sgns_recipes": {
+    "8": {
+      "epochs": 159,
+      "lr": 0.01,
+      "lr_decay": false,
+      "reuse_experiment": "sgns8_const_e160_s42"
+    }
+  },
+  "foldin": {
+    "factors": 8,
+    "steps": 30,
+    "lr": 0.1,
+    "anchor": 0.01,
+    "negatives": 512
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "state_dict_max_error": {
+    "4": 1.3113021850585938e-06,
+    "16": 2.215057611465454e-05
+  },
+  "interpretation": "Fresh representation training versus independently evaluated original probe; calibration and update recipe are identical."
+}

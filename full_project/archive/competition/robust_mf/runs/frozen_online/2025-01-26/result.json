@@ -1,0 +1,31 @@
+{
+  "name": "frozen_online",
+  "cutoff": "2025-01-26",
+  "method": "robust_multiview_mf",
+  "config": {
+    "epochs": 12,
+    "patience": 3,
+    "seed": 31415,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "ema": 0.995,
+    "fine_tune": false,
+    "whiten_view": true,
+    "history_event_probability": 0.2,
+    "history_delete_probability": 0.15,
+    "user_dropout": 0.05
+  },
+  "training_events": 588873,
+  "best_epoch": 1,
+  "train_loss": 0.9161607565998052,
+  "auc": 0.7806919536809792,
+  "logloss": 0.22583309321861417,
+  "average_precision": 0.23044782282925144,
+  "accuracy_at_0_5": 0.9323154419716546,
+  "rows": 351380,
+  "weighted_auc": 0.7711700156037481,
+  "parameters": 4339709,
+  "trainable_parameters": 161389,
+  "seconds": 62.45707104197936,
+  "incumbent_unchanged": true
+}

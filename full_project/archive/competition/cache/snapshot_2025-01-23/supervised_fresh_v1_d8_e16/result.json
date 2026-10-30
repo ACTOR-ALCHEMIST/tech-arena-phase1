@@ -1,0 +1,32 @@
+{
+  "recipe": {
+    "version": 1,
+    "dimension": 8,
+    "calibration_epochs": 4,
+    "calibration_seed": 7153,
+    "calibration_lr": 0.003,
+    "refinement_epochs": 16,
+    "refinement_seed": 1727,
+    "lr": 0.001,
+    "anchor_scale": 1.0,
+    "ema": 0.99,
+    "outputs": [
+      4,
+      16
+    ]
+  },
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "cutoff": "2025-01-23",
+  "calibration_prefix": "2025-01-21",
+  "calibration_events": 196600,
+  "fitting_events": 295114,
+  "max_calibration_timestamp": 1737590340,
+  "max_fitting_timestamp": 1737590340,
+  "fitting_indices_sha256": "860c3a363ddfb60447bdfcae0ab7b93af0deb91f52a45fa99de39b3f52fa827e",
+  "model_sha256": {
+    "4": "94d7f714a3c5f659128dda96873165ea78167948c7ecc6cfb6f15e5fdd714b94",
+    "16": "5d36cb3b7e8c434462bc2f01ec117ae953e0558d6e626b767c6cc6676a50db38"
+  },
+  "seconds": 25.264655584003776,
+  "label_policy": "All accessed fitting labels strictly before cutoff; no validation labels are read."
+}

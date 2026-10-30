@@ -1,0 +1,47 @@
+{
+  "before": "competition/final_v28",
+  "after": "competition/final_v29",
+  "cohort_definition": "Parent top2 log-probability difference; fixed before reading outcomes. Top1 uses clicked events only.",
+  "source_sha256": {
+    "before": "044ffee0ca591f344043e58dfe99659248033b97306737235acfda08927be985",
+    "after": "2be782f91c49fd069ba17708e8fe4e5bc2df10c95445212e65cd22714e3cbd9f"
+  },
+  "cohorts": {
+    "all_events": {
+      "events": 43964,
+      "clicked_events": 27851,
+      "old_auc": 0.8224583889976329,
+      "new_auc": 0.822588612073049,
+      "auc_delta": 0.00013022307541610267,
+      "old_top1": 0.39657462927722525,
+      "new_top1": 0.3963951025097842,
+      "top1_delta": -0.00017952676744104057,
+      "corrected": 188,
+      "regressed": 193
+    },
+    "near_gap05": {
+      "events": 22143,
+      "clicked_events": 13641,
+      "old_auc": 0.796126429052456,
+      "new_auc": 0.7962851258154375,
+      "auc_delta": 0.00015869676298152502,
+      "old_top1": 0.30071109156220216,
+      "new_top1": 0.3003445495198299,
+      "top1_delta": -0.0003665420423722421,
+      "corrected": 188,
+      "regressed": 193
+    },
+    "near_gap02": {
+      "events": 10465,
+      "clicked_events": 6350,
+      "old_auc": 0.7915569548465649,
+      "new_auc": 0.7917724145112583,
+      "auc_delta": 0.00021545966469349587,
+      "old_top1": 0.27811023622047243,
+      "new_top1": 0.2773228346456693,
+      "top1_delta": -0.0007874015748031149,
+      "corrected": 188,
+      "regressed": 193
+    }
+  }
+}

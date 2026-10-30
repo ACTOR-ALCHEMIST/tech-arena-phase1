@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rows": 529390,
+  "csv_sha256": "722147b2da7d337f2ef311f70163e2a6f6619caab6c2c6b9c3697691e44cb87f",
+  "manifest_sha256": "93ca190b3d1dff59e4749ef9844c771131a2179239c9310e0cb236247fa1e784",
+  "fresh_process_full_raw_input_replay_max_error": 0.0,
+  "composition_max_error": 0.0,
+  "csv_rounding_max_error": 4.9999837603564856e-11,
+  "previous_best_preserved": true,
+  "official_evaluation_labels_available": false
+}

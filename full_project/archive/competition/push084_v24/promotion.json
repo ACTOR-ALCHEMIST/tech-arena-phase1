@@ -1,0 +1,9 @@
+{
+  "promoted": true,
+  "absolute_ood_anchor": {
+    "overall_floor": 0.8077532556777902,
+    "weekday_floor": 0.8141757299002216,
+    "passed": true
+  },
+  "third_origin_tolerance": 0.0001
+}

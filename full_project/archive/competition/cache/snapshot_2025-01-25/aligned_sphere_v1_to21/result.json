@@ -1,0 +1,19 @@
+{
+  "recipe": {
+    "version": 1,
+    "reference": "2025-01-21",
+    "dimension": 8,
+    "spherical_epoch": 32,
+    "weighting": "minimum_popularity_capped20",
+    "translation": false
+  },
+  "cutoff": "2025-01-25",
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "max_fitting_timestamp": 1737763140,
+  "source_spherical_sha256": "32ce6a26b35ea619743e8748ffbcd39610142746af49cd66c1cb996a10421b28",
+  "reference_spherical_sha256": "3c06cd895dfb4c368519837d9af45df4a627014a22959100cae50898f0ff32cc",
+  "common_items": 49561,
+  "orthogonality_max_error": 1.9984014443252818e-15,
+  "seconds": 0.04565354197984561,
+  "policy": "Fixed Jan21 reference; both representations strictly before query. No query labels used."
+}

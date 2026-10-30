@@ -1,0 +1,6 @@
+{
+  "promoted": false,
+  "local_dual_origin_eligible": false,
+  "third_origin_tolerance": 0.0001,
+  "absolute_ood_anchor": null
+}

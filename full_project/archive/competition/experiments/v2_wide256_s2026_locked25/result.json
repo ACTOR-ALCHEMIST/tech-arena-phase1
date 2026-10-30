@@ -1,0 +1,157 @@
+{
+  "name": "v2_wide256_s2026_locked25",
+  "cutoff": "2025-01-25",
+  "method": "tabular_mlp_mps",
+  "train_loss": 1.6727747060987685,
+  "auc": 0.8160839793786441,
+  "logloss": 0.19325418116972823,
+  "average_precision": 0.2661703589328638,
+  "accuracy_at_0_5": 0.9371349285779274,
+  "rows": 439640,
+  "best_epoch": 8,
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6_locked25",
+    "loss": "event_ce",
+    "epochs": 8,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "patience": 6,
+    "hidden": [
+      256,
+      128,
+      64
+    ],
+    "name": "v2_wide256_s2026_locked25",
+    "architecture": "v2_wide",
+    "cutoff": "2025-01-25",
+    "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+    "fixed_epochs": true,
+    "lr_schedule_epochs": 40
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7228633699417115,
+      "auc": 0.81285285475317,
+      "logloss": 0.19725689298794039,
+      "average_precision": 0.25802577994356224,
+      "accuracy_at_0_5": 0.9366686379765262,
+      "rows": 439640,
+      "seconds": 3.9512941249995492
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6800535215377808,
+      "auc": 0.8148169348925899,
+      "logloss": 0.19374008747988225,
+      "average_precision": 0.2630272178158079,
+      "accuracy_at_0_5": 0.9369893549267583,
+      "rows": 439640,
+      "seconds": 3.533412083008443
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6784266484790378,
+      "auc": 0.8153605319642251,
+      "logloss": 0.19352200943320483,
+      "average_precision": 0.2645545291086099,
+      "accuracy_at_0_5": 0.9370985351651351,
+      "rows": 439640,
+      "seconds": 3.232561707991408
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.675976451979743,
+      "auc": 0.8156560437072613,
+      "logloss": 0.1934254511864372,
+      "average_precision": 0.2652632001061753,
+      "accuracy_at_0_5": 0.9371167318715312,
+      "rows": 439640,
+      "seconds": 3.2103382919885917
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6747723429997763,
+      "auc": 0.815835054637535,
+      "logloss": 0.19339246542960342,
+      "average_precision": 0.2655591322077334,
+      "accuracy_at_0_5": 0.9371417523428259,
+      "rows": 439640,
+      "seconds": 3.029996208002558
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.6742794814427693,
+      "auc": 0.8159650184428672,
+      "logloss": 0.19332768151824048,
+      "average_precision": 0.26575568611853206,
+      "accuracy_at_0_5": 0.9371667728141206,
+      "rows": 439640,
+      "seconds": 3.1821509169967612
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.673456228235033,
+      "auc": 0.8159988409163268,
+      "logloss": 0.19328381475565468,
+      "average_precision": 0.2660161334739189,
+      "accuracy_at_0_5": 0.937146301519425,
+      "rows": 439640,
+      "seconds": 3.316934415997821
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6727747060987685,
+      "auc": 0.8160839793786441,
+      "logloss": 0.19325418116972823,
+      "average_precision": 0.2661703589328638,
+      "accuracy_at_0_5": 0.9371349285779274,
+      "rows": 439640,
+      "seconds": 3.1344199160084827
+    }
+  ],
+  "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd",
+  "source_experiment": "cat_sgns8_s2026_context24_d6_locked25",
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6_locked25",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 959,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked rolling origin"
+  },
+  "parameters": 113922,
+  "seconds": 29.233580457992502
+}

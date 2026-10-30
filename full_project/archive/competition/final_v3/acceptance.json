@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rows": 529390,
+  "csv_sha256": "967718b182121ef34f09aa48cf92060f0ff3677ac1cce125c6a0364ac0a771ef",
+  "manifest_sha256": "64a0e11c34a5870ba8535b710106ef97e81cf1bdccf5e9770d920b610fd1ae89",
+  "csv_rounding_max_error": 4.999969882568678e-11,
+  "fresh_process_new_model_max_error": 0.0,
+  "composition_max_error": 0.0,
+  "incumbent_unchanged": true,
+  "training_iterations_completed": 5
+}

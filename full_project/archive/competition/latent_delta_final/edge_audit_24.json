@@ -1,0 +1,32 @@
+{
+  "near_tie": {
+    "events": 25208,
+    "clicked_events": 15405,
+    "old_auc": 0.7827040619789742,
+    "new_auc": 0.7830966479607823,
+    "clicked_top1_before": 0.2920480363518338,
+    "clicked_top1_after": 0.29100941252839985,
+    "corrected_top1_cases": 189,
+    "regressed_top1_cases": 205
+  },
+  "confident": {
+    "events": 22720,
+    "clicked_events": 14752,
+    "old_auc": 0.8325707740114289,
+    "new_auc": 0.8327893929674948,
+    "clicked_top1_before": 0.4745119305856833,
+    "clicked_top1_after": 0.4745119305856833,
+    "corrected_top1_cases": 0,
+    "regressed_top1_cases": 0
+  },
+  "short_history": {
+    "events": 6447,
+    "clicked_events": 3803,
+    "old_auc": 0.7311964733738427,
+    "new_auc": 0.7313194207468408,
+    "clicked_top1_before": 0.30239284775177494,
+    "clicked_top1_after": 0.300552195635025,
+    "corrected_top1_cases": 17,
+    "regressed_top1_cases": 24
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "recipe": {
+    "version": 2,
+    "solver": "damped_riemannian_newton",
+    "fit_window": "all_past_clicked_slates",
+    "priors": [
+      1.0,
+      4.0,
+      16.0
+    ],
+    "max_steps": 32,
+    "recovery_steps": 128,
+    "gradient_threshold": 0.0001,
+    "reference": "conditional_full/prior1.0/geometry_e8.npz",
+    "reference_mass": 0.25,
+    "masses": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "items_fixed": true,
+    "objective": "conditional_choice_chord_prior_on_sphere"
+  },
+  "day": "2025-01-26",
+  "prior": 4.0,
+  "fit_events": 370313,
+  "fitted_users": 49429,
+  "max_fit_timestamp": 1737849540,
+  "fit_indices_sha256": "0bbf7578789cfba37299cb8b411082274c9e342cd7f1f8c33434d2b8006f1a69",
+  "source_calibration": {
+    "prefix": "2025-01-24",
+    "coefficients": [
+      2.750861167907715,
+      0.21303504705429077,
+      1.0248011350631714,
+      0.7876791954040527,
+      -0.002995948540046811,
+      0.23646719753742218,
+      0.31497105956077576
+    ],
+    "events": 100000,
+    "first_fit_timestamp": 1737676800,
+    "last_fit_timestamp": 1737849540,
+    "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+  },
+  "source_calibration_sha256": "426df579f9a45cf41d34da4bbe6f32e352c3426619449f1a32c2f7a8d8d88f11",
+  "original_objective": 453980.53548618825,
+  "new_objective": 448724.16460377036,
+  "gradient_max": 2.771224142938955e-07,
+  "recovery_used": false,
+  "step_quantiles": [
+    2.0,
+    3.0,
+    3.0,
+    14.0
+  ],
+  "seconds": 1.1735273329832125,
+  "policy": "Fixed source-only item directions. All user fitting targets and teacher calibration strictly before cutoff; no query labels. Exact objective decreases under normalized line-search updates."
+}

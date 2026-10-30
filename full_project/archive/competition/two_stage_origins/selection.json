@@ -1,0 +1,285 @@
+{
+  "target_auc": 0.838,
+  "baseline": {
+    "auc_26": 0.8317120624315019,
+    "weighted_auc_26": 0.8234900150479808,
+    "auc_25": 0.8218351638793959,
+    "weighted_auc_25": 0.8187971631654627,
+    "score": 0.8211435891067218
+  },
+  "selected": null,
+  "eligible": 0,
+  "candidates": [
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "blend",
+      "mass": 0.05,
+      "auc_26": 0.831691446448793,
+      "weighted_auc_26": 0.823467894838424,
+      "auc_25": 0.8217836703208303,
+      "weighted_auc_25": 0.8187454382439857,
+      "score": 0.8211066665412048
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "blend",
+      "mass": 0.1,
+      "auc_26": 0.8316686432546275,
+      "weighted_auc_26": 0.8234436160403296,
+      "auc_25": 0.8217284723433929,
+      "weighted_auc_25": 0.8186898963123748,
+      "score": 0.8210667561763522
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "blend",
+      "mass": 0.25,
+      "auc_26": 0.8315879421387167,
+      "weighted_auc_26": 0.8233569761938554,
+      "auc_25": 0.8215397055860187,
+      "weighted_auc_25": 0.8184991108409658,
+      "score": 0.8209280435174107
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "blend",
+      "mass": 0.5,
+      "auc_26": 0.8314098199116516,
+      "weighted_auc_26": 0.8231649832370512,
+      "auc_25": 0.8211555292290496,
+      "weighted_auc_25": 0.8181095952398576,
+      "score": 0.8206372892384544
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "blend",
+      "mass": 1.0,
+      "auc_26": 0.8308968743384207,
+      "weighted_auc_26": 0.8226085433610781,
+      "auc_25": 0.8201215985866461,
+      "weighted_auc_25": 0.8170558313446223,
+      "score": 0.8198321873528502
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "transfer",
+      "mass": 0.25,
+      "auc_26": 0.831702419077869,
+      "weighted_auc_26": 0.823472730786552,
+      "auc_25": 0.8217948159262617,
+      "weighted_auc_25": 0.8187635511764965,
+      "score": 0.8211181409815242
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "transfer",
+      "mass": 0.5,
+      "auc_26": 0.8316401616075579,
+      "weighted_auc_26": 0.8234005235991646,
+      "auc_25": 0.8216666737254221,
+      "weighted_auc_25": 0.8186411204699675,
+      "score": 0.8210208220345661
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "transfer",
+      "mass": 0.75,
+      "auc_26": 0.8315277176779067,
+      "weighted_auc_26": 0.8232766914899339,
+      "auc_25": 0.8214526390558585,
+      "weighted_auc_25": 0.8184316978651394,
+      "score": 0.8208541946775366
+    },
+    {
+      "name": "origin_edge_mlp_choice",
+      "mode": "transfer",
+      "mass": 1.0,
+      "auc_26": 0.831365907288519,
+      "weighted_auc_26": 0.8231011971294907,
+      "auc_25": 0.8211544828190016,
+      "weighted_auc_25": 0.8181369590070064,
+      "score": 0.8206190780682485
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "blend",
+      "mass": 0.05,
+      "auc_26": 0.831689083610861,
+      "weighted_auc_26": 0.8234650114070651,
+      "auc_25": 0.8217833705493327,
+      "weighted_auc_25": 0.8187444431015339,
+      "score": 0.8211047272542995
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "blend",
+      "mass": 0.1,
+      "auc_26": 0.8316636461560287,
+      "weighted_auc_26": 0.8234375666302094,
+      "auc_25": 0.821729438186581,
+      "weighted_auc_25": 0.8186894158690721,
+      "score": 0.8210634912496407
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "blend",
+      "mass": 0.25,
+      "auc_26": 0.831577430477965,
+      "weighted_auc_26": 0.8233442098822811,
+      "auc_25": 0.8215465801015588,
+      "weighted_auc_25": 0.8185023510620933,
+      "score": 0.8209232804721872
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "blend",
+      "mass": 0.5,
+      "auc_26": 0.8313952303597116,
+      "weighted_auc_26": 0.823146765442118,
+      "auc_25": 0.8211801319414845,
+      "weighted_auc_25": 0.8181271406892443,
+      "score": 0.8206369530656812
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "blend",
+      "mass": 1.0,
+      "auc_26": 0.8308898800515716,
+      "weighted_auc_26": 0.8225964871558898,
+      "auc_25": 0.8202202032676952,
+      "weighted_auc_25": 0.8171405331875866,
+      "score": 0.8198685101717382
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "transfer",
+      "mass": 0.25,
+      "auc_26": 0.8317042647251709,
+      "weighted_auc_26": 0.8234718402875898,
+      "auc_25": 0.8218171822107894,
+      "weighted_auc_25": 0.8187822184690241,
+      "score": 0.821127029378307
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "transfer",
+      "mass": 0.5,
+      "auc_26": 0.8316764217198295,
+      "weighted_auc_26": 0.8234324708958517,
+      "auc_25": 0.8217579236287412,
+      "weighted_auc_25": 0.8187249893273574,
+      "score": 0.8210787301116045
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "transfer",
+      "mass": 0.75,
+      "auc_26": 0.831627432167882,
+      "weighted_auc_26": 0.8233715153245804,
+      "auc_25": 0.8216566470750899,
+      "weighted_auc_25": 0.818624479039805,
+      "score": 0.8209979971821927
+    },
+    {
+      "name": "origin_edge_transformer_choice",
+      "mode": "transfer",
+      "mass": 1.0,
+      "auc_26": 0.8315603627777809,
+      "weighted_auc_26": 0.8232909207206957,
+      "auc_25": 0.8215145395159201,
+      "weighted_auc_25": 0.8184823135307128,
+      "score": 0.8208866171257042
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "blend",
+      "mass": 0.05,
+      "auc_26": 0.8316878603663201,
+      "weighted_auc_26": 0.8234650698063003,
+      "auc_25": 0.8217828334369341,
+      "weighted_auc_25": 0.8187442060647138,
+      "score": 0.821104637935507
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "blend",
+      "mass": 0.1,
+      "auc_26": 0.8316613688797128,
+      "weighted_auc_26": 0.8234375305775508,
+      "auc_25": 0.8217273699550722,
+      "weighted_auc_25": 0.8186880719421169,
+      "score": 0.8210628012598338
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "blend",
+      "mass": 0.25,
+      "auc_26": 0.831568003416456,
+      "weighted_auc_26": 0.8233404640031601,
+      "auc_25": 0.8215392448551886,
+      "weighted_auc_25": 0.8184971551435701,
+      "score": 0.820918809573365
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "blend",
+      "mass": 0.5,
+      "auc_26": 0.831368989007781,
+      "weighted_auc_26": 0.8231318901872459,
+      "auc_25": 0.8211551389506248,
+      "weighted_auc_25": 0.8181067029860728,
+      "score": 0.8206192965866593
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "blend",
+      "mass": 1.0,
+      "auc_26": 0.8308108044016744,
+      "weighted_auc_26": 0.822540032400909,
+      "auc_25": 0.820126144685061,
+      "weighted_auc_25": 0.8170581844952922,
+      "score": 0.8197991084481007
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "transfer",
+      "mass": 0.25,
+      "auc_26": 0.8317031806717761,
+      "weighted_auc_26": 0.8234770097376405,
+      "auc_25": 0.8218231957770075,
+      "weighted_auc_25": 0.8187901918690147,
+      "score": 0.8211336008033276
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "transfer",
+      "mass": 0.5,
+      "auc_26": 0.8316806076888488,
+      "weighted_auc_26": 0.8234496179324257,
+      "auc_25": 0.8217817727271405,
+      "weighted_auc_25": 0.8187526807216976,
+      "score": 0.8211011493270617
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "transfer",
+      "mass": 0.75,
+      "auc_26": 0.831645829552895,
+      "weighted_auc_26": 0.8234090045418762,
+      "auc_25": 0.8217124895874058,
+      "weighted_auc_25": 0.8186862955723212,
+      "score": 0.8210476500570987
+    },
+    {
+      "name": "origin_choice_only",
+      "mode": "transfer",
+      "mass": 1.0,
+      "auc_26": 0.8315986084108098,
+      "weighted_auc_26": 0.8233556993206355,
+      "auc_25": 0.8216139572770208,
+      "weighted_auc_25": 0.8185896062881344,
+      "score": 0.8209726528043849
+    }
+  ],
+  "protocol": "Primary Jan26 selection, locked epochs on Jan25. Jan24 not used in this search."
+}

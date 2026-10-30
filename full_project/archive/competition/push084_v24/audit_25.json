@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8218437902009748,
+  "new_auc": 0.8219769533564178,
+  "delta": 0.00013316315544309454,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      7.383010160124658e-05,
+      0.00019968713646567048
+    ],
+    "positive_fraction": 1.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8241967312959495,
+      "new_auc": 0.824325061487177,
+      "delta": 0.00012833019122748812
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.73972963218918,
+      "new_auc": 0.7400307183958785,
+      "delta": 0.00030108620669855313
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5752721758584418,
+      "new_auc": 0.5734905964286541,
+      "delta": -0.0017815794297877385
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7476256634086784,
+      "new_auc": 0.7477828748556542,
+      "delta": 0.00015721144697578016
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8148547567932315,
+      "new_auc": 0.8149857785526294,
+      "delta": 0.00013102175939794236
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8436618944693417,
+      "new_auc": 0.8437908383505208,
+      "delta": 0.00012894388117912214
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8253526400318385,
+      "new_auc": 0.825466414305331,
+      "delta": 0.00011377427349246183
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8071789576303824,
+      "new_auc": 0.8074074466801957,
+      "delta": 0.00022848904981331852
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8218437902009748,
+      "new_auc": 0.8219769533564178,
+      "delta": 0.00013316315544309454
+    }
+  },
+  "selection_sha256": "c7a1ec4d970487ea47b2fff36731b5ddd255131adefae0d34756b21d27c5bbaa"
+}

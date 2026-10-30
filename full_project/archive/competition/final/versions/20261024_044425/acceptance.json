@@ -1,0 +1,376 @@
+{
+  "passed": true,
+  "verified_at": "2026-10-24T05:01:16+08:00",
+  "manifest_sha256": "7115c9fbe274b0c97dfacbf6e363ea119f4799f87be19d7e5719de19f4433ed9",
+  "submission_rows": 529390,
+  "submission_sha256": "bb36373c223d2651b4f12da5a5a99c272eaeb75f90aa4d817cfdc2ec94576f81",
+  "reproduction_max_probability_error": 0.0,
+  "native_experiment_checks": [
+    {
+      "name": "event_cat_sgns8e640_context24_d6",
+      "auc": 0.8275923797838864,
+      "cutoff": "2025-01-26",
+      "events": 35138,
+      "validation_feature_max_error": 0.0,
+      "training_feature_max_error": 0.0,
+      "native_model_prediction_max_error": 0.0
+    },
+    {
+      "name": "mlp_event_cat_sgns8_s2026_context24_d6",
+      "auc": 0.8278548761355706,
+      "cutoff": "2025-01-26",
+      "events": 35138,
+      "validation_feature_max_error": 0.0,
+      "training_feature_max_error": 0.0,
+      "native_model_prediction_max_error": 0.0
+    },
+    {
+      "name": "event_cat_sgns8e640_context24_d6_locked25",
+      "auc": 0.8155117930609018,
+      "cutoff": "2025-01-25",
+      "events": 43964,
+      "validation_feature_max_error": 0.0,
+      "training_feature_max_error": 0.0,
+      "native_model_prediction_max_error": 0.0
+    },
+    {
+      "name": "mlp_event_cat_sgns8_s2026_context24_d6_locked25",
+      "auc": 0.8159700267108061,
+      "cutoff": "2025-01-25",
+      "events": 43964,
+      "validation_feature_max_error": 0.0,
+      "training_feature_max_error": 0.0,
+      "native_model_prediction_max_error": 0.0
+    },
+    {
+      "name": "event_cat_sgns8e640_context24_d6_locked24",
+      "auc": 0.8029048643321022,
+      "cutoff": "2025-01-24",
+      "events": 47928,
+      "validation_feature_max_error": 0.0,
+      "training_feature_max_error": 0.0,
+      "native_model_prediction_max_error": 0.0
+    },
+    {
+      "name": "mlp_event_cat_sgns8_s2026_context24_d6_locked24",
+      "auc": 0.8026864331220488,
+      "cutoff": "2025-01-24",
+      "events": 47928,
+      "validation_feature_max_error": 0.0,
+      "training_feature_max_error": 0.0,
+      "native_model_prediction_max_error": 0.0
+    }
+  ],
+  "artifact_hashes": {
+    "competition/final/versions/20261024_044425/models/0/event_gate.cbm": {
+      "bytes": 145120,
+      "sha256": "8c29b4954ee303c9fdd8f5c6c83cdc3d9af0698ee1f4b6f1325fe4b26f37b1a5"
+    },
+    "competition/final/versions/20261024_044425/models/0/recipe.json": {
+      "bytes": 3440,
+      "sha256": "3044adfb02544c029052118dd79dc61d1656602b2f27215b6483a8843b4f8686"
+    },
+    "competition/final/versions/20261024_044425/models/0/model.cbm": {
+      "bytes": 1554016,
+      "sha256": "a09df083207c24ca88d4978fa1f23c38410491adb75d8ead34a5cf9ab72427dc"
+    },
+    "competition/final/versions/20261024_044425/models/1/model.pt": {
+      "bytes": 139858,
+      "sha256": "2addd205a1d12b22150aa083fcc3435eeb105aa0c99fde87dbd8a4bcefa25b5d"
+    },
+    "competition/final/versions/20261024_044425/models/1/recipe.json": {
+      "bytes": 3301,
+      "sha256": "ef90c0e4587c9863f189f16860f569e4a1307340f3e58ea7d3e6956e1f7b942b"
+    },
+    "competition/final/versions/20261024_044425/models/1/training_result.json": {
+      "bytes": 559,
+      "sha256": "cf12e997fca4dd057bfe27d63ba9bc294f68b661c08844034f22dac42f719957"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/feedback_metadata.json": {
+      "bytes": 163,
+      "sha256": "7063778d42da91a29d2e0a83ba7bc11f32ac2ae2cca65a5264e26bd3541d6d27"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/metadata.json": {
+      "bytes": 259,
+      "sha256": "73b56d9aacad23f4fe83291165cb21f6158b40efa563e458a3ddbd2563490d70"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/co_counts.npz": {
+      "bytes": 52232151,
+      "sha256": "685a9a29dd99c830d7508c7538850651b9d34e652f1c4891313d61fb55598756"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/stats.npz": {
+      "bytes": 2396052,
+      "sha256": "221da66b046584d3f40b849a92c7b9d1189650672a045874818974920028516f"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/interactions.npz": {
+      "bytes": 2379344,
+      "sha256": "5cdf93fcbaa94ffbc9db4322d50c5954b76728919f95c067fa026eae840fdd8e"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/context_stats.npz": {
+      "bytes": 4598354,
+      "sha256": "0fca62a2e3836a7aee73134e0a6476842077d4275c288327c12acd892ea7b373"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/distinct_clicks.npz": {
+      "bytes": 4989830,
+      "sha256": "44a904ec53eea87ee83ef44dbb221277f1f762204753cc1649ff2dc0c66f6d1f"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/als_16_10_0.1_25/config.json": {
+      "bytes": 93,
+      "sha256": "7558670c80f96964a5ac894e50e1c76e2303ad9d0e803d60119557092192b9c4"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/als_16_10_0.1_25/factors.npz": {
+      "bytes": 6685818,
+      "sha256": "01c8de1f42c609db8b1bee2bd32397f61eb95005ccf10e24a251fc219c53b8aa"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/als_8_10_0.1_25/config.json": {
+      "bytes": 92,
+      "sha256": "cb99c3bdbc84ed1f5ffe556797a5ea043d08a04c0f7acc78515ded84e5fa9653"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/als_8_10_0.1_25/factors.npz": {
+      "bytes": 3343162,
+      "sha256": "5e650bc06253069992349642e40dd93d4a2cd5b76d1ff21abb47322154e6da72"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e320_t80_r7d3a85db8a/training.json": {
+      "bytes": 29814,
+      "sha256": "f70877fdce960636d85a60a71f85ef8278db6d2f2105c2dd9b5db3c17b7d4905"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e320_t80_r7d3a85db8a/config.json": {
+      "bytes": 415,
+      "sha256": "fafee3c1689f4900c52f838fbc021ba46b7dcb6378b58525e50cac754d868fbd"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e320_t80_r7d3a85db8a/factors.npz": {
+      "bytes": 3543406,
+      "sha256": "bc588a98b4643f60c848fc192ba566fc8bc920eb481b63246c740e6cdfaf032e"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e320_t80_r7d3a85db8a/training_result.json": {
+      "bytes": 33524,
+      "sha256": "8a576fa473410c14e8387ae53b87367c09757509712c52329c44d3ace506efad"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_16_s42_e56_t80/training.json": {
+      "bytes": 5178,
+      "sha256": "2ce2a2755be805d9e4fd9dd9ec993fc0cf00d6735dd71287376f376905d58876"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_16_s42_e56_t80/config.json": {
+      "bytes": 390,
+      "sha256": "b4b36d75a4cd566cc3c9165a9489dd62e50dd7e86ffde891d021b315e59e1d3e"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_16_s42_e56_t80/factors.npz": {
+      "bytes": 6886062,
+      "sha256": "f52f084c63871e1086a198275a53aa99034aecfa33fe4bd53dfc0d5ae4d5362c"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_16_s42_e56_t80/training_result.json": {
+      "bytes": 6222,
+      "sha256": "96b96b116beee069f8686bed6964ba67f5a97f4d5807c86b5858e1b7aa88311e"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s2026_e320_t80_r1983ede6fb/training.json": {
+      "bytes": 29841,
+      "sha256": "da55e5d55dffbea7547d0eccd2738b1ab853759d731065ac20fe26703b9eca88"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s2026_e320_t80_r1983ede6fb/config.json": {
+      "bytes": 421,
+      "sha256": "6aaf9b7bdfb57e8b4fb7241bc2d149bbcd433d0c659eca0d894ba9e720170159"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s2026_e320_t80_r1983ede6fb/factors.npz": {
+      "bytes": 3543406,
+      "sha256": "ca5748ca090a279d77903d87c8f01e07ebd5d1f8ded048d9995ff594104ece46"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s2026_e320_t80_r1983ede6fb/training_result.json": {
+      "bytes": 33557,
+      "sha256": "61922787526c804760fa329ea3d13345d271dc86f8c4efd57dbdc9707d2219e9"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e450_t80_r637775eda7/training.json": {
+      "bytes": 41995,
+      "sha256": "79d30d8260df45200a836d92877514462c85b3aa2a1519f233db9f3c6bc96883"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e450_t80_r637775eda7/config.json": {
+      "bytes": 415,
+      "sha256": "139a6bcbd3c851b1f362b93a2407dc7ad265b2d6bb15ad9f4f384d18ada9eb2d"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e450_t80_r637775eda7/factors.npz": {
+      "bytes": 3543406,
+      "sha256": "75954d8eb4fe554a8124c74acfd3d7dc7efdd85874e3abfdadcd8643484829e1"
+    },
+    "competition/final/versions/20261024_044425/representations/snapshot_2025-01-27/sgns_8_s42_e450_t80_r637775eda7/training_result.json": {
+      "bytes": 47004,
+      "sha256": "4876b9880812f177a1a8a4f3a4fc542e86963532af7693d5d03877bb19100a9a"
+    },
+    "competition/final/versions/20261024_044425/source/requirements-arena.txt": {
+      "bytes": 216,
+      "sha256": "0d5589d5bee4873a3b2ddd9f778898b4af3b29888b0c5b9d2593a42d174dc5db"
+    },
+    "competition/final/versions/20261024_044425/source/arena_models.py": {
+      "bytes": 10998,
+      "sha256": "17b800fde7affafc3b6d904492a90e72259b29b2c4d294e78bea0ae79cf2ae81"
+    },
+    "competition/final/versions/20261024_044425/source/run.py": {
+      "bytes": 17129,
+      "sha256": "7a497ebc80436397a775bdc476efc7f34559626cd23523d5284c5f1420d05043"
+    },
+    "competition/final/versions/20261024_044425/source/arena_resources.py": {
+      "bytes": 1031,
+      "sha256": "ca8af10903d654a96ade3d8bc9ab51522ce30021aaa39a49d3fc8da3b5b94edd"
+    },
+    "competition/final/versions/20261024_044425/source/requirements.txt": {
+      "bytes": 111,
+      "sha256": "f726f974ade22d729f488e8e6f0e6dfc5c9126a7c40537cdfea6cc4c4cc19ed3"
+    },
+    "competition/final/versions/20261024_044425/source/arena_plan.py": {
+      "bytes": 22191,
+      "sha256": "6894753b6ebd729ab400fcdc5aa4e1e46b0ff42276f336114f6caa391c089487"
+    },
+    "competition/final/versions/20261024_044425/source/arena_starter_audit.py": {
+      "bytes": 2828,
+      "sha256": "e4b2f9fd26d743df1863fb6bdbd49225f85bf41d96c3a3a729de14b08d4c413a"
+    },
+    "competition/final/versions/20261024_044425/source/starter_solution.py": {
+      "bytes": 6224,
+      "sha256": "1a132ac8d0bafc5bb31beb9b9324fe8291b0a7ce926373761e934709ab44b7dd"
+    },
+    "competition/final/versions/20261024_044425/source/light.py": {
+      "bytes": 7789,
+      "sha256": "077085b7d3bc67e697c86c5e297e54b5e4ee43779bd907a774b5c0748b1380e7"
+    },
+    "competition/final/versions/20261024_044425/source/arena_core.py": {
+      "bytes": 9804,
+      "sha256": "fde91df2e0b5a4b57fe490779e08e3c7149b9159e59bf65451a76217dc207ade"
+    },
+    "competition/final/versions/20261024_044425/source/arena_latent.py": {
+      "bytes": 3917,
+      "sha256": "f294cd7fe246def526c455444b1562510628de299f198b16c714c7e0b74238dc"
+    },
+    "competition/final/versions/20261024_044425/source/test_arena.py": {
+      "bytes": 4351,
+      "sha256": "f934f0a5a6f93643db94eb2baf1560779ec3e91262afec8d0a5939378696d856"
+    },
+    "competition/final/versions/20261024_044425/source/arena_foldin.py": {
+      "bytes": 3181,
+      "sha256": "1cc5149f618789ffad77bff69f9eeeeab76fef38abb4ba925ebaac958e400d95"
+    },
+    "competition/final/versions/20261024_044425/source/ctr_data.py": {
+      "bytes": 11113,
+      "sha256": "4e7d603be926954fe4d0e0bb685278aadf43961751ba0fb5b613a0ef46b67518"
+    },
+    "competition/final/versions/20261024_044425/source/overnight_test.go": {
+      "bytes": 721,
+      "sha256": "833e8f45d5b4fdfcfcf256994e9b87c13d6ea1b3dac5548525779d270cbab9f0"
+    },
+    "competition/final/versions/20261024_044425/source/arena_warm_ctr.py": {
+      "bytes": 7781,
+      "sha256": "26df4a07041c17dfe704ff6b5d30571774c5ea7d85ba0a8b77882d9b6350b254"
+    },
+    "competition/final/versions/20261024_044425/source/arena_features.py": {
+      "bytes": 1489,
+      "sha256": "b4f924d7911c19f69a26afaaa0d4aaad0c5f61b01bfaa0eb4ab94c27d0be58df"
+    },
+    "competition/final/versions/20261024_044425/source/light_data.py": {
+      "bytes": 2608,
+      "sha256": "9b3a6ec95c6453b0312a955fe64027392020959cfbb68e6e8db55db27350ed9d"
+    },
+    "competition/final/versions/20261024_044425/source/arena_finalize.py": {
+      "bytes": 27448,
+      "sha256": "adab148696279bbdfae675135e027a6d46044acdcf13ce2af68a5c325cf341d9"
+    },
+    "competition/final/versions/20261024_044425/source/arena_alignment.py": {
+      "bytes": 2186,
+      "sha256": "2e7929cfce47080d082829337d57ea13c7c18f083da9e9484a0708b3073c9361"
+    },
+    "competition/final/versions/20261024_044425/source/arena_validation.py": {
+      "bytes": 1821,
+      "sha256": "4b6fc891812130f58590bd926149b33577a7d96cf667e0e77b2fdfc4e7e67772"
+    },
+    "competition/final/versions/20261024_044425/source/arena_feedback.py": {
+      "bytes": 5503,
+      "sha256": "1ac5b98e791407213ae8bc38fd87f3dbdc77251f5db3557f3083e6ca7217a8cb"
+    },
+    "competition/final/versions/20261024_044425/source/arena_sgns.py": {
+      "bytes": 7206,
+      "sha256": "ddd91b505d76323ee86a4110415fd88b204e6cb15b1a40b425fcc2e6e54917b4"
+    },
+    "competition/final/versions/20261024_044425/source/overnight.go": {
+      "bytes": 9832,
+      "sha256": "b46c78971a93864d8ff374374da80fe6c8bab842bff4fb8271d119bd0fd84f3d"
+    },
+    "competition/final/versions/20261024_044425/source/arena_report.py": {
+      "bytes": 10836,
+      "sha256": "7190237ca5564867aa742cc487b60190224023048cd3a9f125df94efbc006890"
+    },
+    "competition/final/versions/20261024_044425/source/arena_tabular.py": {
+      "bytes": 7100,
+      "sha256": "a92d3f2d42ee5efdfd65e5d1f7b505c86824cc9ff747afda00a422247908e235"
+    },
+    "competition/final/versions/20261024_044425/source/INSTRUCTIONS.md": {
+      "bytes": 7062,
+      "sha256": "a38853bd1cc19936bc53b42411c41e5577872a851827b0332684904b4876c1a1"
+    },
+    "competition/final/versions/20261024_044425/source/test_pipeline.py": {
+      "bytes": 11256,
+      "sha256": "9f18a233751745d0f3afb4f9636ec2f48446ce8e7b8b42091a4a8282aa1bcacf"
+    },
+    "competition/final/versions/20261024_044425/source/arena_verify.py": {
+      "bytes": 12373,
+      "sha256": "23928c05bd0b559377850b905e5896a42a80dba12cd849707203d5e4134a96d3"
+    },
+    "competition/final/versions/20261024_044425/source/arena_sgns_features.py": {
+      "bytes": 3979,
+      "sha256": "575ed742159970b0ae57af0a1c5f6812310021e782b40927dca3ef8bca18f43f"
+    },
+    "competition/final/versions/20261024_044425/source/arena_event.py": {
+      "bytes": 3665,
+      "sha256": "64513afeb15a987d26ab9587dc52b72e08b055c8fbe09cbd827b689b89f43ccd"
+    },
+    "competition/final/versions/20261024_044425/source/ctr_model.py": {
+      "bytes": 4095,
+      "sha256": "2685f2a46858cbc81b374e4c4892d33954e9158ceb4247eee215304bda508ed8"
+    }
+  },
+  "confidence": {
+    "method": "paired percentile bootstrap over first events/users; fixed selected recipe; selection uncertainty excluded",
+    "repeats": 200,
+    "auc_95_ci": [
+      0.8261819632191577,
+      0.8312773971191443
+    ],
+    "gain_vs_official_starter_95_ci": [
+      0.20958356824676017,
+      0.217813921084425
+    ],
+    "baseline_file": "competition/experiments/cf_26_fp64_audit/validation.npz",
+    "baseline_auc": 0.615703591147011
+  },
+  "light_pipeline": {
+    "baseline_auc": 0.5509952633632451,
+    "trained_auc": 0.5816678012911898,
+    "submission_checked": true,
+    "result": "runs/light/delivery_smoke/summary.json"
+  },
+  "retrieval_evidence": [
+    {
+      "source": "event_cat_sgns8e640_context24_d6",
+      "evidence_path": "competition/experiments/event_cat_sgns8e640_context24_d6/retrieval_plan.json",
+      "retrieved_titles": [
+        "CatBoost",
+        "mlp_event_cat_sgns8e640_context24_d6",
+        "event_cat_sgns8_16_context_24_180000_d6",
+        "event_cat_sgns8_16_context_24_180000_d8"
+      ]
+    },
+    {
+      "source": "mlp_event_cat_sgns8_s2026_context24_d6",
+      "evidence_path": "competition/experiments/mlp_event_cat_sgns8_s2026_context24_d6/retrieval_plan.json",
+      "retrieved_titles": [
+        "mlp_context_cat_sgns8long_context_24_180000_d6",
+        "mlp_context_cat_sgns8e320_context24_d6",
+        "mlp_event_cat_sgns8e320_context24_d6",
+        "mlp_event_long_ema_s2026_d0.1"
+      ]
+    }
+  ],
+  "readme_iterations_recorded": true,
+  "completed_experiments": 100,
+  "unit_tests_passed": true,
+  "go_vet_passed": true,
+  "go_lane_lock_test_passed": true,
+  "snapshot_temporal_checks_passed": true,
+  "official_score_known": false,
+  "seconds": 38.89829483300855
+}

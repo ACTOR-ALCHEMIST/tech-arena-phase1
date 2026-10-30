@@ -1,0 +1,61 @@
+{
+  "policy": "Remove only regenerable unused feature matrices; checkpoints, predictions, raw data and feature metadata retained.",
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_context/valid.npy",
+      "bytes": 16866368,
+      "sha256": "75cb7aeda9e04292c8bc87ffa1dcc2544af1f049e563cd1c289c9b8e4858cb8a"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_context/train.npy",
+      "bytes": 86400128,
+      "sha256": "0ef47786ed6ff3cc1ff2b7cad1cb1f1116f0a43631e374846b4325864c36f8d3"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_context/valid.npy",
+      "bytes": 21102848,
+      "sha256": "98b951d39a8d7ed985cdbaf6b35b9a3247995ec1345a49d0d4addf5116e47230"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_context/train.npy",
+      "bytes": 86400128,
+      "sha256": "db01a4afec0ba8448ce1972350d0ad85036b98955913573138279f8e9b4d976e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_consensus/valid.npy",
+      "bytes": 28110528,
+      "sha256": "f798c4bbd738fb2240e2ad941fa4a683095c7c706d33fa6f9dd418495b0e2088"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_consensus/train.npy",
+      "bytes": 144000128,
+      "sha256": "421fb99c2c801e270d11e2be60e934c33856d94bffe4dc415224330ae1d19c9b"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_consensus/valid.npy",
+      "bytes": 35171328,
+      "sha256": "220ff52061fcc437b002458224482d1d99983e316bfb1a156e31bd02af6c9539"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_consensus/train.npy",
+      "bytes": 144000128,
+      "sha256": "1771775917cde78bbc70a690a94e8d9fee6022926e40dbdf023f7cf332cd01fc"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c/train.npy",
+      "bytes": 432000128,
+      "sha256": "85f817a37cf65efbd9ce09e36b537bfc5d1662383c01ebc767fa30a5fc4584ba"
+    },
+    {
+      "path": "competition/ood/banks/f951e9d302032b3c/features.npy",
+      "bytes": 403200128,
+      "sha256": "31caf98379095eb6ebf7eab6bbf64ab285b2552f0fe10c47001c92e7a3e721cc"
+    },
+    {
+      "path": "competition/ood/banks/f951e9d302032b3c/extra.npy",
+      "bytes": 216000128,
+      "sha256": "398304fc9dc1c90bb78e8b218cafad399eb77e0271e302fa27deabdc4d28d062"
+    }
+  ],
+  "bytes": 1613251968
+}

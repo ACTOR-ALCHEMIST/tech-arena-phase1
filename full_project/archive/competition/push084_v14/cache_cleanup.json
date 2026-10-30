@@ -1,0 +1,101 @@
+{
+  "time": 1792893118.722632,
+  "policy": "Completed regenerable legacy feature matrices only; absolute paths compared to preserve all three canonical 112-column datasets. No active training jobs. All raw inputs, embeddings, labels, models, frozen versions and champion digests retained.",
+  "files": [
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd/valid.npy",
+      "bytes": 140552128,
+      "sha256": "141c4a3af649cda26e48ee9a2ac164a6746adf6cdec9d1c3a926e9d89625ae52"
+    },
+    {
+      "path": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd/valid.npy",
+      "bytes": 175856128,
+      "sha256": "7c41ef1a61050b1b958ac083eeed95e1d9c57858a470bf791064e66881cb4cff"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe84fe0e4fcf/train.npy",
+      "bytes": 720000128,
+      "sha256": "02712b604e1f46c2593c5b141b99675af93148dc0cc0cef83859e6058b5d67c4"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe84fe0e4fcf/valid.npy",
+      "bytes": 140552128,
+      "sha256": "4ceaa0a65de72d6b090e5927cb9e214b3572f75b05e656008481d35a29ee3232"
+    },
+    {
+      "path": "competition/cache/features_2025-01-22_2025-01-24_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd/valid.npy",
+      "bytes": 191712128,
+      "sha256": "ececb3a0b7be9ee99974f33d8187c3d9d94f06fcb6334985d61a64f92c4ef5e4"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe449cbc2b01/train.npy",
+      "bytes": 720000128,
+      "sha256": "2d0e05e2dfaffca5b4fcd052de41d3c1a8e346d33130d5888312376da67e0d1f"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe449cbc2b01/valid.npy",
+      "bytes": 140552128,
+      "sha256": "32150b561e37d3f821db876ca0d894158eac02564efe5d96a3f80220e7614fe1"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_novel_choice/valid.npy",
+      "bytes": 77376768,
+      "sha256": "a0f50cbe2197f5134ecbb27441093a80334d8cef0503be0023f6e175ad1dbcfe"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_novel_choice/train.npy",
+      "bytes": 316800128,
+      "sha256": "c46beb5986c12392fbcae9adb90d60d311f3cc295144cb08810e1345d37f16dd"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_novel_choice/valid.npy",
+      "bytes": 84353408,
+      "sha256": "6ec76afe9d28012688946e7a5140a18001ae93fa6f5d1f12b3fdcaf24955400f"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_novel_choice/train.npy",
+      "bytes": 316800128,
+      "sha256": "a01ade336b1cc41de92612c88cbba61d99adf8cd48c2e4cd421cefa43b079be5"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_novel_choice/valid.npy",
+      "bytes": 61843008,
+      "sha256": "6c7630f2f642608e5ae59029c8bedc6cb99b017333ce41ba76bcf02446949fcc"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_novel_choice/train.npy",
+      "bytes": 316800128,
+      "sha256": "f1574042c4aeb3de30b5b8ec059b2f66edab239b3d666e43a0e698aa9a485e73"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_pair_memory/valid.npy",
+      "bytes": 22488448,
+      "sha256": "577821ec950ef1956e48415c61eb89c8b58585846320268554a85c9ee04a69e6"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_pair_memory/train.npy",
+      "bytes": 115200128,
+      "sha256": "93d585f8de55717fcafd50506115e0077f77503f290da0cff8c323f38d8522bd"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_pair_memory/valid.npy",
+      "bytes": 30674048,
+      "sha256": "90382f42407a354380782abe95945019711ccd8695b508001942100d9c16f23e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_pair_memory/train.npy",
+      "bytes": 115200128,
+      "sha256": "682c68a1a345d34d96ae9f77448f35eabbf7d252bb02667309cbbbf5d45c079a"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_pair_memory/valid.npy",
+      "bytes": 28137088,
+      "sha256": "ed7d1ecc82b3f795d9a412f4805e9766a4d4c391f675be6c67081cfec0044c5c"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_pair_memory/train.npy",
+      "bytes": 115200128,
+      "sha256": "df0a3d46dd081367e8c7c0f2f1706a7ded5451db8e7d893e1ac85a2ce02bea63"
+    }
+  ]
+}

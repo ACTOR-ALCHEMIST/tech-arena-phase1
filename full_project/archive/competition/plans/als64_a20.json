@@ -1,0 +1,8 @@
+{
+  "name": "als64_a20",
+  "method": "als",
+  "factors": 64,
+  "alpha": 20,
+  "regularization": 0.1,
+  "iterations": 20
+}

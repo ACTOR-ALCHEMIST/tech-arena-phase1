@@ -1,0 +1,147 @@
+{
+  "name": "mlp_event_cat_sgns8e320_context24_d6_locked25",
+  "cutoff": "2025-01-25",
+  "method": "tabular_mlp_mps",
+  "train_loss": 1.6947041010326809,
+  "auc": 0.812415566481357,
+  "logloss": 0.1944999822323576,
+  "average_precision": 0.2624936658086241,
+  "accuracy_at_0_5": 0.9371599490492221,
+  "rows": 439640,
+  "best_epoch": 8,
+  "config": {
+    "name": "mlp_event_cat_sgns8e320_context24_d6_locked25",
+    "method": "tabular",
+    "source_experiment": "cat_sgns8e320_context24_d6_locked25",
+    "loss": "event_ce",
+    "epochs": 8,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "fixed_epochs": true,
+    "lr_schedule_epochs": 40,
+    "audit_protocol": "locked rolling origin"
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7493488816155327,
+      "auc": 0.8077347671652051,
+      "logloss": 0.19789551577226136,
+      "average_precision": 0.2526733454204478,
+      "accuracy_at_0_5": 0.9367141297425166,
+      "rows": 439640,
+      "seconds": 5.549816582992207
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7078341288672554,
+      "auc": 0.8099186107226062,
+      "logloss": 0.19525958747168207,
+      "average_precision": 0.2587531495765009,
+      "accuracy_at_0_5": 0.9370121008097534,
+      "rows": 439640,
+      "seconds": 2.23947537499771
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.7043984935336642,
+      "auc": 0.8108101428408929,
+      "logloss": 0.1950335596168238,
+      "average_precision": 0.26058003718965517,
+      "accuracy_at_0_5": 0.9370666909289419,
+      "rows": 439640,
+      "seconds": 2.3262039169931086
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.7013354126612346,
+      "auc": 0.8114042093390033,
+      "logloss": 0.19488181658780218,
+      "average_precision": 0.26150768969288674,
+      "accuracy_at_0_5": 0.937137203166227,
+      "rows": 439640,
+      "seconds": 2.446808291992056
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6989209641562568,
+      "auc": 0.8118562624905974,
+      "logloss": 0.19472703430856744,
+      "average_precision": 0.2620817894314627,
+      "accuracy_at_0_5": 0.937150850696024,
+      "rows": 439640,
+      "seconds": 2.4626839170086896
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.697649155468411,
+      "auc": 0.8121012748561669,
+      "logloss": 0.19464012414578333,
+      "average_precision": 0.2622398474546315,
+      "accuracy_at_0_5": 0.9371667728141206,
+      "rows": 439640,
+      "seconds": 2.4685558329947526
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.6957385882695517,
+      "auc": 0.812270057893346,
+      "logloss": 0.19456704449504966,
+      "average_precision": 0.2624031410672424,
+      "accuracy_at_0_5": 0.9371917932854154,
+      "rows": 439640,
+      "seconds": 2.4652496249909746
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6947041010326809,
+      "auc": 0.812415566481357,
+      "logloss": 0.1944999822323576,
+      "average_precision": 0.2624936658086241,
+      "accuracy_at_0_5": 0.9371599490492221,
+      "rows": 439640,
+      "seconds": 2.5343232080049347
+    }
+  ],
+  "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe449cbc2b01",
+  "source_experiment": "cat_sgns8e320_context24_d6_locked25",
+  "feature_config": {
+    "name": "cat_sgns8e320_context24_d6_locked25",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 1295,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "reuse_experiment": "sgns8_const_n8_binary_e320_s42"
+      }
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked rolling origin"
+  },
+  "seconds": 23.549430832994403
+}

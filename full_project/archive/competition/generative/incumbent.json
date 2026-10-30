@@ -1,0 +1,56 @@
+{
+  "manifest": {
+    "submission": "competition/final_v2/submission.csv",
+    "model_dir": "competition/final_v2/versions/20261024_110038",
+    "sources": [
+      "event_cat_sgns8e640_context24_d6",
+      "mlp_event_cat_sgns8_s2026_context24_d6",
+      "v2_multiview_wide256_s2026",
+      "v2_multiview_cross256_s2026"
+    ],
+    "weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "blend_kind": "logit",
+    "validation_26": {
+      "auc": 0.8293272082809982,
+      "logloss": 0.18853976902343578,
+      "average_precision": 0.28889980792100434,
+      "accuracy_at_0_5": 0.9376088565086231,
+      "rows": 351380
+    },
+    "validation_25": {
+      "auc": 0.8192463525707806,
+      "logloss": 0.1922149621174674,
+      "average_precision": 0.2708208642983001,
+      "accuracy_at_0_5": 0.9372281866982076,
+      "rows": 439640
+    },
+    "validation_24": {
+      "auc": 0.8054023107836017,
+      "logloss": 0.19540901529588606,
+      "average_precision": 0.2529105015069471,
+      "accuracy_at_0_5": 0.937416541478885,
+      "rows": 479280
+    },
+    "audit_24_sources": [
+      "event_cat_sgns8e640_context24_d6_locked24",
+      "mlp_event_cat_sgns8_s2026_context24_d6_locked24",
+      "v2_multiview_wide256_s2026_locked24",
+      "v2_multiview_cross256_s2026_locked24"
+    ],
+    "validation_protocol": "Jan26 used for hyperparameters; Jan26+Jan25 cohort-weighted AUC selects coarse blend; Jan24 recipe audit is not used for selection",
+    "rows": 529390,
+    "sha256": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+    "csv_checks_passed": true,
+    "official_evaluation_labels_available": false,
+    "selection_score": 0.8186225690006399,
+    "cache_dependencies": "data/cache_v1 holds ID mappings and cached event arrays; learned inference representations are bundled in the version directory; competition/cache holds regenerable feature matrices",
+    "representations": "competition/final_v2/versions/20261024_110038/representations",
+    "reproduce": "python3 arena_finalize.py --final-dir competition/final_v2 --predict-only"
+  },
+  "canonical_sha256": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80"
+}

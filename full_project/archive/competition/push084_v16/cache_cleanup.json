@@ -1,0 +1,67 @@
+{
+  "time": 1792895803.476887,
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_online_events/valid.npy",
+      "bytes": 60437488,
+      "sha256": "e3ef67d16736b609b7dbe516c3acfb0b091b2782d5a814b0914cbc47bbe93917"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_online_events/train.npy",
+      "bytes": 309600128,
+      "sha256": "3bf92216d9c376b8dc0024aa5533181d1908404ab76b7009e44c49b062de44f3"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_online_events/valid.npy",
+      "bytes": 82436288,
+      "sha256": "eb690775e92dd6f5f083d803d39ec89553635a15e49dd0cfb3cc71ce57e509fa"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_online_events/train.npy",
+      "bytes": 309600128,
+      "sha256": "072aaf95c4d2857abeed704b628aef549e7c966c9dcfc8852aaacecec0abd46e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_online_events/valid.npy",
+      "bytes": 75618208,
+      "sha256": "4ddad8cb4557641d6f688fdfe1f02a2b7041012d1bd11cf1befa8ebea84c8773"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_online_events/train.npy",
+      "bytes": 309600128,
+      "sha256": "7eea415ddcde9d2fde9165b2b010ca20ae99cdff2598eb65f6f67c772f3d777c"
+    },
+    {
+      "path": "competition/ood/final_inputs_novel_choice/train.npy",
+      "bytes": 517427808,
+      "sha256": "9164ffd2cfef7579702092126ba3ab9c127ebd7ca85760663007391f42d3efe1"
+    },
+    {
+      "path": "competition/ood/final_inputs_novel_choice/evaluation.npy",
+      "bytes": 93172768,
+      "sha256": "74d17db73d8287167cb25b759a94b630f6574481ef5a46cd1b21a71301ab7068"
+    },
+    {
+      "path": "competition/ood/final_inputs_pair_memory/train.npy",
+      "bytes": 188155648,
+      "sha256": "541b62d5b2988388066510d9398f36a3d8b3f4edd0df22d16e0addabcd1ee459"
+    },
+    {
+      "path": "competition/ood/final_inputs_pair_memory/evaluation.npy",
+      "bytes": 33881088,
+      "sha256": "18d997f7cc0d06ff6fd635a8f26001683e335df1f3cb0ddad15f29139a6a2f26"
+    },
+    {
+      "path": "competition/ood/final_inputs_online_events/train.npy",
+      "bytes": 505668088,
+      "sha256": "293b82210f3310952d8e082a21606375bfc5be8bbb2a6882608b4cd281a10a78"
+    },
+    {
+      "path": "competition/ood/final_inputs_online_events/evaluation.npy",
+      "bytes": 91055208,
+      "sha256": "064c50025969d9110cb7226dfb76caad9157fb80db217d17a8d80b5086279201"
+    }
+  ],
+  "freed_GiB": 2.3996950834989548,
+  "policy": "Regenerable completed V15 online feature matrices and obsolete novel/pair final input matrices only. V16/V17/V18 do not use these paths. All raw data, canonical base matrices, model weights, representation snapshots, validation predictions, frozen submissions retained."
+}

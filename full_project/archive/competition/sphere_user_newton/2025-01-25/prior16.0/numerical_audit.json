@@ -1,0 +1,20 @@
+{
+  "finite": true,
+  "gradient_quantiles": [
+    3.881062138333391e-13,
+    3.509454393757495e-11,
+    2.2797191900903194e-09,
+    9.717562146963326e-08
+  ],
+  "worst_user": 26403,
+  "worst_user_events": 3,
+  "recovery_used": false,
+  "step_quantiles": [
+    2.0,
+    2.0,
+    2.0,
+    3.0
+  ],
+  "objective_before": 389077.06296617986,
+  "objective_after": 388059.5718060505
+}

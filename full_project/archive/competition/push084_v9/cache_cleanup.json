@@ -1,0 +1,26 @@
+{
+  "time": 1792885251.016035,
+  "policy": "Reproducible legacy lowrank80 feature matrices only; raw data, metadata, labels, representations, checkpoints and frozen versions retained",
+  "files": [
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_lowrank80/train.npy",
+      "bytes": 720000128,
+      "sha256": "d30473094fda8fc4db77a3a4c9200ad098b6e45262d5ae1cb622769028f99bb7"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_lowrank80/valid.npy",
+      "bytes": 140552128,
+      "sha256": "06b255018fcde85a919671719bcf591dea86d40deaa9e1221f7d8736300a836c"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_lowrank80_rolling/train.npy",
+      "bytes": 720000128,
+      "sha256": "d8f488fee0d132141c76c37c3cabda8d6784c3f6b6b79ae014e0e442801ef259"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_lowrank80_rolling/valid.npy",
+      "bytes": 140552128,
+      "sha256": "06b255018fcde85a919671719bcf591dea86d40deaa9e1221f7d8736300a836c"
+    }
+  ]
+}

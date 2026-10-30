@@ -1,0 +1,84 @@
+{
+  "cutoff": "2025-01-25",
+  "config": {
+    "profiles": 3,
+    "ridge": 0.001
+  },
+  "training_clicked_events": 122461,
+  "max_training_target_timestamp": 1737763140,
+  "before_choice_ce": 1.6749690771102905,
+  "after_choice_ce": 1.3855681419372559,
+  "objective_evaluations": 17,
+  "seconds": 0.3171876670094207,
+  "records": [
+    {
+      "objective": 1.6749690771102905,
+      "choice_ce": 1.6749690771102905
+    },
+    {
+      "objective": 1.6705001592636108,
+      "choice_ce": 1.6704978942871094
+    },
+    {
+      "objective": 1.651199221611023,
+      "choice_ce": 1.6511310338974
+    },
+    {
+      "objective": 1.5673801898956299,
+      "choice_ce": 1.5653131008148193
+    },
+    {
+      "objective": 1.4786137342453003,
+      "choice_ce": 1.4640039205551147
+    },
+    {
+      "objective": 1.4530292749404907,
+      "choice_ce": 1.4237769842147827
+    },
+    {
+      "objective": 1.4416452646255493,
+      "choice_ce": 1.3954274654388428
+    },
+    {
+      "objective": 1.4436769485473633,
+      "choice_ce": 1.3865591287612915
+    },
+    {
+      "objective": 1.440152883529663,
+      "choice_ce": 1.3900796175003052
+    },
+    {
+      "objective": 1.4391058683395386,
+      "choice_ce": 1.385515809059143
+    },
+    {
+      "objective": 1.4388744831085205,
+      "choice_ce": 1.385584831237793
+    },
+    {
+      "objective": 1.438780665397644,
+      "choice_ce": 1.3861514329910278
+    },
+    {
+      "objective": 1.438730239868164,
+      "choice_ce": 1.3861976861953735
+    },
+    {
+      "objective": 1.438712239265442,
+      "choice_ce": 1.3857592344284058
+    },
+    {
+      "objective": 1.438711166381836,
+      "choice_ce": 1.3855552673339844
+    },
+    {
+      "objective": 1.438710331916809,
+      "choice_ce": 1.3855674266815186
+    },
+    {
+      "objective": 1.438710331916809,
+      "choice_ce": 1.3855681419372559
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; geometry fitted strictly before query cutoff. No held-out labels in optimizer."
+}

@@ -1,0 +1,15 @@
+{
+  "name": "v12_map_full_exposure",
+  "bayes_mf": true,
+  "augmentation_config": {
+    "bayes_mf": {
+      "anchor_scale": 0.25,
+      "fine_items": true,
+      "lr": 0.002,
+      "seed": 7153,
+      "full_posterior": true
+    }
+  },
+  "fixed_epochs": 18,
+  "anchor": "2025-01-23"
+}

@@ -1,0 +1,80 @@
+{
+  "incumbent": {
+    "csv": "competition/final_v16/submission.csv",
+    "sha256": "617de021a9c546a5979719b1b42d4106280379da63f27a963d98c0d1de5dd447",
+    "manifest": "competition/final_v16/manifest.json",
+    "acceptance": "competition/final_v16/acceptance.json",
+    "validation_26": {
+      "auc": 0.8316205217368751
+    },
+    "validation_25": {
+      "auc": 0.8217227323470043
+    },
+    "previous_best_csv": "competition/final_v15/submission.csv",
+    "validation_24": {
+      "auc": 0.8080957431587497
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "recipes": [
+    {
+      "mass": 0.0,
+      "auc_26": 0.8316205217368753,
+      "weighted_auc_26": 0.8234124266357343,
+      "auc_25": 0.8217227320418268,
+      "weighted_auc_25": 0.8186841523762158,
+      "score": 0.8210482895059751
+    },
+    {
+      "mass": 0.05,
+      "auc_26": 0.8316011315914834,
+      "weighted_auc_26": 0.8233922892678096,
+      "auc_25": 0.8216710770007675,
+      "weighted_auc_25": 0.818630749151565,
+      "score": 0.8210115192096873
+    },
+    {
+      "mass": 0.1,
+      "auc_26": 0.8315790019732944,
+      "weighted_auc_26": 0.8233694005908497,
+      "auc_25": 0.8216151033493204,
+      "weighted_auc_25": 0.8185730426351594,
+      "score": 0.8209712216130045
+    },
+    {
+      "mass": 0.25,
+      "auc_26": 0.8314954968381036,
+      "weighted_auc_26": 0.823281641255319,
+      "auc_25": 0.821425719348656,
+      "weighted_auc_25": 0.8183780217616063,
+      "score": 0.8208298315084627
+    },
+    {
+      "mass": 0.5,
+      "auc_26": 0.8312960136827756,
+      "weighted_auc_26": 0.8230714633023686,
+      "auc_25": 0.821037836828943,
+      "weighted_auc_25": 0.8179793654800575,
+      "score": 0.8205254143912131
+    },
+    {
+      "mass": 0.75,
+      "auc_26": 0.8310254346922974,
+      "weighted_auc_26": 0.8227845607815775,
+      "auc_25": 0.820565531400955,
+      "weighted_auc_25": 0.8174936913881714,
+      "score": 0.8201391260848745
+    },
+    {
+      "mass": 1.0,
+      "auc_26": 0.8306872764900308,
+      "weighted_auc_26": 0.8224250661538531,
+      "auc_25": 0.8200108826313646,
+      "weighted_auc_25": 0.8169237566572677,
+      "score": 0.8196744114055604
+    }
+  ],
+  "eligible": [],
+  "decision": "rejected_no_dual_origin_gain",
+  "no_submission_changed": true
+}

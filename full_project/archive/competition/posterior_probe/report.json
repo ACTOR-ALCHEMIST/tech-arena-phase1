@@ -1,0 +1,101 @@
+{
+  "incumbent": {
+    "csv": "competition/final_v8/submission.csv",
+    "sha256": "722147b2da7d337f2ef311f70163e2a6f6619caab6c2c6b9c3697691e44cb87f",
+    "manifest": "competition/final_v8/manifest.json",
+    "acceptance": "competition/final_v8/acceptance.json",
+    "validation_26": {
+      "auc": 0.8313827485301672
+    },
+    "validation_25": {
+      "auc": 0.8214145855579535
+    },
+    "previous_best_csv": "competition/final_v6/submission.csv",
+    "validation_24": {
+      "auc": 0.8077969711892322
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "origins": {
+    "2025-01-26": [
+      {
+        "kind": "original_dot",
+        "auc": 0.7990104736048007
+      },
+      {
+        "kind": "posterior",
+        "ridge": 1.0,
+        "dot_auc": 0.7989161153129343,
+        "seconds": 26.736957125016488,
+        "corrections": {
+          "0.05": 0.8313959319103792,
+          "0.1": 0.8313927228721574,
+          "0.25": 0.8312788610350541
+        }
+      },
+      {
+        "kind": "posterior",
+        "ridge": 4.0,
+        "dot_auc": 0.7988875285901957,
+        "seconds": 25.569695749989478,
+        "corrections": {
+          "0.05": 0.8314007019363634,
+          "0.1": 0.8313915849163087,
+          "0.25": 0.8311843864094113
+        }
+      },
+      {
+        "kind": "posterior",
+        "ridge": 16.0,
+        "dot_auc": 0.7942080441946364,
+        "seconds": 15.664205625012983,
+        "corrections": {
+          "0.05": 0.8314023783708999,
+          "0.1": 0.8313751416658144,
+          "0.25": 0.8309430515469118
+        }
+      }
+    ],
+    "2025-01-25": [
+      {
+        "kind": "original_dot",
+        "auc": 0.7834493042664039
+      },
+      {
+        "kind": "posterior",
+        "ridge": 1.0,
+        "dot_auc": 0.7845756556038035,
+        "seconds": 33.01064362502075,
+        "corrections": {
+          "0.05": 0.821409650009453,
+          "0.1": 0.821382678988834,
+          "0.25": 0.82116346205656
+        }
+      },
+      {
+        "kind": "posterior",
+        "ridge": 4.0,
+        "dot_auc": 0.7843220450365818,
+        "seconds": 28.682151416986017,
+        "corrections": {
+          "0.05": 0.8214125701657491,
+          "0.1": 0.8213727111505653,
+          "0.25": 0.8209786817892609
+        }
+      },
+      {
+        "kind": "posterior",
+        "ridge": 16.0,
+        "dot_auc": 0.7797161859354667,
+        "seconds": 29.311293792008655,
+        "corrections": {
+          "0.05": 0.8214147141248743,
+          "0.1": 0.8213470781588931,
+          "0.25": 0.8206165378090382
+        }
+      }
+    ]
+  },
+  "note": "Approximate partition, fixed quadrature; no current-event labels used in posterior fit; diagnostic only.",
+  "decision": "Rejected: no predeclared residual has meaningful gains on both temporal origins; no CSV or incumbent changed."
+}

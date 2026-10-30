@@ -1,0 +1,29 @@
+{
+  "names": [
+    "exposure_profile_dot",
+    "exposure_profile_dot_relative",
+    "exposure_profile_cos",
+    "exposure_profile_cos_relative",
+    "exposure_hist_mean",
+    "exposure_hist_mean_relative",
+    "exposure_last1",
+    "exposure_last1_relative",
+    "exposure_last3",
+    "exposure_last3_relative",
+    "exposure_last5",
+    "exposure_last5_relative",
+    "exposure_decay6",
+    "exposure_decay6_relative",
+    "exposure_decay24",
+    "exposure_decay24_relative",
+    "exposure_decay168",
+    "exposure_decay168_relative",
+    "exposure_hist_max",
+    "exposure_item_norm",
+    "exposure_profile_norm",
+    "exposure_item_bias"
+  ],
+  "events": 35138,
+  "frame": "2025-01-26",
+  "indices_sha256": "877de6e94f69140a0889fe12fb8c7364b8fd5119773f3d2295352e03d69054af"
+}

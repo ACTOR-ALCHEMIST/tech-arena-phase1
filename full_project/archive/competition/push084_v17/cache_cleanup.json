@@ -1,0 +1,47 @@
+{
+  "time": 1792896278.5202718,
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_ppmi/valid.npy",
+      "bytes": 93203808,
+      "sha256": "eef88d8578951537a1ade7776c988e6564d81f8ae5ad026f9b4fcf097af537ae"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_ppmi/train.npy",
+      "bytes": 381600128,
+      "sha256": "c06273d1a00e9eb2ed30bfb453d0145e9de55e7f9fe6dda13f7b3bfb0c5c046e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_ppmi/valid.npy",
+      "bytes": 74492688,
+      "sha256": "6252056107f8be1c5c1a2585d1efb23fe72185764308a410af11577b424416b1"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_ppmi/train.npy",
+      "bytes": 381600128,
+      "sha256": "b21afcba41ca5766171dec362ebda2f4609ac0e0634e27e783bff8f7d273b2a7"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_ppmi/valid.npy",
+      "bytes": 101607488,
+      "sha256": "a7e3e045d74d61da37715c2d0aaee3767dae9d5797460f3c4751ee4cf380e3b0"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_ppmi/train.npy",
+      "bytes": 381600128,
+      "sha256": "0049c5c14c92099173e75cd2a2f51eabd1d94d75867dcf57ab1c6c65ff13b323"
+    },
+    {
+      "path": "competition/ood/final_inputs_ppmi/train.npy",
+      "bytes": 623265288,
+      "sha256": "0091c9b6e547374ec6849182d783ff2fa37a1cf77fbb36e2e63c52da28386f8b"
+    },
+    {
+      "path": "competition/ood/final_inputs_ppmi/evaluation.npy",
+      "bytes": 112230808,
+      "sha256": "6f45459b88225ee6b73dc6a81759b770b58ee82e0d240f9096b7c3f14cdd15a7"
+    }
+  ],
+  "freed_GiB": 2.0019714385271072,
+  "policy": "Completed V16 PPMI working feature matrices only. No V17/V18/V19 model consumes these paths. All frozen models, snapshots, validation arrays and CSVs retained; cache JSON remains for rebuilding."
+}

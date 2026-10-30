@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "/opt/anaconda3/bin/python3",
+    "-u",
+    "-c",
+    "import sys;from pathlib import Path;sys.path.insert(0,str(Path(sys.argv[1])/'source'));import arena_ood;arena_ood.ROOT=Path.cwd();import arena_push084_export as e;e.ROOT=Path.cwd();e.FINAL=Path(sys.argv[1]);e.verify()",
+    "/Users/jasper/Desktop/TechArena2026/competition/final_v31"
+  ],
+  "cwd": "/Users/jasper/Desktop/TechArena2026",
+  "source_sha256": "72df9d0eb0d7af1daa5e91f8c414bcf94c399a44f1c1dfa61266d5ec39947697"
+}

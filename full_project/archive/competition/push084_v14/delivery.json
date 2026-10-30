@@ -1,0 +1,15 @@
+{
+  "stage": "completed",
+  "current_best": "competition/final_v14/submission.csv",
+  "acceptance": {
+    "passed": true,
+    "rows": 529390,
+    "csv_sha256": "8b86b9fa391ee4d24738a2ad075fdaa5d7e0a446511c67f20f0d3f150d35e166",
+    "manifest_sha256": "c2d4374da259f8e1ed2b559b0f623d8ecb9454f20a3b608cb8bf4caade2b2b2e",
+    "fresh_process_full_raw_input_replay_max_error": 0.0,
+    "composition_max_error": 0.0,
+    "csv_rounding_max_error": 4.99999208702917e-11,
+    "previous_best_preserved": true,
+    "official_evaluation_labels_available": false
+  }
+}

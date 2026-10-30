@@ -1,0 +1,108 @@
+{
+  "cutoff": "2025-01-26",
+  "config": {
+    "profiles": 3,
+    "ridge": 0.001
+  },
+  "training_clicked_events": 123094,
+  "max_training_target_timestamp": 1737849540,
+  "before_choice_ce": 1.639952540397644,
+  "after_choice_ce": 1.3779300451278687,
+  "objective_evaluations": 23,
+  "seconds": 0.4384865419997368,
+  "records": [
+    {
+      "objective": 1.639952540397644,
+      "choice_ce": 1.639952540397644
+    },
+    {
+      "objective": 1.6362086534500122,
+      "choice_ce": 1.6362067461013794
+    },
+    {
+      "objective": 1.6048495769500732,
+      "choice_ce": 1.6046611070632935
+    },
+    {
+      "objective": 1.4687055349349976,
+      "choice_ce": 1.45671546459198
+    },
+    {
+      "objective": 1.4432293176651,
+      "choice_ce": 1.418389916419983
+    },
+    {
+      "objective": 1.4309251308441162,
+      "choice_ce": 1.3893572092056274
+    },
+    {
+      "objective": 1.429621934890747,
+      "choice_ce": 1.379485011100769
+    },
+    {
+      "objective": 1.4280561208724976,
+      "choice_ce": 1.3766933679580688
+    },
+    {
+      "objective": 1.4279433488845825,
+      "choice_ce": 1.3782726526260376
+    },
+    {
+      "objective": 1.427862524986267,
+      "choice_ce": 1.3788344860076904
+    },
+    {
+      "objective": 1.4278454780578613,
+      "choice_ce": 1.3780921697616577
+    },
+    {
+      "objective": 1.4278126955032349,
+      "choice_ce": 1.3781183958053589
+    },
+    {
+      "objective": 1.427811622619629,
+      "choice_ce": 1.377982497215271
+    },
+    {
+      "objective": 1.4278115034103394,
+      "choice_ce": 1.3779232501983643
+    },
+    {
+      "objective": 1.4278113842010498,
+      "choice_ce": 1.377925992012024
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    },
+    {
+      "objective": 1.4278113842010498,
+      "choice_ce": 1.3779358863830566
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    },
+    {
+      "objective": 1.4278111457824707,
+      "choice_ce": 1.3779300451278687
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; geometry fitted strictly before query cutoff. No held-out labels in optimizer."
+}

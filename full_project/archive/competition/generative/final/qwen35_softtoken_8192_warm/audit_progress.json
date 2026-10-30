@@ -1,0 +1,13 @@
+{
+  "identity": {
+    "adapter_sha256": "e074aef21547068b620f9c65d417b49d1d2c95935149f1d57c474d54da62c6dc",
+    "batch_events": 32,
+    "input_sha256": {
+      "event": "277df4e2a4c6d20dde23164de865413b4d81db9a23ae3471fcdcf2e18917d4db",
+      "history": "e7f165f991e3c323b0482ef4ad1d204668d208584de5735b434ecd4f7a46620e",
+      "candidate": "7155ae5636c413ee27b2dcaadc3ee82ef72e4a591e2938d1773e866bcfe63e9c"
+    }
+  },
+  "completed": 35138,
+  "events": 35138
+}

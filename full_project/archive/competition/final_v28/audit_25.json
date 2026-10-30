@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8224378481977118,
+  "new_auc": 0.8224583889976329,
+  "delta": 2.054079992108715e-05,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      1.2187828206750023e-06,
+      3.746086039727037e-05
+    ],
+    "positive_fraction": 0.98,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.824795676901538,
+      "new_auc": 0.8248164267841623,
+      "delta": 2.074988262434907e-05
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7400307183958785,
+      "new_auc": 0.7400109356123927,
+      "delta": -1.9782783485799982e-05
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5734905964286541,
+      "new_auc": 0.5735706874120112,
+      "delta": 8.009098335715059e-05
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7480823334635361,
+      "new_auc": 0.7480623938885165,
+      "delta": -1.9939575019667366e-05
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.815362076377763,
+      "new_auc": 0.8153825816574933,
+      "delta": 2.0505279730298476e-05
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8443570068200633,
+      "new_auc": 0.8443876483335971,
+      "delta": 3.0641513533824494e-05
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8260221338764748,
+      "new_auc": 0.8260468804072192,
+      "delta": 2.4746530744357287e-05
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8074472114833962,
+      "new_auc": 0.807442588131632,
+      "delta": -4.623351764099226e-06
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8224378481977118,
+      "new_auc": 0.8224583889976329,
+      "delta": 2.054079992108715e-05
+    }
+  },
+  "locked_selection_sha256": "78ef2a6d091c7124ff3bac6b1d922a83ccc8b441b8ba9e234415fe69da702aaf"
+}

@@ -1,0 +1,63 @@
+{
+  "records": [],
+  "calibration": {
+    "prefix": "2025-01-25",
+    "coefficients": [
+      3.0491230487823486,
+      0.25025278329849243,
+      0.8352805376052856,
+      0.7376387119293213,
+      -0.03978324308991432,
+      0.17111599445343018,
+      0.37082767486572266
+    ],
+    "events": 100000,
+    "first_fit_timestamp": 1737763200,
+    "last_fit_timestamp": 1737935940,
+    "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+  },
+  "fit_events": 123524,
+  "seconds": 11.20080608301214,
+  "baseline": null,
+  "recipe": {
+    "version": 1,
+    "epochs": 32,
+    "outputs": [
+      0,
+      8,
+      16,
+      32
+    ],
+    "lr": 0.002,
+    "minimum_lr": 0.0002,
+    "batch_size": 4096,
+    "seed": 83891,
+    "ema": 0.98,
+    "calibration_max": 100000,
+    "calibration_iterations": 40,
+    "prior_scales": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "masses": [
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "locked_selection": {
+    "prior": 10.0,
+    "epoch": 32,
+    "mass": 0.5,
+    "auc_26": 0.8318436156679386,
+    "auc_25": 0.8224378481977118,
+    "deltas": {
+      "26": 1.015140131621628e-06,
+      "25": 1.5313806908667793e-05
+    },
+    "weighted_delta": 1.2838021630989793e-05,
+    "mean_near_tie_top1": 0.30757172377753694
+  },
+  "max_fit_timestamp": 1737935940
+}

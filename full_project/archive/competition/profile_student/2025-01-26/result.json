@@ -1,0 +1,33 @@
+{
+  "recipe": {
+    "version": 1,
+    "width": 32,
+    "heads": 4,
+    "layers": 1,
+    "epochs": 16,
+    "outputs": [
+      8,
+      16
+    ],
+    "max_events": 120000,
+    "seed": 83931,
+    "batch_size": 512,
+    "lr": 0.001,
+    "minimum_lr": 0.0001,
+    "weight_decay": 0.03,
+    "dropout": 0.1,
+    "history_dropout": 0.2,
+    "ema": 0.99,
+    "masses": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "distillation": "unit_user_direction"
+  },
+  "training_events": 120000,
+  "max_fit_timestamp": 1737849540,
+  "parameters": 16488,
+  "seconds": 210.93950358300935,
+  "policy": "Only histories of source events before cutoff. User IDs index a source-only teacher direction for training targets; student input contains no user ID or click labels. No held-out query targets used."
+}

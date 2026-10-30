@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "epochs": 24,
+    "seed": 73,
+    "lr": 0.005,
+    "anchor": 0.05,
+    "shrinkage": 8,
+    "negatives": 8,
+    "version": 1,
+    "base_recipe": {
+      "epochs": 320,
+      "lr": 0.01,
+      "lr_decay": false,
+      "seed": 2026,
+      "reuse_experiment": "sgns8_const_e320_s2026"
+    }
+  },
+  "cutoff": "2025-01-23",
+  "observed_clicks": 743467,
+  "max_click_timestamp": 1737590340,
+  "seconds": 8.774511458002962
+}

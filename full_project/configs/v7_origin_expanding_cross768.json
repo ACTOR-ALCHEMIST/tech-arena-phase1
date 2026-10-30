@@ -1,0 +1,1 @@
+{"feature_mode":"spectral","mix":0,"origin_start":"2025-01-21","model":{"architecture":"v2_cross","seed":2027,"hidden":[768,384,192],"context_width":96,"cross_layers":3,"normalizer":"relative_range"}}

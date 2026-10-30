@@ -1,0 +1,10 @@
+# Install into .venv-generative; keep the existing competition environment.
+mlx==0.32.4
+mlx-metal==0.32.4; platform_system == "Darwin"
+mlx-lm==0.32.2
+transformers==5.20.2
+huggingface-hub==2.3.0
+safetensors==0.8.0
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.7.2

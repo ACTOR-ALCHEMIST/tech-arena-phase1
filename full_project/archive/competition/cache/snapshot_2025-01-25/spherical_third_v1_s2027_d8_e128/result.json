@@ -1,0 +1,41 @@
+{
+  "recipe": {
+    "version": 1,
+    "dimension": 8,
+    "initial_seed": 2027,
+    "initial_epochs": 450,
+    "epochs": 128,
+    "outputs": [
+      64,
+      128
+    ],
+    "seed": 93831,
+    "lr": 0.002,
+    "minimum_lr": 0.0002,
+    "weight_decay": 0.001,
+    "ema": 0.99,
+    "negatives": 8,
+    "batch_size": 8192,
+    "anchor": 0.02,
+    "schedule": "cosine128"
+  },
+  "cutoff": "2025-01-25",
+  "max_fit_timestamp": 1737763140,
+  "snapshot_metadata": {
+    "cache_id": "16bed8da53774676be5f04a48bad2595",
+    "cutoff": "2025-01-25",
+    "fit_events": 490420,
+    "unique_interactions": 784246,
+    "co_nnz": 18012357,
+    "seconds": 10.627987708998262,
+    "max_fit_timestamp": 1737763140,
+    "cutoff_timestamp": 1737763200
+  },
+  "positive_pairs": 784246,
+  "seconds": 233.7090961250069,
+  "model_sha256": {
+    "64": "674b711757b5fee86a9d5adbce8e41573396231ec9ca193626f34ad0836b36d4",
+    "128": "0639c55d0d76fac35403b6a04341d43aeb2b59a0253e66dd0d2ad06da1dff0ad"
+  },
+  "policy": "Fixed450 SGNS and fixed128 spherical epochs, independent seed2027; all fitting clicks before cutoff; query labels never accessed."
+}

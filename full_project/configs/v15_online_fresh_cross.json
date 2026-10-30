@@ -1,0 +1,9 @@
+{
+  "feature_mode": "online_fresh",
+  "mix": 0,
+  "model": {
+    "architecture": "v2_cross",
+    "seed": 73,
+    "normalizer": "relative_range"
+  }
+}

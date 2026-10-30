@@ -1,0 +1,45 @@
+{
+  "cutoff": "2025-01-25",
+  "fitting_events": 490420,
+  "max_fitting_timestamp": 1737763140,
+  "calibration_source": "competition/ood/runs/v12_map_loose/2025-01-25/model.pt",
+  "calibration_source_sha256": "2744cac3a17f6e2378c0b3cd4e6f43fbccf5e67c50b8d7add32dcafd88c237c2",
+  "protocol": "Fresh factors at the stated cutoff; calibration coefficients frozen after fitting earlier honest exposures; all refinements use labels strictly before the cutoff. Diagnostic only.",
+  "epochs": [
+    {
+      "epoch": 0,
+      "dot_auc": 0.7834287824310846,
+      "cosine_auc": 0.7861867233713246,
+      "event_model_auc": 0.8016934312333996,
+      "elapsed": 0.6915394590178039
+    },
+    {
+      "epoch": 2,
+      "dot_auc": 0.7845983748479073,
+      "cosine_auc": 0.7865999119068179,
+      "event_model_auc": 0.8020351649860742,
+      "elapsed": 6.0593988340115175
+    },
+    {
+      "epoch": 4,
+      "dot_auc": 0.7852677219211596,
+      "cosine_auc": 0.7870713724291012,
+      "event_model_auc": 0.8021183092878215,
+      "elapsed": 11.026387916994281
+    },
+    {
+      "epoch": 8,
+      "dot_auc": 0.7856414093710791,
+      "cosine_auc": 0.7874060777695825,
+      "event_model_auc": 0.801906123514338,
+      "elapsed": 20.42455766699277
+    },
+    {
+      "epoch": 16,
+      "dot_auc": 0.7856103638384748,
+      "cosine_auc": 0.7875341305970115,
+      "event_model_auc": 0.8013743005829921,
+      "elapsed": 38.90691512500052
+    }
+  ]
+}

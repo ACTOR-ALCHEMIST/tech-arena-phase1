@@ -1,0 +1,37 @@
+[
+  {
+    "path": "competition/history_rerank/inputs/2025-01-26/features.npy",
+    "bytes": 342947008,
+    "sha256": "859a5002ab615d4f7c2d859e20c5cee387bde3de0a5d53dc256c209d1dd68ad7",
+    "timestamp": 1792951714.106545,
+    "reason": "Completed history/event-mass probes. Rebuildable feature matrix; source checkpoints, geometry, scores, labels, indices, protocols and frozen releases preserved. No active V31 fit consumes these matrices."
+  },
+  {
+    "path": "competition/history_rerank/inputs/2025-01-25/features.npy",
+    "bytes": 429088768,
+    "sha256": "ddfebc811b6588f9ef0a3183474c4a748ec288123c55154ebf4e6e1bac7b012f",
+    "timestamp": 1792951714.431575,
+    "reason": "Completed history/event-mass probes. Rebuildable feature matrix; source checkpoints, geometry, scores, labels, indices, protocols and frozen releases preserved. No active V31 fit consumes these matrices."
+  },
+  {
+    "path": "competition/history_rerank/inputs/2025-01-22/features.npy",
+    "bytes": 502523008,
+    "sha256": "c2ba1df35ec463fead46a359fecf11c4ae12c88ac0c8b6241e176bee87e837c5",
+    "timestamp": 1792951714.882025,
+    "reason": "Completed history/event-mass probes. Rebuildable feature matrix; source checkpoints, geometry, scores, labels, indices, protocols and frozen releases preserved. No active V31 fit consumes these matrices."
+  },
+  {
+    "path": "competition/history_rerank/inputs/2025-01-23/features.npy",
+    "bytes": 489512928,
+    "sha256": "2f9338057f43c3567bba6d4c2366e7049b868852858a5118379e762269718926",
+    "timestamp": 1792951715.307691,
+    "reason": "Completed history/event-mass probes. Rebuildable feature matrix; source checkpoints, geometry, scores, labels, indices, protocols and frozen releases preserved. No active V31 fit consumes these matrices."
+  },
+  {
+    "path": "competition/history_rerank/inputs/2025-01-24/features.npy",
+    "bytes": 467777408,
+    "sha256": "035af0e7f33edcc145be998a3b1aedaf27d8ae78df7e7a82ab2e79d59ebb01bf",
+    "timestamp": 1792951715.7605891,
+    "reason": "Completed history/event-mass probes. Rebuildable feature matrix; source checkpoints, geometry, scores, labels, indices, protocols and frozen releases preserved. No active V31 fit consumes these matrices."
+  }
+]

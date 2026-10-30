@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows": 529390,
+  "raw_replay_max_abs_error": 0.0,
+  "correction_replay_max_abs_error": 0.0,
+  "csv_max_abs_error": 4.9999837603564856e-11,
+  "previous_best_preserved": true,
+  "protocol": "Independent process, frozen NumPy source and two past-only vector tables, original evaluation inputs and immutable incumbent probabilities. Every original CSV row checked."
+}

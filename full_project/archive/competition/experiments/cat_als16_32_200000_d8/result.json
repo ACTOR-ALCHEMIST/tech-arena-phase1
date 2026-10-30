@@ -1,0 +1,68 @@
+{
+  "name": "cat_als16_32_200000_d8",
+  "cutoff": "2025-01-26",
+  "method": "catboost_numeric",
+  "auc": 0.7728905800045431,
+  "logloss": 0.20609549714074005,
+  "average_precision": 0.22069564714041162,
+  "accuracy_at_0_5": 0.9369286811998406,
+  "rows": 351380,
+  "config": {
+    "name": "cat_als16_32_200000_d8",
+    "method": "catboost",
+    "max_events": 200000,
+    "depth": 8,
+    "l2": 20,
+    "iterations": 1200,
+    "lr": 0.05,
+    "latent_factors": [
+      16,
+      32
+    ]
+  },
+  "tree_count": 834,
+  "seconds": 176.1334941249952,
+  "feature_dataset": "competition/cache/features_2025-01-22_2025-01-26_200000_42_als16_32",
+  "feature_importance_top10": [
+    [
+      "als16_cos_relative",
+      13.407074655060077
+    ],
+    [
+      "als16_history_cos_mean",
+      8.477570855338383
+    ],
+    [
+      "als16_history_cos_recent",
+      7.516768228287954
+    ],
+    [
+      "als16_fold_dot",
+      6.978365332804775
+    ],
+    [
+      "als16_fold_cos",
+      6.2794990405724995
+    ],
+    [
+      "als16_known_cos",
+      4.431220398795058
+    ],
+    [
+      "als16_fold_cos_relative",
+      4.085978237289813
+    ],
+    [
+      "user_bias",
+      3.5151800199606433
+    ],
+    [
+      "als32_known_cos",
+      2.3337719566554957
+    ],
+    [
+      "als32_known_dot",
+      2.165763049170704
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "evaluation": {
+    "events": 52939,
+    "history_mean": 13.381231228394945
+  },
+  "validation": {
+    "2025-01-24": {
+      "events": 47928,
+      "history_mean": 13.203805708562845,
+      "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+      "source_counts": [
+        325.0,
+        227.0,
+        1640.0,
+        4255.0,
+        753.0,
+        9194.0,
+        137.0,
+        13616.0,
+        5.0,
+        17776.0
+      ],
+      "evaluation_counts": [
+        294.0,
+        371.0,
+        927.0,
+        5535.0,
+        214.0,
+        10422.0,
+        18.0,
+        14402.0,
+        0.0,
+        20756.0
+      ],
+      "weight_min": 0.24989987002098388,
+      "weight_max": 1.479066317955902,
+      "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+    },
+    "2025-01-25": {
+      "events": 43964,
+      "history_mean": 14.042648530615958,
+      "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+      "source_counts": [
+        190.0,
+        171.0,
+        884.0,
+        3436.0,
+        347.0,
+        7773.0,
+        46.0,
+        12548.0,
+        1.0,
+        18568.0
+      ],
+      "evaluation_counts": [
+        294.0,
+        371.0,
+        927.0,
+        5535.0,
+        214.0,
+        10422.0,
+        18.0,
+        14402.0,
+        0.0,
+        20756.0
+      ],
+      "weight_min": 0.24999857839039677,
+      "weight_max": 1.8017593956508275,
+      "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+    },
+    "2025-01-26": {
+      "events": 35138,
+      "history_mean": 15.294296772724685,
+      "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+      "source_counts": [
+        92.0,
+        106.0,
+        369.0,
+        1988.0,
+        121.0,
+        4968.0,
+        13.0,
+        9520.0,
+        0.0,
+        17961.0
+      ],
+      "evaluation_counts": [
+        294.0,
+        371.0,
+        927.0,
+        5535.0,
+        214.0,
+        10422.0,
+        18.0,
+        14402.0,
+        0.0,
+        20756.0
+      ],
+      "weight_min": 0.7670337158674112,
+      "weight_max": 2.3231077277621415,
+      "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+    }
+  }
+}

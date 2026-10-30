@@ -1,0 +1,17 @@
+{
+  "name": "cf_26_fp64_audit",
+  "method": "sparse_item_cf_fp64",
+  "cutoff": "2025-01-26",
+  "auc": 0.615703591147011,
+  "logloss": 0.8747516247657262,
+  "average_precision": 0.13217802943358478,
+  "accuracy_at_0_5": 0.907948659570835,
+  "rows": 351380,
+  "config": {
+    "smoothing": 50,
+    "cf_weight": 25,
+    "precision": "FP64, Python math.exp sigmoid, supplied starter formula"
+  },
+  "seconds": 1.5965058750007302,
+  "saturated_probability_rows": 6362
+}

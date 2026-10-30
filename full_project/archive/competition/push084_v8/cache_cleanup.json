@@ -1,0 +1,56 @@
+{
+  "time": 1792885076.926216,
+  "policy": "Completed reproducible feature matrices only; checkpoints and frozen submissions retained",
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_frozen_graph16/valid.npy",
+      "bytes": 40447008,
+      "sha256": "4f0af70dafdadc0f7b90f566e25bca1b2e9a3d534d1616180e58d60437f2bea6"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_frozen_graph16/train.npy",
+      "bytes": 165600128,
+      "sha256": "e431e6485fcefb7403976b0237f4cca245c0b3b20f91da350dec8f8519b2f5ae"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_frozen_graph16/valid.npy",
+      "bytes": 32327088,
+      "sha256": "e3c67f72bab271d8dbf7c8c374e9f7e3567d11c078d869125a869d53035c464c"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_frozen_graph16/train.npy",
+      "bytes": 165600128,
+      "sha256": "4daadb4fa8a5a52d48959e415726b20a49959fb2e085cfa25ed812196e939ebc"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_coclick/valid.npy",
+      "bytes": 42176768,
+      "sha256": "9e8be6d99302c53798e9a150ba1d9d30f3a6173b87cf50510fdf1f1e3b4bd2ed"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_coclick/train.npy",
+      "bytes": 158400128,
+      "sha256": "d58ffd3182116141a5180778e15b300a3b05309e14f95b99f8a471ce0db58e62"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_coclick/valid.npy",
+      "bytes": 30921568,
+      "sha256": "fb60ab1db73d63696bbddccca646b712360242384efd60a84e2356bb66e5d4ee"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_coclick/train.npy",
+      "bytes": 158400128,
+      "sha256": "8bd553959577754d8fb6ef78816b1382051c3225a655878159dce9c22fa82b25"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_coclick/valid.npy",
+      "bytes": 38688448,
+      "sha256": "08ea6f42ab24dd7338675f76c6c5d17fd6d5a8d8d6cff02ace4b5bd92816aecc"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_coclick/train.npy",
+      "bytes": 158400128,
+      "sha256": "e0882c5291226cf6c738f9c21511b0cc9a1f522a18b9e50baae2b53b3414c72f"
+    }
+  ]
+}

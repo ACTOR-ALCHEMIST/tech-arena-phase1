@@ -1,0 +1,40 @@
+{
+  "cutoff": "2025-01-25",
+  "recipe": {
+    "version": 1,
+    "dimension": 8,
+    "epochs": 128,
+    "outputs": [
+      32,
+      64,
+      128
+    ],
+    "seed": 82719,
+    "lr": 0.002,
+    "minimum_lr": 0.0002,
+    "weight_decay": 0.001,
+    "ema": 0.99,
+    "negatives": 8,
+    "batch_size": 8192,
+    "anchor": 0.02,
+    "initial_temperature": 6.0,
+    "device": "cpu",
+    "schedule": "cosine128"
+  },
+  "records": [
+    {
+      "epoch": 32,
+      "cosine_auc": 0.79074502073358
+    },
+    {
+      "epoch": 64,
+      "cosine_auc": 0.7917606814018338
+    },
+    {
+      "epoch": 128,
+      "cosine_auc": 0.7924709789357973
+    }
+  ],
+  "source": "competition/cache/snapshot_2025-01-25/spherical_long_v1_d8_e128",
+  "policy": "Diagnostic only; all three checkpoints fixed before query metrics, no CSV change."
+}

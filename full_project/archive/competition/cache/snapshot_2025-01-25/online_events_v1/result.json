@@ -1,0 +1,12 @@
+{
+  "fitting_events": 490420,
+  "max_fitting_timestamp": 1737763140,
+  "fitting_indices_sha256": "0b594d8d2aa3325fe0d3e7aa57a719f990343469c018623f2f0bf2025ab5a705",
+  "cap": 1737763200,
+  "cutoff": "2025-01-25",
+  "version": 1,
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "index_sha256": "41e5af4bf2804cd8e581652436be3a1e14e1d3eeb55b2a3a9651315adcb5cf2c",
+  "seconds": 6.947205250005936,
+  "policy": "Only fitting labels strictly before cap; queries exclude simultaneous/current/future timestamps."
+}

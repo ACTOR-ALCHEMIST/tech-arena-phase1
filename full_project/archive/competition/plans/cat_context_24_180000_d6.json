@@ -1,0 +1,15 @@
+{
+  "name": "cat_context_24_180000_d6",
+  "method": "catboost",
+  "max_events": 180000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 1200,
+  "lr": 0.05,
+  "latent_factors": [
+    16,
+    32
+  ],
+  "train_start": "2025-01-24",
+  "context_features": true
+}

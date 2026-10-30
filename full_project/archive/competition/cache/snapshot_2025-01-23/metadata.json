@@ -1,0 +1,10 @@
+{
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "cutoff": "2025-01-23",
+  "fit_events": 295114,
+  "unique_interactions": 663037,
+  "co_nnz": 12580864,
+  "seconds": 8.496154958003899,
+  "max_fit_timestamp": 1737590340,
+  "cutoff_timestamp": 1737590400
+}

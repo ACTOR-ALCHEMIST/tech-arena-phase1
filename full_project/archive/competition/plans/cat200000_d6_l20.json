@@ -1,0 +1,9 @@
+{
+  "name": "cat200000_d6_l20",
+  "method": "catboost",
+  "max_events": 200000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 1000,
+  "lr": 0.05
+}

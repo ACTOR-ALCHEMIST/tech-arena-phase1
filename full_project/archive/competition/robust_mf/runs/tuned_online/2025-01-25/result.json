@@ -1,0 +1,33 @@
+{
+  "name": "tuned_online",
+  "cutoff": "2025-01-25",
+  "method": "robust_multiview_mf",
+  "config": {
+    "epochs": 12,
+    "patience": 3,
+    "seed": 31415,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "ema": 0.995,
+    "fine_tune": true,
+    "whiten_view": true,
+    "embedding_lr": 5e-05,
+    "anchor": 0.1,
+    "history_event_probability": 0.2,
+    "history_delete_probability": 0.15,
+    "user_dropout": 0.05
+  },
+  "training_events": 490420,
+  "best_epoch": 1,
+  "train_loss": 0.8994030411585398,
+  "auc": 0.7727936921328786,
+  "logloss": 0.21899313751787644,
+  "average_precision": 0.2125705832101466,
+  "accuracy_at_0_5": 0.9326994813938677,
+  "rows": 439640,
+  "weighted_auc": 0.7694073348998789,
+  "parameters": 4339709,
+  "trainable_parameters": 4339709,
+  "seconds": 25.80206237497623,
+  "incumbent_unchanged": true
+}

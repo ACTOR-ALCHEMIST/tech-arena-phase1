@@ -1,0 +1,102 @@
+{
+  "name": "r3_qwen25_history192",
+  "cutoff": "2025-01-26",
+  "config": {
+    "width": 192,
+    "heads": 6,
+    "history_layers": 3,
+    "slate_layers": 2,
+    "hidden": [
+      768,
+      384,
+      192
+    ],
+    "context_width": 96,
+    "foundation_dims": 32,
+    "foundation": "Qwen2.5-1.5B",
+    "foundation_layers": 6,
+    "unfreeze_base": true,
+    "name": "r3_qwen25_history192",
+    "seed": 2026,
+    "dropout": 0.1,
+    "epochs": 12,
+    "lr": 0.0004,
+    "batch_events": 256,
+    "patience": 3,
+    "base_config": {
+      "method": "tabular",
+      "source_experiment": "cat_sgns8_s2026_context24_d6",
+      "loss": "event_ce",
+      "epochs": 40,
+      "lr": 0.0007,
+      "dropout": 0.1,
+      "weight_decay": 0.01,
+      "ema": 0.99,
+      "seed": 2026,
+      "constant_policy": "zero",
+      "patience": 6,
+      "hidden": [
+        256,
+        128,
+        64
+      ],
+      "name": "v2_multiview_wide256_s2026",
+      "architecture": "v2_wide",
+      "multi_view": [
+        {
+          "factors": 8,
+          "recipe": {
+            "epochs": 450,
+            "lr": 0.01,
+            "lr_decay": false,
+            "seed": 42,
+            "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+          }
+        }
+      ],
+      "context_width": 32
+    }
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6384253470950656,
+      "seconds": 92.38747883401811,
+      "auc": 0.8292295397644054,
+      "logloss": 0.1886370772947016,
+      "average_precision": 0.2891377692397799,
+      "accuracy_at_0_5": 0.9375974728214469,
+      "rows": 351380
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.638010790040758,
+      "seconds": 87.57161387501401,
+      "auc": 0.8290579981399162,
+      "logloss": 0.188749792026372,
+      "average_precision": 0.28886909741828926,
+      "accuracy_at_0_5": 0.9374466389663612,
+      "rows": 351380
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6377842807557847,
+      "seconds": 87.82781254200381,
+      "auc": 0.829134135696709,
+      "logloss": 0.18875711362373407,
+      "average_precision": 0.28894778953060984,
+      "accuracy_at_0_5": 0.9376515453355342,
+      "rows": 351380
+    }
+  ],
+  "best_epoch": 0,
+  "auc": 0.8292456684702024,
+  "train_events": 180000,
+  "trainable_parameters": 3290692,
+  "total_head_parameters": 3290692,
+  "seconds": 284.80106595897814,
+  "native_reload_max_error": 0.0,
+  "incumbent_unchanged": true,
+  "model_sha256": "74fdcf7d40489b25c1fb7b6b8b2c1747db2aa8d1040890b60a1b6d3b26000cb0",
+  "data": "competition/v3/data/2025-01-26"
+}

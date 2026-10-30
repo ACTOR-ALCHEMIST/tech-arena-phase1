@@ -1,0 +1,169 @@
+{
+  "cutoff": "2025-01-27",
+  "config": {
+    "profiles": 3,
+    "ridge": 0.001
+  },
+  "geometry_mode": "aligned_oof",
+  "training_clicked_events": 123524,
+  "max_training_target_timestamp": 1737935940,
+  "before_choice_ce": 1.6070518493652344,
+  "after_choice_ce": 1.6056870222091675,
+  "objective_evaluations": 38,
+  "seconds": 0.697709957981715,
+  "records": [
+    {
+      "objective": 1.6070518493652344,
+      "choice_ce": 1.6070518493652344
+    },
+    {
+      "objective": 1.6070328950881958,
+      "choice_ce": 1.6070328950881958
+    },
+    {
+      "objective": 1.6068954467773438,
+      "choice_ce": 1.6068947315216064
+    },
+    {
+      "objective": 1.6062343120574951,
+      "choice_ce": 1.6061698198318481
+    },
+    {
+      "objective": 1.6061201095581055,
+      "choice_ce": 1.6060148477554321
+    },
+    {
+      "objective": 1.6059739589691162,
+      "choice_ce": 1.6057246923446655
+    },
+    {
+      "objective": 1.605978012084961,
+      "choice_ce": 1.605708360671997
+    },
+    {
+      "objective": 1.605968713760376,
+      "choice_ce": 1.6057114601135254
+    },
+    {
+      "objective": 1.605966329574585,
+      "choice_ce": 1.6057049036026
+    },
+    {
+      "objective": 1.6059623956680298,
+      "choice_ce": 1.6056921482086182
+    },
+    {
+      "objective": 1.6059614419937134,
+      "choice_ce": 1.6056870222091675
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056863069534302
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059614419937134,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.605961561203003,
+      "choice_ce": 1.6056866645812988
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059614419937134,
+      "choice_ce": 1.6056866645812988
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056865453720093
+    },
+    {
+      "objective": 1.6059613227844238,
+      "choice_ce": 1.6056870222091675
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; each geometry frame also strictly precedes its own fitting target. No held-out labels in optimizer."
+}

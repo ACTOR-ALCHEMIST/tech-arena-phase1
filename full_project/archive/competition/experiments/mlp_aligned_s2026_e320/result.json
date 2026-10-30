@@ -1,0 +1,166 @@
+{
+  "name": "mlp_aligned_s2026_e320",
+  "cutoff": "2025-01-26",
+  "method": "tabular_mlp_mps",
+  "train_loss": 1.6505709068086412,
+  "auc": 0.826631301152265,
+  "logloss": 0.18943952591893187,
+  "average_precision": 0.28448495595444856,
+  "accuracy_at_0_5": 0.9374978655586544,
+  "rows": 351380,
+  "best_epoch": 5,
+  "config": {
+    "name": "mlp_aligned_s2026_e320",
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6",
+    "loss": "event_ce",
+    "epochs": 40,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "aligned_coordinates": true
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.698773935339186,
+      "auc": 0.824911426696849,
+      "logloss": 0.19255787980775055,
+      "average_precision": 0.2788820402525866,
+      "accuracy_at_0_5": 0.936738004439638,
+      "rows": 351380,
+      "seconds": 3.8369798329949845
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6579231234444511,
+      "auc": 0.8263544097750904,
+      "logloss": 0.1894858102044719,
+      "average_precision": 0.28287036905010676,
+      "accuracy_at_0_5": 0.937233194831806,
+      "rows": 351380,
+      "seconds": 2.7883690829912666
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6548958605236477,
+      "auc": 0.8265769561527492,
+      "logloss": 0.18937567599805738,
+      "average_precision": 0.28376338175434934,
+      "accuracy_at_0_5": 0.9374437930445672,
+      "rows": 351380,
+      "seconds": 2.7599307500058785
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6521421923531425,
+      "auc": 0.826631228690992,
+      "logloss": 0.1894095683418175,
+      "average_precision": 0.28428034834430216,
+      "accuracy_at_0_5": 0.9374807900278901,
+      "rows": 351380,
+      "seconds": 2.7611386659991695
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6505709068086412,
+      "auc": 0.826631301152265,
+      "logloss": 0.18943952591893187,
+      "average_precision": 0.28448495595444856,
+      "accuracy_at_0_5": 0.9374978655586544,
+      "rows": 351380,
+      "seconds": 2.7819579579954734
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.6489202044804891,
+      "auc": 0.8265667608789307,
+      "logloss": 0.18948246228117524,
+      "average_precision": 0.2844688514840242,
+      "accuracy_at_0_5": 0.9375320166201833,
+      "rows": 351380,
+      "seconds": 2.778922416997375
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.6475689329147338,
+      "auc": 0.8264185131656273,
+      "logloss": 0.18953249022540125,
+      "average_precision": 0.284486407392662,
+      "accuracy_at_0_5": 0.9375092492458307,
+      "rows": 351380,
+      "seconds": 2.8090154170058668
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6462635389751858,
+      "auc": 0.826393656970291,
+      "logloss": 0.18958388037398063,
+      "average_precision": 0.284482193667557,
+      "accuracy_at_0_5": 0.9375291706983893,
+      "rows": 351380,
+      "seconds": 2.7838152079930296
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.6455509235170152,
+      "auc": 0.8262016591599872,
+      "logloss": 0.1896272705775938,
+      "average_precision": 0.2843220684361692,
+      "accuracy_at_0_5": 0.9374921737150663,
+      "rows": 351380,
+      "seconds": 2.7504959579964634
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.644155315483941,
+      "auc": 0.8261125681612969,
+      "logloss": 0.18962283078868633,
+      "average_precision": 0.28421375211023175,
+      "accuracy_at_0_5": 0.9375064033240367,
+      "rows": 351380,
+      "seconds": 2.789475333993323
+    }
+  ],
+  "feature_dataset": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd_align0e0ec07a",
+  "source_experiment": "cat_sgns8_s2026_context24_d6",
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "alignment": {
+      "factors": 8
+    }
+  },
+  "seconds": 40.47920783299196
+}

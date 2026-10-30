@@ -1,0 +1,39 @@
+{
+  "cutoff": "2025-01-25",
+  "epochs": 32,
+  "seed": 82719,
+  "records": [
+    {
+      "epoch": 0,
+      "cosine_auc": 0.7861867219762275,
+      "temperature": 6.0
+    },
+    {
+      "epoch": 8,
+      "cosine_auc": 0.7888283824854563,
+      "temperature": 6.000424861907959
+    },
+    {
+      "epoch": 16,
+      "cosine_auc": 0.7897150914477555,
+      "temperature": 6.141201972961426
+    },
+    {
+      "epoch": 32,
+      "cosine_auc": 0.7903923770596972,
+      "temperature": 6.250742435455322
+    }
+  ],
+  "seconds": 63.77483766700607,
+  "source": "Past-only binary click matrix; validation labels used for diagnostics only.",
+  "snapshot_metadata": {
+    "cache_id": "16bed8da53774676be5f04a48bad2595",
+    "cutoff": "2025-01-25",
+    "fit_events": 490420,
+    "unique_interactions": 784246,
+    "co_nnz": 18012357,
+    "seconds": 10.627987708998262,
+    "max_fit_timestamp": 1737763140,
+    "cutoff_timestamp": 1737763200
+  }
+}

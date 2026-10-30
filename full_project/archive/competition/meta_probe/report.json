@@ -1,0 +1,115 @@
+{
+  "reference": {
+    "csv": "competition/final_v9/submission.csv",
+    "sha256": "0221bbc9e8112e21900f7fa2fb388a2b54a07a22c0ed66ced4b69cdc575da1b4",
+    "manifest": "competition/final_v9/manifest.json",
+    "acceptance": "competition/final_v9/acceptance.json",
+    "validation_26": {
+      "auc": 0.831399145520075
+    },
+    "validation_25": {
+      "auc": 0.8214702271326846
+    },
+    "previous_best_csv": "competition/final_v8/submission.csv",
+    "validation_24": {
+      "auc": 0.8080185447770369
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "fitting_date": "2025-01-24",
+  "fitting_events": 35040,
+  "calibration_holdout_events": 7008,
+  "sources": [
+    "coclick_cross",
+    "coclick_wide",
+    "exposure_cross",
+    "exposure_wide",
+    "daily_coclick_wide",
+    "spectral_wide",
+    "spectral64_wide",
+    "spectral_multi_wide",
+    "normalized_spectral_wide",
+    "origin_spectral_wide",
+    "v8_pair_origin_expanding",
+    "v9_attention_tuned"
+  ],
+  "feature_names": [
+    "baseline_logit",
+    "event_mass_logit",
+    "conditional_log_probability",
+    "event_max",
+    "event_std",
+    "event_entropy",
+    "hour_sin",
+    "hour_cos",
+    "weekend",
+    "history_length",
+    "last_gap",
+    "history_span",
+    "repeat_any",
+    "repeat_count_log",
+    "repeat72",
+    "user_support",
+    "item_support",
+    "item_positive_support",
+    "coclick_cross_delta",
+    "coclick_wide_delta",
+    "exposure_cross_delta",
+    "exposure_wide_delta",
+    "daily_coclick_wide_delta",
+    "spectral_wide_delta",
+    "spectral64_wide_delta",
+    "spectral_multi_wide_delta",
+    "normalized_spectral_wide_delta",
+    "origin_spectral_wide_delta",
+    "v8_pair_origin_expanding_delta",
+    "v9_attention_tuned_delta"
+  ],
+  "candidates": [
+    {
+      "leaves": 7,
+      "fixed_iterations": 129,
+      "internal_base_auc": 0.8130994584835814,
+      "internal_auc": 0.8132649689986235,
+      "25": {
+        "old_auc": 0.8214702271326846,
+        "auc": 0.8216429289977277,
+        "delta": 0.00017270186504314555,
+        "weighted_auc": 0.8185875658060932,
+        "old_weighted_auc": 0.8183986410718317
+      },
+      "26": {
+        "old_auc": 0.831399145520075,
+        "auc": 0.8313686890645079,
+        "delta": -3.0456455567096086e-05,
+        "weighted_auc": 0.8231274244262391,
+        "old_weighted_auc": 0.8232003771284818
+      },
+      "seconds": 29.5142479170172
+    },
+    {
+      "leaves": 15,
+      "fixed_iterations": 53,
+      "internal_base_auc": 0.8130994584835814,
+      "internal_auc": 0.8132101233028307,
+      "25": {
+        "old_auc": 0.8214702271326846,
+        "auc": 0.8216049895054172,
+        "delta": 0.00013476237273257752,
+        "weighted_auc": 0.818544829019066,
+        "old_weighted_auc": 0.8183986410718317
+      },
+      "26": {
+        "old_auc": 0.831399145520075,
+        "auc": 0.831401252696623,
+        "delta": 2.1071765480273896e-06,
+        "weighted_auc": 0.8231777138470473,
+        "old_weighted_auc": 0.8232003771284818
+      },
+      "seconds": 18.735393540991936
+    }
+  ],
+  "promotion_ready": false,
+  "reason": "Jan24 labels fit the calibrator. A proper earlier calibration fold is required for a fresh Jan24 audit.",
+  "decision": "Rejected for promotion: Jan26 gains are absent or tiny and cohort-weighted Jan26 AUC falls in both probes; no untouched Jan24 audit. No submission or incumbent was changed."
+}

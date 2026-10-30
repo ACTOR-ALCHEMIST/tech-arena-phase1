@@ -1,0 +1,11 @@
+{
+  "cutoff": "2025-01-25",
+  "events": 271319,
+  "max_label_timestamp": 1737763140,
+  "epochs": 40,
+  "warmup": 8,
+  "anchor": 0.5,
+  "historical_nce": 0.3,
+  "seed": 4187,
+  "rule": "Only clicked events whose target is absent from their visible history; all repeat candidate slots excluded."
+}

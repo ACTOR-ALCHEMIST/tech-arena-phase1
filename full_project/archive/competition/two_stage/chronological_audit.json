@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "datasets": [
+    {
+      "folder": "competition/two_stage/inputs/oof_2025-01-22",
+      "events": 98097,
+      "max_model_fit_timestamp": 1737503940,
+      "min_query_timestamp": 1737504000,
+      "passed": true
+    },
+    {
+      "folder": "competition/two_stage/inputs/oof_2025-01-23",
+      "events": 97717,
+      "max_model_fit_timestamp": 1737590340,
+      "min_query_timestamp": 1737590400,
+      "passed": true
+    },
+    {
+      "folder": "competition/two_stage/inputs/oof_2025-01-24",
+      "events": 97589,
+      "max_model_fit_timestamp": 1737676740,
+      "min_query_timestamp": 1737676800,
+      "passed": true
+    },
+    {
+      "folder": "competition/two_stage/inputs/oof_2025-01-25",
+      "events": 98453,
+      "max_model_fit_timestamp": 1737763140,
+      "min_query_timestamp": 1737763200,
+      "passed": true
+    },
+    {
+      "folder": "competition/two_stage/inputs/valid_2025-01-24",
+      "events": 47928,
+      "max_model_fit_timestamp": 1737676740,
+      "min_query_timestamp": 1737676800,
+      "passed": true
+    },
+    {
+      "folder": "competition/two_stage/inputs/valid_2025-01-25",
+      "events": 43964,
+      "max_model_fit_timestamp": 1737763140,
+      "min_query_timestamp": 1737763200,
+      "passed": true
+    },
+    {
+      "folder": "competition/two_stage/inputs/valid_2025-01-26",
+      "events": 35138,
+      "max_model_fit_timestamp": 1737849540,
+      "min_query_timestamp": 1737849600,
+      "passed": true
+    }
+  ],
+  "policy": "Actual first-stage training indices inspected, not inferred from model names."
+}

@@ -1,0 +1,87 @@
+{
+  "name": "cat_sgns8e640_context24_d6",
+  "cutoff": "2025-01-26",
+  "method": "catboost_numeric",
+  "auc": 0.8250584124786606,
+  "logloss": 0.19011239696604784,
+  "average_precision": 0.27914935921509276,
+  "accuracy_at_0_5": 0.937358415390745,
+  "rows": 351380,
+  "config": {
+    "name": "cat_sgns8e640_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 450,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 450,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 42,
+        "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+      }
+    }
+  },
+  "tree_count": 1377,
+  "seconds": 559.4351503749931,
+  "feature_dataset": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297",
+  "feature_importance_top10": [
+    [
+      "sgns8_s42_hist_cos_mean",
+      15.116763374591212
+    ],
+    [
+      "sgns8_s42_cos_relative",
+      12.712531424403453
+    ],
+    [
+      "sgns8_s42_dot_relative",
+      12.149986835799437
+    ],
+    [
+      "sgns8_s42_cos",
+      8.059959720538226
+    ],
+    [
+      "sgns8_s42_dot",
+      6.682420745248031
+    ],
+    [
+      "sgns8_s42_hist_cos_recent",
+      4.595610829653844
+    ],
+    [
+      "user_bias",
+      3.0869300053150925
+    ],
+    [
+      "als16_fold_cos_relative",
+      2.669219343434997
+    ],
+    [
+      "sgns8_s42_hist_same_bucket_cos",
+      2.069495170006349
+    ],
+    [
+      "sgns16_s42_dot_relative",
+      2.020245994070509
+    ]
+  ]
+}

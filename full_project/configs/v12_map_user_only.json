@@ -1,0 +1,8 @@
+{
+  "bayes_mf": {
+    "anchor_scale": 1.0,
+    "fine_items": false,
+    "lr": 0.002,
+    "seed": 7153
+  }
+}

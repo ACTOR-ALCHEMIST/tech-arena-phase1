@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8212439800879427,
+  "new_auc": 0.8214674686768664,
+  "delta": 0.000223488588923626,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      0.00012254849286439385,
+      0.00033357244261860157
+    ],
+    "positive_fraction": 1.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8236214956746244,
+      "new_auc": 0.8238201865404031,
+      "delta": 0.00019869086577872785
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7385153959706426,
+      "new_auc": 0.739371990495575,
+      "delta": 0.0008565945249323637
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5693454430900169,
+      "new_auc": 0.5705930826307575,
+      "delta": 0.001247639540740586
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.745970822754121,
+      "new_auc": 0.7463293172954606,
+      "delta": 0.00035849454133962677
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8143184141783812,
+      "new_auc": 0.8146167441091987,
+      "delta": 0.00029832993081746473
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8431754136737599,
+      "new_auc": 0.8432917345866605,
+      "delta": 0.00011632091290059154
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8247954832876805,
+      "new_auc": 0.8250308347948099,
+      "delta": 0.0002353515071293888
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8063882506629012,
+      "new_auc": 0.8065266550737963,
+      "delta": 0.0001384044108950766
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8212439800879427,
+      "new_auc": 0.8214674686768664,
+      "delta": 0.000223488588923626
+    }
+  },
+  "selection_sha256": "9ff0b2ee3c4a375e2311a23513832f1c6cdb4451a7f9bfb9de4dc1b145763ac8"
+}

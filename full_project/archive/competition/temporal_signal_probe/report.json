@@ -1,0 +1,154 @@
+{
+  "cutoff": "2025-01-26",
+  "max_click_timestamp": 1737849540,
+  "unique_past_clicks": 946227,
+  "nonrepeat_pairs": 5719573,
+  "features": [
+    "intercept",
+    "log_age",
+    "decay6",
+    "decay24",
+    "decay168",
+    "cos_24h",
+    "same_bucket4",
+    "same_day_type"
+  ],
+  "weighted_OLS": {
+    "cosine": [
+      0.30735774631212,
+      -0.004294973416063241,
+      -0.006283828866802306,
+      -0.008369667701561804,
+      -0.012061649229840292,
+      -9.779990554221886e-05,
+      -0.0001395872182684317,
+      0.000493427448073568
+    ],
+    "residual_dot": [
+      -0.045099946097802025,
+      -0.006665655019443683,
+      0.004987677170410198,
+      -0.042915120522833514,
+      0.0659088042922268,
+      -3.987933364789583e-05,
+      -0.00023763224485689406,
+      0.00043096655755467845
+    ],
+    "condition_number": 783845.0001753999
+  },
+  "age_bin_means": {
+    "0.0-6.0h_same0": {
+      "pairs": 241512,
+      "weight": 6651.455921461712,
+      "dot_sum": 1858.0332561901187,
+      "residual_sum": -151.19302695305538,
+      "mean_cosine": 0.279342339200498,
+      "mean_residual_dot": -0.022730816942680643
+    },
+    "0.0-6.0h_same1": {
+      "pairs": 312002,
+      "weight": 8477.988618014819,
+      "dot_sum": 2365.133354657648,
+      "residual_sum": -198.85124997652537,
+      "mean_cosine": 0.27897340527586845,
+      "mean_residual_dot": -0.023455003177757013
+    },
+    "6.0-12.0h_same0": {
+      "pairs": 432517,
+      "weight": 12473.657886849764,
+      "dot_sum": 3491.9347244401465,
+      "residual_sum": -297.9456410388784,
+      "mean_cosine": 0.27994472480454075,
+      "mean_residual_dot": -0.023885987874734387
+    },
+    "6.0-12.0h_same1": {
+      "pairs": 0,
+      "weight": 0.0,
+      "dot_sum": 0.0,
+      "residual_sum": 0.0,
+      "mean_cosine": 0.0,
+      "mean_residual_dot": 0.0
+    },
+    "12.0-24.0h_same0": {
+      "pairs": 583391,
+      "weight": 17912.962962937418,
+      "dot_sum": 5010.414151521635,
+      "residual_sum": -442.93318431385575,
+      "mean_cosine": 0.27970884336044055,
+      "mean_residual_dot": -0.024726963664822
+    },
+    "12.0-24.0h_same1": {
+      "pairs": 226933,
+      "weight": 7282.269185462536,
+      "dot_sum": 2031.08279947807,
+      "residual_sum": -183.53905455866825,
+      "mean_cosine": 0.2789079540663897,
+      "mean_residual_dot": -0.0252035526131146
+    },
+    "24.0-48.0h_same0": {
+      "pairs": 826112,
+      "weight": 29559.32474756234,
+      "dot_sum": 8286.151763164504,
+      "residual_sum": -814.6795328751963,
+      "mean_cosine": 0.28032276900533176,
+      "mean_residual_dot": -0.02756083029069804
+    },
+    "24.0-48.0h_same1": {
+      "pairs": 359948,
+      "weight": 12727.188277917388,
+      "dot_sum": 3574.0384365261602,
+      "residual_sum": -341.2814104645326,
+      "mean_cosine": 0.2808191690483106,
+      "mean_residual_dot": -0.026815145891782008
+    },
+    "48.0-96.0h_same0": {
+      "pairs": 944274,
+      "weight": 40663.53568718078,
+      "dot_sum": 11422.418272989133,
+      "residual_sum": -1361.9045333196912,
+      "mean_cosine": 0.2809007647751118,
+      "mean_residual_dot": -0.03349203433259329
+    },
+    "48.0-96.0h_same1": {
+      "pairs": 410321,
+      "weight": 17550.367555540095,
+      "dot_sum": 4910.724517286009,
+      "residual_sum": -594.1621921854022,
+      "mean_cosine": 0.279807502705882,
+      "mean_residual_dot": -0.033854686536057416
+    },
+    "96.0-168.0h_same0": {
+      "pairs": 608262,
+      "weight": 33436.99544835641,
+      "dot_sum": 9409.127749761194,
+      "residual_sum": -1444.503072306896,
+      "mean_cosine": 0.2813987208956509,
+      "mean_residual_dot": -0.04320074375515999
+    },
+    "96.0-168.0h_same1": {
+      "pairs": 263007,
+      "weight": 14422.525137243792,
+      "dot_sum": 4058.50154396756,
+      "residual_sum": -617.3303830234312,
+      "mean_cosine": 0.28140020595194865,
+      "mean_residual_dot": -0.04280321075185907
+    },
+    "168.0-infh_same0": {
+      "pairs": 357402,
+      "weight": 29685.389108701776,
+      "dot_sum": 8337.267583059947,
+      "residual_sum": -1978.9699578662069,
+      "mean_cosine": 0.2808542462600235,
+      "mean_residual_dot": -0.06666478079905326
+    },
+    "168.0-infh_same1": {
+      "pairs": 153892,
+      "weight": 12778.345924291616,
+      "dot_sum": 3598.37916252899,
+      "residual_sum": -842.335742049268,
+      "mean_cosine": 0.28159976133440534,
+      "mean_residual_dot": -0.06591899664008853
+    }
+  },
+  "limitation": "Descriptive fitting-history association only, not a causal effect or held-out model gain; each pair weighted inverse user click count; repeated same-item pairs removed."
+}

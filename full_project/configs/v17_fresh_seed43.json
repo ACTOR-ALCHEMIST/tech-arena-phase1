@@ -1,0 +1,9 @@
+{
+  "feature_mode": "fresh_spectral",
+  "mix": 0,
+  "model": {
+    "architecture": "v2_wide",
+    "normalizer": "relative_range",
+    "seed": 43
+  }
+}

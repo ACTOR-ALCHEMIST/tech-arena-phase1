@@ -1,0 +1,9 @@
+{
+  "name": "event_cat_sgns8_16_context_24_180000_d6_locked25",
+  "method": "event",
+  "source_experiment": "cat_sgns8_16_context_24_180000_d6_locked25",
+  "iterations": 282,
+  "fixed_trees": true,
+  "locked_temperature": 1,
+  "locked_mix": 0.75
+}

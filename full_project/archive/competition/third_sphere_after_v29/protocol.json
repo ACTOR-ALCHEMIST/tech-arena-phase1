@@ -1,0 +1,32 @@
+{
+  "recipe": {
+    "version": 1,
+    "dimension": 8,
+    "initial_seed": 2027,
+    "initial_epochs": 450,
+    "epochs": 128,
+    "outputs": [
+      64,
+      128
+    ],
+    "seed": 93831,
+    "lr": 0.002,
+    "minimum_lr": 0.0002,
+    "weight_decay": 0.001,
+    "ema": 0.99,
+    "negatives": 8,
+    "batch_size": 8192,
+    "anchor": 0.02,
+    "schedule": "cosine128"
+  },
+  "third_masses": [
+    0.25,
+    0.5
+  ],
+  "correction_masses": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "target_auc": 0.838
+}

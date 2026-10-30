@@ -1,0 +1,9 @@
+{
+  "feature_mode": "online_events",
+  "mix": 0,
+  "model": {
+    "architecture": "v2_wide",
+    "seed": 73,
+    "normalizer": "relative_range"
+  }
+}

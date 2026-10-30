@@ -1,0 +1,47 @@
+{
+  "submission": "competition/final/submission.csv",
+  "model_dir": "competition/final/versions/20261024_044425",
+  "sources": [
+    "event_cat_sgns8e640_context24_d6",
+    "mlp_event_cat_sgns8_s2026_context24_d6"
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "blend_kind": "logit",
+  "validation_26": {
+    "auc": 0.8290037149576445,
+    "logloss": 0.18864163251813482,
+    "average_precision": 0.28807531811775,
+    "accuracy_at_0_5": 0.9376202401957994,
+    "rows": 351380
+  },
+  "validation_25": {
+    "auc": 0.8188039296003504,
+    "logloss": 0.19236847657258568,
+    "average_precision": 0.26997049865537853,
+    "accuracy_at_0_5": 0.9372486579929032,
+    "rows": 439640
+  },
+  "validation_24": {
+    "auc": 0.8049152082692927,
+    "logloss": 0.19551641871066272,
+    "average_precision": 0.2518211211664214,
+    "accuracy_at_0_5": 0.9374102820898014,
+    "rows": 479280
+  },
+  "audit_24_sources": [
+    "event_cat_sgns8e640_context24_d6_locked24",
+    "mlp_event_cat_sgns8_s2026_context24_d6_locked24"
+  ],
+  "validation_protocol": "Jan26 used for hyperparameters; Jan26+Jan25 cohort-weighted AUC selects coarse blend; Jan24 recipe audit is not used for selection",
+  "rows": 529390,
+  "sha256": "bb36373c223d2651b4f12da5a5a99c272eaeb75f90aa4d817cfdc2ec94576f81",
+  "csv_checks_passed": true,
+  "official_evaluation_labels_available": false,
+  "selection_score": 0.8182300948754959,
+  "cache_dependencies": "data/cache_v1 holds ID mappings and cached event arrays; learned inference representations are bundled in the version directory; competition/cache holds regenerable feature matrices",
+  "representations": "competition/final/versions/20261024_044425/representations",
+  "reproduce": "python3 arena_finalize.py --predict-only"
+}

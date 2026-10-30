@@ -1,0 +1,85 @@
+{
+  "cutoff": "2025-01-24",
+  "old_auc": 0.8083758244003685,
+  "new_auc": 0.8086762152175297,
+  "delta": 0.0003003908171612668,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      0.0002030396891333164,
+      0.0003893410256809921
+    ],
+    "positive_fraction": 1.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 45068,
+      "old_auc": 0.8121590614995371,
+      "new_auc": 0.8124724198113001,
+      "delta": 0.00031335831176304563
+    },
+    "new_user": {
+      "events": 2860,
+      "old_auc": 0.7376021179644012,
+      "new_auc": 0.7376021179644012,
+      "delta": 0.0
+    },
+    "empty_history": {
+      "events": 552,
+      "old_auc": 0.5315800925048604,
+      "new_auc": 0.5315800925048604,
+      "delta": 0.0
+    },
+    "short_history": {
+      "events": 5895,
+      "old_auc": 0.7403980102277821,
+      "new_auc": 0.7405283018676556,
+      "delta": 0.00013029163987354764
+    },
+    "history5_19": {
+      "events": 23700,
+      "old_auc": 0.8030113570852689,
+      "new_auc": 0.8033599291126219,
+      "delta": 0.0003485720273529447
+    },
+    "history20": {
+      "events": 17781,
+      "old_auc": 0.8350488136491486,
+      "new_auc": 0.8353454520503375,
+      "delta": 0.00029663840118887563
+    },
+    "delay0_24": {
+      "events": 35040,
+      "old_auc": 0.8147894044660516,
+      "new_auc": 0.8151018647253603,
+      "delta": 0.0003124602593086445
+    },
+    "delay24_48": {
+      "events": 8915,
+      "old_auc": 0.7919801520984707,
+      "new_auc": 0.7922451033962645,
+      "delta": 0.0002649512977938029
+    },
+    "delay48plus": {
+      "events": 3973,
+      "old_auc": 0.7857735763627776,
+      "new_auc": 0.786058800805577,
+      "delta": 0.0002852244427994366
+    },
+    "weekday": {
+      "events": 35040,
+      "old_auc": 0.8147894044660516,
+      "new_auc": 0.8151018647253603,
+      "delta": 0.0003124602593086445
+    },
+    "weekend": {
+      "events": 12888,
+      "old_auc": 0.7901219756039876,
+      "new_auc": 0.7903921844449663,
+      "delta": 0.0002702088409787251
+    }
+  },
+  "locked_selection_sha256": "c3526e521aaf549ece6ea45a8af2f8113eb90dd69f00218052d292a619418260"
+}

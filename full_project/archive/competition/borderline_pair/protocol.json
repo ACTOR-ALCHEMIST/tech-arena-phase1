@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "source_parent": "competition/final_v26",
+  "comparison_parent": "competition/final_v27",
+  "geometry": "competition/conditional_sphere",
+  "prior": 10.0,
+  "epoch": 32,
+  "gap": 0.5,
+  "masses": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "selection": "Require both origin AUC gains >1e-6, mean weighted gain >1e-6, no near-tie Top1 loss. Lock third origin after selection."
+}

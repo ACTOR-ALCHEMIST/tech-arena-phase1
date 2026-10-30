@@ -1,0 +1,96 @@
+{
+  "records": [
+    {
+      "kind": "probability",
+      "llm_weight": 0,
+      "selection_auc": 0.8349803186822163,
+      "heldout_auc": 0.8289603733148789,
+      "full_auc": 0.8293272082809982
+    },
+    {
+      "kind": "probability",
+      "llm_weight": 0.01,
+      "selection_auc": 0.8349489053162449,
+      "heldout_auc": 0.828957499759778,
+      "full_auc": 0.8293238559577731
+    },
+    {
+      "kind": "probability",
+      "llm_weight": 0.025,
+      "selection_auc": 0.8349000766766091,
+      "heldout_auc": 0.8289298441123074,
+      "full_auc": 0.8292953022588161
+    },
+    {
+      "kind": "probability",
+      "llm_weight": 0.05,
+      "selection_auc": 0.8347421864295577,
+      "heldout_auc": 0.8288215483966619,
+      "full_auc": 0.8291852561013454
+    },
+    {
+      "kind": "probability",
+      "llm_weight": 0.1,
+      "selection_auc": 0.8342189459732923,
+      "heldout_auc": 0.8283876834978814,
+      "full_auc": 0.8287466375083159
+    },
+    {
+      "kind": "probability",
+      "llm_weight": 0.2,
+      "selection_auc": 0.8323636635214325,
+      "heldout_auc": 0.8266798619153626,
+      "full_auc": 0.8270283812182015
+    },
+    {
+      "kind": "logit",
+      "llm_weight": 0,
+      "selection_auc": 0.8349803186822163,
+      "heldout_auc": 0.8289603733148789,
+      "full_auc": 0.8293272082809982
+    },
+    {
+      "kind": "logit",
+      "llm_weight": 0.01,
+      "selection_auc": 0.8349374186463813,
+      "heldout_auc": 0.8289553945589074,
+      "full_auc": 0.8293204968114527
+    },
+    {
+      "kind": "logit",
+      "llm_weight": 0.025,
+      "selection_auc": 0.8348824143777865,
+      "heldout_auc": 0.8289339920185562,
+      "full_auc": 0.8292966816157794
+    },
+    {
+      "kind": "logit",
+      "llm_weight": 0.05,
+      "selection_auc": 0.8347585724317288,
+      "heldout_auc": 0.8288603367497722,
+      "full_auc": 0.8292188633941309
+    },
+    {
+      "kind": "logit",
+      "llm_weight": 0.1,
+      "selection_auc": 0.8343400294717483,
+      "heldout_auc": 0.8285692327476749,
+      "full_auc": 0.8289193598012307
+    },
+    {
+      "kind": "logit",
+      "llm_weight": 0.2,
+      "selection_auc": 0.8329213228164293,
+      "heldout_auc": 0.8273560054395959,
+      "full_auc": 0.8276897987116503
+    }
+  ],
+  "selected_on_2048": {
+    "kind": "probability",
+    "llm_weight": 0,
+    "selection_auc": 0.8349803186822163,
+    "heldout_auc": 0.8289603733148789,
+    "full_auc": 0.8293272082809982
+  },
+  "scope": "Diagnostic only. No promotion or blended CSV; the incumbent has stronger two-cutoff validation. Heldout excludes all LLM checkpoint-selection events."
+}

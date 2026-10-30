@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8219769533564178,
+  "new_auc": 0.8219769533564178,
+  "delta": 0.0,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      0.0,
+      0.0
+    ],
+    "positive_fraction": 0.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.824325061487177,
+      "new_auc": 0.824325061487177,
+      "delta": 0.0
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7400307183958785,
+      "new_auc": 0.7400307183958785,
+      "delta": 0.0
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5734905964286541,
+      "new_auc": 0.5734905964286541,
+      "delta": 0.0
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7477828748556542,
+      "new_auc": 0.7477828748556542,
+      "delta": 0.0
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8149857785526294,
+      "new_auc": 0.8149857785526294,
+      "delta": 0.0
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8437908383505208,
+      "new_auc": 0.8437908383505208,
+      "delta": 0.0
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.825466414305331,
+      "new_auc": 0.825466414305331,
+      "delta": 0.0
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8074074466801957,
+      "new_auc": 0.8074074466801957,
+      "delta": 0.0
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8219769533564178,
+      "new_auc": 0.8219769533564178,
+      "delta": 0.0
+    }
+  },
+  "selection_sha256": "c7e7eb6de9de53af9528edeb03ff3e3b6844ba69baca00e7dc8c3afb98ec17ac"
+}

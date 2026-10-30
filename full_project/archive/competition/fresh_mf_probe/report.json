@@ -1,0 +1,45 @@
+{
+  "cutoff": "2025-01-26",
+  "fitting_events": 588873,
+  "max_fitting_timestamp": 1737849540,
+  "calibration_source": "competition/ood/runs/v12_map_loose/2025-01-26/model.pt",
+  "calibration_source_sha256": "299aab86e7f01ea4f9ac1566815e8f382514154c7cc17b0816076d07ebf22c4f",
+  "protocol": "Fresh prefix26 factors; calibration coefficients frozen after fitting earlier honest exposures; all refinements use labels strictly before26. Diagnostic only.",
+  "epochs": [
+    {
+      "epoch": 0,
+      "dot_auc": 0.799002660682967,
+      "cosine_auc": 0.8027559050354838,
+      "event_model_auc": 0.8145835765186876,
+      "elapsed": 0.6162493329902645
+    },
+    {
+      "epoch": 2,
+      "dot_auc": 0.8004342768254502,
+      "cosine_auc": 0.8033421701588821,
+      "event_model_auc": 0.8149055308246458,
+      "elapsed": 7.125302750006085
+    },
+    {
+      "epoch": 4,
+      "dot_auc": 0.8012558075315401,
+      "cosine_auc": 0.8038555510455987,
+      "event_model_auc": 0.8149564213591988,
+      "elapsed": 14.941628833010327
+    },
+    {
+      "epoch": 8,
+      "dot_auc": 0.8017061496352929,
+      "cosine_auc": 0.8042277339093956,
+      "event_model_auc": 0.8146775450753454,
+      "elapsed": 32.44560837501194
+    },
+    {
+      "epoch": 16,
+      "dot_auc": 0.8017157397005508,
+      "cosine_auc": 0.8044184373102737,
+      "event_model_auc": 0.8141957500711753,
+      "elapsed": 69.01181920801173
+    }
+  ]
+}

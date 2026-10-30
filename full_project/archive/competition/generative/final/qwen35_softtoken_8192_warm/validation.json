@@ -1,0 +1,30 @@
+{
+  "full_time_validation": {
+    "auc": 0.7518108994604934,
+    "logloss": 0.2101180618065394,
+    "events": 35138
+  },
+  "heldout_time_validation": {
+    "auc": 0.7515694572978451,
+    "logloss": 0.21047142470921626,
+    "events": 32975
+  },
+  "incumbent_full_time_validation": {
+    "auc": 0.8293272082809982,
+    "logloss": 0.18853976902343578,
+    "events": 35138
+  },
+  "incumbent_heldout_time_validation": {
+    "auc": 0.8289603733148789,
+    "logloss": 0.1889233267240402,
+    "events": 32975
+  },
+  "selection_cohort": {
+    "auc": 0.7569039002966936,
+    "logloss": 0.2045147632647403,
+    "events": 2048
+  },
+  "heldout_scope": "Excludes all 2163 checkpoint-selection events, including warm-start ancestors; same Jan26 first-event-per-user cutoff.",
+  "training_events": 8192,
+  "trained_event_presentations": 8192
+}

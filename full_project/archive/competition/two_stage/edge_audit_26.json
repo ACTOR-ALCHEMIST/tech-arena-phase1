@@ -1,0 +1,34 @@
+{
+  "near_tie": {
+    "events": 16899,
+    "old_auc": 0.8046318984670858,
+    "new_auc": 0.8046416238251399,
+    "delta": 9.725358054102351e-06,
+    "clicked_top1_before": 0.3143348952854547,
+    "clicked_top1_after": 0.3144305250071722
+  },
+  "confident": {
+    "events": 18239,
+    "old_auc": 0.8529053328106337,
+    "new_auc": 0.8529780942546086,
+    "delta": 7.276144397483364e-05,
+    "clicked_top1_before": 0.5042763993564231,
+    "clicked_top1_after": 0.5042763993564231
+  },
+  "short_history": {
+    "events": 2555,
+    "old_auc": 0.7431531953455516,
+    "new_auc": 0.7428928404165849,
+    "delta": -0.00026035492896669954,
+    "clicked_top1_before": 0.2901023890784983,
+    "clicked_top1_after": 0.29146757679180885
+  },
+  "history20": {
+    "events": 17961,
+    "old_auc": 0.8483962642907985,
+    "new_auc": 0.8484447484529076,
+    "delta": 4.848416210911921e-05,
+    "clicked_top1_before": 0.4430901143241426,
+    "clicked_top1_after": 0.4436785474108944
+  }
+}

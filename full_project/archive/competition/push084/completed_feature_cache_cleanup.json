@@ -1,0 +1,31 @@
+{
+  "policy": "Completed experiments retain weights, representations, validation predictions, metadata and source; regenerate feature matrices on demand.",
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_exposure/valid.npy",
+      "bytes": 38688448,
+      "sha256": "1112af875a1087170c7dbb6a693bf54d8201ffdb6f6f2236b29e2e3f6719b3b3"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_exposure/train.npy",
+      "bytes": 158400128,
+      "sha256": "92a9d34951b79b2b82475128d4e41fb04c24ae90b420682ce0a33a02af238144"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_exposure/valid.npy",
+      "bytes": 30921568,
+      "sha256": "bb6b25767eebca74ce1c2862d20b400cc986dc47ddb260cbdd53409e1fb87641"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_exposure/train.npy",
+      "bytes": 158400128,
+      "sha256": "5497550ca4503beef9ebce7af5c7b57616af3a359fcf46276a8c4d4079ee2c9c"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-23/base.npy",
+      "bytes": 156405888,
+      "sha256": "ce569b06c5c536ee9f72c51b1aacec7e77f684c8a9ad9c1beaad9164bd3bcde0"
+    }
+  ],
+  "bytes": 542816160
+}

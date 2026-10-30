@@ -1,0 +1,17 @@
+{
+  "name": "mlp_context_cat_sgns8e320_context24_d6_locked25",
+  "method": "tabular",
+  "source_experiment": "cat_sgns8e320_context24_d6_locked25",
+  "loss": "event_ce",
+  "epochs": 10,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "architecture": "context",
+  "ema": 0.99,
+  "seed": 2026,
+  "constant_policy": "zero",
+  "fixed_epochs": true,
+  "lr_schedule_epochs": 40,
+  "audit_protocol": "locked rolling origin"
+}

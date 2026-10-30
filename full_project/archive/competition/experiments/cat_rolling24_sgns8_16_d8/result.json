@@ -1,0 +1,79 @@
+{
+  "name": "cat_rolling24_sgns8_16_d8",
+  "cutoff": "2025-01-26",
+  "method": "catboost_numeric",
+  "auc": 0.8128304024920878,
+  "logloss": 0.19364494245374977,
+  "average_precision": 0.2646974865457952,
+  "accuracy_at_0_5": 0.9371478171779839,
+  "rows": 351380,
+  "config": {
+    "name": "cat_rolling24_sgns8_16_d8",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 8,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 80,
+      "16": 56
+    },
+    "rolling": true
+  },
+  "tree_count": 1441,
+  "seconds": 383.4258286670083,
+  "feature_dataset": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_lowrank80_rolling",
+  "feature_importance_top10": [
+    [
+      "sgns8_s42_dot_relative",
+      8.32383041370059
+    ],
+    [
+      "sgns8_s42_cos_relative",
+      5.3660190929972345
+    ],
+    [
+      "sgns8_s42_hist_cos_mean",
+      4.898005684579356
+    ],
+    [
+      "sgns16_s42_cos_relative",
+      3.965826458953188
+    ],
+    [
+      "als16_cos_relative",
+      3.8825182807305865
+    ],
+    [
+      "user_bias",
+      3.450971479532827
+    ],
+    [
+      "sgns16_s42_hist_cos_mean",
+      3.3746952517904836
+    ],
+    [
+      "sgns8_s42_cos",
+      3.2463583099892506
+    ],
+    [
+      "sgns16_s42_hist_cos_recent",
+      2.745201841848082
+    ],
+    [
+      "als16_history_cos_mean",
+      2.600792151684648
+    ]
+  ]
+}

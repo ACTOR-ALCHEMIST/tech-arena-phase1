@@ -1,0 +1,19 @@
+{
+  "names": [
+    "weekend_dot",
+    "weekend_cos",
+    "weekend_dot_relative",
+    "weekend_cos_relative",
+    "weekend_delta_dot",
+    "weekend_delta_cos",
+    "weekend_delta_norm",
+    "weekend_profile_norm",
+    "weekend_item_type_bias",
+    "weekend_user_type_support",
+    "weekend_item_type_support",
+    "weekend_global_context_cos"
+  ],
+  "events": 43964,
+  "frame": "2025-01-25",
+  "indices_sha256": "7ee54b0f810f7136866b0518d74fcdfeae9c37c5235cd7ee5e5bfd2bec4e07df"
+}

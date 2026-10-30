@@ -1,0 +1,47 @@
+{
+  "name": "history_din",
+  "cutoff": "2025-01-26",
+  "config": {
+    "width": 64,
+    "attention": true,
+    "slate": false,
+    "history_dropout": 0.1,
+    "rank_weight": 0.0,
+    "seed": 83871,
+    "scale": 0.35,
+    "token_scaling": "fixed_v1"
+  },
+  "epoch": 3,
+  "train_loss": 1.6956556091015331,
+  "auc": 0.8319239050782739,
+  "near_tie_top1": 0.3130953526412008,
+  "all_clicked_top1": 0.4148926614569298,
+  "weighted_auc": 0.8236989410016866,
+  "seconds": 13.840514542011078,
+  "best_epoch": 3,
+  "training_events": 79185,
+  "parameters": 57941,
+  "smoke": false,
+  "policy": "Strong time-OOF fine scores; target/history similarities have prior-only frames. Residual transferred onto frozen incumbent, click mass preserved.",
+  "frames": [
+    "2025-01-24",
+    "2025-01-25"
+  ],
+  "baseline": {
+    "csv": "competition/final_v26/submission.csv",
+    "sha256": "a056a84edc2303318d9814922d78aa1e2c00273089a04a6748501975a9aab391",
+    "manifest": "competition/final_v26/manifest.json",
+    "acceptance": "competition/final_v26/acceptance.json",
+    "previous_best_csv": "competition/final_v24/submission.csv",
+    "validation_26": {
+      "auc": 0.831842600527807
+    },
+    "validation_25": {
+      "auc": 0.8224225343908032
+    },
+    "validation_24": {
+      "auc": 0.8086762152175297
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  }
+}

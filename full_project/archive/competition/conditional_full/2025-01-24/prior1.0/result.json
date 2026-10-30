@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "prior": 1.0,
+      "epoch": 8,
+      "mass": 0.25,
+      "auc": 0.8088190920703384,
+      "weighted_auc": 0.8097723531970186,
+      "near_tie_top1": 0.2891934017404858
+    }
+  ],
+  "calibration": {
+    "prefix": "2025-01-22",
+    "coefficients": [
+      2.076902151107788,
+      0.17261913418769836,
+      1.3218607902526855,
+      0.8790168762207031,
+      0.11327408254146576,
+      0.306918740272522,
+      0.38557255268096924
+    ],
+    "events": 100000,
+    "first_fit_timestamp": 1737504000,
+    "last_fit_timestamp": 1737676740,
+    "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+  },
+  "fit_events": 247219
+}

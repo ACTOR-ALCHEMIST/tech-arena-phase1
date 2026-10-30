@@ -1,0 +1,8 @@
+{
+  "name": "als24_a5_r0.1",
+  "method": "als",
+  "factors": 24,
+  "alpha": 5,
+  "regularization": 0.1,
+  "iterations": 25
+}

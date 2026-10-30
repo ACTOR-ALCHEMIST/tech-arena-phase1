@@ -1,0 +1,41 @@
+{
+  "v1_sha256": "bb36373c223d2651b4f12da5a5a99c272eaeb75f90aa4d817cfdc2ec94576f81",
+  "v2_sha256": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+  "cutoffs": {
+    "2025-01-26": {
+      "v1_auc": 0.8290037149576445,
+      "v2_auc": 0.8293272082809982,
+      "gain": 0.0003234933233536852,
+      "gain_vs_v1_95_ci": [
+        0.00021661237126543442,
+        0.0004205345249347293
+      ],
+      "repeats": 200,
+      "method": "paired percentile bootstrap over first events/users; fixed selected recipe; selection uncertainty excluded"
+    },
+    "2025-01-25": {
+      "v1_auc": 0.8188039296003504,
+      "v2_auc": 0.8192463525707806,
+      "gain": 0.00044242297043017853,
+      "gain_vs_v1_95_ci": [
+        0.00027317331197044826,
+        0.0005871510990538204
+      ],
+      "repeats": 200,
+      "method": "paired percentile bootstrap over first events/users; fixed selected recipe; selection uncertainty excluded"
+    },
+    "2025-01-24": {
+      "v1_auc": 0.8049152082692927,
+      "v2_auc": 0.8054023107836017,
+      "gain": 0.0004871025143089458,
+      "gain_vs_v1_95_ci": [
+        0.000355829734242194,
+        0.000615815441835546
+      ],
+      "repeats": 200,
+      "method": "paired percentile bootstrap over first events/users; fixed selected recipe; selection uncertainty excluded"
+    }
+  },
+  "official_evaluation_labels_available": false,
+  "limitation": "Intervals condition on the selected recipe and do not account for repeated model and blend selection."
+}

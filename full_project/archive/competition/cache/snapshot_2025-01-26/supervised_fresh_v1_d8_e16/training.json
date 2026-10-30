@@ -1,0 +1,122 @@
+[
+  {
+    "phase": "calibration",
+    "epoch": 1,
+    "loss": 1.7559622895375566,
+    "seconds": 0.9889052079815883
+  },
+  {
+    "phase": "calibration",
+    "epoch": 2,
+    "loss": 1.7276070648347552,
+    "seconds": 0.8663275419967249
+  },
+  {
+    "phase": "calibration",
+    "epoch": 3,
+    "loss": 1.7210111623147037,
+    "seconds": 0.8499326249875594
+  },
+  {
+    "phase": "calibration",
+    "epoch": 4,
+    "loss": 1.7186671322584375,
+    "seconds": 0.8422098340233788
+  },
+  {
+    "phase": "refinement",
+    "epoch": 1,
+    "loss": 1.3989333944700708,
+    "seconds": 2.843153790978249
+  },
+  {
+    "phase": "refinement",
+    "epoch": 2,
+    "loss": 1.3871477692420757,
+    "seconds": 2.629147874977207
+  },
+  {
+    "phase": "refinement",
+    "epoch": 3,
+    "loss": 1.3796237560424356,
+    "seconds": 2.70247033299529
+  },
+  {
+    "phase": "refinement",
+    "epoch": 4,
+    "loss": 1.374515062735426,
+    "seconds": 2.67733983398648
+  },
+  {
+    "phase": "refinement",
+    "epoch": 5,
+    "loss": 1.3709260999199993,
+    "seconds": 2.8026282920036465
+  },
+  {
+    "phase": "refinement",
+    "epoch": 6,
+    "loss": 1.3683464503793266,
+    "seconds": 2.833607042004587
+  },
+  {
+    "phase": "refinement",
+    "epoch": 7,
+    "loss": 1.3664474403552729,
+    "seconds": 2.702663250005571
+  },
+  {
+    "phase": "refinement",
+    "epoch": 8,
+    "loss": 1.3650139901496945,
+    "seconds": 2.7464792499959003
+  },
+  {
+    "phase": "refinement",
+    "epoch": 9,
+    "loss": 1.363924350541239,
+    "seconds": 2.7150246249802876
+  },
+  {
+    "phase": "refinement",
+    "epoch": 10,
+    "loss": 1.363086641841828,
+    "seconds": 2.7410610420047306
+  },
+  {
+    "phase": "refinement",
+    "epoch": 11,
+    "loss": 1.3624251009790294,
+    "seconds": 2.738163042027736
+  },
+  {
+    "phase": "refinement",
+    "epoch": 12,
+    "loss": 1.3619102562810512,
+    "seconds": 2.7362632080039475
+  },
+  {
+    "phase": "refinement",
+    "epoch": 13,
+    "loss": 1.3615016785797045,
+    "seconds": 2.7269505000149366
+  },
+  {
+    "phase": "refinement",
+    "epoch": 14,
+    "loss": 1.3611721187903405,
+    "seconds": 2.7001653339830227
+  },
+  {
+    "phase": "refinement",
+    "epoch": 15,
+    "loss": 1.3609114096113943,
+    "seconds": 2.7003478329861537
+  },
+  {
+    "phase": "refinement",
+    "epoch": 16,
+    "loss": 1.3606899564683341,
+    "seconds": 2.7429080420115497
+  }
+]

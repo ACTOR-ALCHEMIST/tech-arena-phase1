@@ -1,0 +1,62 @@
+{
+  "model": "spectral_multi_wide",
+  "interpretation": "Feature substitution importance; not an independently trained candidate or an estimate of achievable gain.",
+  "folds": {
+    "26": [
+      {
+        "condition": "identity",
+        "auc": 0.8306854688473702,
+        "delta": -4.0938563650172455e-10,
+        "replay_max_error": 1.1920928955078125e-07
+      },
+      {
+        "condition": "bucket_semantic",
+        "auc": 0.8306868647844552,
+        "delta": 1.3955276993993238e-06
+      },
+      {
+        "condition": "weekend_semantic",
+        "auc": 0.8307756045984258,
+        "delta": 9.01353416700168e-05
+      },
+      {
+        "condition": "context_affinity",
+        "auc": 0.8306775849653445,
+        "delta": -7.88429141129754e-06
+      },
+      {
+        "condition": "all_temporal",
+        "auc": 0.8307743220611863,
+        "delta": 8.885280443049481e-05
+      }
+    ],
+    "25": [
+      {
+        "condition": "identity",
+        "auc": 0.8200222549836778,
+        "delta": 4.795646102451201e-10,
+        "replay_max_error": 1.1920928955078125e-07
+      },
+      {
+        "condition": "bucket_semantic",
+        "auc": 0.8200760941800987,
+        "delta": 5.38396759856008e-05
+      },
+      {
+        "condition": "weekend_semantic",
+        "auc": 0.8201130360471646,
+        "delta": 9.078154305142139e-05
+      },
+      {
+        "condition": "context_affinity",
+        "auc": 0.8202674056382512,
+        "delta": 0.000245151134138033
+      },
+      {
+        "condition": "all_temporal",
+        "auc": 0.8204258326949798,
+        "delta": 0.00040357819086667135
+      }
+    ]
+  }
+}

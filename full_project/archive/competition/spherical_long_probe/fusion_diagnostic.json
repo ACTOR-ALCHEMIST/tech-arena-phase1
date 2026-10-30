@@ -1,0 +1,49 @@
+{
+  "records": {
+    "26": [
+      {
+        "long_mass": 0.0,
+        "cosine_auc": 0.8050648807703573
+      },
+      {
+        "long_mass": 0.25,
+        "cosine_auc": 0.8065256312572148
+      },
+      {
+        "long_mass": 0.5,
+        "cosine_auc": 0.8072691409592616
+      },
+      {
+        "long_mass": 0.75,
+        "cosine_auc": 0.8072610461753575
+      },
+      {
+        "long_mass": 1.0,
+        "cosine_auc": 0.8065204040838396
+      }
+    ],
+    "25": [
+      {
+        "long_mass": 0.0,
+        "cosine_auc": 0.7863271222416766
+      },
+      {
+        "long_mass": 0.25,
+        "cosine_auc": 0.7920644743106974
+      },
+      {
+        "long_mass": 0.5,
+        "cosine_auc": 0.7948942420887245
+      },
+      {
+        "long_mass": 0.75,
+        "cosine_auc": 0.7951340175212145
+      },
+      {
+        "long_mass": 1.0,
+        "cosine_auc": 0.7924709792845714
+      }
+    ]
+  },
+  "policy": "Read-only cosine diagnostic. Orthogonal fit uses past item tables and past popularity only; query targets enter AUC only. No CSV change."
+}

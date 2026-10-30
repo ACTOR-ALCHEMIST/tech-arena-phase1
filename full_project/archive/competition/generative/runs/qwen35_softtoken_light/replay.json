@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "max_probability_error": 0.0,
+  "auc": 0.6187670612042708,
+  "logloss": 0.22953616243375263,
+  "events": 128
+}

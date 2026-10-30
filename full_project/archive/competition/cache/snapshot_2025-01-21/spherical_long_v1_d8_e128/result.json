@@ -1,0 +1,43 @@
+{
+  "cutoff": "2025-01-21",
+  "recipe": {
+    "version": 1,
+    "dimension": 8,
+    "epochs": 128,
+    "outputs": [
+      32,
+      64,
+      128
+    ],
+    "seed": 82719,
+    "lr": 0.002,
+    "minimum_lr": 0.0002,
+    "weight_decay": 0.001,
+    "ema": 0.99,
+    "negatives": 8,
+    "batch_size": 8192,
+    "anchor": 0.02,
+    "initial_temperature": 6.0,
+    "device": "cpu",
+    "schedule": "cosine128"
+  },
+  "max_fit_timestamp": 1737417540,
+  "snapshot_metadata": {
+    "cache_id": "16bed8da53774676be5f04a48bad2595",
+    "cutoff": "2025-01-21",
+    "fit_events": 98514,
+    "unique_interactions": 470337,
+    "co_nnz": 7498319,
+    "seconds": 2.9528988329984713,
+    "max_fit_timestamp": 1737417540,
+    "cutoff_timestamp": 1737417600
+  },
+  "positive_pairs": 470337,
+  "seconds": 110.77974362499663,
+  "model_sha256": {
+    "32": "2eaa837e7492d4c6084712dfe11bb71947f2a82acf6bd36b5f8dc8a9d9703f18",
+    "64": "f21771e6a230b0e9a438c0e03e326812c78a17d13f140e1ab6619ee2ae0e7b2c",
+    "128": "8fd7cb597972b48562fb46147cc128c49177ad6d0f4e27fa144cf0f09a3cc53c"
+  },
+  "policy": "All representation fitting clicks strictly precede cutoff; fixed checkpoints and LR schedule; query labels never accessed."
+}

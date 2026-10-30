@@ -1,0 +1,157 @@
+{
+  "time": 1792902682.193026,
+  "files": [
+    {
+      "path": "competition/push084/daily/2025-01-21/base.npy",
+      "bytes": 157499008,
+      "sha256": "8fe713a9b370bfa0e81fdb7780c2c7b40cc23d4591c0c3fe1f3c344f15c27a94"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-21/coclick.npy",
+      "bytes": 30937408,
+      "sha256": "0e6bd80d72f6ce3e6c0a3b5e422e3c7685c1e4898320c715fb0606f9f5b0a77f"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-26/coclick.npy",
+      "bytes": 30921568,
+      "sha256": "fb60ab1db73d63696bbddccca646b712360242384efd60a84e2356bb66e5d4ee"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-25/coclick.npy",
+      "bytes": 31002528,
+      "sha256": "55e137ae96c80664cc41fc5cacbe49d4fb9a63d98c650db48fb8e8704e9ab090"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-22/base.npy",
+      "bytes": 157301888,
+      "sha256": "ff291dc2cb9589129c4a35bb69404746ce286af8626132b88e9369a422ac6809"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-22/coclick.npy",
+      "bytes": 30898688,
+      "sha256": "88cb91ea862f7ad35094e05e8285ce1d3898c7b73839cbfa570534605a77f3c4"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-23/base.npy",
+      "bytes": 156405888,
+      "sha256": "ce569b06c5c536ee9f72c51b1aacec7e77f684c8a9ad9c1beaad9164bd3bcde0"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-23/coclick.npy",
+      "bytes": 30722688,
+      "sha256": "1ffde872e0fb3b24283c4a8425937dde3981e10e6b047ffdb537236c78dc5820"
+    },
+    {
+      "path": "competition/push084/daily/2025-01-24/coclick.npy",
+      "bytes": 30835328,
+      "sha256": "b647a94aea0922a33c9cf2fd8b6d9d21c0c7903541b536190dc2be77fd1b577f"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-21/base.npy",
+      "bytes": 234568448,
+      "sha256": "549309ba3ffcb6c26c1ccd5367c78f2934d676d37c47744469d09f42ee1eea4b"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-21/spectral.npy",
+      "bytes": 92151968,
+      "sha256": "2599d7fafa7b14292723997cdd0ea8b4809cd402ee4e65accb6b06401afc3804"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-21/pair_spectral.npy",
+      "bytes": 125661728,
+      "sha256": "13ab58988357e639b2a9b978ca55c3bcff444b88bec7ff2010cfe02d5600e102"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-26/spectral.npy",
+      "bytes": 61843008,
+      "sha256": "899e9f270e5b7106d5dbf76aa1df570049d6870de52d7c4e8789c8ef4b3e8166"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-26/pair_spectral.npy",
+      "bytes": 84331328,
+      "sha256": "a9330f20c813ec7f147fa6a9dea9a8812b598df6ed7af31253006b56ecc8a0a7"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-25/spectral.npy",
+      "bytes": 77376768,
+      "sha256": "57c3f96430dfa7eaf53693ab5b61ec3fe80117d57c2859f05b99b5d6bcd08ec9"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-25/coclick.npy",
+      "bytes": 38688448,
+      "sha256": "08ea6f42ab24dd7338675f76c6c5d17fd6d5a8d8d6cff02ace4b5bd92816aecc"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-25/pair_spectral.npy",
+      "bytes": 105513728,
+      "sha256": "9db0110b49276478a1be4fcea354b149ec0f49e7fd1836d3f766d4001a2117d0"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-22/base.npy",
+      "bytes": 230666368,
+      "sha256": "92744fc6b6f7dda256a73f53d5b15c75e785108d770a6d1fb084ceaf41d06b2d"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-22/spectral.npy",
+      "bytes": 90619008,
+      "sha256": "4e1284aabebdfeda71afe2f7308b75a4ced4309a9e4a1249ae8c267db77e02d5"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-22/coclick.npy",
+      "bytes": 45309568,
+      "sha256": "935f9fdf772ef01b21c833e05fa564fc3bfe62f749f2d6081ef1b335a56dc80a"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-22/pair_spectral.npy",
+      "bytes": 123571328,
+      "sha256": "57091190cb2e5ba480273f1e643d37844b20143ae7350a09ae7f93bc197e976b"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-23/base.npy",
+      "bytes": 224694528,
+      "sha256": "baecd8fc83cce5b7608dfb137d4c5a8bc3d346e7a23841cce5634cb5f03e7418"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-23/spectral.npy",
+      "bytes": 88272928,
+      "sha256": "e1befdfd3ca881a7bcbab8cbce6b345e9afa9b07facd573b96546dacacce9f99"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-23/coclick.npy",
+      "bytes": 44136528,
+      "sha256": "2c36fbe72ea5868a25eb08f394f6d9580aa5fb150acff416eb9df4635223d386"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-23/pair_spectral.npy",
+      "bytes": 120372128,
+      "sha256": "bcc437d65379fc5d70714a904f5b66f69bfcdb5f751408cffa83b670c6ec417d"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-24/spectral.npy",
+      "bytes": 84353408,
+      "sha256": "51da1a6bcad589eb465cef83bf11612f48bd1361d745f235089bc9acaef9d206"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-24/coclick.npy",
+      "bytes": 42176768,
+      "sha256": "9e8be6d99302c53798e9a150ba1d9d30f3a6173b87cf50510fdf1f1e3b4bd2ed"
+    },
+    {
+      "path": "competition/push084/origins/2025-01-24/pair_spectral.npy",
+      "bytes": 115027328,
+      "sha256": "68727783bb84aa0d0eaa09f83d88181859f249827fd34251304707ee7aacc2a4"
+    },
+    {
+      "path": "competition/ood/final_inputs/train.npy",
+      "bytes": 705583328,
+      "sha256": "16dd55ca29c24eb887b53389c13fcd5700002d635eb9d7c81505ff4444eee4eb"
+    },
+    {
+      "path": "competition/ood/final_inputs/evaluation.npy",
+      "bytes": 127053728,
+      "sha256": "2b09a3963d5a9e3a06df3ba297f549a06b56be4fc82951862ca6140a0c8b3a6c"
+    }
+  ],
+  "freed_GiB": 3.276856020092964,
+  "policy": "Completed historical daily/origin and rich-augmentation feature matrices only. Both new campaigns use static earlier-frame features with mix=0 and never read these directories. Canonical112 arrays, labels, raw inputs, representations and frozen champions preserved; metadata kept for exact rebuilding."
+}

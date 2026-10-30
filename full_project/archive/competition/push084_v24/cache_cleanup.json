@@ -1,0 +1,27 @@
+{
+  "time": 1792902291.220604,
+  "files": [
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-25/features.npy",
+      "bytes": 960901408,
+      "sha256": "7c7467e8cea7af2a55f54012733879f240a07aff82f68cb3bfdfd461c6f5f266"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-25/pairs.npy",
+      "bytes": 39381328,
+      "sha256": "86e11446db9b54678af8f0301a03efde6903c8d68c99cc98e811a6ad26779f1f"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-26/features.npy",
+      "bytes": 956001888,
+      "sha256": "e9a8a9e87783fca76c5bdb7bc85d3450d8e5b6ef49050afe57c94caf48894718"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-26/pairs.npy",
+      "bytes": 39180528,
+      "sha256": "36935cd21c8fb1d52de16f14d901e6c3475b32c81df2186e5e9db522d44a75b3"
+    }
+  ],
+  "freed_GiB": 1.8584217429161072,
+  "policy": "Completed two-stage regenerable working geometry/features only. Every OOF score, label, index, raw input, model and frozen champion retained. New metric fits consume retained scores, not these matrices."
+}

@@ -1,0 +1,86 @@
+{
+  "cutoff": "2025-01-24",
+  "old_auc": 0.8079811086853161,
+  "new_auc": 0.8081453358172597,
+  "delta": 0.00016422713194352845,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      6.692775299861065e-05,
+      0.00023112178686428842
+    ],
+    "positive_fraction": 1.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 45068,
+      "old_auc": 0.8117958531750948,
+      "new_auc": 0.8119749592047808,
+      "delta": 0.00017910602968596034
+    },
+    "new_user": {
+      "events": 2860,
+      "old_auc": 0.7363897928411491,
+      "new_auc": 0.7361176997417325,
+      "delta": -0.00027209309941667037
+    },
+    "empty_history": {
+      "events": 552,
+      "old_auc": 0.5276645057244304,
+      "new_auc": 0.5294409858450876,
+      "delta": 0.0017764801206572312
+    },
+    "short_history": {
+      "events": 5895,
+      "old_auc": 0.7404448207906754,
+      "new_auc": 0.7402929279815649,
+      "delta": -0.00015189280911054315
+    },
+    "history5_19": {
+      "events": 23700,
+      "old_auc": 0.8026170887713053,
+      "new_auc": 0.8028332584497748,
+      "delta": 0.0002161696784694911
+    },
+    "history20": {
+      "events": 17781,
+      "old_auc": 0.8345632493741254,
+      "new_auc": 0.8347383116965793,
+      "delta": 0.00017506232245390052
+    },
+    "delay0_24": {
+      "events": 35040,
+      "old_auc": 0.8143926548757253,
+      "new_auc": 0.8145732467591407,
+      "delta": 0.0001805918834153486
+    },
+    "delay24_48": {
+      "events": 8915,
+      "old_auc": 0.7914788755138913,
+      "new_auc": 0.7917426086835571,
+      "delta": 0.00026373316966576965
+    },
+    "delay48plus": {
+      "events": 3973,
+      "old_auc": 0.7854823549650735,
+      "new_auc": 0.7852906248273114,
+      "delta": -0.0001917301377620806
+    },
+    "weekday": {
+      "events": 35040,
+      "old_auc": 0.8143926548757253,
+      "new_auc": 0.8145732467591407,
+      "delta": 0.0001805918834153486
+    },
+    "weekend": {
+      "events": 12888,
+      "old_auc": 0.7896821837215638,
+      "new_auc": 0.7898154932881882,
+      "delta": 0.00013330956662438442
+    }
+  },
+  "selection_sha256": "ee7a73836003b2132ee3a891136173a938619cb20297e1e6ca964b33db6d870a",
+  "protocol": "Weights, parameterization and epoch counts frozen before this third origin."
+}

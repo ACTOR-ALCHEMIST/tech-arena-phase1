@@ -1,0 +1,63 @@
+{
+  "2025-01-26": {
+    "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+    "source_counts": [
+      92.0,
+      106.0,
+      369.0,
+      1988.0,
+      121.0,
+      4968.0,
+      13.0,
+      9520.0,
+      0.0,
+      17961.0
+    ],
+    "evaluation_counts": [
+      294.0,
+      371.0,
+      927.0,
+      5535.0,
+      214.0,
+      10422.0,
+      18.0,
+      14402.0,
+      0.0,
+      20756.0
+    ],
+    "weight_min": 0.7670337158674112,
+    "weight_max": 2.3231077277621415,
+    "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+  },
+  "2025-01-25": {
+    "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+    "source_counts": [
+      190.0,
+      171.0,
+      884.0,
+      3436.0,
+      347.0,
+      7773.0,
+      46.0,
+      12548.0,
+      1.0,
+      18568.0
+    ],
+    "evaluation_counts": [
+      294.0,
+      371.0,
+      927.0,
+      5535.0,
+      214.0,
+      10422.0,
+      18.0,
+      14402.0,
+      0.0,
+      20756.0
+    ],
+    "weight_min": 0.24999857839039677,
+    "weight_max": 1.8017593956508275,
+    "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+  },
+  "criterion": "mean of two cohort-weighted AUCs; unlabeled evaluation covariates only; diagnostic, not official test AUC"
+}

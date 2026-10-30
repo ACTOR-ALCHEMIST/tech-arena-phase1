@@ -1,0 +1,6 @@
+{
+  "reason": "Cold-start validation AUC stayed near random at steps 256 and 512; retained all artifacts, switched to existing learned checkpoint with its original normalizer and bias-corrected AdamW.",
+  "last_durable_step": 578,
+  "last_durable_event_presentations": 2312,
+  "records": 578
+}

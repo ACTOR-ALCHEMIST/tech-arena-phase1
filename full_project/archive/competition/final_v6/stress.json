@@ -1,0 +1,33 @@
+{
+  "cutoff": "2025-01-26",
+  "events": 12000,
+  "indices_sha256": "1ea4a9c924400a8ef26f082b8c868008f2a628fdc2691570c79c9420c9a3519d",
+  "selection_sha256": "5dfe149aee895c9048718abf8cd07965b733987ea65e39aa28ebec02dcc732d8",
+  "stress": {
+    "identity": {
+      "old_auc": 0.8292556161003917,
+      "new_auc": 0.8308680196109366,
+      "delta": 0.0016124035105449241
+    },
+    "thin15": {
+      "old_auc": 0.8280431303757703,
+      "new_auc": 0.8298591534590805,
+      "delta": 0.001816023083310192
+    },
+    "thin60": {
+      "old_auc": 0.8204284038369654,
+      "new_auc": 0.822166427789147,
+      "delta": 0.0017380239521815888
+    },
+    "cold_user": {
+      "old_auc": 0.819764231952791,
+      "new_auc": 0.8197309163437438,
+      "delta": -3.3315609047179784e-05
+    }
+  },
+  "interpretation": "Artificial missing-input stress only. Original targets and ten candidates retained. No weights or epochs selected on this diagnostic.",
+  "identity_replay_max_error": {
+    "incumbent": 3.4994425912593385e-08,
+    "selected": 5.960464477539063e-08
+  }
+}

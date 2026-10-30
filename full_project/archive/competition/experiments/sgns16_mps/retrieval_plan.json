@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Implicit ALS",
+    "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+    "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR.",
+    "similarity": 0.1703731942670321
+  },
+  {
+    "title": "EASE",
+    "url": "https://arxiv.org/abs/1905.03375",
+    "text": "EASE shallow linear recommendation can outperform deeper recommenders on sparse implicit data. Dense item item inverse requires quadratic memory. With 50000 items and 16GB RAM prefer sparse cooccurrence or low rank ALS rather than full dense inverse.",
+    "similarity": 0.07773254517735165
+  },
+  {
+    "title": "Two tower sampling bias",
+    "url": "https://research.google/pubs/sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations/",
+    "text": "Two tower retrieval with in batch negatives has sampling bias. This competition provides actual exposed nonclicks; BCE using observed candidates is the primary click task. Auxiliary history item representation pretraining can use explicit sampled objectives.",
+    "similarity": 0.07393187943365157
+  },
+  {
+    "title": "DIN",
+    "url": "https://arxiv.org/abs/1706.06978",
+    "text": "DIN candidate aware attention represents diverse user interests from click history. Time decay and repeated click features complement long term user embeddings. Prefer small model and regularization when sparse IDs overfit quickly.",
+    "similarity": 0.07082612344051484
+  }
+]

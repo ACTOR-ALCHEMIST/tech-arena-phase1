@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8199474262020249,
+  "new_auc": 0.8212439800879427,
+  "delta": 0.0012965538859178727,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      0.001033239802238442,
+      0.001564658313524156
+    ],
+    "positive_fraction": 1.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8223491388246232,
+      "new_auc": 0.8236214956746244,
+      "delta": 0.001272356850001155
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7366094605459925,
+      "new_auc": 0.7385153959706426,
+      "delta": 0.0019059354246501181
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5715007804421378,
+      "new_auc": 0.5693454430900169,
+      "delta": -0.002155337352120923
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.745324054400232,
+      "new_auc": 0.745970822754121,
+      "delta": 0.0006467683538889935
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8130878682695984,
+      "new_auc": 0.8143184141783812,
+      "delta": 0.0012305459087827986
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.841728955273217,
+      "new_auc": 0.8431754136737599,
+      "delta": 0.001446458400542916
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.823528744736566,
+      "new_auc": 0.8247954832876805,
+      "delta": 0.0012667385511144769
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.80495081369212,
+      "new_auc": 0.8063882506629012,
+      "delta": 0.0014374369707812473
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8199474262020249,
+      "new_auc": 0.8212439800879427,
+      "delta": 0.0012965538859178727
+    }
+  },
+  "selection_sha256": "5dfe149aee895c9048718abf8cd07965b733987ea65e39aa28ebec02dcc732d8"
+}

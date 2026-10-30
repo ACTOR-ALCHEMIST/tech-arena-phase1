@@ -1,0 +1,30 @@
+{
+  "names": [
+    "nce_bias240_profile_dot",
+    "nce_bias240_profile_dot_relative",
+    "nce_bias240_profile_cos",
+    "nce_bias240_profile_cos_relative",
+    "nce_bias240_hist_mean",
+    "nce_bias240_hist_mean_relative",
+    "nce_bias240_last1",
+    "nce_bias240_last1_relative",
+    "nce_bias240_last3",
+    "nce_bias240_last3_relative",
+    "nce_bias240_last5",
+    "nce_bias240_last5_relative",
+    "nce_bias240_decay6",
+    "nce_bias240_decay6_relative",
+    "nce_bias240_decay24",
+    "nce_bias240_decay24_relative",
+    "nce_bias240_decay168",
+    "nce_bias240_decay168_relative",
+    "nce_bias240_hist_max",
+    "nce_bias240_item_norm",
+    "nce_bias240_profile_norm",
+    "nce_bias240_item_bias",
+    "nce_bias240_user_bias"
+  ],
+  "events": 180000,
+  "frame": "2025-01-24",
+  "indices_sha256": "90d4a52d473c53c06deb72ed407e2eae1c7f0fd0965c7ddbef687f0c06129ece"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sgns8_const_n8_distinct_clicks_e160_s42",
+  "method": "sgns",
+  "factors": 8,
+  "device": "mps",
+  "epochs": 160,
+  "batch_size": 8192,
+  "lr": 0.01,
+  "negatives": 8,
+  "regularization": 0.001,
+  "lr_decay": false,
+  "patience": 8,
+  "seed": 42,
+  "feedback_mode": "distinct_clicks",
+  "eval_every": 5
+}

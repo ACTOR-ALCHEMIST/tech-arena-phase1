@@ -1,0 +1,45 @@
+{
+  "policy": "Completed softmax experiments retain checkpoints, validation predictions and metadata; only recomputable feature arrays removed.",
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_softmax90/valid.npy",
+      "bytes": 38688448,
+      "sha256": "9dd1becd3680567cc0cac3072d1b9dc8426aab709b80a99e6bc1d5970549b706"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_softmax90/train.npy",
+      "bytes": 158400128,
+      "sha256": "99161bdacb28611ecc785dde1fb7fb95115e2e00f44c949c4552499acb7781ab"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_softmax30/valid.npy",
+      "bytes": 38688448,
+      "sha256": "a579de57384658b1675dd71d48ae0ee63de1cdc419873b76bac6a8d7ba36e60b"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_softmax30/train.npy",
+      "bytes": 158400128,
+      "sha256": "b161fadc23d8162522053623f3e768ec2cf5c9d14df2163f3c822f13340cb65e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_softmax90/valid.npy",
+      "bytes": 30921568,
+      "sha256": "7b4e74c2a0decc29ff1b0cd3197cc835c3f76e7cd18cb74f1d685b6e487678ef"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_softmax90/train.npy",
+      "bytes": 158400128,
+      "sha256": "41eb3d04c328e3def1fd957dd4006db5a330bb67688a9f87c39474d0af543047"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_softmax30/valid.npy",
+      "bytes": 30921568,
+      "sha256": "1321dd40d8fb3d6c40342471d3ea9b163c0b81401b5f2dbdc5cb25f9a0772dce"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_softmax30/train.npy",
+      "bytes": 158400128,
+      "sha256": "cae43d1b0dd645f8d36eaa20b02b8e332bc3819fd4bb3eef2663fa324c7e30a1"
+    }
+  ]
+}

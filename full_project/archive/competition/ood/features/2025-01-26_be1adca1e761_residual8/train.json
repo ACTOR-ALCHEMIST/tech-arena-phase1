@@ -1,0 +1,30 @@
+{
+  "names": [
+    "adapter_residual8_profile_dot",
+    "adapter_residual8_profile_dot_relative",
+    "adapter_residual8_profile_cos",
+    "adapter_residual8_profile_cos_relative",
+    "adapter_residual8_hist_mean",
+    "adapter_residual8_hist_mean_relative",
+    "adapter_residual8_last1",
+    "adapter_residual8_last1_relative",
+    "adapter_residual8_last3",
+    "adapter_residual8_last3_relative",
+    "adapter_residual8_last5",
+    "adapter_residual8_last5_relative",
+    "adapter_residual8_decay6",
+    "adapter_residual8_decay6_relative",
+    "adapter_residual8_decay24",
+    "adapter_residual8_decay24_relative",
+    "adapter_residual8_decay168",
+    "adapter_residual8_decay168_relative",
+    "adapter_residual8_hist_max",
+    "adapter_residual8_item_norm",
+    "adapter_residual8_profile_norm",
+    "adapter_residual8_item_bias",
+    "adapter_residual8_user_bias"
+  ],
+  "events": 180000,
+  "frame": "2025-01-24",
+  "indices_sha256": "90d4a52d473c53c06deb72ed407e2eae1c7f0fd0965c7ddbef687f0c06129ece"
+}

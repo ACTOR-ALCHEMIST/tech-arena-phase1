@@ -1,0 +1,114 @@
+[
+  {
+    "epoch": 5,
+    "loss": 0.2893971109274522,
+    "best_variant": "dot_prior0.5",
+    "auc": 0.5741650289149873,
+    "seconds": 3.4424035829870263
+  },
+  {
+    "epoch": 10,
+    "loss": 0.26772679634464597,
+    "best_variant": "dot_prior0.5",
+    "auc": 0.6344628898558613,
+    "seconds": 3.4188198750052834
+  },
+  {
+    "epoch": 15,
+    "loss": 0.2559792519483751,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.6759463408547572,
+    "seconds": 3.4539324999932433
+  },
+  {
+    "epoch": 20,
+    "loss": 0.24939138984795914,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.6991121459683507,
+    "seconds": 3.449924624990672
+  },
+  {
+    "epoch": 25,
+    "loss": 0.2453792047442742,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7125197259986158,
+    "seconds": 3.3995399169943994
+  },
+  {
+    "epoch": 30,
+    "loss": 0.24246246939145247,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7212253759011233,
+    "seconds": 3.55049995900481
+  },
+  {
+    "epoch": 35,
+    "loss": 0.2399747980740464,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7273873568073066,
+    "seconds": 3.5788491669954965
+  },
+  {
+    "epoch": 40,
+    "loss": 0.23797695411061778,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7322292961018437,
+    "seconds": 3.413652875009575
+  },
+  {
+    "epoch": 45,
+    "loss": 0.23595529187072828,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.736059400031107,
+    "seconds": 3.456354084002669
+  },
+  {
+    "epoch": 50,
+    "loss": 0.2341838412493178,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7383835299290638,
+    "seconds": 3.528152750004665
+  },
+  {
+    "epoch": 55,
+    "loss": 0.23268250585759728,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7402880077333902,
+    "seconds": 3.4349588329932885
+  },
+  {
+    "epoch": 60,
+    "loss": 0.23145200051728962,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7416524067657572,
+    "seconds": 3.4985292499914067
+  },
+  {
+    "epoch": 65,
+    "loss": 0.23037143167361473,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7427465983934206,
+    "seconds": 3.4737564169918187
+  },
+  {
+    "epoch": 70,
+    "loss": 0.2296227284716171,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7434861944361848,
+    "seconds": 3.5175808330095606
+  },
+  {
+    "epoch": 75,
+    "loss": 0.22899852939022397,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.743954875519254,
+    "seconds": 3.430068333997042
+  },
+  {
+    "epoch": 80,
+    "loss": 0.228753399357055,
+    "best_variant": "cosine_prior0.5",
+    "auc": 0.7442710226887294,
+    "seconds": 3.4529943329980597
+  }
+]

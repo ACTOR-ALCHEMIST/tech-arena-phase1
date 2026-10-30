@@ -1,0 +1,142 @@
+{
+  "name": "exposure_cross",
+  "cutoff": "2025-01-25",
+  "method": "ood_tabular",
+  "epoch": 4,
+  "train_loss": 1.6645939831415812,
+  "auc": 0.8197522675019308,
+  "logloss": 0.19182693639610038,
+  "average_precision": 0.27170183716254237,
+  "accuracy_at_0_5": 0.9372031662269129,
+  "rows": 439640,
+  "weighted_auc": 0.8166853097572204,
+  "augmented_events": 0,
+  "best_epoch": 4,
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6_locked25",
+    "loss": "event_ce",
+    "epochs": 25,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.995,
+    "seed": 1401,
+    "constant_policy": "zero",
+    "patience": 5,
+    "hidden": [
+      512,
+      256,
+      128
+    ],
+    "name": "exposure_cross",
+    "architecture": "v2_cross",
+    "multi_view": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "context_width": 64,
+    "cross_layers": 3,
+    "cutoff": "2025-01-25",
+    "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+    "fixed_epochs": false,
+    "lr_schedule_epochs": 40
+  },
+  "augmentation_config": {
+    "feature_mode": "exposure",
+    "mix": 0,
+    "model": {
+      "architecture": "v2_cross",
+      "seed": 1401
+    }
+  },
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6_locked25",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 959,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked rolling origin",
+    "sgns_extra": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ]
+  },
+  "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd_extra2a9aec27",
+  "source_experiment": "v3_cross512_s2027_locked25",
+  "parameters": 440390,
+  "seconds": 30.438452832982875,
+  "cohort_profile": {
+    "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+    "source_counts": [
+      190.0,
+      171.0,
+      884.0,
+      3436.0,
+      347.0,
+      7773.0,
+      46.0,
+      12548.0,
+      1.0,
+      18568.0
+    ],
+    "evaluation_counts": [
+      294.0,
+      371.0,
+      927.0,
+      5535.0,
+      214.0,
+      10422.0,
+      18.0,
+      14402.0,
+      0.0,
+      20756.0
+    ],
+    "weight_min": 0.24999857839039677,
+    "weight_max": 1.8017593956508275,
+    "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "base": {
+    "auc": 0.8218351638793959,
+    "weighted_auc": 0.8187971631654627
+  },
+  "rows": [
+    {
+      "config_index": 0,
+      "mode": "choice",
+      "mass": 0.25,
+      "auc": 0.8218252433436397,
+      "weighted_auc": 0.8187874234123618
+    },
+    {
+      "config_index": 0,
+      "mode": "choice",
+      "mass": 0.5,
+      "auc": 0.8218100292861764,
+      "weighted_auc": 0.818772449445993
+    },
+    {
+      "config_index": 0,
+      "mode": "choice",
+      "mass": 1.0,
+      "auc": 0.8217642959965047,
+      "weighted_auc": 0.8187279112203775
+    },
+    {
+      "config_index": 0,
+      "mode": "joint",
+      "mass": 0.25,
+      "auc": 0.8218199200889248,
+      "weighted_auc": 0.8187822772178858
+    },
+    {
+      "config_index": 0,
+      "mode": "joint",
+      "mass": 0.5,
+      "auc": 0.8217992458828399,
+      "weighted_auc": 0.8187621130510453
+    },
+    {
+      "config_index": 0,
+      "mode": "joint",
+      "mass": 1.0,
+      "auc": 0.8217429483944696,
+      "weighted_auc": 0.8187076438587446
+    },
+    {
+      "config_index": 1,
+      "mode": "choice",
+      "mass": 0.25,
+      "auc": 0.8218252195397949,
+      "weighted_auc": 0.8187874089832315
+    },
+    {
+      "config_index": 1,
+      "mode": "choice",
+      "mass": 0.5,
+      "auc": 0.8218100197820772,
+      "weighted_auc": 0.8187724472621681
+    },
+    {
+      "config_index": 1,
+      "mode": "choice",
+      "mass": 1.0,
+      "auc": 0.8217641991244471,
+      "weighted_auc": 0.8187278176340385
+    },
+    {
+      "config_index": 1,
+      "mode": "joint",
+      "mass": 0.25,
+      "auc": 0.8218218089632575,
+      "weighted_auc": 0.818783912101926
+    },
+    {
+      "config_index": 1,
+      "mode": "joint",
+      "mass": 0.5,
+      "auc": 0.821803332994296,
+      "weighted_auc": 0.8187657181215162
+    },
+    {
+      "config_index": 1,
+      "mode": "joint",
+      "mass": 1.0,
+      "auc": 0.8217513874242575,
+      "weighted_auc": 0.8187150056366715
+    },
+    {
+      "config_index": 2,
+      "mode": "choice",
+      "mass": 0.25,
+      "auc": 0.8218335266457095,
+      "weighted_auc": 0.8187955414438768
+    },
+    {
+      "config_index": 2,
+      "mode": "choice",
+      "mass": 0.5,
+      "auc": 0.8218318698806633,
+      "weighted_auc": 0.8187939375927515
+    },
+    {
+      "config_index": 2,
+      "mode": "choice",
+      "mass": 1.0,
+      "auc": 0.8218275224963971,
+      "weighted_auc": 0.8187896789419378
+    },
+    {
+      "config_index": 2,
+      "mode": "joint",
+      "mass": 0.25,
+      "auc": 0.8218307473506277,
+      "weighted_auc": 0.8187930000588155
+    },
+    {
+      "config_index": 2,
+      "mode": "joint",
+      "mass": 0.5,
+      "auc": 0.821826138385648,
+      "weighted_auc": 0.8187886608731029
+    },
+    {
+      "config_index": 2,
+      "mode": "joint",
+      "mass": 1.0,
+      "auc": 0.8218151689112305,
+      "weighted_auc": 0.8187783444437904
+    },
+    {
+      "config_index": 3,
+      "mode": "choice",
+      "mass": 0.25,
+      "auc": 0.8218335220244504,
+      "weighted_auc": 0.8187955372191132
+    },
+    {
+      "config_index": 3,
+      "mode": "choice",
+      "mass": 0.5,
+      "auc": 0.8218318904583461,
+      "weighted_auc": 0.8187939587347122
+    },
+    {
+      "config_index": 3,
+      "mode": "choice",
+      "mass": 1.0,
+      "auc": 0.8218275306925928,
+      "weighted_auc": 0.8187896909060192
+    },
+    {
+      "config_index": 3,
+      "mode": "joint",
+      "mass": 0.25,
+      "auc": 0.8218328272660751,
+      "weighted_auc": 0.818794835503978
+    },
+    {
+      "config_index": 3,
+      "mode": "joint",
+      "mass": 0.5,
+      "auc": 0.8218301925379343,
+      "weighted_auc": 0.818792233739877
+    },
+    {
+      "config_index": 3,
+      "mode": "joint",
+      "mass": 1.0,
+      "auc": 0.8218246136316686,
+      "weighted_auc": 0.8187867213948765
+    }
+  ],
+  "baseline_folder": "competition/final_v21"
+}

@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8214702271326846,
+  "new_auc": 0.8214840652755945,
+  "delta": 1.383814290989438e-05,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      -1.5733295277955973e-05,
+      4.477113609550332e-05
+    ],
+    "positive_fraction": 0.8,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.823828403563373,
+      "new_auc": 0.8238386418903538,
+      "delta": 1.0238326980882562e-05
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7393813000407448,
+      "new_auc": 0.7395078322755104,
+      "delta": 0.0001265322347656639
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5691496651306995,
+      "new_auc": 0.5700529134430046,
+      "delta": 0.0009032483123050383
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7464141517349409,
+      "new_auc": 0.7465743934978697,
+      "delta": 0.00016024176292883663
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8145189396510027,
+      "new_auc": 0.8144856691815741,
+      "delta": -3.327046942869227e-05
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8433827228249315,
+      "new_auc": 0.8434214115217676,
+      "delta": 3.868869683609777e-05
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8250242497997599,
+      "new_auc": 0.8250418524876386,
+      "delta": 1.7602687878759404e-05
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.806599173407027,
+      "new_auc": 0.8066047813205557,
+      "delta": 5.607913528660191e-06
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8214702271326846,
+      "new_auc": 0.8214840652755945,
+      "delta": 1.383814290989438e-05
+    }
+  },
+  "selection_sha256": "2e0e1f6ed0db0eb679293ed690247b0fd24b5c75da3caa4170eaba459e771ab9"
+}

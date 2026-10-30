@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows": 529390,
+  "raw_replay_max_abs_error": 0.0,
+  "correction_replay_max_abs_error": 0.0,
+  "csv_max_abs_error": 4.9998755136115847e-11,
+  "previous_best_preserved": true,
+  "protocol": "Independent CPU process; frozen first-stage checkpoint, feature source, past-only geometry and event calibrator. All original row IDs and probabilities checked."
+}

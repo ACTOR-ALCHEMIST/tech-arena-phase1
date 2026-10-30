@@ -1,0 +1,18 @@
+{
+  "name": "cat_sgns_context_22_80000_d6",
+  "method": "catboost",
+  "max_events": 80000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 1500,
+  "lr": 0.04,
+  "latent_factors": [
+    16,
+    32
+  ],
+  "train_start": "2025-01-22",
+  "context_features": true,
+  "sgns_factors": [
+    16
+  ]
+}

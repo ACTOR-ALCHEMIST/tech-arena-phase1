@@ -1,0 +1,33 @@
+{
+  "method": "tabular",
+  "source_experiment": "cat_sgns8_s2026_context24_d6",
+  "loss": "event_ce",
+  "epochs": 40,
+  "lr": 0.0005,
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "ema": 0.995,
+  "seed": 73,
+  "constant_policy": "zero",
+  "patience": 5,
+  "hidden": [
+    512,
+    256,
+    128
+  ],
+  "name": "v3_wide512_s73",
+  "architecture": "v2_wide",
+  "multi_view": [
+    {
+      "factors": 8,
+      "recipe": {
+        "epochs": 450,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 42,
+        "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+      }
+    }
+  ],
+  "context_width": 64
+}

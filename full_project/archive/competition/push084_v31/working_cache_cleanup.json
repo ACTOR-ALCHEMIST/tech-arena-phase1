@@ -1,0 +1,38 @@
+[
+  {
+    "path": "competition/ood/features/2025-01-26_be1adca1e761_fresh_mf/train.npy",
+    "bytes": 345600128,
+    "sha256": "a806ef24bb1193606b2a8ffebdc08ceb02a73a18dca9bee9a394aef5ac6cab75",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-26_be1adca1e761_unit_consensus/train.npy",
+    "bytes": 223200128,
+    "sha256": "012f5dbb33a94cc335ffb78b8142d6da845417d3f0c8de9702ce4de8e02b82ff",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-26_be1adca1e761_sphere_long/train.npy",
+    "bytes": 316800128,
+    "sha256": "cf20e18583f33a6d35552d1789441a0225cceeea313567edf26611e5033f06f3",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-25_cd29c31856ff_fresh_mf/train.npy",
+    "bytes": 345600128,
+    "sha256": "9daf24cf602ca7eab6bea0c1b23f34ac64ef46c44eeea8c3ab7901e00d2f1a7d",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-25_cd29c31856ff_unit_consensus/train.npy",
+    "bytes": 223200128,
+    "sha256": "abb5841b9b4bd15dab9c261ce237cd3b7a02b8f4fab02136599a29a35ce380ed",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-25_cd29c31856ff_sphere_long/train.npy",
+    "bytes": 316800128,
+    "sha256": "1014b59a686f95741e9fe7031987a912cdcdb696967169339f7a77ad72e9786f",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  }
+]

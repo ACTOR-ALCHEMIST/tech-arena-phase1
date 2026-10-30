@@ -103,7 +103,25 @@
     "models.py": "7b1cc1b5d6b6bb4a0a59662d0a41f00b5455d9dc1072e75fc09ca42f2092901b",
     "requirements.txt": "c3506d4dc2ad48b1eb32338d359e30228d9b78f647e148c915d5ab30056fa87c"
   },
-  "package_manifest_sha256": "548ef4089bd706de00c2a365b142a46ec9cd83d8f5d7f1488f2034f0c0c9b102",
+  "package_manifest_sha256": "83903df34b99f620bfef28bc311054dec92736ae31719da3eb1b96faab666876",
   "asset_count": 7,
-  "official_evaluation_labels_available": false
+  "official_evaluation_labels_available": false,
+  "source_archive_update": {
+    "date": "2026-10-30",
+    "copied_files": 5106,
+    "code_files": 1812,
+    "python_syntax_checked": 1806,
+    "source_inventory_sha256": "4610c07d2f2b343570878459047472aa0724322e499f55c0e568af40cc6e68eb",
+    "previous_package_manifest_sha256": "548ef4089bd706de00c2a365b142a46ec9cd83d8f5d7f1488f2034f0c0c9b102",
+    "inference_code_and_weights_unchanged": true,
+    "scope": "Source archive and documentation added; existing numerical inference validation retained. Asset/source hashes checked again; no new model training.",
+    "canonical_export_rechecked": true,
+    "canonical_export_python": "3.13.0",
+    "training_entry_help_checks": [
+      "run.py --help",
+      "light.py --help",
+      "arena_push084_v31.py --help"
+    ],
+    "configuration_json_files_parsed": 103
+  }
 }

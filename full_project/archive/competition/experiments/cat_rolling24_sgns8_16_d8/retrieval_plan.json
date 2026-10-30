@@ -1,0 +1,59 @@
+{
+  "name": "cat_rolling24_sgns8_16_d8",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/cat_rolling24_sgns8_16_d8.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "CatBoost",
+      "url": "https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic",
+      "text": "CatBoost transforms categorical features using target statistics. Greedy target statistics leak the current label. Use time safe feature snapshots; combine co click scores latent ALS interaction match and observed context. Use Logloss training with validation AUC and early stopping.",
+      "similarity": 0.1918781595538122
+    },
+    {
+      "title": "DIN",
+      "url": "https://arxiv.org/abs/1706.06978",
+      "text": "DIN candidate aware attention represents diverse user interests from click history. Time decay and repeated click features complement long term user embeddings. Prefer small model and regularization when sparse IDs overfit quickly.",
+      "similarity": 0.060508840834584056
+    },
+    {
+      "title": "LightGCN",
+      "url": "https://arxiv.org/abs/2002.02126",
+      "text": "LightGCN retains linear neighborhood aggregation and layer combination, omitting unnecessary feature transformations and nonlinear activation. Sparse user item graph propagation and low rank regularization are promising under limited memory.",
+      "similarity": 0.02393631929644127
+    },
+    {
+      "title": "Temporal evaluation",
+      "url": "https://arxiv.org/abs/2010.11060",
+      "text": "Respect global temporal order; leakage can change algorithm rankings. Use multiple global cutoffs and one first event per user. Generate training target features strictly from earlier snapshots; evaluation labels are not available.",
+      "similarity": 0.02243189181378493
+    }
+  ],
+  "config": {
+    "name": "cat_rolling24_sgns8_16_d8",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 8,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 80,
+      "16": 56
+    },
+    "rolling": true
+  }
+}

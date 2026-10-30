@@ -1,0 +1,43 @@
+{
+  "name": "als256_a20_r0.5",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/als256_a20_r0.5.json"
+  ],
+  "reason": "Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "Implicit ALS",
+      "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+      "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR.",
+      "similarity": 0.15896735978491225
+    },
+    {
+      "title": "als128_a10_r0.1",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/als128_a10_r0.1/result.json",
+      "text": "implicit_als AUC 0.651288 cutoff 2025-01-26 config {\"name\": \"als128_a10_r0.1\", \"method\": \"als\", \"factors\": 128, \"alpha\": 10, \"regularization\": 0.1, \"iterations\": 25} features []",
+      "similarity": 0.06853190953335886
+    },
+    {
+      "title": "als32_a10_r0.1",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/als32_a10_r0.1/result.json",
+      "text": "implicit_als AUC 0.672467 cutoff 2025-01-26 config {\"name\": \"als32_a10_r0.1\", \"method\": \"als\", \"factors\": 32, \"alpha\": 10, \"regularization\": 0.1, \"iterations\": 25} features []",
+      "similarity": 0.06729004876725163
+    },
+    {
+      "title": "als128_a40_r0.5",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/als128_a40_r0.5/result.json",
+      "text": "implicit_als AUC 0.655075 cutoff 2025-01-26 config {\"name\": \"als128_a40_r0.5\", \"method\": \"als\", \"factors\": 128, \"alpha\": 40, \"regularization\": 0.5, \"iterations\": 25} features []",
+      "similarity": 0.06704176425251453
+    }
+  ],
+  "config": {
+    "name": "als256_a20_r0.5",
+    "method": "als",
+    "factors": 256,
+    "alpha": 20,
+    "regularization": 0.5,
+    "iterations": 25
+  }
+}

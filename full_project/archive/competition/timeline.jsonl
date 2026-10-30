@@ -1,0 +1,415 @@
+{"time": "2026-10-24T01:49:01+08:00", "kind": "progress", "message": "启动自主优化：复核比赛要求；本机 M2/8核/16GB，MPS 可用，电源接通；旧完整双塔 AUC 0.585356。保留所有既有产物。"}
+{"time": "2026-10-24T01:49:01+08:00", "kind": "research", "message": "检索原始论文 EASE、Google 双塔负采样及 implicit/CatBoost 官方文档；先验证官方共点击方案，再根据结果分配算力。"}
+{"time": "2026-10-24T01:49:13+08:00", "kind": "progress", "message": "构建 2025-01-26 严格前向快照：588,873 个事件、841,074 个去重用户物品交互、21,111,353 个共点击非零项，耗时 8.7 秒。"}
+{"time": "2026-10-24T01:49:19+08:00", "kind": "experiment", "message": "实验 cf_26：AUC 0.615649，官方三信号公式 AUC 0.615649，最佳 starter_cf_w25。"}
+{"time": "2026-10-24T01:52:20+08:00", "kind": "progress", "message": "构建 2025-01-22 严格前向快照：197,017 个事件、587,527 个去重用户物品交互、10,118,807 个共点击非零项，耗时 4.2 秒。"}
+{"time": "2026-10-24T01:52:34+08:00", "kind": "experiment", "message": "实验 als64_a20：implicit_als，切点 2025-01-26，AUC 0.671045，Logloss 1.431431，耗时 18.4 秒。"}
+{"time": "2026-10-24T01:52:42+08:00", "kind": "experiment", "message": "实验 cat80k_d6：catboost_numeric，切点 2025-01-26，AUC 0.635350，Logloss 0.225122，耗时 25.6 秒。"}
+{"kind":"scheduler","message":"Go 调度启动 PID=12093，最大新实验 9，预算 2.00 小时。","time":"2026-10-24T01:55:54+08:00"}
+{"kind":"retrieval","message":"als32_a10_r0.1: Current best ALS AUC=0.671045; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T01:55:56+08:00"}
+{"time": "2026-10-24T01:56:07+08:00", "kind": "experiment", "message": "实验 als32_a10_r0.1：implicit_als，切点 2025-01-26，AUC 0.672467，Logloss 0.720203，耗时 9.5 秒。"}
+{"kind":"scheduler","message":"als32_a10_r0.1 完成，耗时 11.6 秒。","time":"2026-10-24T01:56:07+08:00"}
+{"kind":"retrieval","message":"als128_a10_r0.1: Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T01:56:08+08:00"}
+{"time": "2026-10-24T01:56:47+08:00", "kind": "experiment", "message": "实验 als128_a10_r0.1：implicit_als，切点 2025-01-26，AUC 0.651288，Logloss 0.900175，耗时 36.4 秒。"}
+{"kind":"scheduler","message":"als128_a10_r0.1 完成，耗时 38.5 秒。","time":"2026-10-24T01:56:47+08:00"}
+{"kind":"retrieval","message":"als128_a40_r0.5: Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T01:56:48+08:00"}
+{"time": "2026-10-24T01:57:27+08:00", "kind": "experiment", "message": "实验 als128_a40_r0.5：implicit_als，切点 2025-01-26，AUC 0.655075，Logloss 0.669661，耗时 36.8 秒。"}
+{"kind":"scheduler","message":"als128_a40_r0.5 完成，耗时 38.9 秒。","time":"2026-10-24T01:57:27+08:00"}
+{"kind":"retrieval","message":"als256_a20_r0.5: Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T01:57:28+08:00"}
+{"time": "2026-10-24T01:59:15+08:00", "kind": "experiment", "message": "实验 als256_a20_r0.5：implicit_als，切点 2025-01-26，AUC 0.640905，Logloss 0.479180，耗时 105.5 秒。"}
+{"kind":"scheduler","message":"als256_a20_r0.5 完成，耗时 107.6 秒。","time":"2026-10-24T01:59:16+08:00"}
+{"kind":"retrieval","message":"als64_a5_r0.1: Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T01:59:17+08:00"}
+{"time": "2026-10-24T01:59:35+08:00", "kind": "experiment", "message": "实验 als64_a5_r0.1：implicit_als，切点 2025-01-26，AUC 0.654374，Logloss 0.515312，耗时 16.5 秒。"}
+{"kind":"scheduler","message":"als64_a5_r0.1 完成，耗时 18.6 秒。","time":"2026-10-24T01:59:35+08:00"}
+{"kind":"retrieval","message":"als128_a5_r0.1: Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T01:59:36+08:00"}
+{"time": "2026-10-24T02:00:15+08:00", "kind": "experiment", "message": "实验 als128_a5_r0.1：implicit_als，切点 2025-01-26，AUC 0.644371，Logloss 0.525476，耗时 36.6 秒。"}
+{"kind":"scheduler","message":"als128_a5_r0.1 完成，耗时 38.5 秒。","time":"2026-10-24T02:00:15+08:00"}
+{"kind":"retrieval","message":"cat80000_d4_l20: Current best ALS AUC=0.672467; numeric tree AUC=0.635350. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:00:16+08:00"}
+{"time": "2026-10-24T02:00:25+08:00", "kind": "research", "message": "Go 调度已实际运行，按 TF-IDF 检索论文与本地实验记录后生成参数配置。低秩 ALS 优于高秩的初步证据触发新增 8/16/24 维实验；准备把标准化潜在匹配分数加入严格前向训练的 CatBoost。"}
+{"time": "2026-10-24T02:00:38+08:00", "kind": "experiment", "message": "实验 cat80000_d4_l20：catboost_numeric，切点 2025-01-26，AUC 0.635777，Logloss 0.224988，耗时 19.9 秒。"}
+{"kind":"scheduler","message":"cat80000_d4_l20 完成，耗时 22.2 秒。","time":"2026-10-24T02:00:38+08:00"}
+{"kind":"retrieval","message":"als16_a10_r0.1: Current best ALS AUC=0.672467; numeric tree AUC=0.635777. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:00:39+08:00"}
+{"time": "2026-10-24T02:00:47+08:00", "kind": "experiment", "message": "实验 als16_a10_r0.1：implicit_als，切点 2025-01-26，AUC 0.677857，Logloss 0.612107，耗时 6.6 秒。"}
+{"kind":"scheduler","message":"als16_a10_r0.1 完成，耗时 8.6 秒。","time":"2026-10-24T02:00:48+08:00"}
+{"kind":"retrieval","message":"als16_a3_r0.1: Current best ALS AUC=0.677857; numeric tree AUC=0.635777. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:00:49+08:00"}
+{"time": "2026-10-24T02:00:57+08:00", "kind": "experiment", "message": "实验 als16_a3_r0.1：implicit_als，切点 2025-01-26，AUC 0.634656，Logloss 0.314382，耗时 6.6 秒。"}
+{"kind":"scheduler","message":"als16_a3_r0.1 完成，耗时 8.6 秒。","time":"2026-10-24T02:00:57+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T02:00:57+08:00"}
+{"time": "2026-10-24T02:02:46+08:00", "kind": "research", "message": "依据检索到的辅助隐式反馈与负采样研究，启动 MPS GPU 的低秩负采样表示学习，和 CPU ALS 形成不同归纳偏置，验证是否值得融合。"}
+{"time": "2026-10-24T02:03:33+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns16_mps：设备 mps，AUC 0.743287，最佳 epoch 20，耗时 45.1 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"Go 调度启动 PID=16803，最大新实验 30，预算 3.00 小时。","time":"2026-10-24T02:03:46+08:00"}
+{"kind":"retrieval","message":"cat_als16_32_80000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.635777. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:03:47+08:00"}
+{"time": "2026-10-24T02:05:31+08:00", "kind": "experiment", "message": "实验 cat_als16_32_80000_d6：catboost_numeric，切点 2025-01-26，AUC 0.772018，Logloss 0.205678，耗时 101.9 秒。"}
+{"kind":"scheduler","message":"cat_als16_32_80000_d6 完成，耗时 104.3 秒。","time":"2026-10-24T02:05:32+08:00"}
+{"kind":"retrieval","message":"als8_a10_r0.1: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:05:33+08:00"}
+{"time": "2026-10-24T02:05:40+08:00", "kind": "experiment", "message": "实验 als8_a10_r0.1：implicit_als，切点 2025-01-26，AUC 0.630693，Logloss 0.575595，耗时 5.7 秒。"}
+{"kind":"scheduler","message":"als8_a10_r0.1 完成，耗时 7.9 秒。","time":"2026-10-24T02:05:41+08:00"}
+{"kind":"retrieval","message":"als24_a5_r0.1: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:05:42+08:00"}
+{"time": "2026-10-24T02:05:51+08:00", "kind": "experiment", "message": "实验 als24_a5_r0.1：implicit_als，切点 2025-01-26，AUC 0.657132，Logloss 0.438380，耗时 8.0 秒。"}
+{"kind":"scheduler","message":"als24_a5_r0.1 完成，耗时 9.9 秒。","time":"2026-10-24T02:05:52+08:00"}
+{"kind":"retrieval","message":"cat200000_d6_l20: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:05:53+08:00"}
+{"time": "2026-10-24T02:06:44+08:00", "kind": "experiment", "message": "实验 cat200000_d6_l20：catboost_numeric，切点 2025-01-26，AUC 0.636817，Logloss 0.225038，耗时 49.2 秒。"}
+{"kind":"scheduler","message":"cat200000_d6_l20 完成，耗时 51.6 秒。","time":"2026-10-24T02:06:44+08:00"}
+{"kind":"retrieval","message":"cat200000_d8_l30: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:06:45+08:00"}
+{"time": "2026-10-24T02:07:18+08:00", "kind": "experiment", "message": "实验 cat200000_d8_l30：catboost_numeric，切点 2025-01-26，AUC 0.636023，Logloss 0.224903，耗时 30.8 秒。"}
+{"kind":"scheduler","message":"cat200000_d8_l30 完成，耗时 33.3 秒。","time":"2026-10-24T02:07:19+08:00"}
+{"kind":"retrieval","message":"cat_als16_32_200000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:07:20+08:00"}
+{"kind":"scheduler","message":"Go 调度启动 PID=19466，通道 gpu，每通道最大新实验 8，预算 2.00 小时。","time":"2026-10-24T02:07:59+08:00"}
+{"kind":"retrieval","message":"sgns16_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:08:01+08:00"}
+{"kind":"failure","message":"sgns16_n8_e80_s42: exit status 1","time":"2026-10-24T02:08:04+08:00"}
+{"kind":"retrieval","message":"sgns32_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:08:05+08:00"}
+{"kind":"failure","message":"sgns32_n8_e80_s42: exit status 1","time":"2026-10-24T02:08:08+08:00"}
+{"kind":"retrieval","message":"sgns8_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:08:09+08:00"}
+{"kind":"failure","message":"sgns8_n8_e80_s42: exit status 1","time":"2026-10-24T02:08:12+08:00"}
+{"kind":"retrieval","message":"sgns16_n16_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:08:14+08:00"}
+{"kind":"failure","message":"sgns16_n16_e80_s42: exit status 1","time":"2026-10-24T02:08:16+08:00"}
+{"kind":"retrieval","message":"sgns16_n8_e80_s2026: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:08:18+08:00"}
+{"kind":"failure","message":"sgns16_n8_e80_s2026: exit status 1","time":"2026-10-24T02:08:21+08:00"}
+{"kind":"retrieval","message":"sgns32_n8_e80_s2026: Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:08:22+08:00"}
+{"kind":"failure","message":"sgns32_n8_e80_s2026: exit status 1","time":"2026-10-24T02:08:25+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T02:08:27+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T02:08:27+08:00"}
+{"time": "2026-10-24T02:10:26+08:00", "kind": "experiment", "message": "实验 cat_als16_32_200000_d6：catboost_numeric，切点 2025-01-26，AUC 0.772555，Logloss 0.205889，耗时 184.0 秒。"}
+{"kind":"scheduler","message":"cat_als16_32_200000_d6 完成，耗时 186.4 秒。","time":"2026-10-24T02:10:26+08:00"}
+{"kind":"retrieval","message":"cat_als16_32_200000_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.772555. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:10:27+08:00"}
+{"time": "2026-10-24T02:11:59+08:00", "kind": "fix", "message": "GPU 批量调度首次失败，原因是设置高水位 0.55 时未同步降低 PyTorch 默认低水位 1.4。已保留六次启动失败日志，修正低水位为 0.4，新增通道启动时的实际 MPS 分配健康检查，再重试。模型训练本身未发生 OOM。"}
+{"kind":"scheduler","message":"Go 调度启动 PID=22508，通道 gpu，每通道最大新实验 8，预算 2.00 小时。","time":"2026-10-24T02:12:00+08:00"}
+{"kind":"retrieval","message":"sgns16_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772555. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:12:03+08:00"}
+{"time": "2026-10-24T02:13:25+08:00", "kind": "experiment", "message": "实验 cat_als16_32_200000_d8：catboost_numeric，切点 2025-01-26，AUC 0.772891，Logloss 0.206095，耗时 176.1 秒。"}
+{"kind":"scheduler","message":"cat_als16_32_200000_d8 完成，耗时 178.6 秒。","time":"2026-10-24T02:13:26+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T02:13:27+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T02:13:27+08:00"}
+{"time": "2026-10-24T02:14:43+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns16_n8_e80_s42：设备 mps，AUC 0.752524，最佳 epoch 56，耗时 158.0 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns16_n8_e80_s42 完成，耗时 160.8 秒。","time":"2026-10-24T02:14:44+08:00"}
+{"kind":"retrieval","message":"sgns32_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772891. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:14:45+08:00"}
+{"kind":"scheduler","message":"Go 调度启动 PID=24874，通道 cpu，每通道最大新实验 15，预算 2.00 小时。","time":"2026-10-24T02:16:23+08:00"}
+{"kind":"retrieval","message":"cat_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.772891. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:16:24+08:00"}
+{"time": "2026-10-24T02:16:33+08:00", "kind": "progress", "message": "构建 2025-01-24 严格前向快照：392,831 个事件、725,399 个去重用户物品交互、15,164,047 个共点击非零项，耗时 6.5 秒。"}
+{"time": "2026-10-24T02:18:36+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns32_n8_e80_s42：设备 mps，AUC 0.710757，最佳 epoch 80，耗时 229.7 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns32_n8_e80_s42 完成，耗时 232.2 秒。","time":"2026-10-24T02:18:37+08:00"}
+{"kind":"retrieval","message":"sgns8_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.772891. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:18:39+08:00"}
+{"time": "2026-10-24T02:20:21+08:00", "kind": "experiment", "message": "实验 cat_context_24_180000_d6：catboost_numeric，切点 2025-01-26，AUC 0.775427，Logloss 0.203946，耗时 234.9 秒。"}
+{"kind":"scheduler","message":"cat_context_24_180000_d6 完成，耗时 237.6 秒。","time":"2026-10-24T02:20:21+08:00"}
+{"kind":"retrieval","message":"cat_sgns_context_22_80000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.775427. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:20:23+08:00"}
+{"time": "2026-10-24T02:21:02+08:00", "kind": "research", "message": "特征模型提升至 AUC 0.772891，最重要信号为 ALS16 归一化相对匹配、历史语义相似度和用户倾向。新增真实历史点击按用户/物品/分钟去重：切点26前946,227次；后续测试频次与时间上下文，全部严格来自拟合期。"}
+{"time": "2026-10-24T02:22:14+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_n8_e80_s42：设备 mps，AUC 0.783731，最佳 epoch 80，耗时 212.6 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_n8_e80_s42 完成，耗时 215.9 秒。","time":"2026-10-24T02:22:15+08:00"}
+{"kind":"retrieval","message":"sgns16_n16_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.775427. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:22:17+08:00"}
+{"time": "2026-10-24T02:23:56+08:00", "kind": "experiment", "message": "实验 cat_sgns_context_22_80000_d6：catboost_numeric，切点 2025-01-26，AUC 0.789505，Logloss 0.200495，耗时 210.4 秒。"}
+{"kind":"scheduler","message":"cat_sgns_context_22_80000_d6 完成，耗时 213.4 秒。","time":"2026-10-24T02:23:56+08:00"}
+{"kind":"retrieval","message":"cat_sgns8_16_context_22_80000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.789505. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:23:58+08:00"}
+{"time": "2026-10-24T02:24:40+08:00", "kind": "experiment", "message": "GPU 8维表示在第80轮达到 AUC 0.783731，低于16/32维的容量在这份稀疏数据上更有效。锁定该配置与打分配方，在1月25日切点独立复核；不按复核集重新挑选epoch或打分变体。"}
+{"time": "2026-10-24T02:24:54+08:00", "kind": "progress", "message": "构建 2025-01-25 严格前向快照：490,420 个事件、784,246 个去重用户物品交互、18,012,357 个共点击非零项，耗时 10.6 秒。"}
+{"time": "2026-10-24T02:24:59+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns16_n16_e80_s42：设备 mps，AUC 0.756626，最佳 epoch 43，耗时 159.9 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns16_n16_e80_s42 完成，耗时 163.3 秒。","time":"2026-10-24T02:25:00+08:00"}
+{"kind":"retrieval","message":"sgns8_n16_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.789505. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:25:02+08:00"}
+{"time": "2026-10-24T02:27:44+08:00", "kind": "experiment", "message": "实验 cat_sgns8_16_context_22_80000_d6：catboost_numeric，切点 2025-01-26，AUC 0.801327，Logloss 0.197110，耗时 224.2 秒。"}
+{"kind":"scheduler","message":"cat_sgns8_16_context_22_80000_d6 完成，耗时 227.3 秒。","time":"2026-10-24T02:27:45+08:00"}
+{"kind":"retrieval","message":"cat_sgns_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.801327. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:27:47+08:00"}
+{"time": "2026-10-24T02:29:29+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_n16_e80_s42：设备 mps，AUC 0.774388，最佳 epoch 80，耗时 263.3 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_n16_e80_s42 完成，耗时 267.4 秒。","time":"2026-10-24T02:29:29+08:00"}
+{"kind":"retrieval","message":"sgns8_n8_e80_s2026: Current best ALS AUC=0.677857; numeric tree AUC=0.801327. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:29:32+08:00"}
+{"time": "2026-10-24T02:30:10+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_locked_cut25：设备 mps，AUC 0.763408，最佳 epoch 80，耗时 327.4 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"time": "2026-10-24T02:33:42+08:00", "kind": "experiment", "message": "实验 cat_sgns_context_24_180000_d6：catboost_numeric，切点 2025-01-26，AUC 0.794402，Logloss 0.198748，耗时 352.8 秒。"}
+{"kind":"scheduler","message":"cat_sgns_context_24_180000_d6 完成，耗时 356.3 秒。","time":"2026-10-24T02:33:43+08:00"}
+{"kind":"retrieval","message":"cat_sgns8_16_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.801327. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:33:44+08:00"}
+{"time": "2026-10-24T02:33:54+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_n8_e80_s2026：设备 mps，AUC 0.776602，最佳 epoch 80，耗时 258.8 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_n8_e80_s2026 完成，耗时 262.7 秒。","time":"2026-10-24T02:33:54+08:00"}
+{"kind":"retrieval","message":"sgns8_distinct_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.801327. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:33:56+08:00"}
+{"time": "2026-10-24T02:38:23+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_distinct_e80_s42：设备 mps，AUC 0.785209，最佳 epoch 80，耗时 265.5 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_distinct_e80_s42 完成，耗时 268.3 秒。","time":"2026-10-24T02:38:24+08:00"}
+{"kind":"retrieval","message":"sgns8_const_e160_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.801327. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:38:26+08:00"}
+{"time": "2026-10-24T02:39:37+08:00", "kind": "experiment", "message": "实验 cat_sgns8_16_context_24_180000_d6：catboost_numeric，切点 2025-01-26，AUC 0.811689，Logloss 0.193953，耗时 350.0 秒。"}
+{"kind":"scheduler","message":"cat_sgns8_16_context_24_180000_d6 完成，耗时 353.1 秒。","time":"2026-10-24T02:39:37+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8_16_context_22_80000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.811689. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:39:39+08:00"}
+{"time": "2026-10-24T02:39:53+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8_16_context_22_80000_d6：AUC 0.804101，基础模型 0.801327，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8_16_context_22_80000_d6 完成，耗时 14.8 秒。","time":"2026-10-24T02:39:53+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8_16_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.811689. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:39:55+08:00"}
+{"time": "2026-10-24T02:40:19+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8_16_context_24_180000_d6：AUC 0.814354，基础模型 0.811689，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8_16_context_24_180000_d6 完成，耗时 24.5 秒。","time":"2026-10-24T02:40:19+08:00"}
+{"kind":"retrieval","message":"cat_sgns_context_24_180000_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:40:20+08:00"}
+{"time": "2026-10-24T02:41:21+08:00", "kind": "verification", "message": "已将各代 SGNS 特征的训练轮数显式写入配置，区分早期8维56轮与后续80轮；验证重算特征应逐项匹配缓存，防止迭代代码变化导致全量重训与验证配方不一致。"}
+{"time": "2026-10-24T02:43:49+08:00", "kind": "research", "message": "数据诊断：主验证历史平均15.29条，评测集13.38条；第二切点14.04条更接近。新增仅用无标签历史长度与已见用户比例的重加权诊断，配方选择结合两切点表现，官方测试指标仍不可知。"}
+{"time": "2026-10-24T02:44:01+08:00", "kind": "progress", "message": "构建 2025-01-23 严格前向快照：295,114 个事件、663,037 个去重用户物品交互、12,580,864 个共点击非零项，耗时 8.5 秒。"}
+{"time": "2026-10-24T02:46:31+08:00", "kind": "experiment", "message": "实验 cat_sgns_context_24_180000_d8：catboost_numeric，切点 2025-01-26，AUC 0.794522，Logloss 0.198822，耗时 368.6 秒。"}
+{"kind":"scheduler","message":"cat_sgns_context_24_180000_d8 完成，耗时 371.5 秒。","time":"2026-10-24T02:46:32+08:00"}
+{"kind":"retrieval","message":"cat_sgns8e80_16_context_22_80000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:46:34+08:00"}
+{"time": "2026-10-24T02:47:38+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_const_e160_s42：设备 mps，AUC 0.795586，最佳 epoch 159，耗时 549.5 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_const_e160_s42 完成，耗时 553.4 秒。","time":"2026-10-24T02:47:39+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T02:47:39+08:00"}
+{"time": "2026-10-24T02:49:24+08:00", "kind": "optimization", "message": "较长的8维负采样模型在159轮达到 AUC 0.795586；降低验证频率到每5轮以减少重复排序开销，将更多GPU时间用于参数学习。保留现有最佳检查点与旧模型配方。"}
+{"kind":"scheduler","message":"Go 调度启动 PID=44878，通道 gpu，每通道最大新实验 15，预算 2.00 小时。","time":"2026-10-24T02:49:24+08:00"}
+{"kind":"retrieval","message":"sgns8_const_n8_binary_e320_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:49:28+08:00"}
+{"time": "2026-10-24T02:51:19+08:00", "kind": "experiment", "message": "实验 cat_sgns8e80_16_context_22_80000_d6：catboost_numeric，切点 2025-01-26，AUC 0.802837，Logloss 0.196706，耗时 281.1 秒。"}
+{"kind":"scheduler","message":"cat_sgns8e80_16_context_22_80000_d6 完成，耗时 286.4 秒。","time":"2026-10-24T02:51:20+08:00"}
+{"kind":"retrieval","message":"cat_sgns8_16_context_24_180000_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:51:23+08:00"}
+{"time": "2026-10-24T02:58:01+08:00", "kind": "experiment", "message": "实验 cat_sgns8_16_context_24_180000_d6_locked25：catboost_numeric，切点 2025-01-25，AUC 0.800494，Logloss 0.197801，耗时 847.6 秒。"}
+{"time": "2026-10-24T02:59:47+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_const_n8_binary_e320_s42：设备 mps，AUC 0.802547，最佳 epoch 320，耗时 614.6 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_const_n8_binary_e320_s42 完成，耗时 619.0 秒。","time":"2026-10-24T02:59:47+08:00"}
+{"kind":"retrieval","message":"sgns8_const_n4_binary_e160_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T02:59:49+08:00"}
+{"time": "2026-10-24T03:00:12+08:00", "kind": "experiment", "message": "实验 cat_sgns8_16_context_24_180000_d8：catboost_numeric，切点 2025-01-26，AUC 0.811700，Logloss 0.194019，耗时 524.9 秒。"}
+{"kind":"scheduler","message":"cat_sgns8_16_context_24_180000_d8 完成，耗时 529.8 秒。","time":"2026-10-24T03:00:13+08:00"}
+{"kind":"retrieval","message":"cat_sgns8long_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:00:14+08:00"}
+{"time": "2026-10-24T03:03:10+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_const_n4_binary_e160_s42：设备 mps，AUC 0.780315，最佳 epoch 160，耗时 197.7 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_const_n4_binary_e160_s42 完成，耗时 201.8 秒。","time":"2026-10-24T03:03:11+08:00"}
+{"time": "2026-10-24T03:03:12+08:00", "kind": "experiment", "message": "真实曝光微调 warm_ctr_anchor01：AUC 0.802447，anchor=0.1，最佳epoch 1。"}
+{"kind":"retrieval","message":"sgns8_const_n8_distinct_clicks_e160_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:03:14+08:00"}
+{"time": "2026-10-24T03:07:28+08:00", "kind": "experiment", "message": "实验 cat_sgns8long_context_24_180000_d6：catboost_numeric，切点 2025-01-26，AUC 0.819746，Logloss 0.191664，耗时 431.4 秒。"}
+{"kind":"scheduler","message":"cat_sgns8long_context_24_180000_d6 完成，耗时 434.3 秒。","time":"2026-10-24T03:07:28+08:00"}
+{"kind":"retrieval","message":"cat_sgns8long_context_24_180000_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:07:29+08:00"}
+{"time": "2026-10-24T03:07:41+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_const_n8_distinct_clicks_e160_s42：设备 mps，AUC 0.787164，最佳 epoch 160，耗时 264.0 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_const_n8_distinct_clicks_e160_s42 完成，耗时 268.1 秒。","time":"2026-10-24T03:07:42+08:00"}
+{"kind":"retrieval","message":"mlp_event_ce_cat_sgns8_16_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:07:44+08:00"}
+{"time": "2026-10-24T03:08:58+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_ce_cat_sgns8_16_context_24_180000_d6：event_ce，AUC 0.815565，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_event_ce_cat_sgns8_16_context_24_180000_d6 完成，耗时 75.3 秒。","time":"2026-10-24T03:08:59+08:00"}
+{"kind":"retrieval","message":"mlp_bce_cat_sgns8_16_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:09:01+08:00"}
+{"time": "2026-10-24T03:10:55+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_bce_cat_sgns8_16_context_24_180000_d6：bce，AUC 0.812872，最佳epoch 26。"}
+{"kind":"scheduler","message":"mlp_bce_cat_sgns8_16_context_24_180000_d6 完成，耗时 113.9 秒。","time":"2026-10-24T03:10:55+08:00"}
+{"kind":"retrieval","message":"mlp_event_ce_cat_sgns8long_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:10:57+08:00"}
+{"time": "2026-10-24T03:11:23+08:00", "kind": "verification", "message": "验证了主模型200个验证事件的全部100维特征逐项复现，最大误差0。已有11项检查通过，Go vet通过。全量训练采用分块特征缓存，最终模型目录仅保留模型、配方、指标和CSV，避免混入大训练矩阵。"}
+{"time": "2026-10-24T03:11:27+08:00", "kind": "experiment", "message": "实验 cat_sgns8long_context_24_180000_d8：catboost_numeric，切点 2025-01-26，AUC 0.819593，Logloss 0.191675，耗时 235.3 秒。"}
+{"kind":"scheduler","message":"cat_sgns8long_context_24_180000_d8 完成，耗时 238.3 秒。","time":"2026-10-24T03:11:28+08:00"}
+{"kind":"retrieval","message":"cat_rolling24_sgns8_16_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:11:29+08:00"}
+{"time": "2026-10-24T03:11:53+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_ce_cat_sgns8long_context_24_180000_d6：event_ce，AUC 0.823270，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_event_ce_cat_sgns8long_context_24_180000_d6 完成，耗时 56.5 秒。","time":"2026-10-24T03:11:54+08:00"}
+{"kind":"retrieval","message":"mlp_bce_cat_sgns8long_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:11:56+08:00"}
+{"time": "2026-10-24T03:13:48+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_bce_cat_sgns8long_context_24_180000_d6：bce，AUC 0.820638，最佳epoch 28。"}
+{"kind":"scheduler","message":"mlp_bce_cat_sgns8long_context_24_180000_d6 完成，耗时 112.3 秒。","time":"2026-10-24T03:13:48+08:00"}
+{"kind":"retrieval","message":"sgns6_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:13:51+08:00"}
+{"time": "2026-10-24T03:15:56+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns6_n8_e80_s42：设备 mps，AUC 0.744271，最佳 epoch 80，耗时 122.7 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns6_n8_e80_s42 完成，耗时 126.8 秒。","time":"2026-10-24T03:15:57+08:00"}
+{"kind":"retrieval","message":"mlp_event_long_ema_s2026_d0.1: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:15:59+08:00"}
+{"time": "2026-10-24T03:17:18+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_long_ema_s2026_d0.1：event_ce，AUC 0.823496，最佳epoch 12。"}
+{"kind":"scheduler","message":"mlp_event_long_ema_s2026_d0.1 完成，耗时 79.1 秒。","time":"2026-10-24T03:17:19+08:00"}
+{"kind":"retrieval","message":"mlp_event_long_ema_s7_d0.2: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:17:21+08:00"}
+{"time": "2026-10-24T03:17:37+08:00", "kind": "experiment", "message": "实验 cat_rolling24_sgns8_16_d6：catboost_numeric，切点 2025-01-26，AUC 0.812605，Logloss 0.193630，耗时 365.2 秒。"}
+{"kind":"scheduler","message":"cat_rolling24_sgns8_16_d6 完成，耗时 368.3 秒。","time":"2026-10-24T03:17:37+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8_16_context_24_180000_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:17:38+08:00"}
+{"time": "2026-10-24T03:17:41+08:00", "kind": "experiment", "message": "真实曝光向量微调首轮 AUC 0.802447，随后下降，自动早停。改用严格前向快照的固定数值特征训练小神经头：BCE达0.820638，显式11类事件交叉熵达0.823270。所有未点击事件保留，未额外输出未点击行。"}
+{"time": "2026-10-24T03:18:07+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8_16_context_24_180000_d8：AUC 0.814242，基础模型 0.811700，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8_16_context_24_180000_d8 完成，耗时 28.7 秒。","time":"2026-10-24T03:18:07+08:00"}
+{"kind":"retrieval","message":"cat_sgns8long_context_24_180000_d6_locked25: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:18:08+08:00"}
+{"time": "2026-10-24T03:18:25+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_long_ema_s7_d0.2：event_ce，AUC 0.823352，最佳epoch 14。"}
+{"kind":"scheduler","message":"mlp_event_long_ema_s7_d0.2 完成，耗时 65.3 秒。","time":"2026-10-24T03:18:26+08:00"}
+{"kind":"retrieval","message":"mlp_event_long_ema_s42_d0.2: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:18:28+08:00"}
+{"time": "2026-10-24T03:19:14+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_long_ema_s42_d0.2：event_ce，AUC 0.823224，最佳epoch 12。"}
+{"kind":"scheduler","message":"mlp_event_long_ema_s42_d0.2 完成，耗时 46.8 秒。","time":"2026-10-24T03:19:14+08:00"}
+{"kind":"retrieval","message":"sgns6_const_n8_binary_e160_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:19:16+08:00"}
+{"time": "2026-10-24T03:22:27+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns6_const_n8_binary_e160_s42：设备 mps，AUC 0.755133，最佳 epoch 160，耗时 189.0 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns6_const_n8_binary_e160_s42 完成，耗时 192.2 秒。","time":"2026-10-24T03:22:28+08:00"}
+{"kind":"retrieval","message":"sgns4_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:22:30+08:00"}
+{"time": "2026-10-24T03:24:31+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns4_n8_e80_s42：设备 mps，AUC 0.697389，最佳 epoch 80，耗时 118.0 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns4_n8_e80_s42 完成，耗时 121.9 秒。","time":"2026-10-24T03:24:32+08:00"}
+{"kind":"retrieval","message":"sgns12_n8_e80_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:24:34+08:00"}
+{"time": "2026-10-24T03:26:18+08:00", "kind": "experiment", "message": "实验 cat_sgns8long_context_24_180000_d6_locked25：catboost_numeric，切点 2025-01-25，AUC 0.804098，Logloss 0.196867，耗时 487.7 秒。"}
+{"kind":"scheduler","message":"cat_sgns8long_context_24_180000_d6_locked25 完成，耗时 490.7 秒。","time":"2026-10-24T03:26:19+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T03:26:19+08:00"}
+{"time": "2026-10-24T03:26:35+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns12_n8_e80_s42：设备 mps，AUC 0.777752，最佳 epoch 80，耗时 118.2 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns12_n8_e80_s42 完成，耗时 121.6 秒。","time":"2026-10-24T03:26:36+08:00"}
+{"kind":"retrieval","message":"mlp_event_ce_cat_sgns8long_context_24_180000_d6_locked25: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:26:37+08:00"}
+{"time": "2026-10-24T03:27:02+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_ce_cat_sgns8long_context_24_180000_d6_locked25：event_ce，AUC 0.807945，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_event_ce_cat_sgns8long_context_24_180000_d6_locked25 完成，耗时 25.6 秒。","time":"2026-10-24T03:27:02+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T03:27:02+08:00"}
+{"kind":"scheduler","message":"Go 调度启动 PID=72405，通道 all，每通道最大新实验 15，预算 1.50 小时。","time":"2026-10-24T03:31:53+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8long_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:31:54+08:00"}
+{"kind":"retrieval","message":"mlp_event_long_constzero: Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:31:55+08:00"}
+{"time": "2026-10-24T03:32:17+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8long_context_24_180000_d6：AUC 0.822218，基础模型 0.819746，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8long_context_24_180000_d6 完成，耗时 22.8 秒。","time":"2026-10-24T03:32:17+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8long_context_24_180000_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.822218. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:32:18+08:00"}
+{"time": "2026-10-24T03:32:39+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8long_context_24_180000_d8：AUC 0.822134，基础模型 0.819593，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8long_context_24_180000_d8 完成，耗时 20.9 秒。","time":"2026-10-24T03:32:39+08:00"}
+{"kind":"retrieval","message":"event_cat_rolling24_sgns8_16_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.822218. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:32:40+08:00"}
+{"time": "2026-10-24T03:32:43+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_long_constzero：event_ce，AUC 0.823270，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_event_long_constzero 完成，耗时 48.0 秒。","time":"2026-10-24T03:32:43+08:00"}
+{"kind":"retrieval","message":"sgns12_const_n8_binary_e160_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.822218. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:32:45+08:00"}
+{"time": "2026-10-24T03:33:15+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_rolling24_sgns8_16_d6：AUC 0.815174，基础模型 0.812605，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_rolling24_sgns8_16_d6 完成，耗时 34.7 秒。","time":"2026-10-24T03:33:15+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8_16_context_24_180000_d6_locked25: Current best ALS AUC=0.677857; numeric tree AUC=0.822218. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:33:16+08:00"}
+{"time": "2026-10-24T03:33:28+08:00", "kind": "audit", "message": "13 项单元检查通过。第二时间切点锁定复核：长训练表示 + 事件神经头 AUC 0.807945，对应主切点0.823270。继续比较320轮表示与已知用户历史折入；延长8维辅助表示训练作为有依据的收敛实验，并用小规模固定配方融合降低种子波动。"}
+{"time": "2026-10-24T03:33:33+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8_16_context_24_180000_d6_locked25：AUC 0.802714，基础模型 0.800494，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8_16_context_24_180000_d6_locked25 完成，耗时 17.0 秒。","time":"2026-10-24T03:33:33+08:00"}
+{"kind":"retrieval","message":"cat_sgns8e320_context24_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.822218. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:33:35+08:00"}
+{"time": "2026-10-24T03:34:46+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns12_const_n8_binary_e160_s42：设备 mps，AUC 0.773477，最佳 epoch 75，耗时 119.6 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns12_const_n8_binary_e160_s42 完成，耗时 122.2 秒。","time":"2026-10-24T03:34:47+08:00"}
+{"kind":"retrieval","message":"sgns8_const_n8_binary_e640_s42: Current best ALS AUC=0.677857; numeric tree AUC=0.822218. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:34:48+08:00"}
+{"time": "2026-10-24T03:40:11+08:00", "kind": "engineering", "message": "补充候选集合的上下文条件化神经头，维持候选置换等变性；新增相应不变量检查。14项测试通过。最终版本将同时保存评分头与其学习到的表示，验收使用独立特征缓存重新生成完整预测。"}
+{"time": "2026-10-24T03:40:58+08:00", "kind": "experiment", "message": "实验 cat_sgns8e320_context24_d6：catboost_numeric，切点 2025-01-26，AUC 0.824595，Logloss 0.190208，耗时 441.0 秒。"}
+{"kind":"scheduler","message":"cat_sgns8e320_context24_d6 完成，耗时 444.1 秒。","time":"2026-10-24T03:40:59+08:00"}
+{"kind":"retrieval","message":"cat_rolling24_sgns8_16_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:41:00+08:00"}
+{"time": "2026-10-24T03:42:48+08:00", "kind": "decision", "message": "320轮表示的树头 AUC 0.824595，优于159轮的0.819746。根据检索记忆，将剩余种子预算集中到8维长训练；剪枝已显著落后的16/32维种子和无SGNS旧树头，保留剪枝配置与理由。"}
+{"time": "2026-10-24T03:43:58+08:00", "kind": "engineering", "message": "Go入口已补齐跨通道依赖排空：GPU表示完成可解锁CPU评分头，再解锁GPU神经头；总实验上限和时间预算保持有效。新调度器等待现有任务结束后接续，随后自动执行冻结复核、全量重训、导出及独立验收。"}
+{"kind":"scheduler","message":"Go 调度启动 PID=79786，通道 all，每通道最大新实验 15，预算 1.50 小时。","time":"2026-10-24T03:43:58+08:00"}
+{"kind":"scheduler","message":"gpu 通道已有存活调度进程；等待其结束后恢复剩余队列，避免重复训练。","time":"2026-10-24T03:43:58+08:00"}
+{"kind":"scheduler","message":"cpu 通道已有存活调度进程；等待其结束后恢复剩余队列，避免重复训练。","time":"2026-10-24T03:43:58+08:00"}
+{"time": "2026-10-24T03:45:33+08:00", "kind": "acceptance", "message": "再次执行当前轻量入口 light.py --name delivery_smoke：AUC 0.550995→0.581668；2轮训练、最佳模型重载、529390行完整评测预测与CSV检查通过。与重训练并发时全链路18.29秒，结果独立保存在runs/light/delivery_smoke。"}
+{"time": "2026-10-24T03:46:34+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_const_n8_binary_e640_s42：设备 mps，AUC 0.803856，最佳 epoch 450，耗时 704.1 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_const_n8_binary_e640_s42 完成，耗时 706.7 秒。","time":"2026-10-24T03:46:35+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_sgns8e320_context24_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:46:37+08:00"}
+{"time": "2026-10-24T03:47:26+08:00", "kind": "experiment", "message": "实验 cat_rolling24_sgns8_16_d8：catboost_numeric，切点 2025-01-26，AUC 0.812830，Logloss 0.193645，耗时 383.4 秒。"}
+{"kind":"scheduler","message":"cat_rolling24_sgns8_16_d8 完成，耗时 386.5 秒。","time":"2026-10-24T03:47:27+08:00"}
+{"kind":"retrieval","message":"event_cat_rolling24_sgns8_16_d8: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test event capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:47:28+08:00"}
+{"time": "2026-10-24T03:47:36+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8e320_context24_d6：event_ce，AUC 0.827889，最佳epoch 8。"}
+{"kind":"scheduler","message":"mlp_event_cat_sgns8e320_context24_d6 完成，耗时 59.7 秒。","time":"2026-10-24T03:47:36+08:00"}
+{"kind":"retrieval","message":"mlp_context_cat_sgns8long_context_24_180000_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:47:38+08:00"}
+{"time": "2026-10-24T03:48:05+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_rolling24_sgns8_16_d8：AUC 0.815408，基础模型 0.812830，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_rolling24_sgns8_16_d8 完成，耗时 37.5 秒。","time":"2026-10-24T03:48:05+08:00"}
+{"kind":"retrieval","message":"cat_sgns8e320_context24_d6_locked25: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test catboost capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:48:07+08:00"}
+{"time": "2026-10-24T03:48:37+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_context_cat_sgns8long_context_24_180000_d6：event_ce，AUC 0.823675，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_context_cat_sgns8long_context_24_180000_d6 完成，耗时 59.4 秒。","time":"2026-10-24T03:48:38+08:00"}
+{"kind":"retrieval","message":"mlp_context_cat_sgns8long_context_24_180000_d6_locked25: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:48:40+08:00"}
+{"time": "2026-10-24T03:48:43+08:00", "kind": "audit", "message": "对目前领先的320轮树头、320轮事件神经头、159轮EMA神经头及第二切点基准树执行原生模型重载与抽样训练／验证特征重算；所有比较通过。正式验收还会独立重新生成全量评测特征。"}
+{"time": "2026-10-24T03:49:16+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_context_cat_sgns8long_context_24_180000_d6_locked25：event_ce，AUC 0.808980，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_context_cat_sgns8long_context_24_180000_d6_locked25 完成，耗时 37.1 秒。","time":"2026-10-24T03:49:17+08:00"}
+{"kind":"retrieval","message":"mlp_event_long_ema_s2026_d0.1_locked25: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:49:19+08:00"}
+{"time": "2026-10-24T03:49:52+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_long_ema_s2026_d0.1_locked25：event_ce，AUC 0.808726，最佳epoch 12。"}
+{"kind":"scheduler","message":"mlp_event_long_ema_s2026_d0.1_locked25 完成，耗时 34.4 秒。","time":"2026-10-24T03:49:53+08:00"}
+{"kind":"retrieval","message":"mlp_context_cat_sgns8e320_context24_d6: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:49:55+08:00"}
+{"time": "2026-10-24T03:50:45+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_context_cat_sgns8e320_context24_d6：event_ce，AUC 0.827841，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_context_cat_sgns8e320_context24_d6 完成，耗时 51.2 秒。","time":"2026-10-24T03:50:46+08:00"}
+{"kind":"retrieval","message":"sgns8_const_e320_s2026: Current best ALS AUC=0.677857; numeric tree AUC=0.824595. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.","time":"2026-10-24T03:50:48+08:00"}
+{"time": "2026-10-24T03:52:47+08:00", "kind": "experiment", "message": "补齐轻量版数据／模型对照，同一4000用户验证集：无历史0.551171、最近5次历史0.570221、最近20次历史8维0.581668、20次历史16维0.582479。比较入口与产物已写入LIGHT_START.md。小样本增益不替代完整时间验证。"}
+{"time": "2026-10-24T03:56:02+08:00", "kind": "experiment", "message": "GPU 辅助反馈实验 sgns8_const_e320_s2026：设备 mps，AUC 0.802377，最佳 epoch 320，耗时 311.4 秒。此负采样仅用于辅助表示，不冒充真实曝光标签。"}
+{"kind":"scheduler","message":"sgns8_const_e320_s2026 完成，耗时 314.7 秒。","time":"2026-10-24T03:56:02+08:00"}
+{"time": "2026-10-24T03:56:04+08:00", "kind": "pruned", "message": "sgns16_n8_e80_s2026: 8-dimensional representation exceeded AUC 0.80; completed 16/32-dimensional runs were materially weaker. Reallocate seed budget to the stronger low-dimensional family."}
+{"time": "2026-10-24T03:56:04+08:00", "kind": "pruned", "message": "sgns32_n8_e80_s2026: 8-dimensional representation exceeded AUC 0.80; completed 16/32-dimensional runs were materially weaker. Reallocate seed budget to the stronger low-dimensional family."}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T03:56:05+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T03:56:17+08:00"}
+{"time": "2026-10-24T03:58:30+08:00", "kind": "experiment", "message": "实验 cat_sgns8e320_context24_d6_locked25：catboost_numeric，切点 2025-01-25，AUC 0.808800，Logloss 0.195470，耗时 620.3 秒。"}
+{"kind":"scheduler","message":"cat_sgns8e320_context24_d6_locked25 完成，耗时 623.5 秒。","time":"2026-10-24T03:58:31+08:00"}
+{"kind":"retrieval","message":"cat_sgns8_s2026_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T03:58:32+08:00"}
+{"kind":"scheduler","message":"Go 调度启动 PID=88191，通道 gpu，每通道最大新实验 15，预算 1.10 小时。","time":"2026-10-24T03:58:34+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_sgns8e320_context24_d6_locked25: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T03:58:36+08:00"}
+{"time": "2026-10-24T03:59:01+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8e320_context24_d6_locked25：event_ce，AUC 0.812416，最佳epoch 8。"}
+{"kind":"scheduler","message":"mlp_event_cat_sgns8e320_context24_d6_locked25 完成，耗时 25.9 秒。","time":"2026-10-24T03:59:02+08:00"}
+{"kind":"retrieval","message":"mlp_context_cat_sgns8e320_context24_d6_locked25: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T03:59:04+08:00"}
+{"time": "2026-10-24T03:59:38+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_context_cat_sgns8e320_context24_d6_locked25：event_ce，AUC 0.812771，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_context_cat_sgns8e320_context24_d6_locked25 完成，耗时 35.3 秒。","time":"2026-10-24T03:59:39+08:00"}
+{"time": "2026-10-24T04:00:42+08:00", "kind": "audit", "message": "轻量演示增加按完整用户事件配对的200次bootstrap：双塔相对CTR增益区间与16维对8维增益区间保存在runs/light/comparison_delivery.json。该区间对固定已选配方计算，不含早停选择不确定性。"}
+{"time": "2026-10-24T04:02:45+08:00", "kind": "resources", "message": "利用GPU等待CPU评分头的空档，预先训练三个已冻结候选在Jan27完整训练截止点的辅助表示；不读取评测标签、不产生或选择验证分数。最终重训可直接复用相同参数的表示缓存。"}
+{"time": "2026-10-24T04:03:01+08:00", "kind": "progress", "message": "构建 2025-01-27 严格前向快照：686,824 个事件、896,564 个去重用户物品交互、24,482,597 个共点击非零项，耗时 15.9 秒。"}
+{"time": "2026-10-24T04:04:40+08:00", "kind": "experiment", "message": "实验 cat_sgns8_s2026_context24_d6：catboost_numeric，切点 2025-01-26，AUC 0.824114，Logloss 0.190323，耗时 366.4 秒。"}
+{"kind":"scheduler","message":"cat_sgns8_s2026_context24_d6 完成，耗时 369.5 秒。","time":"2026-10-24T04:04:41+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_sgns8_s2026_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:04:42+08:00"}
+{"kind":"retrieval","message":"cat_sgns8_s2026_context24_d6_locked25: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:04:43+08:00"}
+{"time": "2026-10-24T04:05:42+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8_s2026_context24_d6：event_ce，AUC 0.827855，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_event_cat_sgns8_s2026_context24_d6 完成，耗时 60.7 秒。","time":"2026-10-24T04:05:43+08:00"}
+{"time": "2026-10-24T04:08:20+08:00", "kind": "resources", "message": "全训练期表示缓存已完成：cat_sgns8e320_context24_d6"}
+{"time": "2026-10-24T04:12:29+08:00", "kind": "resources", "message": "全训练期表示缓存已完成：cat_sgns8_s2026_context24_d6"}
+{"time": "2026-10-24T04:13:18+08:00", "kind": "experiment", "message": "前向特征神经评分 feature_reference_parity_smoke25：event_ce，AUC 0.807735，最佳epoch 1。"}
+{"time": "2026-10-24T04:13:18+08:00", "kind": "audit", "message": "回溯神经头可直接使用冻结特征引用；同数据、种子、首轮训练与原路径的AUC完全一致。Jan24验收采用此路径，缩短中间模型训练时间。"}
+{"time": "2026-10-24T04:15:03+08:00", "kind": "experiment", "message": "实验 cat_sgns8_s2026_context24_d6_locked25：catboost_numeric，切点 2025-01-25，AUC 0.812736，Logloss 0.194315，耗时 617.1 秒。"}
+{"kind":"scheduler","message":"cat_sgns8_s2026_context24_d6_locked25 完成，耗时 621.2 秒。","time":"2026-10-24T04:15:04+08:00"}
+{"kind":"retrieval","message":"cat_sgns8e640_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:15:05+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_sgns8_s2026_context24_d6_locked25: Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:15:13+08:00"}
+{"time": "2026-10-24T04:15:57+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8_s2026_context24_d6_locked25：event_ce，AUC 0.815970，最佳epoch 10。"}
+{"kind":"scheduler","message":"mlp_event_cat_sgns8_s2026_context24_d6_locked25 完成，耗时 45.6 秒。","time":"2026-10-24T04:15:58+08:00"}
+{"time": "2026-10-24T04:18:45+08:00", "kind": "resources", "message": "全训练期表示缓存已完成：cat_sgns8e640_context24_d6"}
+{"time": "2026-10-24T04:19:23+08:00", "kind": "decision", "message": "将已验证有效的事件点击率分解应用到新长训练树头，单次只需训练小型事件门控。最终候选池保留最佳逐行树、最佳事件树和前三个神经头，以两个时间切点的粗权重融合比较互补性。"}
+{"time": "2026-10-24T04:22:08+08:00", "kind": "resources", "message": "利用空闲GPU预备Jan24冻结复核需要的Jan22之前表示。只读取Jan22前数据，不计算Jan24分数。"}
+{"time": "2026-10-24T04:24:28+08:00", "kind": "experiment", "message": "实验 cat_sgns8e640_context24_d6：catboost_numeric，切点 2025-01-26，AUC 0.825058，Logloss 0.190112，耗时 559.4 秒。"}
+{"kind":"scheduler","message":"cat_sgns8e640_context24_d6 完成，耗时 563.0 秒。","time":"2026-10-24T04:24:28+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_sgns8e640_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.825058; event neural head AUC=0.827889. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:24:29+08:00"}
+{"kind":"retrieval","message":"cat_sgns8e640_context24_d6_locked25: Current best ALS AUC=0.677857; tree-family AUC=0.825058; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:24:30+08:00"}
+{"time": "2026-10-24T04:25:18+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8e640_context24_d6：event_ce，AUC 0.828389，最佳epoch 8。"}
+{"kind":"scheduler","message":"mlp_event_cat_sgns8e640_context24_d6 完成，耗时 49.7 秒。","time":"2026-10-24T04:25:19+08:00"}
+{"time": "2026-10-24T04:25:33+08:00", "kind": "resources", "message": "Jan24冻结复核的早期表示缓存已完成：cat_sgns8e320_context24_d6"}
+{"time": "2026-10-24T04:27:55+08:00", "kind": "resources", "message": "Jan24冻结复核的早期表示缓存已完成：cat_sgns8_s2026_context24_d6"}
+{"kind":"retrieval","message":"mlp_aligned_s2026_e320: Current best ALS AUC=0.677857; tree-family AUC=0.825058; event neural head AUC=0.828389. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:30:05+08:00"}
+{"time": "2026-10-24T04:30:36+08:00", "kind": "research", "message": "检索SciPy原始文档并验证正交Procrustes：两快照同物品向量平均对应余弦0.576→0.921，正交误差2.7e-15。增加一轮对齐坐标的事件神经头：锚点取训练特征窗口之前快照；第二与第三切点自动同步前移锚点；最终版本会一同保存锚点表示。是否保留仅由AUC验证决定。"}
+{"time": "2026-10-24T04:30:47+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_aligned_s2026_e320：event_ce，AUC 0.826631，最佳epoch 5。"}
+{"kind":"scheduler","message":"mlp_aligned_s2026_e320 完成，耗时 43.1 秒。","time":"2026-10-24T04:30:48+08:00"}
+{"time": "2026-10-24T04:34:42+08:00", "kind": "decision", "message": "对齐坐标事件头主验证AUC0.826631，低于同表示原匹配特征头0.827855；保留研究结果，不进入当前前三神经候选。15项测试通过。停止增加新模型家族，完成现有事件校准／历史折入队列后冻结交付。"}
+{"time": "2026-10-24T04:36:19+08:00", "kind": "experiment", "message": "实验 cat_sgns8e640_context24_d6_locked25：catboost_numeric，切点 2025-01-25，AUC 0.813338，Logloss 0.194205，耗时 706.3 秒。"}
+{"kind":"scheduler","message":"cat_sgns8e640_context24_d6_locked25 完成，耗时 709.8 秒。","time":"2026-10-24T04:36:20+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8e320_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.825058; event neural head AUC=0.828389. Test event with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:36:21+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_sgns8e640_context24_d6_locked25: Current best ALS AUC=0.677857; tree-family AUC=0.825058; event neural head AUC=0.828389. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:36:22+08:00"}
+{"time": "2026-10-24T04:36:49+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8e320_context24_d6：AUC 0.827157，基础模型 0.824595，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8e320_context24_d6 完成，耗时 28.7 秒。","time":"2026-10-24T04:36:49+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8_s2026_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.827157; event neural head AUC=0.828389. Test event with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:36:51+08:00"}
+{"time": "2026-10-24T04:36:52+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8e640_context24_d6_locked25：event_ce，AUC 0.816275，最佳epoch 8。"}
+{"kind":"scheduler","message":"mlp_event_cat_sgns8e640_context24_d6_locked25 完成，耗时 31.2 秒。","time":"2026-10-24T04:36:53+08:00"}
+{"time": "2026-10-24T04:37:16+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8_s2026_context24_d6：AUC 0.826707，基础模型 0.824114，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8_s2026_context24_d6 完成，耗时 25.4 秒。","time":"2026-10-24T04:37:16+08:00"}
+{"kind":"retrieval","message":"event_cat_sgns8e640_context24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.827157; event neural head AUC=0.828389. Test event with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:37:17+08:00"}
+{"time": "2026-10-24T04:37:38+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8e640_context24_d6：AUC 0.827592，基础模型 0.825058，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"kind":"scheduler","message":"event_cat_sgns8e640_context24_d6 完成，耗时 21.2 秒。","time":"2026-10-24T04:37:38+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T04:37:38+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:37:43+08:00"}
+{"kind":"retrieval","message":"cat_foldin_long24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.827592; event neural head AUC=0.828389. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:37:45+08:00"}
+{"time": "2026-10-24T04:42:40+08:00", "kind": "experiment", "message": "实验 cat_foldin_long24_d6：catboost_numeric，切点 2025-01-26，AUC 0.819896，Logloss 0.191627，耗时 292.9 秒。"}
+{"kind":"scheduler","message":"cat_foldin_long24_d6 完成，耗时 295.4 秒。","time":"2026-10-24T04:42:40+08:00"}
+{"time": "2026-10-24T04:42:41+08:00", "kind": "pruned", "message": "cat_context_24_180000_d8: Numeric/ALS-only heads have completed representatives and trail SGNS-enhanced heads by over 0.02 AUC; prioritize stronger representations and locked audits."}
+{"time": "2026-10-24T04:42:41+08:00", "kind": "pruned", "message": "cat_context_22_200000_d6: Numeric/ALS-only heads have completed representatives and trail SGNS-enhanced heads by over 0.02 AUC; prioritize stronger representations and locked audits."}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:42:41+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:42:42+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_foldin_long24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.827592; event neural head AUC=0.828389. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:42:43+08:00"}
+{"kind":"retrieval","message":"mlp_event_cat_foldin_long24_d6: Current best ALS AUC=0.677857; tree-family AUC=0.827592; event neural head AUC=0.828389. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.","time":"2026-10-24T04:42:47+08:00"}
+{"time": "2026-10-24T04:43:31+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_foldin_long24_d6：event_ce，AUC 0.823455，最佳epoch 12。"}
+{"kind":"scheduler","message":"mlp_event_cat_foldin_long24_d6 完成，耗时 48.4 秒。","time":"2026-10-24T04:43:32+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:43:33+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:43:35+08:00"}
+{"time": "2026-10-24T04:43:36+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_foldin_long24_d6：event_ce，AUC 0.823455，最佳epoch 12。"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:43:36+08:00"}
+{"kind":"scheduler","message":"mlp_event_cat_foldin_long24_d6 完成，耗时 49.3 秒。","time":"2026-10-24T04:43:36+08:00"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:43:37+08:00"}
+{"time": "2026-10-24T04:43:38+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 event_cat_sgns8e640_context24_d6。"}
+{"kind":"scheduler","message":"Current candidate queue exhausted; review results and add evidence-backed methods before finalization.","time":"2026-10-24T04:43:39+08:00"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T04:43:39+08:00"}
+{"time": "2026-10-24T04:43:51+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8e640_context24_d6_locked25：AUC 0.815512，基础模型 0.813338，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"time": "2026-10-24T04:44:25+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-24 时间切点复核 event_cat_sgns8e640_context24_d6。"}
+{"time": "2026-10-24T04:44:25+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-24 时间切点复核 cat_sgns8e640_context24_d6。"}
+{"time": "2026-10-24T04:48:18+08:00", "kind": "audit", "message": "审计发现旧版运行进程不识别新版waiting状态，折入神经头重复运行一次；两次AUC均0.823455，未入选。当前Go增加OS级通道排他锁，等待超时与锁释放测试通过；正式验收纳入该测试。冻结配方选中事件树450轮表示与seed2026神经头320轮表示，logit各50%；Jan26 AUC0.829004、Jan25 AUC0.818804。"}
+{"time": "2026-10-24T04:51:06+08:00", "kind": "experiment", "message": "实验 cat_sgns8e640_context24_d6_locked24：catboost_numeric，切点 2025-01-24，AUC 0.800866，Logloss 0.196933，耗时 401.2 秒。"}
+{"time": "2026-10-24T04:51:16+08:00", "kind": "experiment", "message": "事件分解实验 event_cat_sgns8e640_context24_d6_locked24：AUC 0.802905，基础模型 0.800866，温度 1，事件分支占比 0.75。保留未点击结果。"}
+{"time": "2026-10-24T04:51:16+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-24 时间切点复核 mlp_event_cat_sgns8_s2026_context24_d6。"}
+{"time": "2026-10-24T04:51:54+08:00", "kind": "experiment", "message": "前向特征神经评分 mlp_event_cat_sgns8_s2026_context24_d6_locked24：event_ce，AUC 0.802686，最佳epoch 10。"}
+{"time": "2026-10-24T04:51:55+08:00", "kind": "audit", "message": "未参与参数和权重选择的 Jan24 回溯复核 AUC 0.804915；冻结配方继续全量重训。"}
+{"time": "2026-10-24T04:51:55+08:00", "kind": "finalize", "message": "双切点选择配方：{'kind': 'logit', 'weights': [0.5, 0.5], 'auc_26': 0.8290037149576445, 'auc_25': 0.8188039296003504, 'weighted_auc_26': 0.8206860488965726, 'weighted_auc_25': 0.8157741408544193, 'selection_score': 0.8182300948754959}，来源 ['event_cat_sgns8e640_context24_d6', 'mlp_event_cat_sgns8_s2026_context24_d6']；开始全量重训。"}
+{"time": "2026-10-24T05:00:24+08:00", "kind": "audit", "message": "公平基线复核：原单精度优化实现AUC0.615649；按官方starter双精度公式重新计算AUC0.615704。概率接近1的舍入并列造成微小差异，最终提升与置信区间使用双精度参考。"}
+{"time": "2026-10-24T05:00:34+08:00", "kind": "delivery", "message": "最终 CSV 导出并检查通过，529,390 行；主验证 AUC 0.829004，第二切点 0.818804。"}
+{"time": "2026-10-24T05:00:35+08:00", "kind": "delivery", "message": "最终源码包已补齐Go通道互斥测试文件；正式验收将计算其SHA256。"}
+{"time": "2026-10-24T05:01:16+08:00", "kind": "acceptance", "message": "独立验收通过：保存模型和双切点特征重算一致；全部单元测试与Go静态检查通过；529,390行CSV覆盖与概率检查通过；重新加载模型预测最大差异0。"}
+{"kind":"scheduler","message":"本轮 Go 调度结束；所有日志、配置、检索依据和指标已保存。","time":"2026-10-24T05:01:16+08:00"}
+{"time": "2026-10-24T05:03:24+08:00", "kind": "complete", "message": "最终交付收尾完成：100组已完成实验；15项Python检查、Go静态检查与互斥测试通过；65个模型／表示／源码文件哈希核验通过；529390行提交CSV重载复现差异0；全部训练和caffeinate进程已退出。轻量入口、数据／模型对照、最终CSV和模型均可直接使用。"}
+{"time": "2026-10-24T10:47:37+08:00", "kind": "v2", "message": "已冻结 v1 当前最优 CSV、清单与验收记录到 competition/champions/v1；原完整模型版本保留。开始 v2 扩大评分网络结构，保持旧提交不动。"}
+{"time": "2026-10-24T10:49:38+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_wide256_s2026：event_ce，AUC 0.827959，最佳epoch 8。"}
+{"time": "2026-10-24T10:50:22+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_cross256_s2026：event_ce，AUC 0.827848，最佳epoch 5。"}
+{"time": "2026-10-24T10:51:00+08:00", "kind": "v2", "message": "本轮清理两份未入选的对齐／fold-in 中间特征缓存以腾出约 2GB；保留其模型、配置与验证预测，v1 所需文件全部保留，缓存可按原配置再生成。"}
+{"time": "2026-10-24T10:52:57+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_attention128_s2026：event_ce，AUC 0.827647，最佳epoch 6。"}
+{"time": "2026-10-24T10:55:41+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_attention128_s2026：event_ce，AUC 0.827647，最佳epoch 6。"}
+{"time": "2026-10-24T10:56:31+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_multiview_wide256_s2026：event_ce，AUC 0.829246，最佳epoch 8。"}
+{"time": "2026-10-24T10:57:15+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_multiview_cross256_s2026：event_ce，AUC 0.829103，最佳epoch 5。"}
+{"time": "2026-10-24T10:57:15+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v2_wide256_s2026。"}
+{"time": "2026-10-24T10:57:44+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_wide256_s2026_locked25：event_ce，AUC 0.816084，最佳epoch 8。"}
+{"time": "2026-10-24T10:57:44+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v2_cross256_s2026。"}
+{"time": "2026-10-24T10:58:05+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_cross256_s2026_locked25：event_ce，AUC 0.815776，最佳epoch 5。"}
+{"time": "2026-10-24T10:58:05+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v2_attention128_s2026。"}
+{"time": "2026-10-24T10:59:26+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_attention128_s2026_locked25：event_ce，AUC 0.816357，最佳epoch 6。"}
+{"time": "2026-10-24T10:59:26+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v2_multiview_wide256_s2026。"}
+{"time": "2026-10-24T10:59:56+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_multiview_wide256_s2026_locked25：event_ce，AUC 0.818649，最佳epoch 8。"}
+{"time": "2026-10-24T10:59:56+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v2_multiview_cross256_s2026。"}
+{"time": "2026-10-24T11:00:17+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_multiview_cross256_s2026_locked25：event_ce，AUC 0.818431，最佳epoch 5。"}
+{"time": "2026-10-24T11:00:35+08:00", "kind": "v2", "message": "v2 固定粗网格比较完成：主切点 0.829327，第二切点 0.819246，满足双切点改进的配方 10 个。"}
+{"time": "2026-10-24T11:00:38+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-24 时间切点复核 v2_multiview_wide256_s2026。"}
+{"time": "2026-10-24T11:01:24+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_multiview_wide256_s2026_locked24：event_ce，AUC 0.805364，最佳epoch 8。"}
+{"time": "2026-10-24T11:01:24+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-24 时间切点复核 v2_multiview_cross256_s2026。"}
+{"time": "2026-10-24T11:01:46+08:00", "kind": "experiment", "message": "前向特征神经评分 v2_multiview_cross256_s2026_locked24：event_ce，AUC 0.804750，最佳epoch 5。"}
+{"time": "2026-10-24T11:01:47+08:00", "kind": "audit", "message": "未参与参数和权重选择的 Jan24 回溯复核 AUC 0.805402；冻结配方继续全量重训。"}
+{"time": "2026-10-24T11:01:47+08:00", "kind": "finalize", "message": "双切点选择配方：{'kind': 'logit', 'weights': [0.25, 0.25, 0.25, 0.25], 'auc_26': 0.8293272082809982, 'auc_25': 0.8192463525707806, 'weighted_auc_26': 0.8210333454158742, 'weighted_auc_25': 0.8162117925854054, 'selection_score': 0.8186225690006399}，来源 ['event_cat_sgns8e640_context24_d6', 'mlp_event_cat_sgns8_s2026_context24_d6', 'v2_multiview_wide256_s2026', 'v2_multiview_cross256_s2026']；开始全量重训。"}
+{"time": "2026-10-24T11:03:41+08:00", "kind": "delivery", "message": "最终 CSV 导出并检查通过，529,390 行；主验证 AUC 0.829327，第二切点 0.819246。"}
+{"time": "2026-10-24T11:04:42+08:00", "kind": "acceptance", "message": "独立验收通过：保存模型和双切点特征重算一致；全部单元测试与Go静态检查通过；529,390行CSV覆盖与概率检查通过；重新加载模型预测最大差异0。"}
+{"time": "2026-10-24T11:04:42+08:00", "kind": "v2", "message": "v2 结构扩展已完成并独立验收，新版晋升；v1 完整保留。"}
+{"time": "2026-10-24T11:05:41+08:00", "kind": "v2", "message": "新版独立验收后清理 3 份可再生成的全量重训特征矩阵，释放 3.42 GiB；新旧模型、全部验证特征和预测文件已保留。"}
+{"time": "2026-10-24T14:17:00+08:00", "kind": "generative", "message": "生成式轻量分支 qwen35_softtoken_smoke：Qwen3.5真实训练 24 步，峰值 2.76 GiB，同队列 AUC 0.515393，当前最优提交保留。"}
+{"time": "2026-10-24T17:10:48+08:00", "kind": "generative", "message": "生成式轻量分支 qwen35_softtoken_light：Qwen3.5真实训练 128 步，峰值 6.79 GiB，同队列 AUC 0.618767，当前最优提交保留。"}
+{"time": "2026-10-24T18:31:52+08:00", "kind": "generative", "message": "Qwen3.5 热启动扩大训练进行中：已完成约 5,120 次事件样本，同一 2,048 事件队列 AUC 从 0.581322 提升到 0.731601。冷启动失败记录与权重已保留，原 V2 最优提交未改变。"}
+{"time": "2026-10-24T18:52:57+08:00", "kind": "generative", "message": "生成式轻量分支 qwen35_softtoken_8192_warm：Qwen3.5真实训练 1024 步，峰值 5.85 GiB，同队列 AUC 0.756904，当前最优提交保留。"}
+{"time": "2026-10-24T19:24:57+08:00", "kind": "generative", "message": "生成式训练与提交完成：qwen35_softtoken_8192_warm，完整 CSV 529,390 行，Jan26 完整时间验证 AUC 0.751811；独立重载验收通过，原最优保留。"}
+{"time": "2026-10-24T23:24:47+08:00", "kind": "experiment", "message": "前向特征神经评分 v3_wide512_s73：event_ce，AUC 0.829267，最佳epoch 10。"}
+{"time": "2026-10-24T23:28:38+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v3_wide512_s73。"}
+{"time": "2026-10-24T23:29:29+08:00", "kind": "experiment", "message": "前向特征神经评分 v3_wide512_s73_locked25：event_ce，AUC 0.818701，最佳epoch 10。"}
+{"time": "2026-10-24T23:30:26+08:00", "kind": "experiment", "message": "前向特征神经评分 v3_cross512_s2027：event_ce，AUC 0.829132，最佳epoch 4。"}
+{"time": "2026-10-24T23:30:28+08:00", "kind": "audit", "message": "锁定主验证配置，开始 2025-01-25 时间切点复核 v3_cross512_s2027。"}
+{"time": "2026-10-24T23:30:58+08:00", "kind": "experiment", "message": "前向特征神经评分 v3_cross512_s2027_locked25：event_ce，AUC 0.818591，最佳epoch 4。"}
+{"time": "2026-10-25T01:42:55+08:00", "kind": "v3", "message": "V3 五轮结构／基模迭代与双切点复核完成，交付 CSV 529,390 行，Jan26 AUC 0.829341，Jan25 AUC 0.819250，原最优保留。"}
+{"time": "2026-10-25T06:06:38+08:00", "kind": "progress", "message": "构建 2025-01-21 严格前向快照：98,514 个事件、470,337 个去重用户物品交互、7,498,319 个共点击非零项，耗时 3.0 秒。"}

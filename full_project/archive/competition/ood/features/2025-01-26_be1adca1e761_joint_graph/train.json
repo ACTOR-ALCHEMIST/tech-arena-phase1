@@ -1,0 +1,30 @@
+{
+  "names": [
+    "joint_graph_profile_dot",
+    "joint_graph_profile_dot_relative",
+    "joint_graph_profile_cos",
+    "joint_graph_profile_cos_relative",
+    "joint_graph_hist_mean",
+    "joint_graph_hist_mean_relative",
+    "joint_graph_last1",
+    "joint_graph_last1_relative",
+    "joint_graph_last3",
+    "joint_graph_last3_relative",
+    "joint_graph_last5",
+    "joint_graph_last5_relative",
+    "joint_graph_decay6",
+    "joint_graph_decay6_relative",
+    "joint_graph_decay24",
+    "joint_graph_decay24_relative",
+    "joint_graph_decay168",
+    "joint_graph_decay168_relative",
+    "joint_graph_hist_max",
+    "joint_graph_item_norm",
+    "joint_graph_profile_norm",
+    "joint_graph_item_bias",
+    "joint_graph_user_bias"
+  ],
+  "events": 180000,
+  "frame": "2025-01-24",
+  "indices_sha256": "90d4a52d473c53c06deb72ed407e2eae1c7f0fd0965c7ddbef687f0c06129ece"
+}

@@ -1,0 +1,9 @@
+{
+  "graph_tree": {
+    "depth": 8,
+    "l2": 20,
+    "iterations": 1400,
+    "slate_context": false
+  },
+  "feature_mode": "spectral_multi_pair"
+}

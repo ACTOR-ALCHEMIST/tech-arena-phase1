@@ -1,0 +1,6 @@
+{
+  "path": "competition/two_stage/stage1/2025-01-23/working_features.npy",
+  "sha256": "515b71a8456eaa5dd820cedeed21138f50ae02e53d95caa43528cd563333d212",
+  "bytes": 1440000128,
+  "policy": "Regenerable training feature matrix only; model, indices, recipe and raw input preserved."
+}

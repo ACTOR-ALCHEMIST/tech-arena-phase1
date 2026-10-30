@@ -1,0 +1,21 @@
+{
+  "name": "qwen35_softtoken_smoke",
+  "source_experiment": "v2_multiview_wide256_s2026",
+  "model_id": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "cutoff": "2025-01-26",
+  "train_events": 1000,
+  "valid_events": 128,
+  "split_seed": 2026,
+  "seed": 42,
+  "steps": 24,
+  "batch_events": 1,
+  "learning_rate": 0.0001,
+  "lora_rank": 8,
+  "lora_layers": 4,
+  "lora_scale": 16.0,
+  "eval_every": 12,
+  "gradient_checkpointing": true,
+  "candidate_shuffle": true,
+  "label_tokens": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]
+}

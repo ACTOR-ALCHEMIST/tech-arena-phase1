@@ -1,0 +1,210 @@
+{
+  "cutoff": "2025-01-24",
+  "cohorts": {
+    "frozen_v3": {
+      "all": {
+        "events": 47928,
+        "positive_rows": 30157,
+        "auc": 0.8054264773600073
+      },
+      "unseen_user": {
+        "events": 2860,
+        "positive_rows": 1821,
+        "auc": 0.7336847442832406
+      },
+      "known_user": {
+        "events": 45068,
+        "positive_rows": 28336,
+        "auc": 0.8092935518633
+      },
+      "history_0": {
+        "events": 552,
+        "positive_rows": 243,
+        "auc": 0.5199292527319817
+      },
+      "history_1_4": {
+        "events": 5895,
+        "positive_rows": 3560,
+        "auc": 0.7374411730101771
+      },
+      "history_5_9": {
+        "events": 9947,
+        "positive_rows": 5990,
+        "auc": 0.7811005934152129
+      },
+      "history_10_19": {
+        "events": 13753,
+        "positive_rows": 8640,
+        "auc": 0.8126321288896935
+      },
+      "history_20": {
+        "events": 17781,
+        "positive_rows": 11724,
+        "auc": 0.8321796008326787
+      }
+    },
+    "clean_cross_control": {
+      "all": {
+        "events": 47928,
+        "positive_rows": 30157,
+        "auc": 0.8051237091049386
+      },
+      "unseen_user": {
+        "events": 2860,
+        "positive_rows": 1821,
+        "auc": 0.730969473137243
+      },
+      "known_user": {
+        "events": 45068,
+        "positive_rows": 28336,
+        "auc": 0.8091270251945548
+      },
+      "history_0": {
+        "events": 552,
+        "positive_rows": 243,
+        "auc": 0.5104666496661106
+      },
+      "history_1_4": {
+        "events": 5895,
+        "positive_rows": 3560,
+        "auc": 0.7357162819922469
+      },
+      "history_5_9": {
+        "events": 9947,
+        "positive_rows": 5990,
+        "auc": 0.7806470025995401
+      },
+      "history_10_19": {
+        "events": 13753,
+        "positive_rows": 8640,
+        "auc": 0.8125265734957745
+      },
+      "history_20": {
+        "events": 17781,
+        "positive_rows": 11724,
+        "auc": 0.8323327118045699
+      }
+    },
+    "rich_wide_thin15": {
+      "all": {
+        "events": 47928,
+        "positive_rows": 30157,
+        "auc": 0.8058134790364178
+      },
+      "unseen_user": {
+        "events": 2860,
+        "positive_rows": 1821,
+        "auc": 0.7349826951167547
+      },
+      "known_user": {
+        "events": 45068,
+        "positive_rows": 28336,
+        "auc": 0.8096493168031288
+      },
+      "history_0": {
+        "events": 552,
+        "positive_rows": 243,
+        "auc": 0.5477080053122838
+      },
+      "history_1_4": {
+        "events": 5895,
+        "positive_rows": 3560,
+        "auc": 0.7378775019220197
+      },
+      "history_5_9": {
+        "events": 9947,
+        "positive_rows": 5990,
+        "auc": 0.7816683078987015
+      },
+      "history_10_19": {
+        "events": 13753,
+        "positive_rows": 8640,
+        "auc": 0.813073350391376
+      },
+      "history_20": {
+        "events": 17781,
+        "positive_rows": 11724,
+        "auc": 0.8323226511647644
+      }
+    },
+    "selected_ensemble": {
+      "all": {
+        "events": 47928,
+        "positive_rows": 30157,
+        "auc": 0.8058917692136945
+      },
+      "unseen_user": {
+        "events": 2860,
+        "positive_rows": 1821,
+        "auc": 0.7350615023505083
+      },
+      "known_user": {
+        "events": 45068,
+        "positive_rows": 28336,
+        "auc": 0.809715892893762
+      },
+      "history_0": {
+        "events": 552,
+        "positive_rows": 243,
+        "auc": 0.5358099556191906
+      },
+      "history_1_4": {
+        "events": 5895,
+        "positive_rows": 3560,
+        "auc": 0.7381639031504895
+      },
+      "history_5_9": {
+        "events": 9947,
+        "positive_rows": 5990,
+        "auc": 0.7817327999239926
+      },
+      "history_10_19": {
+        "events": 13753,
+        "positive_rows": 8640,
+        "auc": 0.8130819732516674
+      },
+      "history_20": {
+        "events": 17781,
+        "positive_rows": 11724,
+        "auc": 0.832444181793442
+      }
+    }
+  },
+  "stress": {
+    "identity": {
+      "frozen_v3": 0.8073915338800407,
+      "clean_cross_control": 0.8069292740293637,
+      "rich_wide_thin15": 0.808224429948113,
+      "selected_ensemble": 0.808079738736777
+    },
+    "thin30": {
+      "frozen_v3": 0.8025372558181816,
+      "clean_cross_control": 0.801866396144093,
+      "rich_wide_thin15": 0.8038613386563535,
+      "selected_ensemble": 0.8035414623976839
+    },
+    "thin60": {
+      "frozen_v3": 0.7928417032738657,
+      "clean_cross_control": 0.7925880627077395,
+      "rich_wide_thin15": 0.795278087525398,
+      "selected_ensemble": 0.7946069147038873
+    },
+    "recent5": {
+      "frozen_v3": 0.7988195955682995,
+      "clean_cross_control": 0.7981413890192816,
+      "rich_wide_thin15": 0.8006790283988255,
+      "selected_ensemble": 0.800171225943934
+    },
+    "cold_user": {
+      "frozen_v3": 0.8006091546527069,
+      "clean_cross_control": 0.8003018225726072,
+      "rich_wide_thin15": 0.80234436585199,
+      "selected_ensemble": 0.8020569666963258
+    }
+  },
+  "identity_features_max_error": 0.0,
+  "baseline_replay_max_error": 2.3246563229939454e-08,
+  "stress_events": 12000,
+  "stress_indices_sha256": "82a23f9e9cc3cb54dbca8d8aadcde7b545ce74926c917cc5f69a4e9950f84200",
+  "interpretation": "Artificial missing-history robustness and natural cohort AUC; not a guarantee of real future OOD or leaderboard AUC."
+}

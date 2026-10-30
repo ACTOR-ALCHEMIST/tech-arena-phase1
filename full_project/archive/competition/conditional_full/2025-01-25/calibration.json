@@ -1,0 +1,16 @@
+{
+  "prefix": "2025-01-23",
+  "coefficients": [
+    2.384988784790039,
+    0.17619943618774414,
+    1.1124440431594849,
+    0.8091683387756348,
+    0.031165074557065964,
+    0.26837825775146484,
+    0.37745237350463867
+  ],
+  "events": 100000,
+  "first_fit_timestamp": 1737590400,
+  "last_fit_timestamp": 1737763140,
+  "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+}

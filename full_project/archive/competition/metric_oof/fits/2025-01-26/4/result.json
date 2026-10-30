@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-26",
+  "config": {
+    "profiles": 3,
+    "ridge": 0.01
+  },
+  "geometry_mode": "aligned_oof",
+  "training_clicked_events": 123094,
+  "max_training_target_timestamp": 1737849540,
+  "before_choice_ce": 1.639952540397644,
+  "after_choice_ce": 1.6389708518981934,
+  "objective_evaluations": 14,
+  "seconds": 0.2692216669966001,
+  "records": [
+    {
+      "objective": 1.639952540397644,
+      "choice_ce": 1.639952540397644
+    },
+    {
+      "objective": 1.6399238109588623,
+      "choice_ce": 1.6399236917495728
+    },
+    {
+      "objective": 1.6398028135299683,
+      "choice_ce": 1.6397984027862549
+    },
+    {
+      "objective": 1.6393104791641235,
+      "choice_ce": 1.6390283107757568
+    },
+    {
+      "objective": 1.6393018960952759,
+      "choice_ce": 1.638989806175232
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    },
+    {
+      "objective": 1.6392998695373535,
+      "choice_ce": 1.638970971107483
+    },
+    {
+      "objective": 1.6392998695373535,
+      "choice_ce": 1.638970971107483
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    },
+    {
+      "objective": 1.639299750328064,
+      "choice_ce": 1.6389708518981934
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; each geometry frame also strictly precedes its own fitting target. No held-out labels in optimizer."
+}

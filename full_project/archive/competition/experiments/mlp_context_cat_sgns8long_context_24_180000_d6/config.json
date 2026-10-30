@@ -1,0 +1,14 @@
+{
+  "name": "mlp_context_cat_sgns8long_context_24_180000_d6",
+  "method": "tabular",
+  "source_experiment": "cat_sgns8long_context_24_180000_d6",
+  "loss": "event_ce",
+  "epochs": 40,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "architecture": "context",
+  "ema": 0.99,
+  "seed": 2026,
+  "constant_policy": "zero"
+}

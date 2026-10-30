@@ -1,0 +1,109 @@
+{
+  "name": "cat_sgns8_16_context_24_180000_d6",
+  "cutoff": "2025-01-26",
+  "method": "catboost_numeric",
+  "auc": 0.8116885370099604,
+  "logloss": 0.19395292446060833,
+  "average_precision": 0.2649224279390824,
+  "accuracy_at_0_5": 0.9372616540497467,
+  "rows": 351380,
+  "config": {
+    "name": "cat_sgns8_16_context_24_180000_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 1500,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 80,
+      "16": 56
+    }
+  },
+  "tree_count": 1500,
+  "seconds": 350.00681570899906,
+  "feature_dataset": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_lowrank80",
+  "feature_importance_top10": [
+    [
+      "sgns8_s42_cos_relative",
+      7.979226835399106
+    ],
+    [
+      "sgns8_s42_dot_relative",
+      7.572539401247636
+    ],
+    [
+      "sgns8_s42_hist_cos_mean",
+      6.174345778865669
+    ],
+    [
+      "sgns16_s42_dot_relative",
+      4.3291058811086796
+    ],
+    [
+      "sgns8_s42_cos",
+      4.244256635603479
+    ],
+    [
+      "als16_cos_relative",
+      4.20443337346766
+    ],
+    [
+      "sgns16_s42_cos_relative",
+      4.1879400756760985
+    ],
+    [
+      "sgns8_s42_dot",
+      3.7926024842148953
+    ],
+    [
+      "sgns16_s42_hist_cos_mean",
+      3.5890039051787914
+    ],
+    [
+      "sgns8_s42_hist_cos_recent",
+      3.433761222089516
+    ]
+  ],
+  "target_weighted_auc": 0.8034048547308829,
+  "cohort_diagnostic": {
+    "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+    "source_counts": [
+      92.0,
+      106.0,
+      369.0,
+      1988.0,
+      121.0,
+      4968.0,
+      13.0,
+      9520.0,
+      0.0,
+      17961.0
+    ],
+    "evaluation_counts": [
+      294.0,
+      371.0,
+      927.0,
+      5535.0,
+      214.0,
+      10422.0,
+      18.0,
+      14402.0,
+      0.0,
+      20756.0
+    ],
+    "weight_min": 0.7670337158674112,
+    "weight_max": 2.3231077277621415,
+    "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+  }
+}

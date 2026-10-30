@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761/valid.npy",
+      "bytes": 84331328,
+      "sha256": "57d0b9e0a780a0a0af23c3ecd4faf4949447a6abf655aa22be6523d5046b1299"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761/train.npy",
+      "bytes": 432000128,
+      "sha256": "32260516c13c22147da80a97d586eb30c15515825ef259b42be8359a76f923e9"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff/valid.npy",
+      "bytes": 105513728,
+      "sha256": "22adf898a5104d99e08923c376920f1fd5001060ec7865c579c0406daf7db356"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff/train.npy",
+      "bytes": 432000128,
+      "sha256": "ec15932e2dcd411233699d0dd5edbd37286bd96cb4febfa1f8e5ed67469bd2fa"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_joint_graph/valid.npy",
+      "bytes": 40447008,
+      "sha256": "8faa73d4d4bf865a0aca9eb63cfd3b01ed13a27be19f0f8c5ae277e97cefc6bf"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_joint_graph/train.npy",
+      "bytes": 165600128,
+      "sha256": "bef8e24ecf097dcc8add22c0a8f4b114b28fa304144e15628de599a5a5a4d560"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_joint_graph/valid.npy",
+      "bytes": 32327088,
+      "sha256": "66fed5ee14df12ce7e46780e2bf2df88527e77a8ba345b5438f34592d47755f2"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_joint_graph/train.npy",
+      "bytes": 165600128,
+      "sha256": "11b4710c071d76ce9ec83a982be087ad6bee144fa599bb8bddda397d34d38312"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_weekend/valid.npy",
+      "bytes": 16866368,
+      "sha256": "04bc51a2e79588e3559206e049a0f2f5c7d0505ed0f216156a23dc6ba803f0d7"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_weekend/train.npy",
+      "bytes": 86400128,
+      "sha256": "b491616cf4f6ac08be8d4f36ab246375c4e26827d0279dc0c604926c634a2b11"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_weekend/valid.npy",
+      "bytes": 21102848,
+      "sha256": "59b3ba65db6df62fcb69b02bb33648aaff5d80e605f38b415f541bf25c56af6e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_weekend/train.npy",
+      "bytes": 86400128,
+      "sha256": "1981a09477c10f785068341a7b270b7287f884198effd9e23cae9bd351bd7951"
+    }
+  ],
+  "policy": "Only completed, regenerable feature arrays; metadata and all checkpoints/predictions retained."
+}

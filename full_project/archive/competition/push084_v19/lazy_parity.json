@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "day": "26",
+      "rows": 1800000,
+      "sampled_rows": 5000,
+      "max_error": 0.0,
+      "full_normalizer_max_error": 0.0,
+      "bytes": 540000000,
+      "cache_path": "competition/ood/features/2025-01-26_be1adca1e761_aligned/train.npy",
+      "sha256": "c1b14ebca5bcbfdf5cd018ed70eed560f735025c7c14b9f69a4bf995603db4be"
+    },
+    {
+      "day": "25",
+      "rows": 1800000,
+      "sampled_rows": 5000,
+      "max_error": 0.0,
+      "full_normalizer_max_error": 0.0,
+      "bytes": 540000000,
+      "cache_path": "competition/ood/features/2025-01-25_cd29c31856ff_aligned/train.npy",
+      "sha256": "7120ea4685fdd8d71fb04d7f5302671e551ad3f75fdb0e4bc8e377e4c699f229"
+    }
+  ],
+  "policy": "Same float32 feature values; only generation/storage changed."
+}

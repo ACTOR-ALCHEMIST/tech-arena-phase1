@@ -1,0 +1,16 @@
+{
+  "name": "mlp_event_long_ema_s2026_d0.1_locked25",
+  "method": "tabular",
+  "source_experiment": "cat_sgns8long_context_24_180000_d6_locked25",
+  "loss": "event_ce",
+  "epochs": 12,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "ema": 0.99,
+  "seed": 2026,
+  "constant_policy": "legacy_clip",
+  "fixed_epochs": true,
+  "lr_schedule_epochs": 40,
+  "audit_protocol": "locked rolling origin"
+}

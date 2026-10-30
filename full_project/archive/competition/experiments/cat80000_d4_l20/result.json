@@ -1,0 +1,64 @@
+{
+  "name": "cat80000_d4_l20",
+  "cutoff": "2025-01-26",
+  "method": "catboost_numeric",
+  "auc": 0.6357772619528583,
+  "logloss": 0.22498798674878367,
+  "average_precision": 0.14927094863372883,
+  "accuracy_at_0_5": 0.9367949228755194,
+  "rows": 351380,
+  "config": {
+    "name": "cat80000_d4_l20",
+    "method": "catboost",
+    "max_events": 80000,
+    "depth": 4,
+    "l2": 20,
+    "iterations": 1000,
+    "lr": 0.05
+  },
+  "tree_count": 282,
+  "seconds": 19.864212625005166,
+  "feature_dataset": "competition/cache/features_2025-01-22_2025-01-26_80000_42",
+  "feature_importance_top10": [
+    [
+      "user_bias",
+      13.225934385707426
+    ],
+    [
+      "cf_conditional",
+      7.248002377156975
+    ],
+    [
+      "repeat_decay_0.5",
+      6.3474773627125
+    ],
+    [
+      "cf_cos_max_relative",
+      5.158710454058994
+    ],
+    [
+      "cf_recent_3d",
+      5.151085842957181
+    ],
+    [
+      "cf_log_count",
+      5.062004736805903
+    ],
+    [
+      "cf_shrink3_relative",
+      4.672564497376607
+    ],
+    [
+      "repeat_any",
+      4.5136619697726035
+    ],
+    [
+      "cf_recent_3d_relative",
+      4.3367755021050005
+    ],
+    [
+      "cf_cos_sum",
+      4.202653977390099
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "names": [
+    "pair_ever_clicked",
+    "pair_log_click_count",
+    "pair_log_exposure_count",
+    "pair_log_exposure_clicks",
+    "pair_log_nonclicks",
+    "pair_posterior_logit_delta",
+    "pair_seen_recency72h",
+    "pair_clicked_recency168h",
+    "pair_clicked_outside_visible",
+    "pair_user_repeat_ctr",
+    "pair_user_nonrepeat_ctr",
+    "pair_item_repeat_ctr",
+    "pair_user_repeat_fraction",
+    "pair_user_concentration",
+    "pair_user_log_clicks",
+    "pair_item_repeat_fraction"
+  ],
+  "events": 180000,
+  "frame": "2025-01-23",
+  "indices_sha256": "4a9c2fecc0c79013e097b9c5629cc4bcddf261bd968152246662c5817cba8372"
+}

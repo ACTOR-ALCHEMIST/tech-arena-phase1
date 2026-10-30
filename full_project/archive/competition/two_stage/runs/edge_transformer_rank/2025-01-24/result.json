@@ -1,0 +1,114 @@
+{
+  "name": "edge_transformer_rank",
+  "cutoff": "2025-01-24",
+  "config": {
+    "attention": true,
+    "gate": true,
+    "width": 128,
+    "scale": 0.5,
+    "rank_weight": 0.15,
+    "seed": 83803
+  },
+  "best_epoch": 1,
+  "epoch": 1,
+  "train_loss": 1.7478479063322048,
+  "auc": 0.8071327587983191,
+  "logloss": 0.19439827609408278,
+  "average_precision": 0.2561574402512027,
+  "accuracy_at_0_5": 0.937550075112669,
+  "rows": 479280,
+  "weighted_auc": 0.8080947500138355,
+  "seconds": 19.747578459006036,
+  "stage1": {
+    "auc": 0.8068268663651683,
+    "logloss": 0.1948977277301761,
+    "average_precision": 0.25546710065565875,
+    "accuracy_at_0_5": 0.9374269737940244,
+    "rows": 479280
+  },
+  "cohorts": {
+    "near_tie": {
+      "events": 25300,
+      "stage1_auc": 0.7812740732023533,
+      "rerank_auc": 0.7817647300912445,
+      "delta": 0.0004906568888911611,
+      "clicked_top1_before": 0.28915896308746525,
+      "clicked_top1_after": 0.2928437520201694
+    },
+    "confident": {
+      "events": 22628,
+      "stage1_auc": 0.8311863664739518,
+      "rerank_auc": 0.8313305296681878,
+      "delta": 0.0001441631942359356,
+      "clicked_top1_before": 0.47058823529411764,
+      "clicked_top1_after": 0.47058823529411764
+    }
+  },
+  "days": [
+    "2025-01-22",
+    "2025-01-23"
+  ],
+  "training_events": 195814,
+  "protocol": "Daily chronological OOF fine ranker, then bounded residual slate reranker. Secondary/third origins use primary-locked epochs.",
+  "training_inputs": [
+    {
+      "day": "2025-01-22",
+      "kind": "oof",
+      "events": 98097,
+      "features_cutoff": "2025-01-22",
+      "min_query_timestamp": 1737504000,
+      "max_query_timestamp": 1737590340,
+      "max_snapshot_fit_timestamp": 1737503940,
+      "ranker": "competition/two_stage/stage1/2025-01-22",
+      "ranker_sha256": "295a8c53a1aa17fdc8d3bddcc860878b3dab2ae7090e03c968a34e17be34141f",
+      "feature_columns": 244,
+      "label_policy": "Query labels excluded from feature functions and first-stage fitting. Scores truly chronological OOF. Full 10-item slates retained."
+    },
+    {
+      "day": "2025-01-23",
+      "kind": "oof",
+      "events": 97717,
+      "features_cutoff": "2025-01-23",
+      "min_query_timestamp": 1737590400,
+      "max_query_timestamp": 1737676740,
+      "max_snapshot_fit_timestamp": 1737590340,
+      "ranker": "competition/two_stage/stage1/2025-01-23",
+      "ranker_sha256": "b6585736c16d18c41025862e123057af256ea0db87e8b2ac265cb70902a10d2d",
+      "feature_columns": 244,
+      "label_policy": "Query labels excluded from feature functions and first-stage fitting. Scores truly chronological OOF. Full 10-item slates retained."
+    }
+  ],
+  "cohort_profile": {
+    "groups": "history length 0,1-4,5-9,10-19,20 crossed with known user",
+    "source_counts": [
+      325.0,
+      227.0,
+      1640.0,
+      4255.0,
+      753.0,
+      9194.0,
+      137.0,
+      13616.0,
+      5.0,
+      17776.0
+    ],
+    "evaluation_counts": [
+      294.0,
+      371.0,
+      927.0,
+      5535.0,
+      214.0,
+      10422.0,
+      18.0,
+      14402.0,
+      0.0,
+      20756.0
+    ],
+    "weight_min": 0.24989987002098388,
+    "weight_max": 1.479066317955902,
+    "assumption": "label conditional behavior is sufficiently comparable within these coarse groups; diagnostic only"
+  },
+  "parameters": 355594,
+  "unique_training_events": 195814,
+  "maximum_training_target_timestamp": 1737676740
+}

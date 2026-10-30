@@ -1,0 +1,20 @@
+[
+  {
+    "path": "competition/ood/features/2025-01-24_4043526b9c9c_fresh_mf/train.npy",
+    "bytes": 345600128,
+    "sha256": "6d922dbd01fb0f5d7f1e8efefa95e201d06f12b213d6f15e04d87f2660221d94",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-24_4043526b9c9c_unit_consensus/train.npy",
+    "bytes": 223200128,
+    "sha256": "552654adfd75d1efe2431f904192b000908261859296c76ea8e13465ea7ff3d5",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  },
+  {
+    "path": "competition/ood/features/2025-01-24_4043526b9c9c_sphere_long/train.npy",
+    "bytes": 316800128,
+    "sha256": "855f920904c8676c873f7653212e8574988c7b6e3b3aeaaf1053a6ddf71de323",
+    "reason": "Regenerable feature matrix; all consuming rankers finished. Models, labels, indices and validation matrices preserved."
+  }
+]

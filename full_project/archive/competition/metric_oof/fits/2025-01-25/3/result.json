@@ -1,0 +1,85 @@
+{
+  "cutoff": "2025-01-25",
+  "config": {
+    "profiles": 3,
+    "ridge": 0.001
+  },
+  "geometry_mode": "aligned_oof",
+  "training_clicked_events": 122461,
+  "max_training_target_timestamp": 1737763140,
+  "before_choice_ce": 1.6749690771102905,
+  "after_choice_ce": 1.6715378761291504,
+  "objective_evaluations": 17,
+  "seconds": 0.3175268339982722,
+  "records": [
+    {
+      "objective": 1.6749690771102905,
+      "choice_ce": 1.6749690771102905
+    },
+    {
+      "objective": 1.6748926639556885,
+      "choice_ce": 1.6748926639556885
+    },
+    {
+      "objective": 1.6745641231536865,
+      "choice_ce": 1.674562931060791
+    },
+    {
+      "objective": 1.6732045412063599,
+      "choice_ce": 1.6731691360473633
+    },
+    {
+      "objective": 1.6723774671554565,
+      "choice_ce": 1.6722086668014526
+    },
+    {
+      "objective": 1.6722259521484375,
+      "choice_ce": 1.6720021963119507
+    },
+    {
+      "objective": 1.672011375427246,
+      "choice_ce": 1.6715998649597168
+    },
+    {
+      "objective": 1.6720390319824219,
+      "choice_ce": 1.6715868711471558
+    },
+    {
+      "objective": 1.6720010042190552,
+      "choice_ce": 1.6715776920318604
+    },
+    {
+      "objective": 1.6719952821731567,
+      "choice_ce": 1.671565294265747
+    },
+    {
+      "objective": 1.671991229057312,
+      "choice_ce": 1.671557068824768
+    },
+    {
+      "objective": 1.6719878911972046,
+      "choice_ce": 1.6715461015701294
+    },
+    {
+      "objective": 1.6719892024993896,
+      "choice_ce": 1.6715364456176758
+    },
+    {
+      "objective": 1.6719871759414673,
+      "choice_ce": 1.671541690826416
+    },
+    {
+      "objective": 1.6719870567321777,
+      "choice_ce": 1.6715384721755981
+    },
+    {
+      "objective": 1.6719865798950195,
+      "choice_ce": 1.6715378761291504
+    },
+    {
+      "objective": 1.6719865798950195,
+      "choice_ce": 1.6715378761291504
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; each geometry frame also strictly precedes its own fitting target. No held-out labels in optimizer."
+}

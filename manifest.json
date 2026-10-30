@@ -399,7 +399,8 @@
     "features.py": "fdbeff6cf590b4bbcd0540e544d4ab760bd42f5441a814d6a5fee2f30572d8e1",
     "models.py": "7b1cc1b5d6b6bb4a0a59662d0a41f00b5455d9dc1072e75fc09ca42f2092901b",
     "requirements.txt": "c3506d4dc2ad48b1eb32338d359e30228d9b78f647e148c915d5ab30056fa87c",
-    "README.md": "056a71cc8a5be1a226554ba7a58fe0e3fdf04d479dbdaf5471651c10f572b674"
+    "README.md": "135ff150d23d91c416b59b4b9e2224ba0e0534516a997acb32c593ba457a4e20",
+    "TRAINING.md": "3e8dc56016299095ef9bdfa47ea4ac004a0504a55031a8845c764030b83b6f48"
   },
   "source_code_sha256": {
     "arena_core.py": "6bfa9109a40edaed4a4940b93a1e3d751cd8f05a27a36ab171c39eb63a51ed3b",
@@ -418,5 +419,7 @@
     "arena_fused_sphere.py": "a7791a81b8a1e8e34863b99259470d0a9dc4b81d9fc0b54a33732d816ac3b7aa",
     "arena_finalize.py": "c7b916b1232496b0ffb13a485cd17cd8fb7ab0c69614cd846fccc453c68b97ef"
   },
-  "supported_inference_environment": "Python 3.12; clean macOS arm64 environment verified; other platforms unverified"
+  "supported_inference_environment": "Python 3.12; clean macOS arm64 environment verified; other platforms unverified",
+  "full_source_directory": "full_project",
+  "full_source_inventory_sha256": "4610c07d2f2b343570878459047472aa0724322e499f55c0e568af40cc6e68eb"
 }

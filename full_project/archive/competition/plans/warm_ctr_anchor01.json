@@ -1,0 +1,7 @@
+{
+  "name": "warm_ctr_anchor01",
+  "anchor": 0.1,
+  "embedding_lr": 0.0003,
+  "fine_tune": true,
+  "epochs": 8
+}

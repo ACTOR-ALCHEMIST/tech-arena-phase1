@@ -1,0 +1,24 @@
+{
+  "cutoff": "2025-01-23",
+  "recipe": {
+    "version": 1,
+    "dimension": 8,
+    "long_epoch": 128,
+    "long_masses": [
+      0.5,
+      0.75
+    ],
+    "other_recipe": {
+      "epochs": 450,
+      "lr": 0.01,
+      "lr_decay": false,
+      "seed": 42,
+      "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+    },
+    "alignment": "unit_item_minimum_popularity_capped20",
+    "retain_agreement_norms": true
+  },
+  "max_fit_timestamp": 1737590340,
+  "long_source_sha256": "960beaa7b2f6290d6d8d5e96b772b464d5d464e6126983d5831df62a610107c8",
+  "policy": "Only past embedding tables and past popularity used for orthogonal fit and fusion. No query labels accessed."
+}

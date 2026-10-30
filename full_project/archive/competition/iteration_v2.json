@@ -1,0 +1,38 @@
+{
+  "status": "completed; v2 promoted",
+  "incumbent": {
+    "name": "v1",
+    "submission": "competition/champions/v1/submission.csv",
+    "sha256": "bb36373c223d2651b4f12da5a5a99c272eaeb75f90aa4d817cfdc2ec94576f81",
+    "manifest": "competition/champions/v1/manifest.json",
+    "model_dir": "competition/final/versions/20261024_044425",
+    "validation_26": {
+      "auc": 0.8290037149576445,
+      "logloss": 0.18864163251813482,
+      "average_precision": 0.28807531811775,
+      "accuracy_at_0_5": 0.9376202401957994,
+      "rows": 351380
+    },
+    "validation_25": {
+      "auc": 0.8188039296003504,
+      "logloss": 0.19236847657258568,
+      "average_precision": 0.26997049865537853,
+      "accuracy_at_0_5": 0.9372486579929032,
+      "rows": 439640
+    },
+    "validation_24": {
+      "auc": 0.8049152082692927,
+      "logloss": 0.19551641871066272,
+      "average_precision": 0.2518211211664214,
+      "accuracy_at_0_5": 0.9374102820898014,
+      "rows": 479280
+    },
+    "status": "frozen"
+  },
+  "plan": "Predeclare wide MLP, DCNv2-style explicit cross + deep head, and candidate self-attention; same features and temporal cohorts. Fixed primary-selected epochs on Jan25; coarse blend promotion must beat frozen v1 on both raw AUCs and weighted mean.",
+  "execution_notes": [
+    "A handoff race started the attention recipe twice. Both seeded runs produced the same per-epoch validation scores; final checkpoint is verified against its saved validation predictions. Per-experiment writer locking and completed-result retention were added to prevent this."
+  ],
+  "finished_at": "2026-10-24T11:04:42+08:00",
+  "report": "competition/v2_selection.json"
+}

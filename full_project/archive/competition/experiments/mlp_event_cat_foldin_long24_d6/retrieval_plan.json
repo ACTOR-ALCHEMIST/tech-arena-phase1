@@ -1,0 +1,48 @@
+{
+  "name": "mlp_event_cat_foldin_long24_d6",
+  "argv": [
+    "arena_tabular.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/mlp_event_cat_foldin_long24_d6.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; tree-family AUC=0.827592; event neural head AUC=0.828389. Test tabular with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.",
+  "retrieved": [
+    {
+      "title": "mlp_context_cat_sgns8long_context_24_180000_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/mlp_context_cat_sgns8long_context_24_180000_d6/result.json",
+      "text": "tabular_mlp_mps AUC 0.823675 cutoff 2025-01-26 config {\"name\": \"mlp_context_cat_sgns8long_context_24_180000_d6\", \"method\": \"tabular\", \"source_experiment\": \"cat_sgns8long_context_24_180000_d6\", \"loss\": \"event_ce\", \"epochs\": 40, \"lr\": 0.001, \"dropout\": 0.1, \"weight_decay\": 0.01, \"architecture\": \"context\", \"ema\": 0.99, \"seed\": 2026, \"constant_policy\": \"zero\"} features []",
+      "similarity": 0.26446010220504973
+    },
+    {
+      "title": "mlp_context_cat_sgns8e320_context24_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/mlp_context_cat_sgns8e320_context24_d6/result.json",
+      "text": "tabular_mlp_mps AUC 0.827841 cutoff 2025-01-26 config {\"name\": \"mlp_context_cat_sgns8e320_context24_d6\", \"method\": \"tabular\", \"source_experiment\": \"cat_sgns8e320_context24_d6\", \"loss\": \"event_ce\", \"epochs\": 40, \"lr\": 0.001, \"dropout\": 0.1, \"weight_decay\": 0.01, \"architecture\": \"context\", \"ema\": 0.99, \"seed\": 2026, \"constant_policy\": \"zero\"} features []",
+      "similarity": 0.2596047205509871
+    },
+    {
+      "title": "mlp_event_cat_sgns8_s2026_context24_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/mlp_event_cat_sgns8_s2026_context24_d6/result.json",
+      "text": "tabular_mlp_mps AUC 0.827855 cutoff 2025-01-26 config {\"name\": \"mlp_event_cat_sgns8_s2026_context24_d6\", \"method\": \"tabular\", \"source_experiment\": \"cat_sgns8_s2026_context24_d6\", \"loss\": \"event_ce\", \"epochs\": 40, \"lr\": 0.001, \"dropout\": 0.1, \"weight_decay\": 0.01, \"ema\": 0.99, \"seed\": 2026, \"constant_policy\": \"zero\"} features []",
+      "similarity": 0.25920254598284675
+    },
+    {
+      "title": "mlp_event_cat_sgns8e320_context24_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/mlp_event_cat_sgns8e320_context24_d6/result.json",
+      "text": "tabular_mlp_mps AUC 0.827889 cutoff 2025-01-26 config {\"name\": \"mlp_event_cat_sgns8e320_context24_d6\", \"method\": \"tabular\", \"source_experiment\": \"cat_sgns8e320_context24_d6\", \"loss\": \"event_ce\", \"epochs\": 40, \"lr\": 0.001, \"dropout\": 0.1, \"weight_decay\": 0.01, \"ema\": 0.99, \"seed\": 2026, \"constant_policy\": \"zero\"} features []",
+      "similarity": 0.25920254598284675
+    }
+  ],
+  "config": {
+    "name": "mlp_event_cat_foldin_long24_d6",
+    "method": "tabular",
+    "source_experiment": "cat_foldin_long24_d6",
+    "loss": "event_ce",
+    "epochs": 40,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero"
+  }
+}

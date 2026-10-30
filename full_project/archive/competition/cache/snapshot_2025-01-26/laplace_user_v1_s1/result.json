@@ -1,0 +1,87 @@
+{
+  "recipe": {
+    "version": 1,
+    "calibration_epochs": 4,
+    "calibration_seed": 7153,
+    "calibration_lr": 0.003,
+    "initial_dot": 2.0,
+    "prior_strength": 1.0,
+    "latent_prior_intercept": 1.0,
+    "latent_prior_per_click": 0.5,
+    "bias_prior_intercept": 2.0,
+    "bias_prior_per_event": 0.2331,
+    "newton_steps": 12,
+    "dimension": 8
+  },
+  "cutoff": "2025-01-26",
+  "calibration_prefix": "2025-01-23",
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "fitting_events": 588873,
+  "calibration_events": 293759,
+  "max_fitting_timestamp": 1737849540,
+  "max_calibration_timestamp": 1737849540,
+  "fitting_indices_sha256": "1bc7a306b4f59dba52a86b33becc752ec7ba715a8cd8754d3c958a851ecb7ee0",
+  "calibration": [
+    {
+      "phase": "calibration",
+      "epoch": 1,
+      "loss": 1.7414131844150742,
+      "seconds": 0.16772991701145656
+    },
+    {
+      "phase": "calibration",
+      "epoch": 2,
+      "loss": 1.71335934827828,
+      "seconds": 0.1416724580049049
+    },
+    {
+      "phase": "calibration",
+      "epoch": 3,
+      "loss": 1.7078785242011454,
+      "seconds": 0.1453005000075791
+    },
+    {
+      "phase": "calibration",
+      "epoch": 4,
+      "loss": 1.7063447982209283,
+      "seconds": 0.14130633400054649
+    }
+  ],
+  "baseline_loss": 798643.9666718004,
+  "posterior_objective": 757230.237007953,
+  "newton_seconds": 4.99942754098447,
+  "gradient_quantiles": [
+    6.876166303015907e-12,
+    6.835905577706753e-10,
+    1.775875296525233e-08,
+    2.9097286913248865e-07
+  ],
+  "step_quantiles": [
+    3.0,
+    3.0,
+    7.0
+  ],
+  "coefficients": [
+    2.252592086791992,
+    1.7500964403152466,
+    0.20562483370304108,
+    1.151589274406433,
+    0.1399865448474884,
+    1.023391604423523,
+    0.7489981651306152,
+    -0.29641175270080566,
+    0.386173814535141,
+    0.018976625055074692,
+    0.0007353584514930844,
+    0.004605843685567379,
+    0.04349369928240776,
+    0.1925993710756302,
+    -0.13706813752651215,
+    -0.027790669351816177
+  ],
+  "outside": 2.613231658935547,
+  "model_sha256": "23f8cd6eb1d8c7670c3a7ca436db01c6608ad7395b2a2e9d17c59e3f9f992686",
+  "covariance_sha256": "d6dd4fef8238246d163f2b46bdf4d8242672c1e135914cc68cfdd5ff1704a80e",
+  "seconds": 10.37379862499074,
+  "policy": "All accessed exposure labels strictly before cutoff; earlier calibration frame. Empirical prior reuses fitting click information; local covariance is not calibrated confidence."
+}

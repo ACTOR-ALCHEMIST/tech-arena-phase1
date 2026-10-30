@@ -1,0 +1,43 @@
+{
+  "name": "als16_a3_r0.1",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/als16_a3_r0.1.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; numeric tree AUC=0.635777. Test als capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "Implicit ALS",
+      "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+      "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR.",
+      "similarity": 0.1518753777681563
+    },
+    {
+      "title": "als128_a5_r0.1",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/als128_a5_r0.1/result.json",
+      "text": "implicit_als AUC 0.644371 cutoff 2025-01-26 config {\"name\": \"als128_a5_r0.1\", \"method\": \"als\", \"factors\": 128, \"alpha\": 5, \"regularization\": 0.1, \"iterations\": 25} features []",
+      "similarity": 0.10173387845957103
+    },
+    {
+      "title": "als64_a5_r0.1",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/als64_a5_r0.1/result.json",
+      "text": "implicit_als AUC 0.654374 cutoff 2025-01-26 config {\"name\": \"als64_a5_r0.1\", \"method\": \"als\", \"factors\": 64, \"alpha\": 5, \"regularization\": 0.1, \"iterations\": 25} features []",
+      "similarity": 0.1002490801029214
+    },
+    {
+      "title": "als128_a10_r0.1",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/als128_a10_r0.1/result.json",
+      "text": "implicit_als AUC 0.651288 cutoff 2025-01-26 config {\"name\": \"als128_a10_r0.1\", \"method\": \"als\", \"factors\": 128, \"alpha\": 10, \"regularization\": 0.1, \"iterations\": 25} features []",
+      "similarity": 0.056273151309974
+    }
+  ],
+  "config": {
+    "name": "als16_a3_r0.1",
+    "method": "als",
+    "factors": 16,
+    "alpha": 3,
+    "regularization": 0.1,
+    "iterations": 25
+  }
+}

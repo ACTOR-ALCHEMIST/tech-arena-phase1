@@ -1,0 +1,40 @@
+{
+  "26": {
+    "16": {
+      "dot_auc": 0.7529155444796739,
+      "cos_auc": 0.7632472536641238
+    },
+    "32": {
+      "dot_auc": 0.7485377457029195,
+      "cos_auc": 0.7608784163888839
+    },
+    "diagonal_audit": {
+      "original_symmetric": true,
+      "legacy_asymmetric_entries": 99912,
+      "corrected_symmetric": true,
+      "legacy_max_count_error": 232.0,
+      "different_entries": 99917,
+      "remaining_legacy_diagonal_entries": 49959,
+      "changed_off_diagonal_entries": 49958
+    }
+  },
+  "25": {
+    "16": {
+      "dot_auc": 0.7346952151190869,
+      "cos_auc": 0.7428151582893969
+    },
+    "32": {
+      "dot_auc": 0.7408372822523523,
+      "cos_auc": 0.7513341723968945
+    },
+    "diagonal_audit": {
+      "original_symmetric": true,
+      "legacy_asymmetric_entries": 99856,
+      "corrected_symmetric": true,
+      "legacy_max_count_error": 217.0,
+      "different_entries": 99861,
+      "remaining_legacy_diagonal_entries": 49931,
+      "changed_off_diagonal_entries": 49930
+    }
+  }
+}

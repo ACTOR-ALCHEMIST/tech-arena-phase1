@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_coclick/valid.npy",
+      "bytes": 42176768,
+      "sha256": "9e8be6d99302c53798e9a150ba1d9d30f3a6173b87cf50510fdf1f1e3b4bd2ed"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_coclick/train.npy",
+      "bytes": 158400128,
+      "sha256": "d58ffd3182116141a5180778e15b300a3b05309e14f95b99f8a471ce0db58e62"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_spectral/valid.npy",
+      "bytes": 84353408,
+      "sha256": "51da1a6bcad589eb465cef83bf11612f48bd1361d745f235089bc9acaef9d206"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_spectral/train.npy",
+      "bytes": 316800128,
+      "sha256": "75f217df9edc051e8dacf1a7130c9bb142c7e51320e8b9138bc26d1bba6f893e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_exposure/valid.npy",
+      "bytes": 42176768,
+      "sha256": "51e238d104c52fb6c1bd1e632aeeee8397c1a15673c0d9221b40a6acc3bef1f6"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_exposure/train.npy",
+      "bytes": 158400128,
+      "sha256": "214f9712227546c2368670d10dba99c68dd441b7ea52f03e3e306ccf2b394a00"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_spectral64/valid.npy",
+      "bytes": 84353408,
+      "sha256": "f783aed6239c8c2c0a92540e4815edf2eca1c5def4d29c8d3e6d8a533f855c57"
+    },
+    {
+      "path": "competition/ood/features/2025-01-24_4043526b9c9c_spectral64/train.npy",
+      "bytes": 316800128,
+      "sha256": "b4002de52795132ea89192d451e7cd1d77675f14d54511ed2b189dc25cf68700"
+    }
+  ],
+  "policy": "Third-origin audit completed. Keep all fitted weights, representations, validation predictions and feature metadata; remove only regenerable dense feature arrays."
+}

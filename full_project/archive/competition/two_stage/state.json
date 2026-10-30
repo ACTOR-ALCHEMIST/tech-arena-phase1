@@ -1,0 +1,7 @@
+{
+  "stage": "completed",
+  "promoted": true,
+  "updated": 1792901084.161543,
+  "target_auc": 0.838,
+  "recovery": "Frozen-source dependency repair, independent raw replay passed."
+}

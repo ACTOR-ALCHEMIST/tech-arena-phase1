@@ -1,0 +1,5 @@
+{
+  "previous_manifest_sha256": "942c836aa950c8d17328a116e115e3f5d0446c92cfd2886b469bd1238a1e7cfb",
+  "reason": "Independent frozen-source import exposed missing transitive run.py -> ctr_model.py dependency; add original dependency, without changing model or predictions.",
+  "added_file_sha256": "2685f2a46858cbc81b374e4c4892d33954e9158ceb4247eee215304bda508ed8"
+}

@@ -1,0 +1,34 @@
+{
+  "recipe": {
+    "version": 1,
+    "factors": 8,
+    "epochs": 32,
+    "outputs": [
+      16,
+      32
+    ],
+    "seed": 82719,
+    "lr": 0.002,
+    "minimum_lr": 0.0002,
+    "weight_decay": 0.001,
+    "ema": 0.99,
+    "negatives": 8,
+    "batch_size": 8192,
+    "anchor": 0.02,
+    "initial_temperature": 6.0,
+    "device": "cpu"
+  },
+  "cutoff": "2025-01-25",
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "max_fitting_timestamp": 1737763140,
+  "source": {
+    "probe": "competition/spherical_probe/25",
+    "report_sha256": "03d0c2edfc7eb19827b82d01eaea680b79785f3db8ec71f3c1cc21a983bb6b8d"
+  },
+  "fitting_policy": "Only the snapshot click matrix is used; snapshot labels and histories strictly before cutoff. Query targets never accessed.",
+  "model_sha256": {
+    "16": "b23a3a446be8454a71682e0708890e455087b415466a5eff02d66d7932b90632",
+    "32": "32ce6a26b35ea619743e8748ffbcd39610142746af49cd66c1cb996a10421b28"
+  },
+  "seconds": 0.014977042010286823
+}

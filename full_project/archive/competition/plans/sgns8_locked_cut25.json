@@ -1,0 +1,18 @@
+{
+  "name": "sgns8_locked_cut25",
+  "method": "sgns",
+  "factors": 8,
+  "device": "mps",
+  "epochs": 80,
+  "batch_size": 8192,
+  "lr": 0.02,
+  "negatives": 8,
+  "regularization": 0.001,
+  "lr_decay": true,
+  "patience": 8,
+  "seed": 42,
+  "cutoff": "2025-01-25",
+  "fixed_epochs": true,
+  "lr_schedule_epochs": 80,
+  "locked_variant": "cosine_prior0.2"
+}

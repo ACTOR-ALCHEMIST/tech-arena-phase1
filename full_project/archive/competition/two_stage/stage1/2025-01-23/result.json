@@ -1,0 +1,88 @@
+{
+  "day": "2025-01-23",
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6",
+    "loss": "event_ce",
+    "epochs": 25,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.995,
+    "seed": 73,
+    "constant_policy": "zero",
+    "patience": 5,
+    "hidden": [
+      512,
+      256,
+      128
+    ],
+    "name": "spectral_multi_wide",
+    "architecture": "v2_wide",
+    "multi_view": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "context_width": 64,
+    "cross_layers": 3,
+    "lr_schedule_epochs": 40,
+    "fixed_epochs": false,
+    "normalizer": "relative_range"
+  },
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-21",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "sgns_extra": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ]
+  },
+  "best_epoch": 10,
+  "training_events": 180000,
+  "maximum_fit_timestamp": 1737590340,
+  "policy": "Fixed ten epochs inherited from existing ranker; no held-out-day labels or metrics used."
+}

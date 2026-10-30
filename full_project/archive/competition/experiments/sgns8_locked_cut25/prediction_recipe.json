@@ -1,0 +1,5 @@
+{
+  "variant": "cosine_prior0.2",
+  "score_std": 0.3626573085784912,
+  "epoch": 80
+}

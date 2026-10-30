@@ -1,0 +1,49 @@
+{
+  "name": "sgns16_n8_e80_s2026",
+  "argv": [
+    "arena_sgns.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/sgns16_n8_e80_s2026.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; numeric tree AUC=0.772018. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "Implicit ALS",
+      "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+      "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR.",
+      "similarity": 0.08559334777924105
+    },
+    {
+      "title": "Two tower sampling bias",
+      "url": "https://research.google/pubs/sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations/",
+      "text": "Two tower retrieval with in batch negatives has sampling bias. This competition provides actual exposed nonclicks; BCE using observed candidates is the primary click task. Auxiliary history item representation pretraining can use explicit sampled objectives.",
+      "similarity": 0.08508803048368206
+    },
+    {
+      "title": "sgns16_mps",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/sgns16_mps/result.json",
+      "text": "sgns_mps AUC 0.743287 cutoff 2025-01-26 config {\"name\": \"sgns16_mps\", \"factors\": 16, \"device\": \"mps\", \"epochs\": 20, \"batch_size\": 8192, \"lr\": 0.02, \"negatives\": 8, \"regularization\": 0.001} features []",
+      "similarity": 0.03603032859227219
+    },
+    {
+      "title": "DIN",
+      "url": "https://arxiv.org/abs/1706.06978",
+      "text": "DIN candidate aware attention represents diverse user interests from click history. Time decay and repeated click features complement long term user embeddings. Prefer small model and regularization when sparse IDs overfit quickly.",
+      "similarity": 0.02299942909427691
+    }
+  ],
+  "config": {
+    "name": "sgns16_n8_e80_s2026",
+    "method": "sgns",
+    "factors": 16,
+    "device": "mps",
+    "epochs": 80,
+    "batch_size": 8192,
+    "lr": 0.02,
+    "negatives": 8,
+    "regularization": 0.001,
+    "lr_decay": true,
+    "patience": 8,
+    "seed": 2026
+  }
+}

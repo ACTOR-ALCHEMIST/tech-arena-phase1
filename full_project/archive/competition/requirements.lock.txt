@@ -1,0 +1,8 @@
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.7.2
+torch==2.5.1
+numba==0.60.0
+catboost==1.2.10
+implicit==0.7.3
+psutil==5.9.0

@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8214145855579535,
+  "new_auc": 0.8214702271326846,
+  "delta": 5.5641574731035703e-05,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      1.902752050423895e-05,
+      9.316313571337554e-05
+    ],
+    "positive_fraction": 0.995,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8237729568611238,
+      "new_auc": 0.823828403563373,
+      "delta": 5.544670224910675e-05
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7392304466192231,
+      "new_auc": 0.7393813000407448,
+      "delta": 0.00015085342152165726
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5708440343786096,
+      "new_auc": 0.5691496651306995,
+      "delta": -0.0016943692479101102
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7461740892407014,
+      "new_auc": 0.7464141517349409,
+      "delta": 0.00024006249423946802
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8145059960969505,
+      "new_auc": 0.8145189396510027,
+      "delta": 1.2943554052236017e-05
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8433103980412078,
+      "new_auc": 0.8433827228249315,
+      "delta": 7.232478372376505e-05
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8249576380864617,
+      "new_auc": 0.8250242497997599,
+      "delta": 6.661171329813698e-05
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.806584420450668,
+      "new_auc": 0.806599173407027,
+      "delta": 1.4752956358998759e-05
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8214145855579535,
+      "new_auc": 0.8214702271326846,
+      "delta": 5.5641574731035703e-05
+    }
+  },
+  "selection_sha256": "e59651cdf455a1f593ab186d2e5d388d370e0e807675622d10410b952355a8fc"
+}

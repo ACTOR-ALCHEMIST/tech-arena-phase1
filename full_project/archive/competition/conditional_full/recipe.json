@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "epochs": 32,
+  "outputs": [
+    0,
+    8,
+    16,
+    32
+  ],
+  "lr": 0.002,
+  "minimum_lr": 0.0002,
+  "batch_size": 4096,
+  "seed": 83891,
+  "ema": 0.98,
+  "calibration_max": 100000,
+  "calibration_iterations": 40,
+  "prior_scales": [
+    1.0,
+    10.0,
+    50.0
+  ],
+  "masses": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "fit_window": "full_prefix"
+}

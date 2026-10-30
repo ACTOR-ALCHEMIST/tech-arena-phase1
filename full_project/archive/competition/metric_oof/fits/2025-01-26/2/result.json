@@ -1,0 +1,29 @@
+{
+  "cutoff": "2025-01-26",
+  "config": {
+    "profiles": 1,
+    "ridge": 0.1
+  },
+  "geometry_mode": "aligned_oof",
+  "training_clicked_events": 123094,
+  "max_training_target_timestamp": 1737849540,
+  "before_choice_ce": 1.639952540397644,
+  "after_choice_ce": 1.639785885810852,
+  "objective_evaluations": 3,
+  "seconds": 0.06275900002219714,
+  "records": [
+    {
+      "objective": 1.639952540397644,
+      "choice_ce": 1.639952540397644
+    },
+    {
+      "objective": 1.6399346590042114,
+      "choice_ce": 1.639933705329895
+    },
+    {
+      "objective": 1.6398656368255615,
+      "choice_ce": 1.639785885810852
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; each geometry frame also strictly precedes its own fitting target. No held-out labels in optimizer."
+}

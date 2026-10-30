@@ -1,0 +1,117 @@
+{
+  "records": [
+    {
+      "prior": 1.0,
+      "epoch": 0,
+      "mass": 0.25,
+      "auc": 0.8224225344779966,
+      "weighted_auc": 0.8193739820912485,
+      "near_tie_top1": 0.3
+    },
+    {
+      "prior": 1.0,
+      "epoch": 0,
+      "mass": 0.5,
+      "auc": 0.8224225345651903,
+      "weighted_auc": 0.8193739822493907,
+      "near_tie_top1": 0.3
+    },
+    {
+      "prior": 1.0,
+      "epoch": 0,
+      "mass": 1.0,
+      "auc": 0.8224225346523838,
+      "weighted_auc": 0.8193739823551507,
+      "near_tie_top1": 0.3
+    },
+    {
+      "prior": 1.0,
+      "epoch": 8,
+      "mass": 0.25,
+      "auc": 0.8224451121197407,
+      "weighted_auc": 0.8193950537288855,
+      "near_tie_top1": 0.30087976539589445
+    },
+    {
+      "prior": 1.0,
+      "epoch": 8,
+      "mass": 0.5,
+      "auc": 0.8223693883396763,
+      "weighted_auc": 0.8193155955288414,
+      "near_tie_top1": 0.30087976539589445
+    },
+    {
+      "prior": 1.0,
+      "epoch": 8,
+      "mass": 1.0,
+      "auc": 0.8219230693860982,
+      "weighted_auc": 0.8188551085866375,
+      "near_tie_top1": 0.2994868035190616
+    },
+    {
+      "prior": 1.0,
+      "epoch": 16,
+      "mass": 0.25,
+      "auc": 0.8224331297176068,
+      "weighted_auc": 0.8193800496445064,
+      "near_tie_top1": 0.30051319648093844
+    },
+    {
+      "prior": 1.0,
+      "epoch": 16,
+      "mass": 0.5,
+      "auc": 0.8222781559622652,
+      "weighted_auc": 0.8192141912554144,
+      "near_tie_top1": 0.3002932551319648
+    },
+    {
+      "prior": 1.0,
+      "epoch": 16,
+      "mass": 1.0,
+      "auc": 0.8214711968995835,
+      "weighted_auc": 0.8183681579930832,
+      "near_tie_top1": 0.29890029325513195
+    },
+    {
+      "prior": 1.0,
+      "epoch": 32,
+      "mass": 0.25,
+      "auc": 0.8224269693174147,
+      "weighted_auc": 0.8193719881878712,
+      "near_tie_top1": 0.3006598240469208
+    },
+    {
+      "prior": 1.0,
+      "epoch": 32,
+      "mass": 0.5,
+      "auc": 0.8222401101809913,
+      "weighted_auc": 0.8191699042206088,
+      "near_tie_top1": 0.29970674486803517
+    },
+    {
+      "prior": 1.0,
+      "epoch": 32,
+      "mass": 1.0,
+      "auc": 0.8212946320105622,
+      "weighted_auc": 0.8181694240392329,
+      "near_tie_top1": 0.29809384164222874
+    }
+  ],
+  "calibration": {
+    "prefix": "2025-01-23",
+    "coefficients": [
+      2.384988784790039,
+      0.17619943618774414,
+      1.1124440431594849,
+      0.8091683387756348,
+      0.031165074557065964,
+      0.26837825775146484,
+      0.37745237350463867
+    ],
+    "events": 100000,
+    "first_fit_timestamp": 1737590400,
+    "last_fit_timestamp": 1737763140,
+    "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+  },
+  "fit_events": 122461
+}

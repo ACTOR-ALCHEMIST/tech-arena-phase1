@@ -1,0 +1,16 @@
+__pycache__/
+.DS_Store
+/data/cache*/
+/model/
+/submissions/
+/runs/
+/.tools/
+/competition/cache/
+/competition/experiments/
+/competition/logs/
+/competition/final/
+/.venv-generative/
+/competition/generative/data/
+/competition/generative/runs/
+/competition/v3/data/
+/competition/v3/runs/

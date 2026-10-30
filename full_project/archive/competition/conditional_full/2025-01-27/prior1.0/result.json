@@ -1,0 +1,20 @@
+{
+  "records": [],
+  "calibration": {
+    "prefix": "2025-01-25",
+    "coefficients": [
+      3.0491230487823486,
+      0.25025278329849243,
+      0.8352805376052856,
+      0.7376387119293213,
+      -0.03978324308991432,
+      0.17111599445343018,
+      0.37082767486572266
+    ],
+    "events": 100000,
+    "first_fit_timestamp": 1737763200,
+    "last_fit_timestamp": 1737935940,
+    "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+  },
+  "fit_events": 432023
+}

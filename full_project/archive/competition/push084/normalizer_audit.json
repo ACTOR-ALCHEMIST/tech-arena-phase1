@@ -1,0 +1,10 @@
+{
+  "suppressed_graph_features": [
+    "spectral8_profile_dot",
+    "spectral8_profile_dot_relative",
+    "spectral16_profile_dot",
+    "spectral16_profile_dot_relative"
+  ],
+  "fix": "Relative dynamic-range constant detection; no absolute standard-deviation floor for variable columns.",
+  "scope": "New experiment configurations only; historical checkpoints and predictions unchanged."
+}

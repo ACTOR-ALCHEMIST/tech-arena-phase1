@@ -1,0 +1,189 @@
+{
+  "cutoff": "2025-01-26",
+  "base": {
+    "auc": 0.8317120624315019,
+    "weighted_auc": 0.8234900150479808
+  },
+  "rows": [
+    {
+      "index": 0,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.001
+      },
+      "mass": 0.25,
+      "auc": 0.8317154898087762,
+      "weighted_auc": 0.8234914811291307
+    },
+    {
+      "index": 0,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.001
+      },
+      "mass": 0.5,
+      "auc": 0.8317015681014125,
+      "weighted_auc": 0.8234744588729479
+    },
+    {
+      "index": 0,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.001
+      },
+      "mass": 1.0,
+      "auc": 0.8316226786537884,
+      "weighted_auc": 0.8233873594562501
+    },
+    {
+      "index": 1,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.01
+      },
+      "mass": 0.25,
+      "auc": 0.8317157136063047,
+      "weighted_auc": 0.8234928373541368
+    },
+    {
+      "index": 1,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.01
+      },
+      "mass": 0.5,
+      "auc": 0.8317137819880009,
+      "weighted_auc": 0.8234897962265633
+    },
+    {
+      "index": 1,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.01
+      },
+      "mass": 1.0,
+      "auc": 0.8316956601195797,
+      "weighted_auc": 0.823468535553435
+    },
+    {
+      "index": 2,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.1
+      },
+      "mass": 0.25,
+      "auc": 0.831712915454887,
+      "weighted_auc": 0.8234908848273528
+    },
+    {
+      "index": 2,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.1
+      },
+      "mass": 0.5,
+      "auc": 0.8317136898762132,
+      "weighted_auc": 0.8234914176763268
+    },
+    {
+      "index": 2,
+      "config": {
+        "profiles": 1,
+        "ridge": 0.1
+      },
+      "mass": 1.0,
+      "auc": 0.8317151075789726,
+      "weighted_auc": 0.8234926281985353
+    },
+    {
+      "index": 3,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.001
+      },
+      "mass": 0.25,
+      "auc": 0.8317337519600385,
+      "weighted_auc": 0.8235086888633375
+    },
+    {
+      "index": 3,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.001
+      },
+      "mass": 0.5,
+      "auc": 0.8317299658244088,
+      "weighted_auc": 0.8234997879837506
+    },
+    {
+      "index": 3,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.001
+      },
+      "mass": 1.0,
+      "auc": 0.8316425944504487,
+      "weighted_auc": 0.8233961287094149
+    },
+    {
+      "index": 4,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.01
+      },
+      "mass": 0.25,
+      "auc": 0.8317171405884738,
+      "weighted_auc": 0.8234951609739105
+    },
+    {
+      "index": 4,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.01
+      },
+      "mass": 0.5,
+      "auc": 0.8317141904184908,
+      "weighted_auc": 0.8234914565018521
+    },
+    {
+      "index": 4,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.01
+      },
+      "mass": 1.0,
+      "auc": 0.8316848913645939,
+      "weighted_auc": 0.8234597346515895
+    },
+    {
+      "index": 5,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.1
+      },
+      "mass": 0.25,
+      "auc": 0.8317130408633802,
+      "weighted_auc": 0.8234912049417188
+    },
+    {
+      "index": 5,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.1
+      },
+      "mass": 0.5,
+      "auc": 0.8317137455526715,
+      "weighted_auc": 0.8234921198244713
+    },
+    {
+      "index": 5,
+      "config": {
+        "profiles": 3,
+        "ridge": 0.1
+      },
+      "mass": 1.0,
+      "auc": 0.831713536493029,
+      "weighted_auc": 0.8234922002396217
+    }
+  ]
+}

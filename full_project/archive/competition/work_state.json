@@ -1,0 +1,59 @@
+{
+  "objective": "Local CTR optimization with Go retrieval-guided iteration and verified morning delivery",
+  "active_go_sessions": {},
+  "validation_protocol": "Global temporal split; first full event per user; label-safe prior snapshots; Jan26 tuning + Jan25 coarse blend selection + Jan24 frozen recipe audit",
+  "completed_checks": {
+    "unit_tests": 15,
+    "go_vet": true,
+    "go_lane_lock": true,
+    "go_exit_code": 0,
+    "submission_rows": 529390,
+    "reproduction_error": 0.0,
+    "artifact_hash_files": 65,
+    "all_training_processes_exited": true
+  },
+  "next": "New Go controller attaches to live lanes, drains dependencies, then automatically audits, refits, exports, replays and verifies.",
+  "preflight_acceptance": "competition/preflight_acceptance.json",
+  "light_smoke": "runs/light/delivery_smoke/summary.json",
+  "new_best_primary_auc": 0.8283893181437387,
+  "full_representation_prefill_session": 6808,
+  "updated": "2026-10-24T05:03:24+08:00",
+  "active_representation_prefill": null,
+  "full_representation_prefill_complete": true,
+  "important_changes": [
+    "Finalizing Go session 19567 will run arena_finalize.py then arena_verify.py; its shared experiment deadline is about 05:14 Beijing, finalization separate.",
+    "GPU watcher session 47527 fills newly eligible neural jobs while CPU lane trains; waiting state is intentional.",
+    "Final selection: best point tree + best event tree + top three neural heads, coarse fixed probability/logit blends chosen by Jan26/Jan25 mean cohort-weighted AUC.",
+    "Jan24 frozen audit is not used for selection. Neural audits directly build frozen features using feature_reference, avoiding unused intermediate tree fits; parity test exactly passed.",
+    "Full SGNS representations at Jan27 already prepared for e320 seed42, e320 seed2026, e450 seed42, and dim16 e56.",
+    "Jan22 prefill now prepares two e320 seeds for Jan24 audit; no Jan24 metrics read.",
+    "Current top primary neural AUC 0.82788877, second seed 0.82785488; second-seed locked25 AUC 0.815970 vs seed42 context 0.812771.",
+    "No final manifest/new strong CSV delivered yet. Must wait actual refit/export, acceptance, saved-model fresh-feature replay, hashes, tests before marking goal complete.",
+    "Added optional arena_alignment.py coordinate features and past anchor bundling; alignment experiment AUC0.826631 failed to improve 0.827855, so not currently selected. Math invariance test added; 15 tests pass.",
+    "New event calibrations: event_cat_sgns8e640_context24_d6 AUC0.827592; raw numeric parent0.825058. Neural same representation Jan26 .828389, locked25 .816275.",
+    "GPU session47527 waits intentionally; CPU lane transferred from old PID72405 to finalizing PID79786 around04:37. New models/feature family additions frozen."
+  ],
+  "light_comparisons": "runs/light/comparison_delivery.json",
+  "all_prefill_complete": true,
+  "freeze_new_families": true,
+  "original_all_complete": true,
+  "current_cpu": "cat_foldin_long24_d6",
+  "watching_gpu_complete": true,
+  "final_version": "competition/final/versions/20261024_044425",
+  "selected_sources": [
+    "event_cat_sgns8e640_context24_d6",
+    "mlp_event_cat_sgns8_s2026_context24_d6"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_blend": "logit",
+  "validation_26_auc": 0.8290037149576445,
+  "validation_25_auc": 0.8188039296003504,
+  "remaining": [],
+  "status": "verified_complete",
+  "manifest": "competition/final/manifest.json",
+  "acceptance": "competition/final/acceptance.json",
+  "submission": "competition/final/submission.csv"
+}

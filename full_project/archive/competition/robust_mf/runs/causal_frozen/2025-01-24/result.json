@@ -1,0 +1,33 @@
+{
+  "name": "causal_frozen",
+  "cutoff": "2025-01-24",
+  "method": "robust_multiview_mf",
+  "config": {
+    "epochs": 12,
+    "patience": 3,
+    "seed": 31415,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "ema": 0.99,
+    "fine_tune": false,
+    "whiten_view": true,
+    "causal_prefix": true,
+    "history_event_probability": 0.2,
+    "history_delete_probability": 0.15,
+    "user_dropout": 0.05
+  },
+  "pretraining_cutoff": "2025-01-22",
+  "training_events": 195814,
+  "best_epoch": 11,
+  "train_loss": 1.7131969718904274,
+  "auc": 0.7863818671218312,
+  "logloss": 0.20011352127416757,
+  "average_precision": 0.23129974140045612,
+  "accuracy_at_0_5": 0.9372517108996828,
+  "rows": 479280,
+  "weighted_auc": 0.7872697009244384,
+  "parameters": 4339709,
+  "trainable_parameters": 161389,
+  "seconds": 66.32320524999523,
+  "incumbent_unchanged": true
+}

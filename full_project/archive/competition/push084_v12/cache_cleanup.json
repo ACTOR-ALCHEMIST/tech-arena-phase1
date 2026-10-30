@@ -1,0 +1,21 @@
+{
+  "time": 1792888456.830752,
+  "policy": "Reproducible older 100-column fitting matrices only; canonical 112-column multiview data, validation matrices, labels, all embeddings, checkpoints, raw inputs and frozen versions retained.",
+  "files": [
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd/train.npy",
+      "bytes": 720000128,
+      "sha256": "d11bff86a21885295f16d07fa474f64ad56854c20ab97f2f04a579605dbb845c"
+    },
+    {
+      "path": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd/train.npy",
+      "bytes": 720000128,
+      "sha256": "ddbc69011b6216c82464cb998eda43ed54615fddb38a2495c003a63a3787a57e"
+    },
+    {
+      "path": "competition/cache/features_2025-01-22_2025-01-24_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd/train.npy",
+      "bytes": 720000128,
+      "sha256": "0e1207252529aba6f7c223a6449186936cd399645119461e2089135e13d7e943"
+    }
+  ]
+}

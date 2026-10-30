@@ -1,0 +1,26 @@
+{
+  "config": {
+    "epochs": 12,
+    "patience": 3,
+    "seed": 31415,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "ema": 0.99,
+    "fine_tune": true,
+    "whiten_view": true,
+    "causal_prefix": true,
+    "embedding_lr": 0.0001,
+    "anchor": 0.1,
+    "embedding_warmup_epochs": 2,
+    "history_event_probability": 0.2,
+    "history_delete_probability": 0.15,
+    "user_dropout": 0.05
+  },
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "pretraining_cutoff": "2025-01-24",
+  "fitting_events": 196042,
+  "min_fitting_timestamp": 1737676800,
+  "max_fitting_timestamp": 1737849540,
+  "validation_cutoff": "2025-01-26",
+  "fitting_indices_sha256": "de097d85549bb03c8fe7116feadb2a6b647d3c8c374c3577d4d66666e21c184f"
+}

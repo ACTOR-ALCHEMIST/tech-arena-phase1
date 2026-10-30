@@ -1,0 +1,21 @@
+{
+  "day": "2025-01-23",
+  "kind": "valid",
+  "events": 50155,
+  "features_cutoff": "2025-01-23",
+  "min_query_timestamp": 1737590400,
+  "max_query_timestamp": 1737935940,
+  "max_snapshot_fit_timestamp": 1737590340,
+  "ranker": "competition/two_stage/stage1/2025-01-23",
+  "ranker_sha256": "b6585736c16d18c41025862e123057af256ea0db87e8b2ac265cb70902a10d2d",
+  "ranker_fitting_provenance": {
+    "training_events": 180000,
+    "minimum_fit_timestamp": 1737417600,
+    "maximum_fit_timestamp": 1737590340,
+    "feature_fitting_frame": "2025-01-21",
+    "query_target_boundary": 1737590400,
+    "ranker_sha256": "b6585736c16d18c41025862e123057af256ea0db87e8b2ac265cb70902a10d2d"
+  },
+  "feature_columns": 244,
+  "label_policy": "Query labels excluded from feature functions and first-stage fitting. Scores truly chronological OOF. Full 10-item slates retained."
+}

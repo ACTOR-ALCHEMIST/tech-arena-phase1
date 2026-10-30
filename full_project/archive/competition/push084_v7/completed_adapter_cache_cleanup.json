@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_residual8/valid.npy",
+      "bytes": 32327088,
+      "sha256": "faf3761d5fd39fcfc3ac83d6fcbaad39fca78b005351fa6f399b8882e743bce8"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_residual8/train.npy",
+      "bytes": 165600128,
+      "sha256": "b4f7b33a8a1dc8727a59c386fdd6042fcd03c90c79f6086bc2e9607d0831b42e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_residual8/valid.npy",
+      "bytes": 40447008,
+      "sha256": "1be2123bb745f24c51bd5fe49d6bae366842afb2fb7acbb7b8f8bf06be0b01ac"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_residual8/train.npy",
+      "bytes": 165600128,
+      "sha256": "3a51bfea61789aea04d5e53f520a36e9f004dd674a73804d57565acf9ef1e131"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_residual24/valid.npy",
+      "bytes": 40447008,
+      "sha256": "686ce983d4f22191189be3a2cd68cb51d805a4ed216cbd5c9765c547c8510ae6"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_residual24/train.npy",
+      "bytes": 165600128,
+      "sha256": "06853618facd9332bceb285bdfd53065f90088f9a8ca047e1a1602233633a168"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_residual24/valid.npy",
+      "bytes": 32327088,
+      "sha256": "3684098fda132a081f1a0fd7d1d3ed92d7e3ce961397abf726149f4e0acf41ac"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_residual24/train.npy",
+      "bytes": 165600128,
+      "sha256": "64c434c791f5694a7811a4cd0443895d67ab9ed89261c4c7715fba585235e516"
+    }
+  ],
+  "policy": "Remove only completed, regenerable feature matrices; retain weights, representations, validation predictions and metadata."
+}

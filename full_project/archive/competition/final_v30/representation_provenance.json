@@ -1,0 +1,25 @@
+{
+  "selected": {
+    "signal": "trifused25_delta",
+    "mass": 0.5,
+    "auc_26": 0.8319854788744273,
+    "weighted_auc_26": 0.8237437572396209,
+    "near_tie_top1_26": 0.31303926320891906,
+    "auc_25": 0.8226077219392731,
+    "weighted_auc_25": 0.8195543793238876,
+    "near_tie_top1_25": 0.2989062614695735,
+    "weighted_delta": 1.3777974835316176e-05,
+    "eligible": true
+  },
+  "snapshot": {
+    "cache_id": "16bed8da53774676be5f04a48bad2595",
+    "cutoff": "2025-01-27",
+    "fit_events": 686824,
+    "unique_interactions": 896564,
+    "co_nnz": 24482597,
+    "seconds": 15.868066916998941,
+    "max_fit_timestamp": 1737935940,
+    "cutoff_timestamp": 1737936000
+  },
+  "policy": "All source representations and their alignment use only data strictly before Jan27; query labels unavailable. Frozen tables need no training cache or optimizer."
+}

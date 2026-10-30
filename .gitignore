@@ -4,3 +4,15 @@ __pycache__/
 .DS_Store
 /*.csv
 /*.csv.verification.json
+
+# Generated files from the complete training workspace.
+/full_project/.tools/
+/full_project/.venv*/
+/full_project/data/
+/full_project/competition/
+/full_project/runs/
+/full_project/model/
+/full_project/submissions/
+/full_project/*.csv
+/full_project/*.zip
+/full_project/overnight

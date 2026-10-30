@@ -1,0 +1,36 @@
+{
+  "time": 1792886997.083662,
+  "policy": "Legacy SGNS640 feature matrices only; canonical SGNS2026 multi-view data, raw inputs, representations, all labels, checkpoints and frozen versions retained; arena_models regenerates missing arrays.",
+  "files": [
+    {
+      "path": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297/train.npy",
+      "bytes": 720000128,
+      "sha256": "f52666fd48e09c5398a22a770ac5972753e0e311406b475b643e3f283902f5dd"
+    },
+    {
+      "path": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297/valid.npy",
+      "bytes": 175856128,
+      "sha256": "30e4b3fed1e53a76cbe36077b13f9988ccf632860c4b31f164e6d72f3fd2e051"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297/train.npy",
+      "bytes": 720000128,
+      "sha256": "afe8ecafe29977dcfd1d790a7f87c3808a048886153330762fa053efcff38eb6"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297/valid.npy",
+      "bytes": 140552128,
+      "sha256": "2c4f505f6217484f31a99fc2faef1650741db15604c5c0eb2d16ba8174f69cfc"
+    },
+    {
+      "path": "competition/cache/features_2025-01-22_2025-01-24_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297/train.npy",
+      "bytes": 720000128,
+      "sha256": "b448ea3f4402df2a21e2beff3cea863aecdae98ee81952dbfcb264bf1c4e8207"
+    },
+    {
+      "path": "competition/cache/features_2025-01-22_2025-01-24_180000_42_als8_16_context_sgns8_16_e56_recipe2c72d99297/valid.npy",
+      "bytes": 191712128,
+      "sha256": "2277d6f10dfa14de3e324304da51a74113f819aae4270af3f7e6328b9c93966e"
+    }
+  ]
+}

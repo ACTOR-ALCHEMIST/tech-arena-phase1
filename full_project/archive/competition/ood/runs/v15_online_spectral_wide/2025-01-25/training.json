@@ -1,0 +1,86 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.7017301884969076,
+    "auc": 0.8133135994471343,
+    "logloss": 0.20705117958257752,
+    "average_precision": 0.25677061133830725,
+    "accuracy_at_0_5": 0.9366504412701301,
+    "rows": 439640,
+    "weighted_auc": 0.8101948494739996,
+    "augmented_events": 0,
+    "seconds": 8.366600290988572
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.667649576335483,
+    "auc": 0.8181043018565004,
+    "logloss": 0.1953175156995363,
+    "average_precision": 0.26728455236329274,
+    "accuracy_at_0_5": 0.9367891911564007,
+    "rows": 439640,
+    "weighted_auc": 0.8150715539100094,
+    "augmented_events": 0,
+    "seconds": 7.023108167020837
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.6657135052786933,
+    "auc": 0.8192780188780149,
+    "logloss": 0.1924381018132999,
+    "average_precision": 0.2696997276137788,
+    "accuracy_at_0_5": 0.9371258302247293,
+    "rows": 439640,
+    "weighted_auc": 0.8162752234712523,
+    "augmented_events": 0,
+    "seconds": 7.0658365419949405
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.664282641092936,
+    "auc": 0.819724525951723,
+    "logloss": 0.19176663123139392,
+    "average_precision": 0.27055527502098825,
+    "accuracy_at_0_5": 0.9371895186971159,
+    "rows": 439640,
+    "weighted_auc": 0.8167213339126244,
+    "augmented_events": 0,
+    "seconds": 8.447834624996176
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.6626658798217773,
+    "auc": 0.8198987371810801,
+    "logloss": 0.19158367070757043,
+    "average_precision": 0.27097604750009824,
+    "accuracy_at_0_5": 0.9372645801109999,
+    "rows": 439640,
+    "weighted_auc": 0.8168812056321101,
+    "augmented_events": 0,
+    "seconds": 8.172445875010453
+  },
+  {
+    "epoch": 6,
+    "train_loss": 1.6618962217966715,
+    "auc": 0.8199773390901393,
+    "logloss": 0.1915214039893046,
+    "average_precision": 0.2711994200778241,
+    "accuracy_at_0_5": 0.9372486579929032,
+    "rows": 439640,
+    "weighted_auc": 0.816944471716651,
+    "augmented_events": 0,
+    "seconds": 7.24376862499048
+  },
+  {
+    "epoch": 7,
+    "train_loss": 1.6596291090859308,
+    "auc": 0.8200072252534241,
+    "logloss": 0.19150400940066617,
+    "average_precision": 0.27140282477199834,
+    "accuracy_at_0_5": 0.937269129287599,
+    "rows": 439640,
+    "weighted_auc": 0.8169530150069306,
+    "augmented_events": 0,
+    "seconds": 7.218951957998797
+  }
+]

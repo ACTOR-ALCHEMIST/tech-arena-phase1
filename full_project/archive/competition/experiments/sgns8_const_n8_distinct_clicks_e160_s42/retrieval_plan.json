@@ -1,0 +1,51 @@
+{
+  "name": "sgns8_const_n8_distinct_clicks_e160_s42",
+  "argv": [
+    "arena_sgns.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/sgns8_const_n8_distinct_clicks_e160_s42.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; numeric tree AUC=0.814354. Test sgns capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "Item2Vec",
+      "url": "https://arxiv.org/abs/1603.04259",
+      "text": "Item2Vec uses skip gram negative sampling for item similarity in implicit feedback recommendation. History based auxiliary embedding learning complements exposed click classification. Our user item SGNS experiment is a distinct MF objective inspired by sampled representation learning.",
+      "similarity": 0.12960840844170715
+    },
+    {
+      "title": "Implicit ALS",
+      "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+      "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR.",
+      "similarity": 0.08779520959805723
+    },
+    {
+      "title": "Two tower sampling bias",
+      "url": "https://research.google/pubs/sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations/",
+      "text": "Two tower retrieval with in batch negatives has sampling bias. This competition provides actual exposed nonclicks; BCE using observed candidates is the primary click task. Auxiliary history item representation pretraining can use explicit sampled objectives.",
+      "similarity": 0.07129261947485988
+    },
+    {
+      "title": "sgns16_mps",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/sgns16_mps/result.json",
+      "text": "sgns_mps AUC 0.743287 cutoff 2025-01-26 config {\"name\": \"sgns16_mps\", \"factors\": 16, \"device\": \"mps\", \"epochs\": 20, \"batch_size\": 8192, \"lr\": 0.02, \"negatives\": 8, \"regularization\": 0.001} features []",
+      "similarity": 0.02554437919216537
+    }
+  ],
+  "config": {
+    "name": "sgns8_const_n8_distinct_clicks_e160_s42",
+    "method": "sgns",
+    "factors": 8,
+    "device": "mps",
+    "epochs": 160,
+    "batch_size": 8192,
+    "lr": 0.01,
+    "negatives": 8,
+    "regularization": 0.001,
+    "lr_decay": false,
+    "patience": 8,
+    "seed": 42,
+    "feedback_mode": "distinct_clicks",
+    "eval_every": 5
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "r3_qwen25_history192",
+  "cutoff": "2025-01-25",
+  "config": {
+    "width": 192,
+    "heads": 6,
+    "history_layers": 3,
+    "slate_layers": 2,
+    "hidden": [
+      768,
+      384,
+      192
+    ],
+    "context_width": 96,
+    "foundation_dims": 32,
+    "foundation": "Qwen2.5-1.5B",
+    "foundation_layers": 6,
+    "unfreeze_base": true,
+    "name": "r3_qwen25_history192",
+    "seed": 2026,
+    "dropout": 0.1,
+    "epochs": 12,
+    "lr": 0.0004,
+    "batch_events": 256,
+    "patience": 3,
+    "base_config": {
+      "method": "tabular",
+      "source_experiment": "cat_sgns8_s2026_context24_d6_locked25",
+      "loss": "event_ce",
+      "epochs": 8,
+      "lr": 0.0007,
+      "dropout": 0.1,
+      "weight_decay": 0.01,
+      "ema": 0.99,
+      "seed": 2026,
+      "constant_policy": "zero",
+      "patience": 6,
+      "hidden": [
+        256,
+        128,
+        64
+      ],
+      "name": "v2_multiview_wide256_s2026_locked25",
+      "architecture": "v2_wide",
+      "multi_view": [
+        {
+          "factors": 8,
+          "recipe": {
+            "epochs": 450,
+            "lr": 0.01,
+            "lr_decay": false,
+            "seed": 42,
+            "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+          }
+        }
+      ],
+      "context_width": 32,
+      "cutoff": "2025-01-25",
+      "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+      "fixed_epochs": true,
+      "lr_schedule_epochs": 40
+    }
+  },
+  "epochs": [],
+  "best_epoch": 0,
+  "auc": 0.8186490286952377,
+  "train_events": 180000,
+  "trainable_parameters": 3290692,
+  "total_head_parameters": 3290692,
+  "seconds": 6.531887374992948,
+  "native_reload_max_error": 0.0,
+  "incumbent_unchanged": true,
+  "model_sha256": "a851e42c44ad31b8a2a9c4f7a08bfbe2be88a1bf1d62bc84613a3fb7563debe6",
+  "data": "competition/v3/data/2025-01-25"
+}

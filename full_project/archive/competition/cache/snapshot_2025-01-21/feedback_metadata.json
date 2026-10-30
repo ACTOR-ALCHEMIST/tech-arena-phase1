@@ -1,0 +1,5 @@
+{
+  "distinct_observed_clicks": 525090,
+  "deduplication": "user_id,item_id,click_timestamp_minute",
+  "source": "only fitting events and their prior histories"
+}

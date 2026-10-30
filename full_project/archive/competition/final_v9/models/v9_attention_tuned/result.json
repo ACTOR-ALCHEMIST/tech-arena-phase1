@@ -1,0 +1,51 @@
+{
+  "name": "v9_attention_tuned",
+  "cutoff": "2025-01-27",
+  "method": "native_history_attention",
+  "config": {
+    "width": 128,
+    "epochs": 15,
+    "patience": 3,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "ema": 0.99,
+    "seed": 31415,
+    "history_dropout": 0.1,
+    "user_dropout": 0.05,
+    "anchor": 0.1,
+    "residual_scale": 0.5,
+    "history_layers": 1,
+    "slate": true,
+    "fine_tune": true,
+    "embedding_lr": 5e-05
+  },
+  "augmentation_config": {
+    "native_attention": {
+      "width": 128,
+      "epochs": 15,
+      "patience": 3,
+      "lr": 0.0007,
+      "dropout": 0.1,
+      "ema": 0.99,
+      "seed": 31415,
+      "history_dropout": 0.1,
+      "user_dropout": 0.05,
+      "anchor": 0.1,
+      "residual_scale": 0.5,
+      "history_layers": 1,
+      "slate": true,
+      "fine_tune": true,
+      "embedding_lr": 5e-05
+    },
+    "feature_mode": "spectral_multi_pair"
+  },
+  "best_epoch": 5,
+  "train_loss": 1.625783603994387,
+  "training_events": 293993,
+  "anchor_cutoff": "2025-01-24",
+  "base_path": "competition/final_v6/models/spectral_multi_wide",
+  "base_sha256": "af288cf6d2dc8dd234271cfda8542c8ae5fb5337d6f074c1f1cedfafb0a53dee",
+  "parameters": 4290852,
+  "trainable_parameters": 3820386,
+  "seconds": 291.2895807499881
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "train_events": 8192,
+  "selection_events": 2048,
+  "full_time_validation_events": 35138,
+  "train_min_timestamp": 1737677040,
+  "train_max_timestamp": 1737849540,
+  "train_class_counts": [
+    522,
+    507,
+    549,
+    466,
+    521,
+    513,
+    470,
+    509,
+    530,
+    528,
+    3077
+  ],
+  "snapshots": {
+    "2025-01-24": {
+      "fit_events": 392831,
+      "max_fit_timestamp": 1737676740
+    },
+    "2025-01-26": {
+      "fit_events": 588873,
+      "max_fit_timestamp": 1737849540
+    },
+    "2025-01-27": {
+      "fit_events": 686824,
+      "max_fit_timestamp": 1737935940
+    }
+  },
+  "train_validation_disjoint": true,
+  "history_strictly_past": true
+}

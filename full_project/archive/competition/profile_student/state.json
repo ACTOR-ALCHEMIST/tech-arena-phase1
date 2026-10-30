@@ -1,0 +1,9 @@
+{
+  "stage": "completed_primary_rejected",
+  "selected": null,
+  "baseline_auc": 0.8318589258752133,
+  "best_primary_auc": 0.8318544819931882,
+  "primary_configs": 6,
+  "reason": "All primary results fail the predeclared improvement gate; no secondary or final refit is necessary.",
+  "updated": 1792917684.770667
+}

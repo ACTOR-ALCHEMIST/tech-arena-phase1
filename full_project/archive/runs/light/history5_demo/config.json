@@ -1,0 +1,20 @@
+{
+  "cache": "data/cache_v1",
+  "cutoff": "2025-01-26",
+  "cohort_users": 4000,
+  "split_seed": 2026,
+  "fit_fraction": 1.0,
+  "history_limit": 5,
+  "dim": 8,
+  "epochs": 2,
+  "lr": 0.002,
+  "weight_decay": 0.01,
+  "user_dropout": 0.2,
+  "batch_size": 256,
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "use_history_pooling": true,
+  "use_repeat_features": true,
+  "predict": false
+}

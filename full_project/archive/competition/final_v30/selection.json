@@ -1,0 +1,33 @@
+{
+  "selected": {
+    "signal": "trifused25_delta",
+    "mass": 0.5,
+    "auc_26": 0.8319854788744273,
+    "weighted_auc_26": 0.8237437572396209,
+    "near_tie_top1_26": 0.31303926320891906,
+    "auc_25": 0.8226077219392731,
+    "weighted_auc_25": 0.8195543793238876,
+    "near_tie_top1_25": 0.2989062614695735,
+    "weighted_delta": 1.3777974835316176e-05,
+    "eligible": true
+  },
+  "source_probe": "competition/third_sphere_after_v29",
+  "source_selection_sha256": "0c70d69092f1a8a7948d08e6b727b02d053d20320fbb88e9774ac75895c3cf84",
+  "baseline": {
+    "csv": "competition/final_v29/submission.csv",
+    "sha256": "05bcd1f0d60d0ba96417a6ca26720821575e26a3ebf1d218acc0c62e3bb7ffa7",
+    "manifest": "competition/final_v29/manifest.json",
+    "acceptance": "competition/final_v29/acceptance.json",
+    "previous_best_csv": "competition/final_v28/submission.csv",
+    "validation_26": {
+      "auc": 0.8319783784884449
+    },
+    "validation_25": {
+      "auc": 0.822588612073049
+    },
+    "validation_24": {
+      "auc": 0.8088190920703384
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  }
+}

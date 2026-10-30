@@ -1,0 +1,4 @@
+# Versions already available in the current Python environment.
+numpy==1.26.4
+scikit-learn==1.7.2
+torch==2.5.1

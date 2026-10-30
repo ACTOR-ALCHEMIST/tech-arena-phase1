@@ -1,0 +1,29 @@
+{
+  "names": [
+    "softmax30_profile_dot",
+    "softmax30_profile_dot_relative",
+    "softmax30_profile_cos",
+    "softmax30_profile_cos_relative",
+    "softmax30_hist_mean",
+    "softmax30_hist_mean_relative",
+    "softmax30_last1",
+    "softmax30_last1_relative",
+    "softmax30_last3",
+    "softmax30_last3_relative",
+    "softmax30_last5",
+    "softmax30_last5_relative",
+    "softmax30_decay6",
+    "softmax30_decay6_relative",
+    "softmax30_decay24",
+    "softmax30_decay24_relative",
+    "softmax30_decay168",
+    "softmax30_decay168_relative",
+    "softmax30_hist_max",
+    "softmax30_item_norm",
+    "softmax30_profile_norm",
+    "softmax30_item_bias"
+  ],
+  "events": 43964,
+  "frame": "2025-01-25",
+  "indices_sha256": "7ee54b0f810f7136866b0518d74fcdfeae9c37c5235cd7ee5e5bfd2bec4e07df"
+}

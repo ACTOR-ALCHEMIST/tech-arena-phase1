@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Item2Vec",
+    "url": "https://arxiv.org/abs/1603.04259",
+    "text": "Item2Vec uses skip gram negative sampling for item similarity in implicit feedback recommendation. History based auxiliary embedding learning complements exposed click classification. Our user item SGNS experiment is a distinct MF objective inspired by sampled representation learning.",
+    "similarity": 0.13071917947352454
+  },
+  {
+    "title": "Implicit ALS",
+    "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+    "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR.",
+    "similarity": 0.11776554756612294
+  },
+  {
+    "title": "LightGCN",
+    "url": "https://arxiv.org/abs/2002.02126",
+    "text": "LightGCN retains linear neighborhood aggregation and layer combination, omitting unnecessary feature transformations and nonlinear activation. Sparse user item graph propagation and low rank regularization are promising under limited memory.",
+    "similarity": 0.10695089076165169
+  },
+  {
+    "title": "EASE",
+    "url": "https://arxiv.org/abs/1905.03375",
+    "text": "EASE shallow linear recommendation can outperform deeper recommenders on sparse implicit data. Dense item item inverse requires quadratic memory. With 50000 items and 16GB RAM prefer sparse cooccurrence or low rank ALS rather than full dense inverse.",
+    "similarity": 0.08234900393781013
+  }
+]

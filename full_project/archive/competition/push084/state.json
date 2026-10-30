@@ -1,0 +1,8 @@
+{
+  "stage": "delivery_completed",
+  "csv": "competition/final_v6/submission.csv",
+  "sha256": "ecbf3d5a7fddf470d0acb1035ce0fe0d9787e5fc086117efb0f8e936de2f0b16",
+  "target_auc": 0.84,
+  "target_reached": false,
+  "updated": 1792881762.6035268
+}

@@ -1,0 +1,47 @@
+{
+  "name": "mlp_event_long_ema_s2026_d0.1",
+  "argv": [
+    "arena_tabular.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/mlp_event_long_ema_s2026_d0.1.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; numeric tree AUC=0.819746. Test tabular capacity/confidence using retrieved evidence; keep temporal split fixed.",
+  "retrieved": [
+    {
+      "title": "CatBoost",
+      "url": "https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic",
+      "text": "CatBoost transforms categorical features using target statistics. Greedy target statistics leak the current label. Use time safe feature snapshots; combine co click scores latent ALS interaction match and observed context. Use Logloss training with validation AUC and early stopping.",
+      "similarity": 0.1911743677127607
+    },
+    {
+      "title": "DIN",
+      "url": "https://arxiv.org/abs/1706.06978",
+      "text": "DIN candidate aware attention represents diverse user interests from click history. Time decay and repeated click features complement long term user embeddings. Prefer small model and regularization when sparse IDs overfit quickly.",
+      "similarity": 0.058841217098344015
+    },
+    {
+      "title": "LightGCN",
+      "url": "https://arxiv.org/abs/2002.02126",
+      "text": "LightGCN retains linear neighborhood aggregation and layer combination, omitting unnecessary feature transformations and nonlinear activation. Sparse user item graph propagation and low rank regularization are promising under limited memory.",
+      "similarity": 0.025318214160071094
+    },
+    {
+      "title": "Temporal evaluation",
+      "url": "https://arxiv.org/abs/2010.11060",
+      "text": "Respect global temporal order; leakage can change algorithm rankings. Use multiple global cutoffs and one first event per user. Generate training target features strictly from earlier snapshots; evaluation labels are not available.",
+      "similarity": 0.02200842574524416
+    }
+  ],
+  "config": {
+    "name": "mlp_event_long_ema_s2026_d0.1",
+    "method": "tabular",
+    "source_experiment": "cat_sgns8long_context_24_180000_d6",
+    "loss": "event_ce",
+    "epochs": 40,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026
+  }
+}

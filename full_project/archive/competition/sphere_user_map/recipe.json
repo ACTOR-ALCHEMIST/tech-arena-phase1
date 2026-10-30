@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "fit_window": "all_past_clicked_slates",
+  "priors": [
+    1.0,
+    4.0,
+    16.0
+  ],
+  "max_steps": 32,
+  "recovery_steps": 128,
+  "gradient_threshold": 0.0001,
+  "reference": "conditional_full/prior1.0/geometry_e8.npz",
+  "reference_mass": 0.25,
+  "masses": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "items_fixed": true,
+  "objective": "conditional_choice_chord_prior_on_sphere"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "event_cat_sgns8_16_context_24_180000_d6_locked25",
+  "cutoff": "2025-01-25",
+  "method": "catboost_event",
+  "auc": 0.8027143050744847,
+  "logloss": 0.19685045947075525,
+  "average_precision": 0.25008279497163466,
+  "accuracy_at_0_5": 0.9370530433991447,
+  "rows": 439640,
+  "config": {
+    "name": "event_cat_sgns8_16_context_24_180000_d6_locked25",
+    "method": "event",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 282,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 80,
+      "16": 56
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+    "source_experiment": "cat_sgns8_16_context_24_180000_d6_locked25",
+    "locked_temperature": 1,
+    "locked_mix": 0.75
+  },
+  "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_lowrank80",
+  "tree_count": 1500,
+  "event_tree_count": 282,
+  "temperature": 1,
+  "event_mix": 0.75,
+  "seconds": 14.404285041993717,
+  "base_auc": 0.800494246103256,
+  "base_experiment": "cat_sgns8_16_context_24_180000_d6_locked25",
+  "all_variants": {
+    "T1_mix0.75": {
+      "auc": 0.8027143050744847,
+      "logloss": 0.19685045947075525,
+      "average_precision": 0.25008279497163466,
+      "accuracy_at_0_5": 0.9370530433991447,
+      "rows": 439640
+    }
+  }
+}

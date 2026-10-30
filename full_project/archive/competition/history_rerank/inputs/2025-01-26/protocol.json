@@ -1,0 +1,10 @@
+{
+  "day": "2025-01-26",
+  "width": 244,
+  "events": 35138,
+  "ranker": "competition/ood/runs/v24_long_spectral_wide/2025-01-26",
+  "ranker_sha256": "79df82a2ec4c9a614279bbe5ee858bc13fb435fdf184329ba8b1eb94d8b12294",
+  "max_fit_timestamp": 1737849540,
+  "min_query_timestamp": 1737849600,
+  "policy": "First query per user; all fitting targets and representation data before origin."
+}

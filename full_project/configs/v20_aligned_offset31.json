@@ -1,0 +1,9 @@
+{
+  "graph_lgbm": {
+    "leaves": 31,
+    "iterations": 1500,
+    "slate_context": false,
+    "neural_offset": true
+  },
+  "feature_mode": "aligned_spectral"
+}

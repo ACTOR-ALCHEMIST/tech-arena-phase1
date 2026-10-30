@@ -1,0 +1,67 @@
+{
+  "name": "cat_sgns8e640_context24_d6",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/cat_sgns8e640_context24_d6.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.",
+  "retrieved": [
+    {
+      "title": "event_cat_sgns8long_context_24_180000_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/event_cat_sgns8long_context_24_180000_d6/result.json",
+      "text": "catboost_event AUC 0.822218 cutoff 2025-01-26 config {\"name\": \"event_cat_sgns8long_context_24_180000_d6\", \"method\": \"event\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 1200, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}, \"source_experiment\": \"cat_sgns8long_context_24_180000_d6\"} features []",
+      "similarity": 0.24348349878247463
+    },
+    {
+      "title": "event_cat_sgns8long_context_24_180000_d8",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/event_cat_sgns8long_context_24_180000_d8/result.json",
+      "text": "catboost_event AUC 0.822134 cutoff 2025-01-26 config {\"name\": \"event_cat_sgns8long_context_24_180000_d8\", \"method\": \"event\", \"max_events\": 180000, \"depth\": 8, \"l2\": 20, \"iterations\": 1200, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}, \"source_experiment\": \"cat_sgns8long_context_24_180000_d8\"} features []",
+      "similarity": 0.24003476694430023
+    },
+    {
+      "title": "cat_sgns8long_context_24_180000_d8",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8long_context_24_180000_d8/result.json",
+      "text": "catboost_numeric AUC 0.819593 cutoff 2025-01-26 config {\"name\": \"cat_sgns8long_context_24_180000_d8\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 8, \"l2\": 20, \"iterations\": 2000, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}} features [['sgns8_s42_dot_relative', 10.53666443287557], ['sgns8_s42_cos_relative', 9.33372658256759], ['sgns8_s42_hist_cos_mean', 7.0970724994073064], ['sgns16_s42_hist_cos_recent', 4.072593342876488], ['user_bias', 3.531039273366246], ['sgns8_s42_cos', 3.5221858567892275], ['als16_cos_relative', 3.484657246770659], ['sgns16_s42_cos_relative', 3.3995373219423075], ['als16_fold_cos_relative', 2.4206871142539454], ['sgns8_s42_dot', 2.2536127686167307]]",
+      "similarity": 0.1988893317703112
+    },
+    {
+      "title": "cat_sgns8long_context_24_180000_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8long_context_24_180000_d6/result.json",
+      "text": "catboost_numeric AUC 0.819746 cutoff 2025-01-26 config {\"name\": \"cat_sgns8long_context_24_180000_d6\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 2000, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}} features [['sgns8_s42_cos_relative', 11.361181341827967], ['sgns8_s42_dot_relative', 8.11886542030683], ['sgns8_s42_dot', 6.5729045493650675], ['sgns8_s42_cos', 5.930091331729835], ['sgns8_s42_hist_cos_mean', 5.400227618133553], ['als16_cos_relative', 4.127954784823569], ['user_bias', 3.2363368865854563], ['sgns16_s42_hist_cos_mean', 3.1057822304799534], ['sgns16_s42_dot_relative', 3.0633060660390647], ['als16_known_cos', 2.79546155695915]]",
+      "similarity": 0.19879667705902127
+    }
+  ],
+  "config": {
+    "name": "cat_sgns8e640_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 450,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 450,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 42,
+        "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+      }
+    }
+  }
+}

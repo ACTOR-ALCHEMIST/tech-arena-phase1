@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "source": {
+      "repo_id": "Qwen/Qwen3-0.6B",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "local_path": "/Users/jasper/Desktop/TechArena2026/.tools/hf-generative/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+      "weight_sha256": {
+        "model.safetensors": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b"
+      },
+      "used_layers": 12,
+      "full_layers": 28,
+      "full_parameters": 596049920,
+      "loading_info": {
+        "missing_keys": [],
+        "unexpected_keys": [
+          "lm_head.weight"
+        ],
+        "mismatched_keys": [],
+        "error_msgs": []
+      },
+      "used_transformer_parameters": 188771328
+    },
+    "data_metadata_sha256": "0d45511ebb81c895d1947e1d23da74821feba2fddd7cd2a513cdedf44dc00191",
+    "batch_events": 128,
+    "input_tokens_per_candidate": 2,
+    "projection_seed": 4126,
+    "dimensions": 32,
+    "method": "frozen_pretrained_prefix_fixed_soft_projection"
+  },
+  "completed": 180000,
+  "events": 180000
+}

@@ -1,0 +1,8 @@
+{
+  "graph_lgbm": {
+    "leaves": 63,
+    "iterations": 1500,
+    "slate_context": false
+  },
+  "feature_mode": "spectral_multi_pair"
+}

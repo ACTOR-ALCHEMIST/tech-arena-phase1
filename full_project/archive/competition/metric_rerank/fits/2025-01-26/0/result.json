@@ -1,0 +1,52 @@
+{
+  "cutoff": "2025-01-26",
+  "config": {
+    "profiles": 1,
+    "ridge": 0.001
+  },
+  "training_clicked_events": 123094,
+  "max_training_target_timestamp": 1737849540,
+  "before_choice_ce": 1.639952540397644,
+  "after_choice_ce": 1.3985521793365479,
+  "objective_evaluations": 9,
+  "seconds": 0.18483100002049468,
+  "records": [
+    {
+      "objective": 1.639952540397644,
+      "choice_ce": 1.639952540397644
+    },
+    {
+      "objective": 1.6369378566741943,
+      "choice_ce": 1.6369363069534302
+    },
+    {
+      "objective": 1.6110533475875854,
+      "choice_ce": 1.610901951789856
+    },
+    {
+      "objective": 1.5123345851898193,
+      "choice_ce": 1.5077461004257202
+    },
+    {
+      "objective": 1.4424619674682617,
+      "choice_ce": 1.419499158859253
+    },
+    {
+      "objective": 1.4356426000595093,
+      "choice_ce": 1.402327060699463
+    },
+    {
+      "objective": 1.4352904558181763,
+      "choice_ce": 1.3987817764282227
+    },
+    {
+      "objective": 1.4352855682373047,
+      "choice_ce": 1.3984792232513428
+    },
+    {
+      "objective": 1.4352827072143555,
+      "choice_ce": 1.3985521793365479
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; geometry fitted strictly before query cutoff. No held-out labels in optimizer."
+}

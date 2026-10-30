@@ -1,0 +1,16 @@
+{
+  "day": "2025-01-25",
+  "ridge": 0.01,
+  "events": 78940,
+  "unique_events": 69952,
+  "width": 32,
+  "frames": [
+    "2025-01-23",
+    "2025-01-24"
+  ],
+  "max_fit_timestamp": 1737763140,
+  "constant_columns_disabled": [
+    13
+  ],
+  "policy": "Earlier out-of-time first queries; all training targets before cutoff. Duplicate event views receive inverse-count weights."
+}

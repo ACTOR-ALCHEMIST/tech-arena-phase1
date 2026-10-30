@@ -1,0 +1,65 @@
+{
+  "configs": {
+    "history_mean": {
+      "width": 64,
+      "attention": false,
+      "slate": false,
+      "history_dropout": 0.1,
+      "rank_weight": 0.0,
+      "seed": 83871,
+      "scale": 0.35,
+      "token_scaling": "fixed_v1"
+    },
+    "history_din": {
+      "width": 64,
+      "attention": true,
+      "slate": false,
+      "history_dropout": 0.1,
+      "rank_weight": 0.0,
+      "seed": 83871,
+      "scale": 0.35,
+      "token_scaling": "fixed_v1"
+    },
+    "history_din_slate": {
+      "width": 96,
+      "attention": true,
+      "slate": true,
+      "history_dropout": 0.15,
+      "rank_weight": 0.0,
+      "seed": 83872,
+      "scale": 0.35,
+      "token_scaling": "fixed_v1"
+    },
+    "history_din_rank": {
+      "width": 96,
+      "attention": true,
+      "slate": true,
+      "history_dropout": 0.25,
+      "rank_weight": 0.1,
+      "seed": 83873,
+      "scale": 0.35,
+      "token_scaling": "fixed_v1"
+    }
+  },
+  "baseline": {
+    "csv": "competition/final_v26/submission.csv",
+    "sha256": "a056a84edc2303318d9814922d78aa1e2c00273089a04a6748501975a9aab391",
+    "manifest": "competition/final_v26/manifest.json",
+    "acceptance": "competition/final_v26/acceptance.json",
+    "previous_best_csv": "competition/final_v24/submission.csv",
+    "validation_26": {
+      "auc": 0.831842600527807
+    },
+    "validation_25": {
+      "auc": 0.8224225343908032
+    },
+    "validation_24": {
+      "auc": 0.8086762152175297
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "epoch_selection": "Primary26 only, actual residual transfer onto frozen incumbent, epoch0 included.",
+  "secondary": "Fixed primary epochs on Jan25",
+  "third": "Only selected recipe on Jan24",
+  "target": 0.838
+}

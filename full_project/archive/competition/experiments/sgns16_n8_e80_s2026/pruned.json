@@ -1,0 +1,18 @@
+{
+  "config": {
+    "name": "sgns16_n8_e80_s2026",
+    "method": "sgns",
+    "factors": 16,
+    "device": "mps",
+    "epochs": 80,
+    "batch_size": 8192,
+    "lr": 0.02,
+    "negatives": 8,
+    "regularization": 0.001,
+    "lr_decay": true,
+    "patience": 8,
+    "seed": 2026,
+    "eval_every": 5
+  },
+  "reason": "8-dimensional representation exceeded AUC 0.80; completed 16/32-dimensional runs were materially weaker. Reallocate seed budget to the stronger low-dimensional family."
+}

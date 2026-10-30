@@ -1,0 +1,108 @@
+{
+  "method": "Qwen3.5-0.8B soft-token LoRA eleven-label classification",
+  "model_run": "competition/generative/runs/qwen35_softtoken_8192_warm",
+  "model_source": {
+    "repo_id": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "local_path": "/Users/jasper/Desktop/TechArena2026/.tools/hf-generative/models--Qwen--Qwen3.5-0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17",
+    "weight_sha256": {
+      "model.safetensors-00001-of-00001.safetensors": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696"
+    }
+  },
+  "config": {
+    "name": "qwen35_softtoken_8192_warm",
+    "source_experiment": "v2_multiview_wide256_s2026",
+    "model_id": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "cutoff": "2025-01-26",
+    "train_events": 8192,
+    "valid_events": 2048,
+    "split_seed": 2026,
+    "seed": 42,
+    "steps": 1024,
+    "batch_events": 8,
+    "gradient_accumulation_steps": 1,
+    "inference_batch_events": 32,
+    "compile_step": true,
+    "learning_rate": 5e-05,
+    "adam_bias_correction": true,
+    "normalizer_run": "competition/generative/runs/qwen35_softtoken_light",
+    "warm_start_run": "competition/generative/runs/qwen35_softtoken_light",
+    "lora_rank": 8,
+    "lora_layers": 4,
+    "lora_scale": 16.0,
+    "eval_every": 128,
+    "gradient_checkpointing": true,
+    "candidate_shuffle": true,
+    "label_tokens": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K"
+    ],
+    "scope": "Local warm-start LoRA training: 8192 new complete event presentations after the 1000-event light run. One pass; checkpoint selected on 2048 later events. Full time-validation audit excludes selection events from both parent and this run. Not full-data LLM fine-tuning.",
+    "_config_path": "/Users/jasper/Desktop/TechArena2026/configs/generative_warm.json"
+  },
+  "training_summary_sha256": "419ac2c41bb949760c98ea68111ba4823140c9dd3b2081dc1c9c8e3660b1aaf4",
+  "data_audit_sha256": "a6bacd7dba2ea24e66d68815b1d284859f6a7d5961128a783d5dfcbae6e502ee",
+  "adapter_sha256": "e074aef21547068b620f9c65d417b49d1d2c95935149f1d57c474d54da62c6dc",
+  "export_input_metadata_sha256": "773267fb14e2b117af061e8d22a1a9f94cc14a6c6ff6527a048ba89665776c55",
+  "csv": "competition/generative/final/qwen35_softtoken_8192_warm/submission.csv",
+  "rows": 529390,
+  "csv_sha256": "2944710093633cb15f11ac766c3e3dc8c33d0059867745183b9546bb921c9ce1",
+  "prediction_sha256": {
+    "audit": "ba7e70921b2258931041764484a918a015fd7ebc6d9e9b166d5114ff1acff3da",
+    "evaluation": "54a49d2427ee1c880aa2ffb458e69cbfa645452642f9c66714ba8d650851fcd1"
+  },
+  "source_sha256": {
+    "generative.py": "08784354eb3876e9d844735682f4385d9195b48629efda396922b5502f61eac1",
+    "generative_data.py": "3ccb1ad5d94dc38a0824461c74a3f5098b81ff0dc59615a35b39b27b4e04e43a",
+    "generative_model.py": "02da55ff495d1dca737ff8a3979eda0a1ee5d106bbabf53a71efcf2a60f59621",
+    "generative_export.py": "6802f276fcacc1a9d8df28d0fa6e6d4860edef611d161de426152600fa9b57a2"
+  },
+  "validation": {
+    "full_time_validation": {
+      "auc": 0.7518108994604934,
+      "logloss": 0.2101180618065394,
+      "events": 35138
+    },
+    "heldout_time_validation": {
+      "auc": 0.7515694572978451,
+      "logloss": 0.21047142470921626,
+      "events": 32975
+    },
+    "incumbent_full_time_validation": {
+      "auc": 0.8293272082809982,
+      "logloss": 0.18853976902343578,
+      "events": 35138
+    },
+    "incumbent_heldout_time_validation": {
+      "auc": 0.8289603733148789,
+      "logloss": 0.1889233267240402,
+      "events": 32975
+    },
+    "selection_cohort": {
+      "auc": 0.7569039002966936,
+      "logloss": 0.2045147632647403,
+      "events": 2048
+    },
+    "heldout_scope": "Excludes all 2163 checkpoint-selection events, including warm-start ancestors; same Jan26 first-event-per-user cutoff.",
+    "training_events": 8192,
+    "trained_event_presentations": 8192
+  },
+  "training_scope": "Frozen validation-trained head. No final head refit on Jan26 labels; Jan27 behavior representations use all strictly earlier data.",
+  "incumbent_digest": {
+    "manifest.json": "ac5ee319929aab4ce40ec004b6891ea7a844842ad658d193d62a84fa34eb290e",
+    "submission.csv": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+    "acceptance.json": "08ae5525c83eacec572f92a1cc020c267238e4d1ed83daccd4093262d8d13cfa"
+  },
+  "promoted": false,
+  "seconds": 1852.007985999997
+}

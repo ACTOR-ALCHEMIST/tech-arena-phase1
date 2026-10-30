@@ -1,0 +1,230 @@
+{
+  "name": "v2_multiview_wide256_s2026_locked24",
+  "cutoff": "2025-01-24",
+  "method": "tabular_mlp_mps",
+  "train_loss": 1.7044710377163357,
+  "auc": 0.8053639566976194,
+  "logloss": 0.19542642166049334,
+  "average_precision": 0.252979176214732,
+  "accuracy_at_0_5": 0.9374457519612752,
+  "rows": 479280,
+  "best_epoch": 8,
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6",
+    "loss": "event_ce",
+    "epochs": 8,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "patience": 6,
+    "hidden": [
+      256,
+      128,
+      64
+    ],
+    "name": "v2_multiview_wide256_s2026_locked24",
+    "architecture": "v2_wide",
+    "multi_view": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "context_width": 32,
+    "cutoff": "2025-01-24",
+    "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+    "feature_reference": {
+      "name": "cat_sgns8_s2026_context24_d6",
+      "cutoff": "2025-01-24",
+      "config": {
+        "name": "cat_sgns8_s2026_context24_d6",
+        "method": "catboost",
+        "max_events": 180000,
+        "depth": 6,
+        "l2": 20,
+        "iterations": 2000,
+        "lr": 0.04,
+        "latent_factors": [
+          8,
+          16
+        ],
+        "train_start": "2025-01-22",
+        "context_features": true,
+        "sgns_factors": [
+          8,
+          16
+        ],
+        "sgns_epochs": {
+          "8": 320,
+          "16": 56
+        },
+        "sgns_recipes": {
+          "8": {
+            "epochs": 320,
+            "lr": 0.01,
+            "lr_decay": false,
+            "seed": 2026,
+            "reuse_experiment": "sgns8_const_e320_s2026"
+          }
+        },
+        "sgns_extra": [
+          {
+            "factors": 8,
+            "recipe": {
+              "epochs": 450,
+              "lr": 0.01,
+              "lr_decay": false,
+              "seed": 42,
+              "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+            }
+          }
+        ],
+        "cutoff": "2025-01-24"
+      },
+      "feature_dataset": "competition/cache/features_2025-01-22_2025-01-24_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd_extra2a9aec27"
+    },
+    "fixed_epochs": true,
+    "lr_schedule_epochs": 40
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.753412414402432,
+      "auc": 0.802618106174566,
+      "logloss": 0.19869922290202463,
+      "average_precision": 0.24644606341436925,
+      "accuracy_at_0_5": 0.9371035720247037,
+      "rows": 479280,
+      "seconds": 6.922572750001564
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7139989059872098,
+      "auc": 0.8042570804375221,
+      "logloss": 0.1954715139633114,
+      "average_precision": 0.2511272382708623,
+      "accuracy_at_0_5": 0.9373268235686864,
+      "rows": 479280,
+      "seconds": 3.491641583008459
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.710462764231364,
+      "auc": 0.8047058496865656,
+      "logloss": 0.19542961403243694,
+      "average_precision": 0.2522747843470421,
+      "accuracy_at_0_5": 0.937366466366216,
+      "rows": 479280,
+      "seconds": 3.681989415999851
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.7090471125496758,
+      "auc": 0.8048830945655829,
+      "logloss": 0.19545971376511875,
+      "average_precision": 0.2524394228993583,
+      "accuracy_at_0_5": 0.937433233183108,
+      "rows": 479280,
+      "seconds": 3.5394704999926034
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.7072018615086872,
+      "auc": 0.8051180305128565,
+      "logloss": 0.1954667300378039,
+      "average_precision": 0.2527295202740343,
+      "accuracy_at_0_5": 0.9374478384243031,
+      "rows": 479280,
+      "seconds": 3.5314657090057153
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.70624094420539,
+      "auc": 0.8052043453782991,
+      "logloss": 0.19541004026844283,
+      "average_precision": 0.2528005981881515,
+      "accuracy_at_0_5": 0.9374290602570522,
+      "rows": 479280,
+      "seconds": 3.5006143330101622
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.7051497402191163,
+      "auc": 0.8052713261778448,
+      "logloss": 0.1954468635303686,
+      "average_precision": 0.2529779018202743,
+      "accuracy_at_0_5": 0.9374353196461359,
+      "rows": 479280,
+      "seconds": 3.501440290987375
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.7044710377163357,
+      "auc": 0.8053639566976194,
+      "logloss": 0.19542642166049334,
+      "average_precision": 0.252979176214732,
+      "accuracy_at_0_5": 0.9374457519612752,
+      "rows": 479280,
+      "seconds": 3.4809879999957047
+    }
+  ],
+  "feature_dataset": "competition/cache/features_2025-01-22_2025-01-24_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd_extra2a9aec27",
+  "source_experiment": "cat_sgns8_s2026_context24_d6",
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-22",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "sgns_extra": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "cutoff": "2025-01-24"
+  },
+  "parameters": 177058,
+  "seconds": 32.8757226250018
+}

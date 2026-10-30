@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8218351638793959,
+  "new_auc": 0.8218437902009748,
+  "delta": 8.626321578830698e-06,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      -4.0053871428305524e-05,
+      5.5102409429555474e-05
+    ],
+    "positive_fraction": 0.615,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8241886011796706,
+      "new_auc": 0.8241967312959495,
+      "delta": 8.130116278870503e-06
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7395196243660588,
+      "new_auc": 0.73972963218918,
+      "delta": 0.00021000782312119437
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5752721758584418,
+      "new_auc": 0.5752721758584418,
+      "delta": 0.0
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7475308063552613,
+      "new_auc": 0.7476256634086784,
+      "delta": 9.485705341716333e-05
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8148369512556203,
+      "new_auc": 0.8148547567932315,
+      "delta": 1.7805537611215172e-05
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8436774126138311,
+      "new_auc": 0.8436618944693417,
+      "delta": -1.5518144489412578e-05
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8253587581662927,
+      "new_auc": 0.8253526400318385,
+      "delta": -6.118134454169422e-06
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8071109996634832,
+      "new_auc": 0.8071789576303824,
+      "delta": 6.795796689917921e-05
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8218351638793959,
+      "new_auc": 0.8218437902009748,
+      "delta": 8.626321578830698e-06
+    }
+  },
+  "selection_sha256": "327967e9241c21c79c4e547abd85b42aabe411094e16ad3b90ef0b96b61100a8"
+}

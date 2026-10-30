@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8217628168011663,
+  "new_auc": 0.8218351638793959,
+  "delta": 7.234707822967312e-05,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      -1.8008607466229964e-06,
+      0.00013297981126469404
+    ],
+    "positive_fraction": 0.965,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8241118445553849,
+      "new_auc": 0.8241886011796706,
+      "delta": 7.675662428574537e-05
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7398088796924376,
+      "new_auc": 0.7395196243660588,
+      "delta": -0.00028925532637880114
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5747729420621827,
+      "new_auc": 0.5752721758584418,
+      "delta": 0.0004992337962591575
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.7475827203258689,
+      "new_auc": 0.7475308063552613,
+      "delta": -5.191397060766434e-05
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8146963626261674,
+      "new_auc": 0.8148369512556203,
+      "delta": 0.00014058862945287576
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.843641046153071,
+      "new_auc": 0.8436774126138311,
+      "delta": 3.6366460760106634e-05
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8252887583362825,
+      "new_auc": 0.8253587581662927,
+      "delta": 6.999983001021448e-05
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8070297561903073,
+      "new_auc": 0.8071109996634832,
+      "delta": 8.124347317595149e-05
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8217628168011663,
+      "new_auc": 0.8218351638793959,
+      "delta": 7.234707822967312e-05
+    }
+  },
+  "selection_sha256": "76bcf43102ba4a3fc75cf532059fdd7acabc39279446b1a88df032827254c14d"
+}

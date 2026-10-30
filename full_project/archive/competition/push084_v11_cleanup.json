@@ -1,0 +1,26 @@
+{
+  "time": 1792885995.660907,
+  "policy": "Completed reproducible ALS16/32 legacy arrays only; all raw inputs, representations, original checkpoints, labels and submissions retained.",
+  "files": [
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als16_32_context/train.npy",
+      "bytes": 547200128,
+      "sha256": "c62f91a7cf15ad2d38b02d2cc2dde1c8738c677d82d2b343775367a732561a55"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als16_32_context/valid.npy",
+      "bytes": 106819648,
+      "sha256": "284191f4a5e47b22c4be1f79263951a1127ff2846609157b98a0b7712f4bd4b5"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als16_32_context_sgns16_e56/train.npy",
+      "bytes": 633600128,
+      "sha256": "4c0e3422e0ab39b6fd1dbfb2bd1780c2f49025c489d9c4ad974e8cf6167567ba"
+    },
+    {
+      "path": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als16_32_context_sgns16_e56/valid.npy",
+      "bytes": 123685888,
+      "sha256": "ee808c8b77e9bb7cec3ccf6be3378a426bf62305731f8a76854f2958353108ea"
+    }
+  ]
+}

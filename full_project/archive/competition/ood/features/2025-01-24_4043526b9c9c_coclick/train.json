@@ -1,0 +1,29 @@
+{
+  "names": [
+    "coclick_profile_dot",
+    "coclick_profile_dot_relative",
+    "coclick_profile_cos",
+    "coclick_profile_cos_relative",
+    "coclick_hist_mean",
+    "coclick_hist_mean_relative",
+    "coclick_last1",
+    "coclick_last1_relative",
+    "coclick_last3",
+    "coclick_last3_relative",
+    "coclick_last5",
+    "coclick_last5_relative",
+    "coclick_decay6",
+    "coclick_decay6_relative",
+    "coclick_decay24",
+    "coclick_decay24_relative",
+    "coclick_decay168",
+    "coclick_decay168_relative",
+    "coclick_hist_max",
+    "coclick_item_norm",
+    "coclick_profile_norm",
+    "coclick_item_bias"
+  ],
+  "events": 180000,
+  "frame": "2025-01-22",
+  "indices_sha256": "7c13543151d974536665627816fb56c8ba70cfe84b796aa671985a8c95fa420c"
+}

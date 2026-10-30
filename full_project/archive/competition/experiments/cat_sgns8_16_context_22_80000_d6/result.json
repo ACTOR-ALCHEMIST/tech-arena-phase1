@@ -1,0 +1,78 @@
+{
+  "name": "cat_sgns8_16_context_22_80000_d6",
+  "cutoff": "2025-01-26",
+  "method": "catboost_numeric",
+  "auc": 0.801327284300106,
+  "logloss": 0.19711040160855703,
+  "average_precision": 0.25092529128970775,
+  "accuracy_at_0_5": 0.9369713700267517,
+  "rows": 351380,
+  "config": {
+    "name": "cat_sgns8_16_context_22_80000_d6",
+    "method": "catboost",
+    "max_events": 80000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 1500,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-22",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 56,
+      "16": 56
+    }
+  },
+  "tree_count": 1497,
+  "seconds": 224.15677166600653,
+  "feature_dataset": "competition/cache/features_2025-01-22_2025-01-26_80000_42_als8_16_context_sgns8_16_e56",
+  "feature_importance_top10": [
+    [
+      "als16_history_cos_mean",
+      7.352361556574963
+    ],
+    [
+      "als16_cos_relative",
+      5.934424481042858
+    ],
+    [
+      "als16_fold_cos_relative",
+      4.790488424880196
+    ],
+    [
+      "sgns16_s42_hist_cos_mean",
+      4.2681737831694555
+    ],
+    [
+      "als16_history_cos_recent",
+      3.9794333918135454
+    ],
+    [
+      "sgns16_s42_cos_relative",
+      3.797410509534815
+    ],
+    [
+      "als16_known_dot",
+      3.7272998913745297
+    ],
+    [
+      "als16_fold_cos",
+      3.4579307598987694
+    ],
+    [
+      "als16_known_cos",
+      3.3918386680829795
+    ],
+    [
+      "sgns16_s42_hist_cos_recent",
+      2.6887638802099616
+    ]
+  ]
+}

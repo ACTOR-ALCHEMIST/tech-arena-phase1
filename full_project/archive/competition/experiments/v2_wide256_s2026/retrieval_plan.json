@@ -1,0 +1,35 @@
+{
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6",
+    "loss": "event_ce",
+    "epochs": 40,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "patience": 6,
+    "hidden": [
+      256,
+      128,
+      64
+    ],
+    "name": "v2_wide256_s2026",
+    "architecture": "v2_wide"
+  },
+  "retrieved": [
+    {
+      "title": "DCN V2: Improved Deep & Cross Network",
+      "url": "https://arxiv.org/abs/2008.13535",
+      "reason": "Explicit full-matrix cross layers parallel to a deep branch; adaptation, not full paper reproduction."
+    },
+    {
+      "title": "Revisiting Deep Learning Models for Tabular Data",
+      "url": "https://arxiv.org/abs/2106.11959",
+      "reason": "Compare stronger deep baselines; our attention is over candidates rather than FT-Transformer feature tokens."
+    }
+  ],
+  "protocol": "Same 180000-event feature matrix as incumbent neural head; primary early stop; locked epoch and scheduler on Jan25; predefined coarse blends with incumbent; retain v1 regardless."
+}

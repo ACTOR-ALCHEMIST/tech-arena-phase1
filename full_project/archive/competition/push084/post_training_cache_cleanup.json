@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_bias80/valid.npy",
+      "bytes": 40447008,
+      "sha256": "13f8ff3edc52116cc0839a2ac6f3366e6269bea853901636901fab551b259629"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_bias80/train.npy",
+      "bytes": 165600128,
+      "sha256": "aa6b764469e7fc2d40db86e6baa14b94724709989f36a4652c859e7f953b7076"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_spectral64/valid.npy",
+      "bytes": 77376768,
+      "sha256": "cefa7a8b50524a5be5eb212e8385d74887dcf0a23356db46ab31b703fad8ebc8"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_spectral64/train.npy",
+      "bytes": 316800128,
+      "sha256": "83362d024fd43c06708d30091e48695a85c061159558648899e16656a55f04dd"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_spectral/valid.npy",
+      "bytes": 61843008,
+      "sha256": "899e9f270e5b7106d5dbf76aa1df570049d6870de52d7c4e8789c8ef4b3e8166"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_spectral/train.npy",
+      "bytes": 316800128,
+      "sha256": "68402e55ea8337c1392f63bc71ea1b06a611bbea30e08eb50b394037841411e2"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_spectral64/valid.npy",
+      "bytes": 61843008,
+      "sha256": "606c5dfc3bce771212c1b3afad629d8bcb766f143af3961f7ea00eba1b8cdfd0"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_spectral64/train.npy",
+      "bytes": 316800128,
+      "sha256": "40b27df1e62dd856607a48dd1221d8e948553dde3beb64bc840b5aa91a7387ba"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_coclick/valid.npy",
+      "bytes": 30921568,
+      "sha256": "fb60ab1db73d63696bbddccca646b712360242384efd60a84e2356bb66e5d4ee"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_coclick/train.npy",
+      "bytes": 158400128,
+      "sha256": "8bd553959577754d8fb6ef78816b1382051c3225a655878159dce9c22fa82b25"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_bias240/valid.npy",
+      "bytes": 40447008,
+      "sha256": "eacf8bd18e78c4ea7c7506026562fefb638265880928a5c01281a8f06d9df8b4"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_bias240/train.npy",
+      "bytes": 165600128,
+      "sha256": "d14e0d3721c7a9fcb82b2d317535a8d79224cad676c418fa02ebbd00ee2fd27e"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_bias80/valid.npy",
+      "bytes": 32327088,
+      "sha256": "9f9297dafee9d44a31226a484855a9f7703cc04f4d5bc3b08b0652ac7fc291b6"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_bias80/train.npy",
+      "bytes": 165600128,
+      "sha256": "0b03c727ea54f3d2d093aec0aac57303212f3c72880347ac6287a62cebff7d22"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_bias240/valid.npy",
+      "bytes": 32327088,
+      "sha256": "e97cc32771e406a24ca400daababd1e0934644fdc8b5af2eb1d61e0b0fa2d57c"
+    },
+    {
+      "path": "competition/ood/features/2025-01-26_be1adca1e761_bias240/train.npy",
+      "bytes": 165600128,
+      "sha256": "acb7ab5e54630933fdc142ec3a8795d3bd5e82f596d570b8da1c220eb3c3c833"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_coclick/valid.npy",
+      "bytes": 38688448,
+      "sha256": "08ea6f42ab24dd7338675f76c6c5d17fd6d5a8d8d6cff02ace4b5bd92816aecc"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_coclick/train.npy",
+      "bytes": 158400128,
+      "sha256": "e0882c5291226cf6c738f9c21511b0cc9a1f522a18b9e50baae2b53b3414c72f"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_spectral/valid.npy",
+      "bytes": 77376768,
+      "sha256": "57c3f96430dfa7eaf53693ab5b61ec3fe80117d57c2859f05b99b5d6bcd08ec9"
+    },
+    {
+      "path": "competition/ood/features/2025-01-25_cd29c31856ff_spectral/train.npy",
+      "bytes": 316800128,
+      "sha256": "f6e880cb4e491a148fc9b4a7a2203b01cadf15f65b6549627165b0380670c762"
+    }
+  ],
+  "bytes": 2739999040,
+  "policy": "Only completed, regenerable fitting/validation feature matrices removed. All model checkpoints, frozen representations, validation predictions, indices and feature metadata retained. Raw data and canonical feature caches untouched."
+}

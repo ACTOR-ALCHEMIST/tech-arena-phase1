@@ -1,0 +1,82 @@
+{
+  "model": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6",
+    "loss": "event_ce",
+    "epochs": 25,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.995,
+    "seed": 73,
+    "constant_policy": "zero",
+    "patience": 5,
+    "hidden": [
+      512,
+      256,
+      128
+    ],
+    "name": "v13_temporal_dropout",
+    "architecture": "v2_wide",
+    "multi_view": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "context_width": 64,
+    "cross_layers": 3,
+    "lr_schedule_epochs": 40,
+    "fixed_epochs": false,
+    "normalizer": "relative_range",
+    "input_mask_probability": 0.3,
+    "input_mask_inference": false,
+    "input_mask_columns": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      86,
+      87,
+      98,
+      99,
+      110,
+      111
+    ],
+    "dropped_feature_names": [
+      "user_bucket_affinity",
+      "user_weekend_affinity",
+      "user_bucket_ctr_offset",
+      "item_bucket_affinity",
+      "item_weekend_affinity",
+      "item_bucket_ctr_offset",
+      "sgns8_s2026_hist_same_bucket_cos",
+      "sgns8_s2026_hist_same_weekend_cos",
+      "sgns16_s42_hist_same_bucket_cos",
+      "sgns16_s42_hist_same_weekend_cos",
+      "sgns8_s42_hist_same_bucket_cos",
+      "sgns8_s42_hist_same_weekend_cos"
+    ]
+  },
+  "augmentation": {
+    "feature_mode": "spectral_multi",
+    "mix": 0,
+    "drop_temporal": "all",
+    "model": {
+      "architecture": "v2_wide",
+      "seed": 73,
+      "normalizer": "relative_range",
+      "input_mask_probability": 0.3,
+      "input_mask_inference": false
+    }
+  },
+  "source": "v3_cross512_s2027"
+}

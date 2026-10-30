@@ -1,0 +1,73 @@
+{
+  "cutoff": "2025-01-25",
+  "old_auc": 0.8212439800879427,
+  "new_auc": 0.8214145855579535,
+  "delta": 0.0001706054700107984,
+  "event_poisson_bootstrap": {
+    "repetitions": 200,
+    "seed": 8024,
+    "delta_percentile95": [
+      0.0001131405372834765,
+      0.0002523045931775353
+    ],
+    "positive_fraction": 1.0,
+    "limitation": "Fixed selected recipe only; does not correct for experiment selection bias."
+  },
+  "cohorts": {
+    "known_user": {
+      "events": 42496,
+      "old_auc": 0.8236214956746244,
+      "new_auc": 0.8237729568611238,
+      "delta": 0.0001514611864994464
+    },
+    "new_user": {
+      "events": 1468,
+      "old_auc": 0.7385153959706426,
+      "new_auc": 0.7392304466192231,
+      "delta": 0.000715050648580462
+    },
+    "empty_history": {
+      "events": 361,
+      "old_auc": 0.5693454430900169,
+      "new_auc": 0.5708440343786096,
+      "delta": 0.0014985912885927544
+    },
+    "short_history": {
+      "events": 4320,
+      "old_auc": 0.745970822754121,
+      "new_auc": 0.7461740892407014,
+      "delta": 0.00020326648658042235
+    },
+    "history5_19": {
+      "events": 20714,
+      "old_auc": 0.8143184141783812,
+      "new_auc": 0.8145059960969505,
+      "delta": 0.00018758191856926842
+    },
+    "history20": {
+      "events": 18569,
+      "old_auc": 0.8431754136737599,
+      "new_auc": 0.8433103980412078,
+      "delta": 0.00013498436744785458
+    },
+    "delay0_24": {
+      "events": 35230,
+      "old_auc": 0.8247954832876805,
+      "new_auc": 0.8249576380864617,
+      "delta": 0.0001621547987812333
+    },
+    "delay24_48": {
+      "events": 8734,
+      "old_auc": 0.8063882506629012,
+      "new_auc": 0.806584420450668,
+      "delta": 0.00019616978776682004
+    },
+    "weekend": {
+      "events": 43964,
+      "old_auc": 0.8212439800879427,
+      "new_auc": 0.8214145855579535,
+      "delta": 0.0001706054700107984
+    }
+  },
+  "selection_sha256": "d8b890113993c930ea64245a75d283b7dbeeb2251804925b3b10a601647001e3"
+}

@@ -1,0 +1,30 @@
+{
+  "selected": {
+    "signal": "unitfused25_delta",
+    "mass": 0.5,
+    "auc_26": 0.831842600527807,
+    "weighted_auc_26": 0.8236108104390719,
+    "auc_25": 0.8224225343908032,
+    "weighted_auc_25": 0.8193739820390822,
+    "score": 0.821492396239077
+  },
+  "source_probe": "competition/latent_delta_dual_unit",
+  "source_selection_sha256": "61a9b2f7f83b9e9d94d36e975c7539bc3f254c5b21e8960f20e195b874f444e1",
+  "baseline": {
+    "csv": "competition/final_v24/submission.csv",
+    "sha256": "3acafdc796137b09dc87d5a9cbfbe8671a338b8c0f13b42aeec31dd5525bad43",
+    "manifest": "competition/final_v24/manifest.json",
+    "acceptance": "competition/final_v24/acceptance.json",
+    "validation_26": {
+      "auc": 0.8317754511710278
+    },
+    "validation_25": {
+      "auc": 0.8219769533564178
+    },
+    "previous_best_csv": "competition/final_v23/submission.csv",
+    "validation_24": {
+      "auc": 0.8083758244003685
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  }
+}

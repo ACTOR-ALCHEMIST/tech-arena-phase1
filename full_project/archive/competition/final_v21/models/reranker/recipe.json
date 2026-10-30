@@ -1,0 +1,17 @@
+{
+  "config": {
+    "attention": true,
+    "gate": true,
+    "width": 128,
+    "scale": 0.5,
+    "rank_weight": 0.15,
+    "seed": 83803
+  },
+  "epochs": 1,
+  "training_days": [
+    "2025-01-25",
+    "2025-01-26"
+  ],
+  "events": 196404,
+  "policy": "Chronological OOF score inputs. Epoch count locked on primary validation."
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 529390,
+  "raw_replay_max_abs_error": 0.0,
+  "metric_replay_max_abs_error": 0.0,
+  "csv_max_abs_error": 4.999967107011116e-11,
+  "protocol": "Separate process, frozen NumPy inference source, frozen past-only geometry and metric, original evaluation input arrays; every CSV row ID verified."
+}

@@ -1,0 +1,78 @@
+{
+  "snapshot": {
+    "cache_id": "16bed8da53774676be5f04a48bad2595",
+    "cutoff": "2025-01-27",
+    "fit_events": 686824,
+    "unique_interactions": 896564,
+    "co_nnz": 24482597,
+    "seconds": 15.868066916998941,
+    "max_fit_timestamp": 1737935940,
+    "cutoff_timestamp": 1737936000
+  },
+  "training": {
+    "records": [],
+    "calibration": {
+      "prefix": "2025-01-25",
+      "coefficients": [
+        3.0491230487823486,
+        0.25025278329849243,
+        0.8352805376052856,
+        0.7376387119293213,
+        -0.03978324308991432,
+        0.17111599445343018,
+        0.37082767486572266
+      ],
+      "events": 100000,
+      "first_fit_timestamp": 1737763200,
+      "last_fit_timestamp": 1737935940,
+      "policy": "All targets after prefix and before cutoff; prefix geometry frozen; no query labels used."
+    },
+    "fit_events": 432023,
+    "seconds": 11.925426834000973,
+    "baseline": null,
+    "recipe": {
+      "version": 2,
+      "epochs": 32,
+      "outputs": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "lr": 0.002,
+      "minimum_lr": 0.0002,
+      "batch_size": 4096,
+      "seed": 83891,
+      "ema": 0.98,
+      "calibration_max": 100000,
+      "calibration_iterations": 40,
+      "prior_scales": [
+        1.0,
+        10.0,
+        50.0
+      ],
+      "masses": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "fit_window": "full_prefix"
+    },
+    "locked_selection": {
+      "prior": 1.0,
+      "epoch": 8,
+      "mass": 0.25,
+      "auc_26": 0.8319783784884449,
+      "auc_25": 0.822588612073049,
+      "deltas": {
+        "26": 0.00011945261323165202,
+        "25": 0.00013022307541610267
+      },
+      "weighted_delta": 0.00011936539359314047,
+      "mean_near_tie_top1": 0.3077421879711011
+    },
+    "max_fit_timestamp": 1737935940
+  },
+  "source_geometry_sha256": "3ad514dcd22d1f6fc69513c72e8f9d88bfc77e7eae9cbf7f6821477f605bbe3a",
+  "policy": "Earlier geometry calibrates seven global coefficients; fixed-temperature, support-normalized spherical MAP uses actual clicked slates strictly before cutoff. Query labels unavailable."
+}

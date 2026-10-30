@@ -1,0 +1,24 @@
+{
+  "name": "cat_rolling24_sgns8_16_d6",
+  "method": "catboost",
+  "max_events": 180000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 2000,
+  "lr": 0.04,
+  "latent_factors": [
+    8,
+    16
+  ],
+  "train_start": "2025-01-24",
+  "context_features": true,
+  "sgns_factors": [
+    8,
+    16
+  ],
+  "sgns_epochs": {
+    "8": 80,
+    "16": 56
+  },
+  "rolling": true
+}

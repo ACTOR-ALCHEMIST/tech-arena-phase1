@@ -1,0 +1,39 @@
+{
+  "name": "v12_map_full_exposure",
+  "cutoff": "2025-01-26",
+  "method": "exposure_bayesian_mf",
+  "config": {
+    "anchor_scale": 0.25,
+    "fine_items": true,
+    "lr": 0.002,
+    "seed": 7153,
+    "full_posterior": true
+  },
+  "augmentation_config": {
+    "bayes_mf": {
+      "anchor_scale": 0.25,
+      "fine_items": true,
+      "lr": 0.002,
+      "seed": 7153,
+      "full_posterior": true
+    }
+  },
+  "best_epoch": 18,
+  "train_loss": 1.37701660782405,
+  "cross_entropy": 1.3253549194987297,
+  "auc": 0.8038318396292062,
+  "logloss": 0.1975690147484507,
+  "average_precision": 0.24373501614160964,
+  "accuracy_at_0_5": 0.9361972792987648,
+  "rows": 351380,
+  "weighted_auc": 0.7942625833361845,
+  "anchor": "2025-01-23",
+  "fitting_events": 588873,
+  "max_label_timestamp": 1737849540,
+  "fitting_indices_sha256": "f36fcddf1288fc32b72f1fbc22109b0f297a7e33fd22c8c7441754474d5cd759",
+  "calibration_epochs": 4,
+  "parameters": 940139,
+  "calibration_events": 293759,
+  "posterior_trainable_parameters": 940122,
+  "seconds": 85.84033933398314
+}

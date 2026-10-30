@@ -1,0 +1,12 @@
+{
+  "feature_mode": "spectral_multi",
+  "mix": 0,
+  "drop_temporal": "all",
+  "model": {
+    "architecture": "v2_wide",
+    "seed": 73,
+    "normalizer": "relative_range",
+    "input_mask_probability": 0.3,
+    "input_mask_inference": false
+  }
+}

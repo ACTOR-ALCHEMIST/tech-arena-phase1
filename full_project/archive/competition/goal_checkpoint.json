@@ -1,0 +1,598 @@
+{
+  "goal": "自主优化，目标本地 Jan26 AUC >= 0.838；探索精排加重排并保留复核后的最优 CSV",
+  "goal_status": "active",
+  "completed_new_configurations": 18,
+  "latest_verified": {
+    "csv": "competition/final_v31/submission.csv",
+    "sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "manifest": "competition/final_v31/manifest.json",
+    "acceptance": "competition/final_v31/acceptance.json",
+    "validation_26": {
+      "auc": 0.8320049600399113
+    },
+    "validation_25": {
+      "auc": 0.8226093038922353
+    },
+    "previous_best_csv": "competition/final_v30/submission.csv",
+    "validation_24": {
+      "auc": 0.8088950699667381
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "last_goal_turn": "packaging_latest_accepted_solution",
+  "running_training": [],
+  "reports": [
+    "competition/ood/REPORT.md",
+    "competition/robust_mf/REPORT.md"
+  ],
+  "stress_plot": "competition/ood/robustness_curve.png",
+  "completed": [
+    "14 engineered-feature augmentation configurations, Jan26 selection and locked Jan25 audits",
+    "V4: Jan24 frozen-weight retrospective audit, natural cohorts, 5 matched corruption tests",
+    "4 native multi-view MF configurations; full-fit pretraining memorized fitting clicks; causal-prefix versions corrected this and added ensemble diversity",
+    "V4 and V5 full recent-window refit; complete CSV and independent raw-input checkpoint replay passed"
+  ],
+  "next_evidence": [
+    "competition/fresh_mf_probe/report.json",
+    "competition/fresh_mf_probe_25/report.json",
+    "competition/push084_v12/REPORT.md",
+    "competition/final_v12/acceptance.json"
+  ],
+  "next_candidates": [
+    "Finish evaluating and potentially exporting a frozen-head model whose SGNS/priors are refreshed at the prediction cutoff; diagnostic validation NPZ files already exist",
+    "New shared item2vec/co-click embedding trained from arena_feedback.feedback(cutoff), with past-only timestamp-deduplicated clicks and within-user neighboring pairs; 50001 item IDs makes dense EASE too large"
+  ],
+  "important_constraints": [
+    "Do not overwrite final_v1/v2/v3/v4/v5 or existing experiment results",
+    "Do not rerun old campaign controllers against the new incumbent: competition/ood/incumbent.json pins V3 and competition/robust_mf/incumbent.json pins V4; create a new campaign/destination",
+    "Legacy tree gate requires C-contiguous projected feature matrix; no-op corruption must preserve original context bits; otherwise float rounding alone changes tree decisions",
+    "All 10 candidates and labels stay intact under augmentation; histories and ages aligned and dependent features recomputed",
+    "Official evaluation labels unavailable; do not claim 0.835 or leaderboard improvement without evidence"
+  ],
+  "target_auc": 0.838,
+  "status": "target_not_reached",
+  "active_campaign": "solution_v31",
+  "latest_user_target": "0.838; improve borderline cases through fine-ranking and reranking",
+  "updated": 1793023953.350456,
+  "current_best_pointer": "competition/CURRENT_BEST.json",
+  "validated_candidate": {
+    "weights": [
+      0.0,
+      0.06750000000000002,
+      0.06750000000000002,
+      0.06750000000000002,
+      0.06750000000000002,
+      0.0,
+      0.16750000000000004,
+      0.0,
+      0.0,
+      0.0,
+      0.06750000000000002,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06750000000000002,
+      0.06750000000000002,
+      0.06750000000000002,
+      0.0,
+      0.29250000000000004,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "kind": "logit",
+    "refinement_step": 2,
+    "added": "daily_coclick_wide",
+    "added_weight": 0.1,
+    "auc_26": 0.8313141741016858,
+    "weighted_auc_26": 0.8230795318937977,
+    "auc_25": 0.8212439800879427,
+    "weighted_auc_25": 0.8181766243480916,
+    "selection_score": 0.8206280781209446,
+    "csv_exported": false
+  },
+  "pending": [
+    "Finish fixed-item MAP on Jan26 and Jan25; inspect predeclared two-origin gates.",
+    "If eligible, lock one recipe for Jan24 and full Jan27 refit, freeze geometry and independently replay all rows before promotion."
+  ],
+  "notes": "V8 accepted at 0.8313827485301672; Jan24 delta -0.0000562845 and weekday -0.0000975676 satisfy predeclared -0.0001 tolerance, but are not evidence of positive improvement on every origin. Official leaderboard labels unavailable.",
+  "planned_configs": 58,
+  "current_stage": "full_prefix_fixed_item_spherical_map",
+  "completed_configs": 79,
+  "current_best": {
+    "csv": "competition/final_v31/submission.csv",
+    "sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "manifest": "competition/final_v31/manifest.json",
+    "acceptance": "competition/final_v31/acceptance.json",
+    "validation_26": {
+      "auc": 0.8320049600399113
+    },
+    "validation_25": {
+      "auc": 0.8226093038922353
+    },
+    "previous_best_csv": "competition/final_v30/submission.csv",
+    "validation_24": {
+      "auc": 0.8088950699667381
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "latest_acceptance": "competition/final_v31/acceptance.json",
+  "next_hypotheses": [
+    "Exact conditional per-user unit-sphere MAP with fixed source item directions; priors1/4/16. Compare to accepted joint user/item correction instead of adding the same evidence twice. Numerical line search uses fit data only; 5 solver tests passed."
+  ],
+  "target_clarification": "Latest actual user target is 0.838, interpreted as local AUC pending optional feedback on public leaderboard scores; the older persistent goal string says 0.835+.",
+  "queued_campaigns": [],
+  "discarded_probe": "competition/posterior_probe/report.json: posterior corrections fail meaningful dual-origin improvement",
+  "active_processes": [],
+  "native_new_hypothesis": "Exposure MAP-MF with honest Jan23 anchor, all three later fitting days, 4-epoch frozen-factor calibration, then frozen score scale and per-ID support-weighted Gaussian priors. Four strength/frozen-item variants. Six invariance/regularizer/window tests passed.",
+  "latest_findings": {
+    "V10": "Four CatBoost/LightGBM controls including a neural-offset variant completed; no eligible dual-origin ensemble improvement; V9 retained.",
+    "V11": "Accepted at .8314191643/.8214840653/.8079811087; raw replay0.0.",
+    "V12": "Full-exposure MF selected at5% despite weak standalone ranking; accepted .8315082477/.8216783953/.8081453358; fresh replay passed. All five configurations tested on two temporal origins.",
+    "V13": "Four masked/group-dropout heads finished; no dual-origin eligible ensemble; V12 retained.",
+    "fresh_representation_probe": "Full-prefix26 SGNS8 refined with true past exposure negatives and frozen honest calibration: raw dot AUC .79900266 -> .80171574; cosine .80275591 -> .80441844 at16epochs. Overall simple 16-feature MF score stays weak (.814), but the representation direction improves; test as auxiliary features under strong head next.",
+    "fresh_representation_probe_25": "Locked Jan25: raw dot .7834287824 -> .7856103638, cosine .7861867234 -> .7875341306 at16 epochs. Refinement direction transfers; simple direct-MF event model remains weak, so use the factors as auxiliary features.",
+    "V14": "Fresh full-prefix refinement reproduced the probe closely and strong spectral-wide component reached .831194397. Selected10% fresh_spectral_cross ensemble accepted at .831550289/.821691533/.808077823; Jan24 slightly lower but within frozen OOD limits; full raw replay0.0.",
+    "v15": {
+      "primary_auc": 0.8316024733531912,
+      "secondary_auc": 0.8217057476932875,
+      "third_auc": 0.8080858762432288,
+      "csv": "competition/final_v15/submission.csv",
+      "causal_online_features": 43,
+      "recipe": "0.9 V14 + 0.1 v15_online_fresh_wide"
+    },
+    "v16": {
+      "primary_auc": 0.8316205217368751,
+      "secondary_auc": 0.8217227323470043,
+      "third_auc": 0.8080957431587497,
+      "recipe": "0.9 V15 + 0.1 v16_ppmi_fresh_cross"
+    },
+    "v17": {
+      "promoted": false,
+      "configs": 4,
+      "reason": "No blend met simultaneous primary, secondary, and weighted-score gains."
+    },
+    "v18": {
+      "promoted": true,
+      "primary_auc": 0.8316642517057442,
+      "secondary_auc": 0.8217628168011663,
+      "third_auc": 0.8080952217179267,
+      "recipe": "0.75 V16 + 0.25 v18_sphere_fresh_wide",
+      "csv": "competition/final_v18/submission.csv"
+    },
+    "v19": {
+      "promoted": false,
+      "configs": 4,
+      "reason": "No blend improved both validation origins; raw coordinates encouraged overfitting."
+    }
+  },
+  "next_representation_experiment": {
+    "purpose": "Refine fresh full-prefix SGNS8 with the support-weighted exposure objective, then feed learned factor descriptors to a strong numeric head. Do not confuse raw dot AUC with full solution AUC.",
+    "code_reuse": [
+      "arena_fresh_mf_probe.py",
+      "arena_bayes_mf.initialize(..., prefix=cutoff)",
+      "arena_bayes_mf.predict",
+      "arena_coclick.describe"
+    ],
+    "calibration_rule": "For representation cutoff d, use prefix=max(2025-01-21,d-3days), with no Jan27 special case. Calibrate 16 global coefficients/outside for4 epochs on prefix<=t<d, initial factors from that earlier prefix and frozen. May reuse v12_map_loose globals only if its anchor equals this prefix; globals frozen after warmup, independent of selected posterior epoch.",
+    "refinement_rule": "Initialize from full fresh SGNS8 at d, fit all labels strictly before d, copy calibration globals, freeze them, use BayesianMF per-ID priors anchor_scale1, fine_itemsTrue, AdamW lr .001, seed1727, EMA .99 for16 epochs; save epoch4 and16 checkpoints. No validation labels read in representation builder.",
+    "features": "For each of e4/e16:22 rotation-invariant arena_coclick.describe features using learned U/V, item bias=ib*coeff[2]+item_delta; add user offset=ub*coeff[1]+user_delta and logit of BayesianMF.predict on CPU (read labels=False). Total48 auxiliary columns. Cache checkpoints inside snapshot(d); full checkpoint contains original v0/priors for self-contained feature inference.",
+    "models": "Four new names: plain wide/cross with base112+48; spectral_multi wide/cross with base112+88+48. relative_range normalizer. Reuse generic dual-origin runner and fixed Jan24 audit/absolute V6 OOD floor.",
+    "prep_dates": [
+      "2025-01-24",
+      "2025-01-26",
+      "2025-01-23",
+      "2025-01-25"
+    ],
+    "audit_and_final": "Jan24 head requires repr22+24. Final head uses repr24 for fitting and27 for prediction. Archive repr27, source, tests; full independent raw-input replay required.",
+    "disk": "About3GiB free currently. Existing spectral64 matrices can be reused; if space needed remove only obsolete regenerable feature caches after checking no active reader, preserving all raw data, embeddings, checkpoints, frozen versions.",
+    "required_checks": "Checkpoint reload feature parity, no query labels required for features, cold ID/empty history finite, temporal cutoff assertions, original champion artifacts unchanged.",
+    "status": "Implemented and fully evaluated as V14; accepted, but only a small overall gain."
+  },
+  "next_online_history_experiment": {
+    "purpose": "Current base training priors are frozen at the start of a2day head window. Add strictly causal, query-time online user/item exposure and click histories, to give fresher click-propensity/context information. New idea not implemented yet.",
+    "error_evidence": "competition/error_profile/v12.json: event click AUC .6873, novel-click within-event pair AUC .7977, repeat-click pair AUC .9781. Main remaining errors are novel items, with possible extra propensity information from actual exposure histories.",
+    "index": "Create arena_online_events.py. Date-specific index under snapshot(cap)/online_events_v1, built only from raw training timestamps<cap. Sort and aggregate identical(ID,timestamp) groups independently for users(event click=sum10 labels) and items(flat impression labels). Aggregate timestamp ties to avoid dependence on opaque row/event ordering. Prefix counts/click counts plus per-ID decayed counts/clicks (users6/24/72h;items24/72h), last click/no-click times and signed consecutive minute-group outcomes. All query lookups use searchsorted-left at min(query timestamp, cap), excluding the current event and every simultaneous target.",
+    "query": "Features: past support, Bayes smoothed rates/logits, recent EWMA rates/mass, time since last exposure/click/nonclick, last3/5/10 observed timestamp-group rates, known indicator, last outcome fraction, activity rate. Global prior computed only from chronological global event counts/clicks before min(query time, cap), with fixed6/10 fallback, row prior=event prior/10. Add combined online user/item prior logit and slate-relative prior. About43 columns, broadcast user fields across10 candidates.",
+    "critical_cap": "For standard arena_ood_features.dataset, call extension_features with config augmented online_cap=outer model cutoff for BOTH train and valid phases. Train events t<cut then see only own strict past; validation targets see NO labels>=cut even for other users. For final_inputs use online_cap=2025-01-27 for train and eval, including augmentation branch. Raw inference defaults cap to passed cutoff27. For delayed-origin parts, default cap=origin is appropriate. Never use query time alone for item/global validation statistics; that would leak other held-out users labels.",
+    "freeze": "Index at snapshot27 is copied by existing tabular exporter. Cached index recipe/cache_id/max fitting timestamp and file hashes; do not rebuild from mutable label history during frozen inference when index exists. Reuse canonical base112; labels/current inputs untouched.",
+    "integration": "Add online_events and online_spectral composite modes (spectral_multi plus online). Consider online_fresh composite(spectral_multi+fresh_mf+online) to retain V14 strongest features. Four controlled heads: plain wide, graph wide, fresh-graph wide/cross. Standard generic runner after V14 complete, current best pinned; locked Jan25 epochs and Jan24 audit/absolute V6 OOD floor.",
+    "tests": "Critical tests: changing current/future labels cannot affect query features; validation cap excludes other-user/item outcomes between cap and later query; simultaneous timestamp row permutations preserve features; known toy posterior formulas match; cold IDs/no past finite; query data requires no labels. Index must use strictly<cap fitting labels. All10 candidate rows remain intact.",
+    "disk": "Cleanup of unused legacy train/valid arrays and completed novel_choice/pair_memory working matrices is running/logged under push084_v14/cache_cleanup. Preserve all canonical112 datasets, raw inputs, labels, representation checkpoints, frozen versions. Compare resolved absolute paths when excluding protected datasets."
+  },
+  "queued_campaign": {
+    "name": "V25 independent-seed fused preferences",
+    "script": "arena_push084_v25.py",
+    "out": "competition/push084_v25",
+    "configurations": 4,
+    "status": "configured and seven tests passed; start only after V24 terminal completion",
+    "evidence": "competition/spherical_long_probe/fusion_diagnostic.json",
+    "cosine_auc_26": 0.8072691409592616,
+    "cosine_auc_25": 0.7951340175212145,
+    "scope": "Cosine diagnostics only; no claim of full CTR score improvement."
+  },
+  "new_diagnostics": {
+    "fusion": "competition/fusion_probe/report.json",
+    "ppmi": "competition/ppmi_probe/corrected_report.json",
+    "scipy_diagonal_fix_test": "test_arena_ppmi.py"
+  },
+  "next_after_v16": {
+    "reason": "Latest heads still share seed73 and event-CE objective; try variance reduction and AUC-oriented gradients after observing V16, keeping accepted champion unchanged.",
+    "candidates": [
+      "fresh_spectral wide seed2027",
+      "fresh_spectral wide lower LR .0002 with longer patience",
+      "fresh_spectral wide rank_weight .3 and rank_samples256",
+      "fresh_spectral wide rank_weight1 and rank_samples256"
+    ],
+    "protocol": "At least Jan26 + fixed Jan25, then locked Jan24 and fresh raw replay; no validation-label training."
+  },
+  "best": {
+    "csv": "competition/final_v31/submission.csv",
+    "sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "manifest": "competition/final_v31/manifest.json",
+    "acceptance": "competition/final_v31/acceptance.json",
+    "validation_26": {
+      "auc": 0.8320049600399113
+    },
+    "validation_25": {
+      "auc": 0.8226093038922353
+    },
+    "previous_best_csv": "competition/final_v30/submission.csv",
+    "validation_24": {
+      "auc": 0.8088950699667381
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "latest_verified_best": {
+    "csv": "competition/final_v31/submission.csv",
+    "sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "manifest": "competition/final_v31/manifest.json",
+    "acceptance": "competition/final_v31/acceptance.json",
+    "validation_26": {
+      "auc": 0.8320049600399113
+    },
+    "validation_25": {
+      "auc": 0.8226093038922353
+    },
+    "previous_best_csv": "competition/final_v30/submission.csv",
+    "validation_24": {
+      "auc": 0.8088950699667381
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "acceptance": "competition/final_v31/acceptance.json",
+  "user_target_auc": 0.838,
+  "live_processes": [],
+  "tool_sessions": {},
+  "next_representation_idea": {
+    "name": "Spherical exposure-aware SGNS8",
+    "reason": "Existing SGNS8 cosine is slightly stronger than dot; learn unit-norm user/item vectors explicitly rather than letting norms encode support noise. Distinct from already tested unconstrained MF/exposure and Procrustes consensus.",
+    "possible_recipe": "Warm start existing SGNS8; unit-normalized forward, learned shared temperature plus user/item intercepts; past-only binary historical clicks with NCE and genuine exposure CE; support-aware regularization; fixed snapshots; rotation-invariant query features."
+  },
+  "spherical_diagnostics": {
+    "26": [
+      {
+        "epoch": 0,
+        "cosine_auc": 0.8027559055131004,
+        "temperature": 6.0
+      },
+      {
+        "epoch": 8,
+        "cosine_auc": 0.8044977905236912,
+        "temperature": 5.92454719543457
+      },
+      {
+        "epoch": 16,
+        "cosine_auc": 0.8051410181224573,
+        "temperature": 6.070999622344971
+      },
+      {
+        "epoch": 32,
+        "cosine_auc": 0.8056624933154612,
+        "temperature": 6.1765265464782715
+      }
+    ],
+    "25": [
+      {
+        "epoch": 0,
+        "cosine_auc": 0.7861867219762275,
+        "temperature": 6.0
+      },
+      {
+        "epoch": 8,
+        "cosine_auc": 0.7888283824854563,
+        "temperature": 6.000424861907959
+      },
+      {
+        "epoch": 16,
+        "cosine_auc": 0.7897150914477555,
+        "temperature": 6.141201972961426
+      },
+      {
+        "epoch": 32,
+        "cosine_auc": 0.7903923770596972,
+        "temperature": 6.250742435455322
+      }
+    ]
+  },
+  "future_idea_aligned_coordinates": {
+    "purpose": "Carry fresh user/item vector coordinates into nonlinear numeric heads; current scalar features discard orientation, whereas native attention uses a stale same-frame snapshot.",
+    "protocol": "Align each strictly-past fresh SGNS8 or spherical8 snapshot to a fixed Jan21 anchor with support-weighted item Procrustes. Rotate users/items jointly; add user/item coordinates, elementwise user-item/history-item products and reliability. No query labels used for alignment.",
+    "gate": "Try after V18, retain all champions; two-origin selection then locked Jan24 and raw replay.",
+    "reference": "Spherical epoch32 at Jan21, common to every fold; must stay before earliest fitted query frame22.",
+    "rotation": "Weighted item Procrustes with weight=min(anchor_pop,fresh_pop,20); cross=(Vfresh*sqrt(w)).T@(Vanchor*sqrt(w)), SVD then U@Vt; rotate users and items jointly, no translation.",
+    "features": "75 columns: user8,item8,user*item8,history_mean8,history_mean*item8,last3_mean8,last3*item8,decay72_mean8,decay72*item8 + known user/item and known history fraction.",
+    "artifact_rule": "Cache aligned vectors and rotation inside each snapshot cutoff. Cache hits for final27 must return without loading reference21; frozen exporter archives snapshot27 only.",
+    "suggested_campaign": "V19: aligned alone, aligned+spectral_multi, aligned+spherical+spectral_multi, aligned+spherical+fresh_spectral cross. Primary26/fixed25 then locked24 and raw replay.",
+    "status": "Implemented as arena_aligned_repr.py and arena_push084_v19.py; four tests passed, four historical frames prepared. V19 queued."
+  },
+  "v20_preflight": {
+    "name": "v20_aligned_offset63",
+    "stage": "completed",
+    "primary_auc": 0.8306872764900308,
+    "primary_epochs": 5,
+    "feature_mode": "aligned_spectral",
+    "feature_columns": 275,
+    "full_campaign_scheduled": false,
+    "selection": "competition/push084_v20/preflight_selection.json",
+    "decision": "rejected_no_dual_origin_gain",
+    "untested_controls": [
+      "v20_aligned_lgbm31",
+      "v20_aligned_lgbm63",
+      "v20_aligned_offset31"
+    ]
+  },
+  "next_action": "Implement target-aware history reranking with strictly time-OOF first-stage scores, rotation-invariant multiview candidate/history similarities, ages and agreement confidence. Use the full20-click evidence rather than only 10-candidate attention. Preserve V26 and evaluate global AUC plus near-tie top1.",
+  "temporal_signal_diagnostic": {
+    "report": "competition/temporal_signal_probe/report.json",
+    "fitting_clicks": 946227,
+    "nonrepeat_pairs": 5719573,
+    "same_bucket_residual_coefficient": -0.00023763224485689406,
+    "period24_residual_coefficient": -3.987933364789583e-05,
+    "inference": "Exploratory, age-controlled associations are small; do not prioritize personal time-bucket factor expansion. Condition number high and no causal claim."
+  },
+  "possible_after_existing_queue": {
+    "name": "Spherical real-exposure/Laplace user posterior",
+    "reason": "Spherical NCE improved latent cosine diagnostics; current view still lacks true exposure negatives. V14 raw-factor updates used SGD with strong priors.",
+    "ideas": [
+      "Fit real exposure CE with spherical item vectors fixed and calibrated global coefficients, refine user8 plus user click-propensity intercept under support-aware prior.",
+      "Use damped per-user 9D Newton/IRLS for a convex posterior rather than under-converged SGD; cache solved vectors and Hessian uncertainty.",
+      "Expose candidate-specific v^T H^-1 v, posterior norms and full choice logits as auxiliary features.",
+      "Consider full-history versus recent exposure weighting only after a controlled past-only probe."
+    ],
+    "status": "Hypothesis only, do not queue until V18/V19 results inspected."
+  },
+  "lazy_aligned_parity": "competition/push084_v19/lazy_parity.json",
+  "laplace_probe": {
+    "implementation": "arena_laplace_user.py",
+    "solver": "arena_laplace_solver.py",
+    "tests": "competition/laplace_probe/tests.log",
+    "stage": "primary26",
+    "recipe": "earlier-frame calibration; fixed spherical items; per-user9D damped Newton under support prior; rotation-invariant second-order predictive features",
+    "note": "One probe; no full candidate campaign queued yet."
+  },
+  "two_stage_results": {
+    "configurations": 7,
+    "posterior_probe_configurations": 4,
+    "accepted": "competition/final_v21",
+    "primary_auc": 0.8317120624315019,
+    "report": "competition/two_stage/REPORT.md",
+    "origin_report": "competition/two_stage_origins/REPORT.md",
+    "posterior_probe": "competition/oof_user_rerank/selection.json",
+    "test_count": 15,
+    "raw_replay_max_abs_error": 0.0,
+    "note": "Both additional origin/choice variants and personalized posterior probes failed to improve V21; all historical champions preserved. Primary paired bootstrap interval includes zero; edge-case improvement tiny."
+  },
+  "metric_oof_results": {
+    "configurations": 6,
+    "report": "competition/metric_oof/REPORT.md",
+    "accepted": "competition/final_v23/submission.csv",
+    "primary_auc": 0.8317337519600385,
+    "geometry": "Each fitting event uses its own prior daily frame; 192 scalar interaction weights, fixed25% conditional correction.",
+    "notes": "Earlier same-cutoff geometry probe rejected; fitting geometry self-influence reduced by honest daily frames."
+  },
+  "spherical_long_probe": {
+    "primary": "competition/spherical_long_probe/26/report.json",
+    "secondary": "competition/spherical_long_probe/25/report.json",
+    "new_cosine_auc_26": 0.806520402036911,
+    "new_cosine_auc_25": 0.7924709789357973,
+    "old_cosine_auc_26": 0.8056624933154612,
+    "old_cosine_auc_25": 0.7903923770596972,
+    "scope": "Latent diagnostic only, not full CTR AUC. Four new head configurations now queued."
+  },
+  "completed_recent": {
+    "metric_oof": "accepted V23",
+    "long_heads": "4 completed; accepted V24",
+    "fused_heads": "4 completed; rejected",
+    "dual_unit_delta": "accepted V26",
+    "choice_gate": "probe against V24 only; superseded by V26, no third audit or export"
+  },
+  "dual_unit_delta": {
+    "signal": "unitfused25_delta",
+    "mass": 0.5,
+    "probe": "competition/latent_delta_dual_unit/selection.json",
+    "report": "competition/latent_delta_final/REPORT.md",
+    "raw_replay": 0.0,
+    "postpromotion_replay": "competition/latent_delta_final/postpromotion_replay.log",
+    "edge_audit": "competition/latent_delta_final/edge_audit_26.json",
+    "edge_caution": "Near-tie AUC improved but clicked top1 Jan26 fell 31.7313% to31.4804%; Jan25 improved30.1281% to30.2883%; Jan24 fell29.2048% to29.1009%. Global AUC remains official objective; cannot claim all hard cases improved."
+  },
+  "next_history_experiment": {
+    "status": "Preparation only; new history reranker not implemented yet",
+    "geometry": [
+      "old spherical32",
+      "long128",
+      "best unit-fused25 (25% long2026+75% longseed42)"
+    ],
+    "pending_representations": [],
+    "suggested_stage1": "v24_long_spectral_wide, fixed7 epochs, existing25/26 checkpoints; build22/23/24 and final27 at same causal window",
+    "source_oof": "competition/two_stage first-query scores/labels/indices retained; cached valid244 first-query features retained",
+    "training_policy": "Primary26 fit first-query origin24/25 targets<26; locked25 origin23/24; untouched24 origin22/23. Same event can have two honest earlier views; keep frame IDs per view.",
+    "model_idea": "Candidate-target DIN attention over20 historical clicks using cosine/relative-cosine across views, recency, repeat flags, user-history cosine and consensus norms; no raw coordinate or candidate-position features. Start zero bounded residual, preserve event click mass; compare sum-pool and attention, history-token dropout.",
+    "warning": "Old two_stage.py models see only slate10 attention. Its weak stage1 is spectral_multi_wide200; do not train reranker on in-sample fine-ranker predictions. ALT22/23 and LONG21 are genuine live preparation processes; poll existing handles/PIDs before restarting.",
+    "completed_preparations": [
+      "alt128 frames22-27",
+      "long128 frames22-27",
+      "long128 frame21"
+    ],
+    "best_unit_geometry_builder": "arena_latent_delta_export.component(frame, \"unitfused25_delta\")[1]; do not confuse this with arena_fused_sphere.model(), which mixes long128 with raw SGNS42 rather than long-trained seed42.",
+    "model_detail": "History-only residual: token values use31 invariant features (candidate/history similarity, relative-to-slate similarity, user/history similarity, history coherence, candidate/history/user consensus norms across3 views, plus10 recency/repeat/time flags). Numeric244 and fine-score summaries condition attention weights only, never directly feed residual values; avoids re-learning static preference already in V26. Empty history forces zero residual. Mean pooling control, DIN4heads, DIN+slate relation blocks, history-dropout/rank-loss variants. Bounded centered residual, preserve incumbent event click mass. Candidate permutation and latent rotation invariance; masks shared across10 candidates.",
+    "evaluation_detail": "Pick primary epoch using actual residual transfer onto frozen V26 validation, include epoch0 as baseline. Lock epoch on Jan25; freeze recipe/weight before Jan24. Report global/weighted AUC and near-tie clicked-top1 separately; V26 top1 regressed on Jan26 and24 despite AUC gain."
+  },
+  "secondary_hypothesis": "Unit-normalized embedding refinement using conditional CE on actual clicked slates and real displayed negatives, with disjoint earlier-frame temperature calibration and strong priors; raw-factor real-exposure MF was tried already, so isolate the unit-geometry/conditional-objective difference.",
+  "public_score_question": "Optional question sent asking actual public scores for V18/V21/V23; no answer yet. Continue local .838 target without treating missing feedback as a blocker.",
+  "history_rerank_result": {
+    "state": "completed_no_promotion",
+    "report": "competition/history_rerank/REPORT.md",
+    "configs": 4,
+    "best_primary_auc": 0.831923905,
+    "reason": "No configuration exceeded dual-origin and weighted AUC improvement gates."
+  },
+  "new_evidence_this_turn": [
+    "competition/iteration_29_31/REPORT.md",
+    "competition/profile_student/REPORT.md",
+    "competition/final_v29/acceptance.json",
+    "competition/final_v30/acceptance.json",
+    "competition/final_v31/acceptance.json",
+    "competition/push084_v31_after_v30/frozen_replay.json",
+    "competition/edge_v31/REPORT.md"
+  ],
+  "conditional_sphere_result": {
+    "state": "promoted",
+    "version": "V27",
+    "two_origin_near_top1_deltas_pp": [
+      0.0769748867,
+      0.0219941349
+    ],
+    "third_origin_near_top1_delta_pp": -0.0973,
+    "primary_delta": 1.015140131621628e-06,
+    "official_score_unknown": true
+  },
+  "borderline_pair_result": {
+    "state": "completed_no_promotion",
+    "configs": 3,
+    "reason": "Top2-only updates improved Jan26 but trailed V27 Jan25."
+  },
+  "event_mass_probe": {
+    "state": "qualified_after_third",
+    "auc_26": 0.8318589258752133,
+    "auc_25": 0.8224583889976329,
+    "auc_24": 0.8086980399062942
+  },
+  "event_mass_result": {
+    "state": "promoted",
+    "version": "V28",
+    "parameters": 32,
+    "recipe": {
+      "ridge": 1.0,
+      "mass": 1.0
+    },
+    "validation_26": 0.8318589258752133,
+    "validation_25": 0.8224583889976329,
+    "validation_24": 0.8086980399062942,
+    "raw_replay_error": 0.0,
+    "postpromotion_replay_passed": true
+  },
+  "remaining_primary_auc_gap": 0.005995039960088655,
+  "previous_goal_turn_classification": "progress",
+  "previous_goal_turn_evidence": [
+    "Accepted V29, V30, V31; all three have full-row CSV checks and independent frozen-source replay.",
+    "Whole-source clicked-slate supervision improved both selection origins; fixed V28 near-tie cohorts improved AUC on all3 origins."
+  ],
+  "profile_student_result": {
+    "state": "completed_primary_rejected",
+    "best_primary_auc": 0.8318544819931882,
+    "baseline_auc": 0.8318589258752133,
+    "secondary_cancelled_due_to_futility": true,
+    "report": "competition/profile_student/REPORT.md"
+  },
+  "unit_feature_preflight": {
+    "tests_passed": 2,
+    "new_features": 31,
+    "primary_first_model_latest_best_auc": 0.8314955927708247,
+    "baseline_comparison_single_old_long_fresh_auc": 0.831352049991176,
+    "not_yet_promoted": true
+  },
+  "third_sphere_dual": {
+    "state": "qualified_needs_third_origin",
+    "selected": {
+      "third_mass": 0.5,
+      "mass": 0.25,
+      "auc_26": 0.831868511641921,
+      "auc_25": 0.8224783596387919,
+      "weighted_delta": 1.6404755889987133e-05
+    },
+    "prebuild_pids": {
+      "24": 17938,
+      "27": 17939
+    }
+  },
+  "conditional_full_hypothesis": {
+    "fit_window": "all source clicked slates, not recent two days",
+    "priors": [
+      1.0,
+      10.0,
+      50.0
+    ],
+    "outputs": [
+      0,
+      8,
+      16,
+      32
+    ],
+    "first_primary_auc": 0.8319783784884449,
+    "first_snapshot": {
+      "prior": 1.0,
+      "epoch": 8,
+      "mass": 0.25
+    },
+    "not_accepted": true
+  },
+  "full_prefix_result": {
+    "state": "accepted_v29",
+    "primary_auc": 0.8319783784884449,
+    "secondary_auc": 0.822588612073049,
+    "third_auc": 0.8088190920703384,
+    "fit_clicked_slates_primary": 370313,
+    "previous_recent_fit_clicked_slates_primary": 123094,
+    "final_fit_clicked_slates": 432023,
+    "edge_report": "competition/edge_v29/REPORT.md"
+  },
+  "third_seed_result": {
+    "state": "accepted_v30",
+    "csv": "competition/final_v30/submission.csv",
+    "signal": "trifused25_delta",
+    "mass": 0.5,
+    "primary_auc": 0.8319854788744273,
+    "secondary_auc": 0.8226077219392731,
+    "third_auc": 0.8089078867422125
+  },
+  "v31_candidate": {
+    "state": "third_origin_passed_not_yet_accepted",
+    "primary_auc": 0.8320049600399113,
+    "secondary_auc": 0.8226093038922353,
+    "selection": "competition/push084_v31_after_v30/selection.json"
+  },
+  "current_task": "Completed standalone V31 inference packaging; isolated fresh-environment validation passed.",
+  "recent_rejected_experiment": {
+    "folder": "competition/sphere_user_newton",
+    "selection": null,
+    "status": "completed_no_promotion"
+  },
+  "prepared_unlaunched_experiment": {
+    "script": "arena_unit_exposure11.py",
+    "training_launched": false,
+    "tests_passed": 3
+  },
+  "standalone_package": {
+    "folder": "solution_v31",
+    "readme": "solution_v31/README.md",
+    "verification": "solution_v31/VERIFICATION.json",
+    "passed": true,
+    "csv_sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+    "scope": "V31 neural inference plus frozen V30 ensemble input; canonical exact CSV export"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "split_id": "c6399a12a787e6ed69ee4bbdac3bf95b6e5fff484adee9ee90459a5947fb84af",
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "split_seed": 2026,
+  "cutoff_utc_timestamp": 1737849600,
+  "cohort_users": 4000,
+  "fit_events": 56455,
+  "validation_events": 4000,
+  "data_mb": 14.87193,
+  "config": {
+    "cache": "data/cache_v1",
+    "cutoff": "2025-01-26",
+    "cohort_users": 4000,
+    "split_seed": 2026,
+    "history_limit": 20,
+    "dim": 8,
+    "epochs": 2,
+    "lr": 0.002,
+    "weight_decay": 0.01,
+    "user_dropout": 0.2,
+    "batch_size": 256,
+    "seed": 42,
+    "device": "cpu",
+    "threads": 4,
+    "use_history_pooling": true,
+    "use_repeat_features": true,
+    "predict": true
+  },
+  "baselines": {
+    "constant": {
+      "auc": 0.5,
+      "logloss": 0.23697795407901195
+    },
+    "user_item_ctr": {
+      "auc": 0.5509952633632451,
+      "logloss": 0.23661692270361964
+    }
+  },
+  "best_epoch": 1,
+  "best_auc": 0.5816678012911898,
+  "auc_gain_vs_prior": 0.030672537927944665,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_logloss": 0.21516380121336068,
+      "auc": 0.5816678012911898,
+      "logloss": 0.23259820426732503,
+      "auc_gain_vs_prior": 0.030672537927944665,
+      "seconds": 1.02
+    },
+    {
+      "epoch": 2,
+      "train_logloss": 0.2073462511004258,
+      "auc": 0.5805100408478456,
+      "logloss": 0.2333759010812054,
+      "auc_gain_vs_prior": 0.02951477748460052,
+      "seconds": 0.86
+    }
+  ],
+  "slices": {
+    "known_user": {
+      "events": 3945,
+      "auc": 0.5817782047762596,
+      "logloss": 0.23258408342806325
+    },
+    "new_user": {
+      "events": 55,
+      "auc": 0.5800277392510402,
+      "logloss": 0.23361105355619477
+    },
+    "empty_history": {
+      "events": 18,
+      "auc": 0.6556564822460775,
+      "logloss": 0.1627292472508971
+    }
+  },
+  "submission_test": "runs/light/first_demo/submission_test.csv",
+  "submission_checked": true,
+  "subset_experiment": true,
+  "elapsed_seconds": 7.78
+}

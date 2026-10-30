@@ -1,0 +1,26 @@
+{
+  "fitting_window": [
+    "2025-01-24",
+    "2025-01-26"
+  ],
+  "embedding_cutoff": "2025-01-24",
+  "events": 50000,
+  "repeat_fraction": 0.025852,
+  "measurements": {
+    "all": {
+      "observed_mean": 0.0023685498163104057,
+      "shuffled_mean": -0.014963297173380852,
+      "paired_delta": 0.01733184616352618,
+      "paired_se": 0.0007180777961887003,
+      "rows": 500000
+    },
+    "nonrepeat": {
+      "observed_mean": -0.010596206411719322,
+      "shuffled_mean": -0.01497096661478281,
+      "paired_delta": 0.004366200910647711,
+      "paired_se": 0.0007208211827112519,
+      "rows": 487074
+    }
+  },
+  "label_use": false
+}

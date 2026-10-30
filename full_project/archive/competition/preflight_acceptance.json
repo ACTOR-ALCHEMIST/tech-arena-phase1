@@ -1,0 +1,38 @@
+[
+  {
+    "name": "cat_sgns8e320_context24_d6",
+    "auc": 0.8245949932985223,
+    "cutoff": "2025-01-26",
+    "events": 35138,
+    "validation_feature_max_error": 0.0,
+    "training_feature_max_error": 0.0,
+    "native_model_prediction_max_error": 0.0
+  },
+  {
+    "name": "mlp_event_cat_sgns8e320_context24_d6",
+    "auc": 0.8278887720452909,
+    "cutoff": "2025-01-26",
+    "events": 35138,
+    "validation_feature_max_error": 0.0,
+    "training_feature_max_error": 0.0,
+    "native_model_prediction_max_error": 0.0
+  },
+  {
+    "name": "mlp_event_long_ema_s2026_d0.1",
+    "auc": 0.8234957490322636,
+    "cutoff": "2025-01-26",
+    "events": 35138,
+    "validation_feature_max_error": 0.0,
+    "training_feature_max_error": 0.0,
+    "native_model_prediction_max_error": 0.0
+  },
+  {
+    "name": "cat_sgns8_16_context_24_180000_d6_locked25",
+    "auc": 0.800494246103256,
+    "cutoff": "2025-01-25",
+    "events": 43964,
+    "validation_feature_max_error": 0.0,
+    "training_feature_max_error": 0.0,
+    "native_model_prediction_max_error": 0.0
+  }
+]

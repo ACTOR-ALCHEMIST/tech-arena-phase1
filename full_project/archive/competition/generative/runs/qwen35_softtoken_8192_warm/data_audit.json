@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "cache_id": "16bed8da53774676be5f04a48bad2595",
+  "train_events": 8192,
+  "selection_events": 2048,
+  "full_time_validation_events": 35138,
+  "train_min_timestamp": 1737677040,
+  "train_max_timestamp": 1737849540,
+  "train_class_counts": [
+    522,
+    507,
+    549,
+    466,
+    521,
+    513,
+    470,
+    509,
+    530,
+    528,
+    3077
+  ],
+  "snapshots": {
+    "2025-01-24": {
+      "fit_events": 392831,
+      "max_fit_timestamp": 1737676740
+    },
+    "2025-01-26": {
+      "fit_events": 588873,
+      "max_fit_timestamp": 1737849540
+    },
+    "2025-01-27": {
+      "fit_events": 686824,
+      "max_fit_timestamp": 1737935940
+    }
+  },
+  "train_validation_disjoint": true,
+  "history_strictly_past": true,
+  "warm_start_normalizer_matches_parent": true,
+  "selection_events_including_parent": 2163,
+  "warm_start_adapter_sha256": "5ee7d53f4580e5a50b16f782c288b17171aedc70edd7bd971e59222ddf2ce407",
+  "parent_shared_input_max_errors": {
+    "train_event": 0.0,
+    "train_history": 0.0,
+    "train_candidate": 0.0,
+    "valid_event": 0.0,
+    "valid_history": 0.0,
+    "valid_candidate": 0.0
+  }
+}

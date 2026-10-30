@@ -1,0 +1,9 @@
+{
+  "name": "cat80k_d6",
+  "method": "catboost",
+  "max_events": 80000,
+  "depth": 6,
+  "iterations": 800,
+  "lr": 0.06,
+  "l2": 10
+}

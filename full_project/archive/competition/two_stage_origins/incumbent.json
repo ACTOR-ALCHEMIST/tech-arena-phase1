@@ -1,0 +1,12 @@
+{
+  "competition/CURRENT_BEST.json": "ac4d9c20429ad369cac054a4ec372bd5270309486985ab39cebc15ae1e5a4d05",
+  "competition/final_v3/submission.csv": "967718b182121ef34f09aa48cf92060f0ff3677ac1cce125c6a0364ac0a771ef",
+  "competition/final_v3/manifest.json": "64a0e11c34a5870ba8535b710106ef97e81cf1bdccf5e9770d920b610fd1ae89",
+  "competition/final_v3/acceptance.json": "bc9821b2dad6136dcb849319fc31b0faee5dd5787262c7cee27791c284431df4",
+  "competition/final/submission.csv": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+  "competition/final/manifest.json": "ac5ee319929aab4ce40ec004b6891ea7a844842ad658d193d62a84fa34eb290e",
+  "competition/final/acceptance.json": "08ae5525c83eacec572f92a1cc020c267238e4d1ed83daccd4093262d8d13cfa",
+  "competition/final_v21/submission.csv": "ec5dad861218df237cb1b953335abb1a64879095b5bf080630d1780a9e8168d2",
+  "competition/final_v21/manifest.json": "afa161f29755ce38747da447160d9bd3128b488898a644c3ee39a9ac32faff48",
+  "competition/final_v21/acceptance.json": "6daaa75d3fa6ba0784311b48b4089d4248461b27fd0678ad0a54dd1e635f7acc"
+}

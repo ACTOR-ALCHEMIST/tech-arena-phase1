@@ -1,0 +1,13 @@
+{
+  "day": "2025-01-25",
+  "kind": "oof",
+  "events": 98453,
+  "features_cutoff": "2025-01-25",
+  "min_query_timestamp": 1737763200,
+  "max_query_timestamp": 1737849540,
+  "max_snapshot_fit_timestamp": 1737763140,
+  "ranker": "competition/ood/runs/spectral_multi_wide/2025-01-25",
+  "ranker_sha256": "f609ef5f7a56f5afdc9a4d9ce6159c85720cd0940c411697e11e1ce317f4fa23",
+  "feature_columns": 244,
+  "label_policy": "Query labels excluded from feature functions and first-stage fitting. Scores truly chronological OOF. Full 10-item slates retained."
+}

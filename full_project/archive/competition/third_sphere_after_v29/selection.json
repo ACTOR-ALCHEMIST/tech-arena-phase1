@@ -1,0 +1,137 @@
+{
+  "selected": {
+    "signal": "trifused25_delta",
+    "mass": 0.5,
+    "auc_26": 0.8319854788744273,
+    "weighted_auc_26": 0.8237437572396209,
+    "near_tie_top1_26": 0.31303926320891906,
+    "auc_25": 0.8226077219392731,
+    "weighted_auc_25": 0.8195543793238876,
+    "near_tie_top1_25": 0.2989062614695735,
+    "weighted_delta": 1.3777974835316176e-05,
+    "eligible": true
+  },
+  "eligible": 3,
+  "records": [
+    {
+      "signal": "trifused25_delta",
+      "mass": 0.25,
+      "auc_26": 0.8319922653980218,
+      "weighted_auc_26": 0.8237504442855932,
+      "near_tie_top1_26": 0.3135239941832283,
+      "auc_25": 0.822599405939614,
+      "weighted_auc_25": 0.8195458536436095,
+      "near_tie_top1_25": 0.29934669309256406,
+      "weighted_delta": 1.285865768241301e-05,
+      "eligible": true
+    },
+    {
+      "signal": "trifused25_delta",
+      "mass": 0.5,
+      "auc_26": 0.8319854788744273,
+      "weighted_auc_26": 0.8237437572396209,
+      "near_tie_top1_26": 0.31303926320891906,
+      "auc_25": 0.8226077219392731,
+      "weighted_auc_25": 0.8195543793238876,
+      "near_tie_top1_25": 0.2989062614695735,
+      "weighted_delta": 1.3777974835316176e-05,
+      "eligible": true
+    },
+    {
+      "signal": "trifused25_delta",
+      "mass": 1.0,
+      "auc_26": 0.831913265006867,
+      "weighted_auc_26": 0.8236678498813007,
+      "near_tie_top1_26": 0.31303926320891906,
+      "auc_25": 0.8226157267450767,
+      "weighted_auc_25": 0.8195622183750643,
+      "near_tie_top1_25": 0.299860529986053,
+      "weighted_delta": -2.0256178736466346e-05,
+      "eligible": false
+    },
+    {
+      "signal": "trifused50_delta",
+      "mass": 0.25,
+      "auc_26": 0.8319843108969591,
+      "weighted_auc_26": 0.8237439686311085,
+      "near_tie_top1_26": 0.31342704798836646,
+      "auc_25": 0.8226072792575123,
+      "weighted_auc_25": 0.8195540352973759,
+      "near_tie_top1_25": 0.2991264772810688,
+      "weighted_delta": 1.3711657323278725e-05,
+      "eligible": true
+    },
+    {
+      "signal": "trifused50_delta",
+      "mass": 0.5,
+      "auc_26": 0.8319171709560517,
+      "weighted_auc_26": 0.823674652777352,
+      "near_tie_top1_26": 0.31323315559864273,
+      "auc_25": 0.8226146798118672,
+      "weighted_auc_25": 0.8195613785334477,
+      "near_tie_top1_25": 0.299860529986053,
+      "weighted_delta": -1.7274651519127993e-05,
+      "eligible": false
+    },
+    {
+      "signal": "trifused50_delta",
+      "mass": 1.0,
+      "auc_26": 0.8315600812568653,
+      "weighted_auc_26": 0.8233028347278031,
+      "near_tie_top1_26": 0.31265147842947166,
+      "auc_25": 0.8225955680273845,
+      "weighted_auc_25": 0.8195405826680024,
+      "near_tie_top1_25": 0.2996403141745577,
+      "weighted_delta": -0.00021358160901618906,
+      "eligible": false
+    }
+  ],
+  "baseline": {
+    "26": {
+      "auc": 0.8319783784884449,
+      "weighted_auc": 0.8237358816358427,
+      "near_tie_top1": 0.31420261754726125
+    },
+    "25": {
+      "auc": 0.822588612073049,
+      "weighted_auc": 0.8195346989779952,
+      "near_tie_top1": 0.2989796667400719
+    }
+  },
+  "source_protocol_sha256": "2e9cf507afc609f667ec0b5c661b5f11ed6a2a96d61fdcfeb6df10c6027c5174",
+  "source_parent": {
+    "csv": "competition/final_v28/submission.csv",
+    "sha256": "eed9c295881af3e4ed4f32d7229b18d3f6580acf54a90e6a340aafc9e8f79d4f",
+    "manifest": "competition/final_v28/manifest.json",
+    "acceptance": "competition/final_v28/acceptance.json",
+    "previous_best_csv": "competition/final_v27/submission.csv",
+    "validation_26": {
+      "auc": 0.8318589258752133
+    },
+    "validation_25": {
+      "auc": 0.8224583889976329
+    },
+    "validation_24": {
+      "auc": 0.8086980399062942
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "current_parent": {
+    "csv": "competition/final_v29/submission.csv",
+    "sha256": "05bcd1f0d60d0ba96417a6ca26720821575e26a3ebf1d218acc0c62e3bb7ffa7",
+    "manifest": "competition/final_v29/manifest.json",
+    "acceptance": "competition/final_v29/acceptance.json",
+    "previous_best_csv": "competition/final_v28/submission.csv",
+    "validation_26": {
+      "auc": 0.8319783784884449
+    },
+    "validation_25": {
+      "auc": 0.822588612073049
+    },
+    "validation_24": {
+      "auc": 0.8088190920703384
+    },
+    "scope": "Best validated local recipe; official evaluation labels unavailable."
+  },
+  "target_auc": 0.838
+}

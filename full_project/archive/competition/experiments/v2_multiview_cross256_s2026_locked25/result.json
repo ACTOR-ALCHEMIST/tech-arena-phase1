@@ -1,0 +1,153 @@
+{
+  "name": "v2_multiview_cross256_s2026_locked25",
+  "cutoff": "2025-01-25",
+  "method": "tabular_mlp_mps",
+  "train_loss": 1.6654477723227608,
+  "auc": 0.818430747262789,
+  "logloss": 0.1925576715183744,
+  "average_precision": 0.2687869955596427,
+  "accuracy_at_0_5": 0.9371804203439178,
+  "rows": 439640,
+  "best_epoch": 5,
+  "config": {
+    "method": "tabular",
+    "source_experiment": "cat_sgns8_s2026_context24_d6_locked25",
+    "loss": "event_ce",
+    "epochs": 5,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "ema": 0.99,
+    "seed": 2026,
+    "constant_policy": "zero",
+    "patience": 6,
+    "hidden": [
+      256,
+      128,
+      64
+    ],
+    "name": "v2_multiview_cross256_s2026_locked25",
+    "architecture": "v2_cross",
+    "multi_view": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ],
+    "context_width": 32,
+    "cross_layers": 2,
+    "cutoff": "2025-01-25",
+    "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+    "fixed_epochs": true,
+    "lr_schedule_epochs": 40
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7103223985248142,
+      "auc": 0.8157996769795398,
+      "logloss": 0.19447972480712813,
+      "average_precision": 0.2654844200137102,
+      "accuracy_at_0_5": 0.9370621417523428,
+      "rows": 439640,
+      "seconds": 4.100740042005782
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6720524881574843,
+      "auc": 0.8183704438401772,
+      "logloss": 0.1924285344464029,
+      "average_precision": 0.2690614283060173,
+      "accuracy_at_0_5": 0.9372054408152124,
+      "rows": 439640,
+      "seconds": 4.095053041004576
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6697587698406644,
+      "auc": 0.818628325933258,
+      "logloss": 0.19242601754999838,
+      "average_precision": 0.2695347059847865,
+      "accuracy_at_0_5": 0.9371895186971159,
+      "rows": 439640,
+      "seconds": 4.065864125004737
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6673559794955783,
+      "auc": 0.8184847578381741,
+      "logloss": 0.19251701223375384,
+      "average_precision": 0.2690642995393039,
+      "accuracy_at_0_5": 0.9371485761077245,
+      "rows": 439640,
+      "seconds": 4.062140916008502
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6654477723227608,
+      "auc": 0.818430747262789,
+      "logloss": 0.1925576715183744,
+      "average_precision": 0.2687869955596427,
+      "accuracy_at_0_5": 0.9371804203439178,
+      "rows": 439640,
+      "seconds": 4.067401958993287
+    }
+  ],
+  "feature_dataset": "competition/cache/features_2025-01-23_2025-01-25_180000_42_als8_16_context_sgns8_16_e56_recipe033b82bdcd_extra2a9aec27",
+  "source_experiment": "cat_sgns8_s2026_context24_d6_locked25",
+  "feature_config": {
+    "name": "cat_sgns8_s2026_context24_d6_locked25",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 959,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked rolling origin",
+    "sgns_extra": [
+      {
+        "factors": 8,
+        "recipe": {
+          "epochs": 450,
+          "lr": 0.01,
+          "lr_decay": false,
+          "seed": 42,
+          "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+        }
+      }
+    ]
+  },
+  "parameters": 202482,
+  "seconds": 20.750751957995817
+}

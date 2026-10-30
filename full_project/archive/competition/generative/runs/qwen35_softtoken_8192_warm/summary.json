@@ -1,0 +1,45 @@
+{
+  "name": "qwen35_softtoken_8192_warm",
+  "method": "qwen35_softtoken_label_classification",
+  "cutoff": "2025-01-26",
+  "initial_validation": {
+    "auc": 0.5813219584286302,
+    "logloss": 0.23153130231606603,
+    "events": 2048
+  },
+  "best_validation": {
+    "auc": 0.7569039002966936,
+    "logloss": 0.2045147632647403,
+    "events": 2048
+  },
+  "best_step": 1024,
+  "baseline_same_cohort": {
+    "auc": 0.8349803186822163,
+    "logloss": 0.18261668901819678,
+    "average_precision": 0.2984626054974888,
+    "accuracy_at_0_5": 0.939453125,
+    "rows": 20480
+  },
+  "validation_id": "e4b870ea77b35850af9b1cdf1f304cba9e93f7ed3c1aa8a0e741fb09d2797a0c",
+  "train_events": 8192,
+  "valid_events": 2048,
+  "steps": 1024,
+  "trained_event_presentations": 8192,
+  "initial_train_probe_loss": 2.1029164791107178,
+  "final_train_probe_loss": 1.7143242359161377,
+  "trainable_parameters": 1487627,
+  "tokens_per_event": 32,
+  "peak_memory_gib": 5.845938513055444,
+  "median_step_seconds": 3.0125663340004394,
+  "estimated_20000_event_epoch_seconds": 7531.4158350010985,
+  "estimates_scope": "Linear estimate from this microbenchmark, excluding validation, first-step compilation and long-run thermal effects.",
+  "adapter_replay_max_error": 0.0,
+  "incumbent_unchanged": true,
+  "incumbent_sha256": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+  "warm_start": {
+    "run": "competition/generative/runs/qwen35_softtoken_light",
+    "adapter_sha256": "5ee7d53f4580e5a50b16f782c288b17171aedc70edd7bd971e59222ddf2ce407"
+  },
+  "seconds": 3522.2744344579987,
+  "scope": "Local warm-start LoRA training: 8192 new complete event presentations after the 1000-event light run. One pass; checkpoint selected on 2048 later events. Full time-validation audit excludes selection events from both parent and this run. Not full-data LLM fine-tuning."
+}

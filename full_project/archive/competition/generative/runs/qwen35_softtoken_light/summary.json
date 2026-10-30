@@ -1,0 +1,41 @@
+{
+  "name": "qwen35_softtoken_light",
+  "method": "qwen35_softtoken_label_classification",
+  "cutoff": "2025-01-26",
+  "initial_validation": {
+    "auc": 0.4501206800240306,
+    "logloss": 0.24082785449923852,
+    "events": 128
+  },
+  "best_validation": {
+    "auc": 0.6187670612042708,
+    "logloss": 0.22953616243375263,
+    "events": 128
+  },
+  "best_step": 128,
+  "baseline_same_cohort": {
+    "auc": 0.8305209793526491,
+    "logloss": 0.1905162541048589,
+    "average_precision": 0.20485053867770817,
+    "accuracy_at_0_5": 0.93828125,
+    "rows": 1280
+  },
+  "validation_id": "ddcbd804b880a536038e76fa18607879286e78ba86be13884e0cc3d61cc379a9",
+  "train_events": 1000,
+  "valid_events": 128,
+  "steps": 128,
+  "trained_event_presentations": 1024,
+  "initial_train_probe_loss": 1.7033965587615967,
+  "final_train_probe_loss": 1.5448837280273438,
+  "trainable_parameters": 1487627,
+  "tokens_per_event": 32,
+  "peak_memory_gib": 6.789105411618948,
+  "median_step_seconds": 3.936274541003513,
+  "estimated_20000_event_epoch_seconds": 9840.686352508783,
+  "estimates_scope": "Linear estimate from this microbenchmark, excluding validation, first-step compilation and long-run thermal effects.",
+  "adapter_replay_max_error": 0.0,
+  "incumbent_unchanged": true,
+  "incumbent_sha256": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+  "seconds": 551.0518649170117,
+  "scope": "Smoke experiment, not a full-training or official leaderboard result. Selection on this small cohort may overfit."
+}

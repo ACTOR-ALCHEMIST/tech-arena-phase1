@@ -1,0 +1,19 @@
+{
+  "native_attention": {
+    "width": 128,
+    "epochs": 15,
+    "patience": 3,
+    "lr": 0.0007,
+    "dropout": 0.1,
+    "ema": 0.99,
+    "seed": 31415,
+    "history_dropout": 0.1,
+    "user_dropout": 0.05,
+    "anchor": 0.1,
+    "residual_scale": 0.5,
+    "history_layers": 1,
+    "slate": true,
+    "fine_tune": false
+  },
+  "feature_mode": "spectral_multi_pair"
+}

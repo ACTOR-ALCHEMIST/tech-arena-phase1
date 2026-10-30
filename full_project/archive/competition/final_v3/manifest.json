@@ -1,0 +1,92 @@
+{
+  "method": "v3_two_cutoff_selected_ensemble",
+  "selection": {
+    "weights": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1
+    ],
+    "kind": "logit",
+    "auc_26": 0.829341153186886,
+    "weighted_auc_26": 0.8210467417967666,
+    "auc_25": 0.8192504126522295,
+    "weighted_auc_25": 0.8162196500462249,
+    "selection_score": 0.8186331959214957
+  },
+  "sources": [
+    "frozen_v2",
+    "r1_history128",
+    "r2_qwen3_history128",
+    "r3_qwen25_history192",
+    "v3_wide512_s73",
+    "v3_cross512_s2027"
+  ],
+  "models": [
+    {
+      "name": "v3_cross512_s2027",
+      "type": "tabular",
+      "path": "competition/final_v3/models/v3_cross512_s2027",
+      "weight": 0.1,
+      "model_sha256": "ccea204d2e4714ad608a305e5ebbcc6a6620b51b767ab903822de2dab621b23f",
+      "cached_prediction_sha256": "835eb1fdb927938098afb9696e0fd79c710714e67575e62c5325aa16edce86a4",
+      "initial_checkpoint_reused": false
+    }
+  ],
+  "baseline_weight": 0.9,
+  "baseline_sha256": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+  "incumbent_digest": {
+    "submission.csv": "677392c95cf46b7ec2640e73d0bf6ed7868f4550562a2ff0367f6e330d7bee80",
+    "manifest.json": "ac5ee319929aab4ce40ec004b6891ea7a844842ad658d193d62a84fa34eb290e",
+    "acceptance.json": "08ae5525c83eacec572f92a1cc020c267238e4d1ed83daccd4093262d8d13cfa"
+  },
+  "csv": "competition/final_v3/submission.csv",
+  "sha256": "967718b182121ef34f09aa48cf92060f0ff3677ac1cce125c6a0364ac0a771ef",
+  "rows": 529390,
+  "prediction_sha256": "c1ca4ca448bc02d4ed7fd70a61beff044739649dbee9c98bc991cc0aba36113a",
+  "source_sha256": {
+    "arena_v3.py": "d4a09de415a9b4235145c35cf979a7f2d574846d1473aca68584103e7bbc1f3f",
+    "arena_v3_model.py": "9ae3601d25c9e6d1db75da1fc9f8c3797f8e8610f8729ad2d620e566e42861e8",
+    "arena_v3_foundation.py": "191fe94ad0f30c06a68a247820e76b7d5f2cc5361a3484c6c78117e582f6c531",
+    "arena_v3_iterate.py": "c016f4cba206614cc0f3ee06ae0f2777a5b21fafeb4779bcbe0aef51e9b9e81f",
+    "arena_v3_export.py": "e5fa5bb5b862d17c223097239a1df5e82931e410d6442c6544e7768a85688b3a",
+    "arena_v3_download.py": "cea4c5176e97ee003509eb61671e09e109161f495117a54c9b2ac56b9aea13a6",
+    "test_arena_v3.py": "fddb329d1d0946c1c1e206d14018aae213f346496abe81035549f7976f53a8fe",
+    "requirements-v3.txt": "9eee90f9c35a99fa88765d258abaa0491f0ddaa597a0f4e2c9f9a9c43e6e3139",
+    "arena_neural_v2.py": "0bd8772c1cc7e21c951febacf19b4f37a07d43a3909e7c17509d19fbddfc7b51",
+    "arena_tabular.py": "ed8d28f673d0ca057f91dd94ea7ed6339499360265ea42b73ec488778103a700",
+    "arena_finalize.py": "c7b916b1232496b0ffb13a485cd17cd8fb7ab0c69614cd846fccc453c68b97ef",
+    "arena_core.py": "fde91df2e0b5a4b57fe490779e08e3c7149b9159e59bf65451a76217dc207ade",
+    "arena_models.py": "d6ef71fd912ae31e5589cc0d6ab3320976cad7cd4da44e3fe742715202263e36",
+    "arena_features.py": "1e96223417e82b2196fa7f39e7ac9f79b3288a854daf7a92e0c48fa6f557bdad",
+    "arena_sgns_features.py": "575ed742159970b0ae57af0a1c5f6812310021e782b40927dca3ef8bca18f43f",
+    "arena_latent.py": "f294cd7fe246def526c455444b1562510628de299f198b16c714c7e0b74238dc",
+    "arena_feedback.py": "1ac5b98e791407213ae8bc38fd87f3dbdc77251f5db3557f3083e6ca7217a8cb",
+    "arena_alignment.py": "2e7929cfce47080d082829337d57ea13c7c18f083da9e9484a0708b3073c9361",
+    "arena_validation.py": "4b6fc891812130f58590bd926149b33577a7d96cf667e0e77b2fdfc4e7e67772",
+    "generative_data.py": "3ccb1ad5d94dc38a0824461c74a3f5098b81ff0dc59615a35b39b27b4e04e43a",
+    "ctr_data.py": "4e7d603be926954fe4d0e0bb685278aadf43961751ba0fb5b613a0ef46b67518",
+    "run.py": "7a497ebc80436397a775bdc476efc7f34559626cd23523d5284c5f1420d05043",
+    "arena_report.py": "a038482c6c179f507a81fddb8c7e698614dceffb9569f8bcfd8491de18b8fbee"
+  },
+  "selection_sha256": "9bc876c8bbb286345e1b3cdc57ca3ca7604b34c40b386eabb229f3c4b6f79e49",
+  "environment": {
+    "torch": "2.5.1",
+    "transformers": "4.57.1",
+    "huggingface-hub": "0.36.0",
+    "safetensors": "0.5.3",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.7.2"
+  },
+  "validation_26": {
+    "auc": 0.829341153186886
+  },
+  "validation_25": {
+    "auc": 0.8192504126522295
+  },
+  "official_evaluation_labels_available": false,
+  "at_least_three_new_iterations_completed": true
+}

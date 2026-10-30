@@ -1,0 +1,9 @@
+{
+  "cutoff": "2025-01-27",
+  "fitting_events": 686824,
+  "unique_exposures": 6692070,
+  "unique_clicked_pairs": 896564,
+  "max_fitting_timestamp": 1737935940,
+  "max_click_timestamp": 1737935940,
+  "label_policy": "CTR numerators use fitting exposure labels only; warmup click counts are separate features."
+}

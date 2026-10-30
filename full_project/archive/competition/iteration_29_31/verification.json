@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "current_csv": "competition/final_v31/submission.csv",
+  "csv_sha256": "b9de517f489bb800a657702acaf8d9fdec41e4b1f62ad545730509164104bbbb",
+  "rows": 529390,
+  "validation_aucs": {
+    "26": 0.8320049600399113,
+    "25": 0.8226093038922353,
+    "24": 0.8088950699667381
+  },
+  "frozen_replay_passed": true,
+  "target_auc": 0.838,
+  "target_achieved": false
+}

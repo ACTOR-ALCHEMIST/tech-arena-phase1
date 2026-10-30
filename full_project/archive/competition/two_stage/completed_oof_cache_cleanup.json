@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-22/features.npy",
+      "bytes": 957426848,
+      "sha256": "55788c6c5b47a629e8e275e6f646f4dd9d6e381d2ea35b8cf8369961f42aba8f"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-22/pairs.npy",
+      "bytes": 39238928,
+      "sha256": "bd499327023996e2acddfe08db64bdfa732988bdbd835b8f23e99f6bcfd8f724"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-23/features.npy",
+      "bytes": 953718048,
+      "sha256": "db03bd28113dcd0553a5742b7cad064760e5daf52f12ee025921913bd8c30ae1"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-23/pairs.npy",
+      "bytes": 39086928,
+      "sha256": "ad00de33d053a6211088e998b0c23b1a7bfbb2e2a83d0d3dd7a56996f1983146"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-24/features.npy",
+      "bytes": 952468768,
+      "sha256": "5405a6315af17873b882a02653f4f77555091bb736ded73cce95076596b01430"
+    },
+    {
+      "path": "competition/two_stage/inputs/oof_2025-01-24/pairs.npy",
+      "bytes": 39035728,
+      "sha256": "382010f9591e8035338aeb0812f250aa73b5be47ceb804845bd21cc8f83aea04"
+    }
+  ],
+  "time": 1792900847.3585432,
+  "freed_GiB": 2.7762495428323746,
+  "policy": "Completed OOF training feature matrices only. Stage-one OOF scores, labels, indices, recipes and all trained checkpoints retained. Final fitting uses Jan25/26, new origin variants use first-query validation inputs."
+}

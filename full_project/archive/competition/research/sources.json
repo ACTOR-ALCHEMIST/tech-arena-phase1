@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Orthogonal Procrustes",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.orthogonal_procrustes.html",
+    "text": "Orthogonal Procrustes aligns coordinate matrices by rotations and reflections without translation or scaling. Orthogonal transformations preserve inner products. Our empirical adaptation aligns independently trained time snapshots to a strictly past anchor before exposing coordinates to a context-aware CTR head; ranking improvement must be validated."
+  },
+  {
+    "title": "Implicit ALS",
+    "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+    "text": "implicit ALS alternating least squares positive confidence alpha factors regularization; warmup history user item matrix; refit cold user factors using provided click history. Avoid treating missing items as observed nonclick labels in supervised CTR."
+  },
+  {
+    "title": "EASE",
+    "url": "https://arxiv.org/abs/1905.03375",
+    "text": "EASE shallow linear recommendation can outperform deeper recommenders on sparse implicit data. Dense item item inverse requires quadratic memory. With 50000 items and 16GB RAM prefer sparse cooccurrence or low rank ALS rather than full dense inverse."
+  },
+  {
+    "title": "Two tower sampling bias",
+    "url": "https://research.google/pubs/sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations/",
+    "text": "Two tower retrieval with in batch negatives has sampling bias. This competition provides actual exposed nonclicks; BCE using observed candidates is the primary click task. Auxiliary history item representation pretraining can use explicit sampled objectives."
+  },
+  {
+    "title": "CatBoost",
+    "url": "https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic",
+    "text": "CatBoost transforms categorical features using target statistics. Greedy target statistics leak the current label. Use time safe feature snapshots; combine co click scores latent ALS interaction match and observed context. Use Logloss training with validation AUC and early stopping."
+  },
+  {
+    "title": "DIN",
+    "url": "https://arxiv.org/abs/1706.06978",
+    "text": "DIN candidate aware attention represents diverse user interests from click history. Time decay and repeated click features complement long term user embeddings. Prefer small model and regularization when sparse IDs overfit quickly."
+  },
+  {
+    "title": "Temporal evaluation",
+    "url": "https://arxiv.org/abs/2010.11060",
+    "text": "Respect global temporal order; leakage can change algorithm rankings. Use multiple global cutoffs and one first event per user. Generate training target features strictly from earlier snapshots; evaluation labels are not available."
+  },
+  {
+    "title": "Item2Vec",
+    "url": "https://arxiv.org/abs/1603.04259",
+    "text": "Item2Vec uses skip gram negative sampling for item similarity in implicit feedback recommendation. History based auxiliary embedding learning complements exposed click classification. Our user item SGNS experiment is a distinct MF objective inspired by sampled representation learning."
+  },
+  {
+    "title": "LightGCN",
+    "url": "https://arxiv.org/abs/2002.02126",
+    "text": "LightGCN retains linear neighborhood aggregation and layer combination, omitting unnecessary feature transformations and nonlinear activation. Sparse user item graph propagation and low rank regularization are promising under limited memory."
+  }
+]

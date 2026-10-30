@@ -1,0 +1,29 @@
+{
+  "name": "event_cat_sgns8_16_context_24_180000_d6_locked25",
+  "method": "event",
+  "max_events": 180000,
+  "depth": 6,
+  "l2": 20,
+  "iterations": 282,
+  "lr": 0.04,
+  "latent_factors": [
+    8,
+    16
+  ],
+  "train_start": "2025-01-23",
+  "context_features": true,
+  "sgns_factors": [
+    8,
+    16
+  ],
+  "sgns_epochs": {
+    "8": 80,
+    "16": 56
+  },
+  "cutoff": "2025-01-25",
+  "fixed_trees": true,
+  "audit_protocol": "locked hyperparameters, rolling origin, same feature lag",
+  "source_experiment": "cat_sgns8_16_context_24_180000_d6_locked25",
+  "locked_temperature": 1,
+  "locked_mix": 0.75
+}

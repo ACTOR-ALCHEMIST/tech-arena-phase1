@@ -1,0 +1,13 @@
+{
+  "name": "mlp_event_cat_sgns8_s2026_context24_d6",
+  "method": "tabular",
+  "source_experiment": "cat_sgns8_s2026_context24_d6",
+  "loss": "event_ce",
+  "epochs": 40,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.01,
+  "ema": 0.99,
+  "seed": 2026,
+  "constant_policy": "zero"
+}

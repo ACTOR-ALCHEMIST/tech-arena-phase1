@@ -1,0 +1,9 @@
+{
+  "novel_mean": -0.011103853583335876,
+  "novel_null": -0.014968466013669968,
+  "paired_delta": 0.003847154297254507,
+  "se": 0.0007210732012921207,
+  "known_pair_fraction": 0.020186,
+  "visible_pair_fraction": 0.025852,
+  "known_outside_visible_fraction": 0.000996
+}

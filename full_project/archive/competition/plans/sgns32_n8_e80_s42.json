@@ -1,0 +1,14 @@
+{
+  "name": "sgns32_n8_e80_s42",
+  "method": "sgns",
+  "factors": 32,
+  "device": "mps",
+  "epochs": 80,
+  "batch_size": 8192,
+  "lr": 0.02,
+  "negatives": 8,
+  "regularization": 0.001,
+  "lr_decay": true,
+  "patience": 8,
+  "seed": 42
+}

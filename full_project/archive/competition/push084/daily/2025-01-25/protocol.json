@@ -1,0 +1,9 @@
+{
+  "day": "2025-01-25",
+  "rows": 352300,
+  "first_event_per_user": true,
+  "min_timestamp": 1737763200,
+  "max_timestamp": 1737849540,
+  "feature_cutoff": "2025-01-25",
+  "indices_sha256": "365e6bc68e5d25b235cd73798d5d9760ea75068132ff2102a6f913b03c89c21c"
+}

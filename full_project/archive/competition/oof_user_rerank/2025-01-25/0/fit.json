@@ -1,0 +1,12 @@
+{
+  "cutoff": "2025-01-25",
+  "config": {
+    "latent_precision": 20.0,
+    "bias_precision": 100.0
+  },
+  "training_events": 195306,
+  "maximum_fit_timestamp": 1737763140,
+  "max_gradient": 6.910990551500795e-07,
+  "seconds": 0.6443830000062007,
+  "fitting_policy": "Per-user posterior from strictly past time-OOF fine-ranker offsets; current query targets never used."
+}

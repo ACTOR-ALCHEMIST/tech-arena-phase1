@@ -1,0 +1,32 @@
+{
+  "name": "event_cat_sgns8long_context_24_180000_d8",
+  "method": "event",
+  "max_events": 180000,
+  "depth": 8,
+  "l2": 20,
+  "iterations": 1200,
+  "lr": 0.04,
+  "latent_factors": [
+    8,
+    16
+  ],
+  "train_start": "2025-01-24",
+  "context_features": true,
+  "sgns_factors": [
+    8,
+    16
+  ],
+  "sgns_epochs": {
+    "8": 159,
+    "16": 56
+  },
+  "sgns_recipes": {
+    "8": {
+      "epochs": 159,
+      "lr": 0.01,
+      "lr_decay": false,
+      "reuse_experiment": "sgns8_const_e160_s42"
+    }
+  },
+  "source_experiment": "cat_sgns8long_context_24_180000_d8"
+}

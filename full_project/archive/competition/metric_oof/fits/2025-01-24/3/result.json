@@ -1,0 +1,93 @@
+{
+  "cutoff": "2025-01-24",
+  "config": {
+    "profiles": 3,
+    "ridge": 0.001
+  },
+  "geometry_mode": "aligned_oof",
+  "training_clicked_events": 123166,
+  "max_training_target_timestamp": 1737676740,
+  "before_choice_ce": 1.7085845470428467,
+  "after_choice_ce": 1.7048463821411133,
+  "objective_evaluations": 19,
+  "seconds": 0.37657658400712535,
+  "records": [
+    {
+      "objective": 1.7085845470428467,
+      "choice_ce": 1.7085845470428467
+    },
+    {
+      "objective": 1.708492398262024,
+      "choice_ce": 1.708492398262024
+    },
+    {
+      "objective": 1.7077314853668213,
+      "choice_ce": 1.7077268362045288
+    },
+    {
+      "objective": 1.7055585384368896,
+      "choice_ce": 1.7053680419921875
+    },
+    {
+      "objective": 1.7054537534713745,
+      "choice_ce": 1.7052266597747803
+    },
+    {
+      "objective": 1.7052830457687378,
+      "choice_ce": 1.704896092414856
+    },
+    {
+      "objective": 1.7053275108337402,
+      "choice_ce": 1.704901099205017
+    },
+    {
+      "objective": 1.70526921749115,
+      "choice_ce": 1.7048720121383667
+    },
+    {
+      "objective": 1.7052650451660156,
+      "choice_ce": 1.704874038696289
+    },
+    {
+      "objective": 1.7052607536315918,
+      "choice_ce": 1.7048712968826294
+    },
+    {
+      "objective": 1.705257773399353,
+      "choice_ce": 1.7048590183258057
+    },
+    {
+      "objective": 1.7052589654922485,
+      "choice_ce": 1.7048472166061401
+    },
+    {
+      "objective": 1.7052572965621948,
+      "choice_ce": 1.704854130744934
+    },
+    {
+      "objective": 1.705256462097168,
+      "choice_ce": 1.7048463821411133
+    },
+    {
+      "objective": 1.705256700515747,
+      "choice_ce": 1.7048463821411133
+    },
+    {
+      "objective": 1.705256462097168,
+      "choice_ce": 1.7048463821411133
+    },
+    {
+      "objective": 1.705256462097168,
+      "choice_ce": 1.7048463821411133
+    },
+    {
+      "objective": 1.7052565813064575,
+      "choice_ce": 1.7048465013504028
+    },
+    {
+      "objective": 1.705256462097168,
+      "choice_ce": 1.7048463821411133
+    }
+  ],
+  "policy": "Past daily time-OOF fine-ranker scores; each geometry frame also strictly precedes its own fitting target. No held-out labels in optimizer."
+}

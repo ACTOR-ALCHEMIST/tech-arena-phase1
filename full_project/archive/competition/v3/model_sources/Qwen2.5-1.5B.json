@@ -1,0 +1,8 @@
+{
+  "repo_id": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "local_path": "/Users/jasper/Desktop/TechArena2026/.tools/hf-generative/models--Qwen--Qwen2.5-1.5B/snapshots/8faed761d45a263340a0528343f099c05c9a4323",
+  "weight_sha256": {
+    "model.safetensors": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796"
+  }
+}

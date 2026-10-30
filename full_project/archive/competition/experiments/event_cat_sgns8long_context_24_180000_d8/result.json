@@ -1,0 +1,220 @@
+{
+  "name": "event_cat_sgns8long_context_24_180000_d8",
+  "cutoff": "2025-01-26",
+  "method": "catboost_event",
+  "auc": 0.8221341417376049,
+  "logloss": 0.190752058402902,
+  "average_precision": 0.27801123665147803,
+  "accuracy_at_0_5": 0.9374267175138027,
+  "rows": 351380,
+  "config": {
+    "name": "event_cat_sgns8long_context_24_180000_d8",
+    "method": "event",
+    "max_events": 180000,
+    "depth": 8,
+    "l2": 20,
+    "iterations": 1200,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 159,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 159,
+        "lr": 0.01,
+        "lr_decay": false,
+        "reuse_experiment": "sgns8_const_e160_s42"
+      }
+    },
+    "source_experiment": "cat_sgns8long_context_24_180000_d8"
+  },
+  "feature_dataset": "competition/cache/features_2025-01-24_2025-01-26_180000_42_als8_16_context_sgns8_16_e56_recipe84fe0e4fcf",
+  "tree_count": 840,
+  "event_tree_count": 257,
+  "temperature": 1,
+  "event_mix": 0.75,
+  "seconds": 18.388075625000056,
+  "base_auc": 0.81959251564427,
+  "base_experiment": "cat_sgns8long_context_24_180000_d8",
+  "all_variants": {
+    "T0.5_mix0.25": {
+      "auc": 0.8211173274913969,
+      "logloss": 0.19144602010140402,
+      "average_precision": 0.27663851509832565,
+      "accuracy_at_0_5": 0.9373641072343332,
+      "rows": 351380
+    },
+    "T0.5_mix0.5": {
+      "auc": 0.8210874671696735,
+      "logloss": 0.19354866720099437,
+      "average_precision": 0.2758871935431099,
+      "accuracy_at_0_5": 0.9365387899140531,
+      "rows": 351380
+    },
+    "T0.5_mix0.75": {
+      "auc": 0.8200815514537256,
+      "logloss": 0.19890238479280056,
+      "average_precision": 0.2731452272681965,
+      "accuracy_at_0_5": 0.9346177927030566,
+      "rows": 351380
+    },
+    "T0.5_mix1": {
+      "auc": 0.8168296561415218,
+      "logloss": 0.21350703706767574,
+      "average_precision": 0.2689642997531121,
+      "accuracy_at_0_5": 0.9316608799590187,
+      "rows": 351380
+    },
+    "T0.75_mix0.25": {
+      "auc": 0.8212122119121485,
+      "logloss": 0.1910981685943768,
+      "average_precision": 0.2766886478623123,
+      "accuracy_at_0_5": 0.937355569468951,
+      "rows": 351380
+    },
+    "T0.75_mix0.5": {
+      "auc": 0.8218923126783066,
+      "logloss": 0.1912631694502034,
+      "average_precision": 0.2777192446093826,
+      "accuracy_at_0_5": 0.9373925664522739,
+      "rows": 351380
+    },
+    "T0.75_mix0.75": {
+      "auc": 0.8217727448912249,
+      "logloss": 0.19229758710391598,
+      "average_precision": 0.27707101208764195,
+      "accuracy_at_0_5": 0.9369827537139279,
+      "rows": 351380
+    },
+    "T0.75_mix1": {
+      "auc": 0.8206839521742476,
+      "logloss": 0.19461030125900874,
+      "average_precision": 0.2752956981590391,
+      "accuracy_at_0_5": 0.9361403608628834,
+      "rows": 351380
+    },
+    "T1_mix0.25": {
+      "auc": 0.820907670145615,
+      "logloss": 0.1911810184020196,
+      "average_precision": 0.27602034180921264,
+      "accuracy_at_0_5": 0.9373328020945985,
+      "rows": 351380
+    },
+    "T1_mix0.5": {
+      "auc": 0.821752818314074,
+      "logloss": 0.19087188297783245,
+      "average_precision": 0.2775917675877802,
+      "accuracy_at_0_5": 0.9373384939381866,
+      "rows": 351380
+    },
+    "T1_mix0.75": {
+      "auc": 0.8221341417376049,
+      "logloss": 0.190752058402902,
+      "average_precision": 0.27801123665147803,
+      "accuracy_at_0_5": 0.9374267175138027,
+      "rows": 351380
+    },
+    "T1_mix1": {
+      "auc": 0.822017907169081,
+      "logloss": 0.1908378727248417,
+      "average_precision": 0.2774130333876012,
+      "accuracy_at_0_5": 0.9374153338266265,
+      "rows": 351380
+    },
+    "T1.5_mix0.25": {
+      "auc": 0.820107845070567,
+      "logloss": 0.19181077391692808,
+      "average_precision": 0.27461409930196545,
+      "accuracy_at_0_5": 0.9371222038818373,
+      "rows": 351380
+    },
+    "T1.5_mix0.5": {
+      "auc": 0.8203966067914774,
+      "logloss": 0.19230569401556294,
+      "average_precision": 0.27576290974194495,
+      "accuracy_at_0_5": 0.9370852068985144,
+      "rows": 351380
+    },
+    "T1.5_mix0.75": {
+      "auc": 0.8203958210438127,
+      "logloss": 0.19311709081353673,
+      "average_precision": 0.2763612324072682,
+      "accuracy_at_0_5": 0.936985599635722,
+      "rows": 351380
+    },
+    "T1.5_mix1": {
+      "auc": 0.819995260312227,
+      "logloss": 0.19422947279573363,
+      "average_precision": 0.2760278072552946,
+      "accuracy_at_0_5": 0.9368774546075473,
+      "rows": 351380
+    },
+    "T2_mix0.25": {
+      "auc": 0.819481617145724,
+      "logloss": 0.1924649246416295,
+      "average_precision": 0.27375814194308123,
+      "accuracy_at_0_5": 0.9370937446638966,
+      "rows": 351380
+    },
+    "T2_mix0.5": {
+      "auc": 0.8188939383451923,
+      "logloss": 0.19411262353814468,
+      "average_precision": 0.2740762553530301,
+      "accuracy_at_0_5": 0.9368859923729296,
+      "rows": 351380
+    },
+    "T2_mix0.75": {
+      "auc": 0.8175632207726578,
+      "logloss": 0.1965063101178597,
+      "average_precision": 0.27374896799150955,
+      "accuracy_at_0_5": 0.9367010074563151,
+      "rows": 351380
+    },
+    "T2_mix1": {
+      "auc": 0.8149060158102659,
+      "logloss": 0.19965760204596977,
+      "average_precision": 0.27178229903832585,
+      "accuracy_at_0_5": 0.9366383971768456,
+      "rows": 351380
+    },
+    "T3_mix0.25": {
+      "auc": 0.8187017219229124,
+      "logloss": 0.1933792997624744,
+      "average_precision": 0.27302620535504435,
+      "accuracy_at_0_5": 0.937025442540839,
+      "rows": 351380
+    },
+    "T3_mix0.5": {
+      "auc": 0.8165235150414301,
+      "logloss": 0.1967052229845715,
+      "average_precision": 0.27217878831793885,
+      "accuracy_at_0_5": 0.936695315612727,
+      "rows": 351380
+    },
+    "T3_mix0.75": {
+      "auc": 0.8118627524690694,
+      "logloss": 0.20150620063638963,
+      "average_precision": 0.2696112197217298,
+      "accuracy_at_0_5": 0.9366355512550515,
+      "rows": 351380
+    },
+    "T3_mix1": {
+      "auc": 0.8011476035415928,
+      "logloss": 0.20804628492060062,
+      "average_precision": 0.2608547933396828,
+      "accuracy_at_0_5": 0.9366327053332575,
+      "rows": 351380
+    }
+  }
+}

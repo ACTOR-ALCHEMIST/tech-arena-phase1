@@ -1,0 +1,67 @@
+{
+  "name": "cat_sgns8_s2026_context24_d6",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/cat_sgns8_s2026_context24_d6.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; tree-family AUC=0.824595; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.",
+  "retrieved": [
+    {
+      "title": "cat_sgns8e320_context24_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8e320_context24_d6/result.json",
+      "text": "catboost_numeric AUC 0.824595 cutoff 2025-01-26 config {\"name\": \"cat_sgns8e320_context24_d6\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 2000, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 320, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 320, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_n8_binary_e320_s42\"}}} features [['sgns8_s42_cos_relative', 13.409220008798895], ['sgns8_s42_dot_relative', 11.178304629898445], ['sgns8_s42_hist_cos_mean', 11.096958640395123], ['sgns8_s42_hist_cos_recent', 6.577422523942046], ['sgns8_s42_cos', 6.463242262219264], ['user_bias', 3.226276002764481], ['sgns16_s42_hist_cos_mean', 2.9196104067400124], ['sgns8_s42_dot', 2.802374190745348], ['als16_cos_relative', 2.7930260047914173], ['sgns8_s42_hist_same_bucket_cos', 2.7649600456871006]]",
+      "similarity": 0.26263523493279983
+    },
+    {
+      "title": "event_cat_sgns8long_context_24_180000_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/event_cat_sgns8long_context_24_180000_d6/result.json",
+      "text": "catboost_event AUC 0.822218 cutoff 2025-01-26 config {\"name\": \"event_cat_sgns8long_context_24_180000_d6\", \"method\": \"event\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 1200, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}, \"source_experiment\": \"cat_sgns8long_context_24_180000_d6\"} features []",
+      "similarity": 0.2617332812043738
+    },
+    {
+      "title": "event_cat_sgns8long_context_24_180000_d8",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/event_cat_sgns8long_context_24_180000_d8/result.json",
+      "text": "catboost_event AUC 0.822134 cutoff 2025-01-26 config {\"name\": \"event_cat_sgns8long_context_24_180000_d8\", \"method\": \"event\", \"max_events\": 180000, \"depth\": 8, \"l2\": 20, \"iterations\": 1200, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}, \"source_experiment\": \"cat_sgns8long_context_24_180000_d8\"} features []",
+      "similarity": 0.2580946557776203
+    },
+    {
+      "title": "cat_sgns8e320_context24_d6_locked25",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8e320_context24_d6_locked25/result.json",
+      "text": "catboost_numeric AUC 0.808800 cutoff 2025-01-25 config {\"name\": \"cat_sgns8e320_context24_d6_locked25\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 1295, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-23\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 320, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 320, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_n8_binary_e320_s42\"}}, \"cutoff\": \"2025-01-25\", \"fixed_trees\": true, \"audit_protocol\": \"locked rolling origin\"} features [['sgns8_s42_cos_relative', 13.378503354168828], ['sgns8_s42_dot_relative', 8.160665644159558], ['sgns8_s42_hist_cos_mean', 8.127452044568344], ['sgns8_s42_hist_same_weekend_cos', 4.625048351841182], ['als16_cos_relative', 3.8365220058761356], ['sgns8_s42_cos', 3.3700033998913805], ['sgns8_s42_hist_cos_recent', 3.248333222559947], ['user_bias', 2.8382942675415905], ['sgns8_s42_usernorm', 2.7530278310614076], ['sgns16_s42_hist_cos_mean', 2.5870107818389396]]",
+      "similarity": 0.22821930287416653
+    }
+  ],
+  "config": {
+    "name": "cat_sgns8_s2026_context24_d6",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 2000,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-24",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 320,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 320,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 2026,
+        "reuse_experiment": "sgns8_const_e320_s2026"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "cat_sgns8e640_context24_d6_locked25",
+  "argv": [
+    "arena_models.py",
+    "--config",
+    "/Users/jasper/Desktop/TechArena2026/competition/plans/cat_sgns8e640_context24_d6_locked25.json"
+  ],
+  "reason": "Current best ALS AUC=0.677857; tree-family AUC=0.825058; event neural head AUC=0.827889. Test catboost with retrieved research and matching configuration history; preserve temporal snapshots and first-event cohorts.",
+  "retrieved": [
+    {
+      "title": "cat_sgns8e320_context24_d6_locked25",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8e320_context24_d6_locked25/result.json",
+      "text": "catboost_numeric AUC 0.808800 cutoff 2025-01-25 config {\"name\": \"cat_sgns8e320_context24_d6_locked25\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 1295, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-23\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 320, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 320, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_n8_binary_e320_s42\"}}, \"cutoff\": \"2025-01-25\", \"fixed_trees\": true, \"audit_protocol\": \"locked rolling origin\"} features [['sgns8_s42_cos_relative', 13.378503354168828], ['sgns8_s42_dot_relative', 8.160665644159558], ['sgns8_s42_hist_cos_mean', 8.127452044568344], ['sgns8_s42_hist_same_weekend_cos', 4.625048351841182], ['als16_cos_relative', 3.8365220058761356], ['sgns8_s42_cos', 3.3700033998913805], ['sgns8_s42_hist_cos_recent', 3.248333222559947], ['user_bias', 2.8382942675415905], ['sgns8_s42_usernorm', 2.7530278310614076], ['sgns16_s42_hist_cos_mean', 2.5870107818389396]]",
+      "similarity": 0.2562697322860675
+    },
+    {
+      "title": "cat_sgns8e640_context24_d6",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8e640_context24_d6/result.json",
+      "text": "catboost_numeric AUC 0.825058 cutoff 2025-01-26 config {\"name\": \"cat_sgns8e640_context24_d6\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 2000, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-24\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 450, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 450, \"lr\": 0.01, \"lr_decay\": false, \"seed\": 42, \"reuse_experiment\": \"sgns8_const_n8_binary_e640_s42\"}}} features [['sgns8_s42_hist_cos_mean', 15.116763374591212], ['sgns8_s42_cos_relative', 12.712531424403453], ['sgns8_s42_dot_relative', 12.149986835799437], ['sgns8_s42_cos', 8.059959720538226], ['sgns8_s42_dot', 6.682420745248031], ['sgns8_s42_hist_cos_recent', 4.595610829653844], ['user_bias', 3.0869300053150925], ['als16_fold_cos_relative', 2.669219343434997], ['sgns8_s42_hist_same_bucket_cos', 2.069495170006349], ['sgns16_s42_dot_relative', 2.020245994070509]]",
+      "similarity": 0.25562234487503255
+    },
+    {
+      "title": "cat_sgns8long_context_24_180000_d6_locked25",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/cat_sgns8long_context_24_180000_d6_locked25/result.json",
+      "text": "catboost_numeric AUC 0.804098 cutoff 2025-01-25 config {\"name\": \"cat_sgns8long_context_24_180000_d6_locked25\", \"method\": \"catboost\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 1493, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-23\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 159, \"16\": 56}, \"sgns_recipes\": {\"8\": {\"epochs\": 159, \"lr\": 0.01, \"lr_decay\": false, \"reuse_experiment\": \"sgns8_const_e160_s42\"}}, \"cutoff\": \"2025-01-25\", \"fixed_trees\": true, \"audit_protocol\": \"locked rolling origin\"} features [['sgns8_s42_dot_relative', 9.488052656142397], ['sgns8_s42_cos_relative', 7.928021391518464], ['sgns8_s42_hist_cos_mean', 5.121553438746548], ['sgns8_s42_cos', 3.9700220502063077], ['als16_cos_relative', 3.7829279282198573], ['sgns8_s42_hist_cos_recent', 3.4718702419508305], ['sgns8_s42_dot', 3.269660626672239], ['als16_fold_cos', 3.1632505825146597], ['sgns8_s42_hist_same_weekend_cos', 3.1553666093573853], ['als16_fold_dot', 3.128933180728635]]",
+      "similarity": 0.24827221890397122
+    },
+    {
+      "title": "event_cat_sgns8_16_context_24_180000_d6_locked25",
+      "url": "/Users/jasper/Desktop/TechArena2026/competition/experiments/event_cat_sgns8_16_context_24_180000_d6_locked25/result.json",
+      "text": "catboost_event AUC 0.802714 cutoff 2025-01-25 config {\"name\": \"event_cat_sgns8_16_context_24_180000_d6_locked25\", \"method\": \"event\", \"max_events\": 180000, \"depth\": 6, \"l2\": 20, \"iterations\": 282, \"lr\": 0.04, \"latent_factors\": [8, 16], \"train_start\": \"2025-01-23\", \"context_features\": true, \"sgns_factors\": [8, 16], \"sgns_epochs\": {\"8\": 80, \"16\": 56}, \"cutoff\": \"2025-01-25\", \"fixed_trees\": true, \"audit_protocol\": \"locked hyperparameters, rolling origin, same feature lag\", \"source_experiment\": \"cat_sgns8_16_context_24_180000_d6_locked25\", \"locked_temperature\": 1, \"locked_mix\": 0.75} features []",
+      "similarity": 0.2382755650489064
+    }
+  ],
+  "config": {
+    "name": "cat_sgns8e640_context24_d6_locked25",
+    "method": "catboost",
+    "max_events": 180000,
+    "depth": 6,
+    "l2": 20,
+    "iterations": 1377,
+    "lr": 0.04,
+    "latent_factors": [
+      8,
+      16
+    ],
+    "train_start": "2025-01-23",
+    "context_features": true,
+    "sgns_factors": [
+      8,
+      16
+    ],
+    "sgns_epochs": {
+      "8": 450,
+      "16": 56
+    },
+    "sgns_recipes": {
+      "8": {
+        "epochs": 450,
+        "lr": 0.01,
+        "lr_decay": false,
+        "seed": 42,
+        "reuse_experiment": "sgns8_const_n8_binary_e640_s42"
+      }
+    },
+    "cutoff": "2025-01-25",
+    "fixed_trees": true,
+    "audit_protocol": "locked rolling origin"
+  }
+}

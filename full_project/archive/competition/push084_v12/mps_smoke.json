@@ -1,0 +1,17 @@
+{
+  "device": "mps",
+  "events": 64,
+  "checks": [
+    {
+      "fine": false,
+      "loss": 1.7437026500701904,
+      "max_mass": 0.917017936706543
+    },
+    {
+      "fine": true,
+      "loss": 1.7426109313964844,
+      "max_mass": 0.9168518781661987
+    }
+  ],
+  "passed": true
+}
